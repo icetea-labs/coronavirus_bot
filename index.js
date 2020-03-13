@@ -14,7 +14,7 @@ const token = process.env.BOT_TOKEN
 const bot = new TelegramBot(token, { polling: true });
 
 bot.onText(/\/start/, (msg, match) => {
-    bot.sendMessage(msg.chat.id, 'Type /status to view latest coronavirus (COVID-19) data.');
+    bot.sendMessage(msg.chat.id, 'Type /status to view latest #coronavirus (COVID-19) data.');
 })
 
 bot.onText(/\/status/, (msg, match) => {
@@ -27,6 +27,21 @@ bot.onText(/\/status/, (msg, match) => {
     text += 'Made with love by @iceteachainvn'
     bot.sendMessage(chatId, text, { parse_mode: 'HTML', disable_web_page_preview: true });
 })
+
+// because Vietnam's cases are report earlier on VN newspaper
+const updateVietnamData = async (url = 'https://news.zing.vn') => {
+    const res = await axios.get(url)
+
+    if (res.status !== 200) {
+        return console.error(`${res.status}: ${res.statusText}`)
+    }
+
+    const $ = cheerio.load(res.data)
+    const script = $('#widget-ticker script').html()
+    const m = script.match(/"title":\s*"Việt Nam",\s*"cases":\s*(\d+),\s*"deaths":\s(\d+),/)
+    
+    cache.vietnam = Object.assign(cache.vietnam || {}, { cases: m[1], deaths: m[2]})
+}
 
 const getStatus = async (url = 'https://www.worldometers.info/coronavirus/') => {
     const res = await axios.get(url)
@@ -54,10 +69,10 @@ const getStatus = async (url = 'https://www.worldometers.info/coronavirus/') => 
         headers.forEach((h, i) => {
             row[h] = $cells.eq(i).text().trim()
         })
+        // make shorter for small screens
+        row.country = row.country.replace(' ', '').substr(0, 7)
         d.byCountry.push(row)
     })
-
-    d.vietnam = d.byCountry.find(c => c.country === 'Vietnam') || {}
 
     return d
 }
@@ -73,7 +88,7 @@ const makeCases = (cases, newCases) => {
 }
 
 const makeTable = (data, top = 10) => {
-    const headers = [['Country', 'Cases', 'New', 'Deaths']]
+    const headers = [['Country', 'Cases', 'New', 'Death']]
     const topData = getTop(cache).map(Object.values)
     const rows = headers.concat(topData)
 
@@ -84,12 +99,17 @@ const makeTable = (data, top = 10) => {
         delimiterEnd: false })
 }
 
-const start = async () => {
+const updateStatus = async () => {
     cache = await getStatus()
-    // console.log(makeTable(cache))
-    setInterval(async () => {
-        cache = await getStatus()
-    }, +process.env.RELOAD_EVERY || 30000);
+    await updateVietnamData()
+    if (!cache.vietnam || !cache.vietnam.cases) {
+        cache.vietnam = cache.byCountry.find(c => c.country === 'Vietnam') || {}
+    }
+}
+
+const start = async () => {
+    updateStatus()
+    setInterval(updateStatus, +process.env.RELOAD_EVERY || 30000);
 }
 
 start().catch(console.error)
