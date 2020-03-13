@@ -13,13 +13,19 @@ let cache = {
 const token = process.env.BOT_TOKEN
 const bot = new TelegramBot(token, { polling: true });
 
+bot.onText(/\/start/, (msg, match) => {
+    bot.sendMessage(msg.chat.id, 'Type /status to view latest coronavirus (COVID-19) data.');
+})
+
 bot.onText(/\/status/, (msg, match) => {
     const chatId = msg.chat.id;
     let text = `<b>Global</b>: ${cache.global.cases} cases (${cache.global.deaths} deaths)\n\r`
     text += `<b>Vietnam</b>: ${makeCases(cache.vietnam.cases, cache.vietnam.newCases)}\n\r`
     text += '~~~\n\r'
     text += `<pre>${makeTable(cache)}</pre>`
-    bot.sendMessage(chatId, text, { parse_mode: 'HTML' });
+    text += '\n\r~~~\n\r'
+    text += 'Made with love by @iceteachainvn'
+    bot.sendMessage(chatId, text, { parse_mode: 'HTML', disable_web_page_preview: true });
 })
 
 const getStatus = async (url = 'https://www.worldometers.info/coronavirus/') => {
