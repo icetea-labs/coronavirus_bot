@@ -28,7 +28,7 @@ bot.onText(/\/status/, (msg, match) => {
     bot.sendMessage(chatId, text, { parse_mode: 'HTML', disable_web_page_preview: true });
 })
 
-// because Vietnam's cases are report earlier on VN newspaper
+// because Vietnam's cases are reported earlier on VN newspaper
 const updateVietnamData = async (url = 'https://news.zing.vn') => {
     const res = await axios.get(url)
 
