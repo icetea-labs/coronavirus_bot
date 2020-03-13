@@ -1,26 +1,37 @@
 require('dotenv').config()
 const axios = require('axios')
+const https = require('https')
 const cheerio = require('cheerio')
 const TelegramBot = require('node-telegram-bot-api')
 const table = require('markdown-table')
+const { tryLoadNews, trySaveNews } = require('./persist')
 
+// cache of coronavirus data
 let cache = {
   global: {},
   vietnam: {},
   byCountry: []
 }
 
+const news = Object.assign({
+  last: null,
+  subs: {}
+}, tryLoadNews())
+
 const token = process.env.BOT_TOKEN
 const bot = new TelegramBot(token, { polling: true })
 
 bot.onText(/\/start/, (msg, match) => {
+  trySaveNews(news, msg)
   bot.sendMessage(msg.chat.id, 'Type /status to view latest #coronavirus (COVID-19) data.')
 })
 
 bot.onText(/\/status/, (msg, match) => {
   const chatId = msg.chat.id
-  let text = `<b>Global</b>: ${cache.global.cases} cases (${cache.global.deaths} deaths)\n\r`
-  text += `<b>Vietnam</b>: ${makeCases(cache.vietnam.cases, cache.vietnam.newCases)}\n\r`
+  trySaveNews(news, msg)
+
+  let text = `<b>Vietnam</b>: ${makeCases(cache.vietnam.cases, cache.vietnam.newCases)}\n\r`
+  text += `<b>Global</b>: ${cache.global.cases} cases (${cache.global.deaths} deaths)\n\r`
   text += '~~~\n\r'
   text += `<pre>${makeTable(cache)}</pre>`
   text += '\n\r~~~\n\r'
@@ -28,26 +39,95 @@ bot.onText(/\/status/, (msg, match) => {
   bot.sendMessage(chatId, text, { parse_mode: 'HTML', disable_web_page_preview: true })
 })
 
+const getTimestamp = text => {
+  const [time, date] = text.split(' ')
+  const [hour, minutes] = time.split(':')
+  const [day, month, year] = date.split('/')
+
+  return Date.UTC(year, month - 1, day, hour, minutes, 0) - 7 * 60 * 60 * 1000
+}
+
+const broadcastNews = (time, content, timestamp) => {
+  if (!news.subs) return
+
+  const text = `‼️${time} - BỘ Y TẾ‼️\n\r~~~~~~~~~~~~\n\r${content}`
+  let timeout = 0
+  Object.keys(news.subs).forEach(chatId => {
+    timeout += 100
+    setTimeout(() => {
+      bot.sendMessage(+chatId, text)
+    }, timeout)
+  })
+}
+
+const updateNews = async (url = 'https://ncov.moh.gov.vn/dong-thoi-gian') => {
+  const agent = new https.Agent({
+    rejectUnauthorized: false
+  })
+  const res = await axios.get(url, { httpsAgent: agent })
+
+  if (res.status !== 200) {
+    return console.error(`${res.status}: ${res.statusText}`, url)
+  }
+
+  const $ = cheerio.load(res.data)
+
+  const $this = $('.timeline-detail').eq(0)
+  const time = $this.find('.timeline-head').text().trim()
+  const timestamp = getTimestamp(time)
+  const content = $this.find('.timeline-content').text().trim()
+
+  const lastTime = news.last
+  news.last = timestamp
+
+  if (lastTime && lastTime < timestamp && Date.now() - timestamp < 60 * 60 * 1000) {
+    // broadcast
+    broadcastNews(time, content, timestamp)
+  }
+}
+
 // because Vietnam's cases are reported earlier on VN newspaper
-const updateVietnamData = async (url = 'https://news.zing.vn') => {
+const updateVietnamData = async (url = 'https://ncov.moh.gov.vn/') => {
+  const agent = new https.Agent({
+    rejectUnauthorized: false
+  })
+  const res = await axios.get(url, { httpsAgent: agent })
+
+  if (res.status !== 200) {
+    console.error(`${res.status}: ${res.statusText}`, url)
+    updateVietnamDataFromZing()
+    return
+  }
+
+  const m = res.data.match(/"VNALL","soCaNhiem":"(\d+)","tuVong":"(\d+)",/)
+  if (m && m[1]) {
+    cache.vietnam = Object.assign(cache.vietnam || {}, { cases: m[1], deaths: m[2] || '0' })
+  } else {
+    updateVietnamDataFromZing()
+  }
+}
+
+const updateVietnamDataFromZing = async (url = 'https://news.zing.vn') => {
   const res = await axios.get(url)
 
   if (res.status !== 200) {
-    return console.error(`${res.status}: ${res.statusText}`)
+    return console.error(`${res.status}: ${res.statusText}`, url)
   }
 
   const $ = cheerio.load(res.data)
   const script = $('#widget-ticker script').html()
   const m = script.match(/"title":\s*"Việt Nam",\s*"cases":\s*(\d+),\s*"deaths":\s(\d+),/)
 
-  cache.vietnam = Object.assign(cache.vietnam || {}, { cases: m[1], deaths: m[2] })
+  if (m && m[1]) {
+    cache.vietnam = Object.assign(cache.vietnam || {}, { cases: m[1], deaths: m[2] || '0' })
+  }
 }
 
 const getStatus = async (url = 'https://www.worldometers.info/coronavirus/') => {
   const res = await axios.get(url)
 
   if (res.status !== 200) {
-    return console.error(`${res.status}: ${res.statusText}`)
+    return console.error(`${res.status}: ${res.statusText}`, url)
   }
 
   const $ = cheerio.load(res.data)
@@ -106,6 +186,8 @@ const updateStatus = async () => {
   if (!cache.vietnam || !cache.vietnam.cases) {
     cache.vietnam = cache.byCountry.find(c => c.country === 'Vietnam') || {}
   }
+
+  updateNews()
 }
 
 const start = async () => {
