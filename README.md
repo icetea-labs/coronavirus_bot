@@ -1,5 +1,7 @@
-# coronavirus_bot - A Telegram bot.
+# @CoronaAlertBot - A Telegram bot
 Vew #coronavirus (COVID-19) status and alert about new infection in Vietnam.
+
+Try chat to it: [@CoronaAlertBot](https://t.me/CoronaAlertBot)
 
 Author: [Icetea team](https://icetea.io)
 
