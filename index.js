@@ -82,6 +82,10 @@ const getMoHWeb = async (url = 'https://ncov.moh.gov.vn/') => {
   return axios.get(url, { httpsAgent: agent })
 }
 
+const hasLastEvent = lastEvent => {
+  return Boolean(lastEvent && lastEvent.timestamp && lastEvent.time && lastEvent.content)
+}
+
 const isNewEvent = (lastEvent, event) => {
   if (lastEvent.time === event.time) return false
   if (lastEvent.content === event.content) return false
@@ -113,11 +117,11 @@ const updateNews = async () => {
   const event = { timestamp, time, content }
   const lastEvent = news.last
 
-  if (!lastEvent || isNewEvent(lastEvent, event)) {
+  if (!hasLastEvent(lastEvent) || isNewEvent(lastEvent, event)) {
     news.last = event
     saveNews(news).then(() => {
       // only broadcast if this is not first crawl
-      lastEvent && broadcastNews(event)
+      lastEvent && lastEvent.timestamp && broadcastNews(event)
     }).catch(console.error)
   }
 }
