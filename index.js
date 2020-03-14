@@ -121,7 +121,7 @@ const updateNews = async () => {
     news.last = event
     saveNews(news).then(() => {
       // only broadcast if this is not first crawl
-      lastEvent && lastEvent.timestamp && broadcastNews(event)
+      lastEvent && lastEvent.timestamp && isNewEvent(lastEvent, event) && broadcastNews(event)
     }).catch(console.error)
   }
 }
