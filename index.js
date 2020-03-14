@@ -4,7 +4,7 @@ const https = require('https')
 const cheerio = require('cheerio')
 const TelegramBot = require('node-telegram-bot-api')
 const table = require('markdown-table')
-const { tryLoadNews, trySaveNews } = require('./persist')
+const { tryLoadNews, saveNews, trySaveNews } = require('./persist')
 
 // cache of coronavirus data
 let cache = {
@@ -18,12 +18,27 @@ const news = Object.assign({
   subs: {}
 }, tryLoadNews())
 
+// backward compatible
+if (typeof news.last === 'number') {
+  news.last = { timestamp: news.last }
+  trySaveNews(news)
+}
+
 const token = process.env.BOT_TOKEN
 const bot = new TelegramBot(token, { polling: true })
 
-bot.onText(/\/start/, (msg, match) => {
+bot.onText(/(\/start|\/help)/, (msg, match) => {
   trySaveNews(news, msg)
-  bot.sendMessage(msg.chat.id, 'Type /status to view latest #coronavirus (COVID-19) data.')
+  bot.sendMessage(msg.chat.id, '/status - view latest #coronavirus (COVID-19) data\n\r/news - latest news from Vietnam MoH\n\r/help - show this help')
+})
+
+bot.onText(/\/new/, (msg, match) => {
+  trySaveNews(news, msg)
+  if (!news.last || !news.last.content) return
+
+  const { time, content } = news.last
+  const text = `${time} - BỘ Y TẾ\n\r~~~~~~~~~~~~\n\r${content}`
+  bot.sendMessage(msg.chat.id, text)
 })
 
 bot.onText(/\/status/, (msg, match) => {
@@ -31,10 +46,10 @@ bot.onText(/\/status/, (msg, match) => {
   trySaveNews(news, msg)
 
   let text = `<b>Vietnam</b>: ${makeCases(cache.vietnam.cases, cache.vietnam.newCases)}\n\r`
-  text += `<b>Global</b>: ${cache.global.cases} cases (${cache.global.deaths} deaths)\n\r`
+  text += `<b>Global</b>: ${cache.global.cases || 'Unknown'} cases (${cache.global.deaths || 'Unknown'} deaths)\n\r`
   text += '~~~\n\r'
   text += `<pre>${makeTable(cache)}</pre>`
-  text += '\n\r~~~\n\r'
+  text += '\n\r<i>Source: VN MoH, Worldometers</i>\n\r'
   text += 'Made with love by @iceteachainvn'
   bot.sendMessage(chatId, text, { parse_mode: 'HTML', disable_web_page_preview: true })
 })
@@ -47,7 +62,7 @@ const getTimestamp = text => {
   return Date.UTC(year, month - 1, day, hour, minutes, 0) - 7 * 60 * 60 * 1000
 }
 
-const broadcastNews = (time, content, timestamp) => {
+const broadcastNews = ({ time, content }) => {
   if (!news.subs) return
 
   const text = `‼️${time} - BỘ Y TẾ‼️\n\r~~~~~~~~~~~~\n\r${content}`
@@ -60,14 +75,32 @@ const broadcastNews = (time, content, timestamp) => {
   })
 }
 
-const updateNews = async (url = 'https://ncov.moh.gov.vn/dong-thoi-gian') => {
+const getMoHWeb = async (url = 'https://ncov.moh.gov.vn/') => {
   const agent = new https.Agent({
     rejectUnauthorized: false
   })
-  const res = await axios.get(url, { httpsAgent: agent })
+  return axios.get(url, { httpsAgent: agent })
+}
+
+const isNewEvent = (lastEvent, event) => {
+  if (lastEvent.time === event.time) return false
+  if (lastEvent.content === event.content) return false
+  if (lastEvent.timestamp >= event.timestamp) return false
+
+  const age = Date.now() - event.timestamp
+  const oneHour = 60 * 60 * 1000
+
+  return age < oneHour
+}
+
+// https://ncov.moh.gov.vn/dong-thoi-gian is sometimes updated later
+// than the homepage 'https://ncov.moh.gov.vn/', for some reason
+// so we'll use data from homepage
+const updateNews = async () => {
+  const res = await getMoHWeb()
 
   if (res.status !== 200) {
-    return console.error(`${res.status}: ${res.statusText}`, url)
+    return console.error(`${res.status}: ${res.statusText}`)
   }
 
   const $ = cheerio.load(res.data)
@@ -77,24 +110,24 @@ const updateNews = async (url = 'https://ncov.moh.gov.vn/dong-thoi-gian') => {
   const timestamp = getTimestamp(time)
   const content = $this.find('.timeline-content').text().trim()
 
-  const lastTime = news.last
-  news.last = timestamp
+  const event = { timestamp, time, content }
+  const lastEvent = news.last
 
-  if (lastTime && lastTime < timestamp && Date.now() - timestamp < 60 * 60 * 1000) {
-    // broadcast
-    broadcastNews(time, content, timestamp)
+  if (!lastEvent || isNewEvent(lastEvent, event)) {
+    news.last = event
+    saveNews(news).then(() => {
+      // only broadcast if this is not first crawl
+      lastEvent && broadcastNews(event)
+    }).catch(console.error)
   }
 }
 
-// because Vietnam's cases are reported earlier on VN newspaper
-const updateVietnamData = async (url = 'https://ncov.moh.gov.vn/') => {
-  const agent = new https.Agent({
-    rejectUnauthorized: false
-  })
-  const res = await axios.get(url, { httpsAgent: agent })
+// because Vietnam's cases are reported earlier on MoH site than on Worldometers
+const updateVietnamData = async () => {
+  const res = await getMoHWeb()
 
   if (res.status !== 200) {
-    console.error(`${res.status}: ${res.statusText}`, url)
+    console.error(`Fallback to news.zing.vn because of failture loading cases from MoH. ${res.status}: ${res.statusText}`)
     updateVietnamDataFromZing()
     return
   }
@@ -162,6 +195,7 @@ const getTop = (data, top = 10) => {
 }
 
 const makeCases = (cases, newCases) => {
+  if (cases == null) return 'Unknown'
   let t = cases + ' cases'
   if (newCases) t += ` (${newCases})`
   return t
@@ -170,6 +204,11 @@ const makeCases = (cases, newCases) => {
 const makeTable = (data, top = 10) => {
   const headers = [['Country', 'Cases', 'New', 'Death']]
   const topData = getTop(cache).map(Object.values)
+
+  if (!topData || !topData.length) {
+    return 'Data is not available right now. Please try again later.'
+  }
+
   const rows = headers.concat(topData)
 
   return table(rows, {
