@@ -24,6 +24,15 @@ exports.tryLoadNews = () => {
 }
 
 exports.trySaveNews = (news, msg) => {
-  if (msg && msg.chat.id) news.subs[msg.chat.id] = Date.now()
+  if (msg && msg.chat.id) {
+    const data = {
+      type: msg.chat.type,
+      date: msg.date
+    }
+    if (msg.chat.username) {
+      data.username = msg.chat.username
+    }
+    news.subs[msg.chat.id] = data
+  }
   setTimeout(() => exports.saveNews(news).catch(console.error), 0)
 }
