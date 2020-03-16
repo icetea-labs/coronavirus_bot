@@ -5,6 +5,14 @@ const cheerio = require('cheerio')
 const TelegramBot = require('node-telegram-bot-api')
 const table = require('markdown-table')
 const { tryLoadNews, saveNews, trySaveNews } = require('./persist')
+const NAMES = require('./country.json')
+
+const debugFactory = require('debug')
+const debug = {
+  forBot: debugFactory('bot:general'),
+  forSend: debugFactory('bot:send'),
+  forFetch: debugFactory('bot:fetch')
+}
 
 // cache of coronavirus data
 let cache = {
@@ -27,6 +35,47 @@ if (typeof news.last === 'number') {
 const token = process.env.BOT_TOKEN
 const bot = new TelegramBot(token, { polling: true })
 
+const send = (id, text, options) => {
+  bot.sendMessage(id, text, options).catch(err => {
+    debug.forSend(`Error ${err.code} sending to ${id} text ${text.substr(0, 16)}...`)
+    if (err.response && err.response.body) {
+      debug.forSend(err.response.body)
+    }
+  })
+}
+
+const fetch = (url, acceptUnauthorized) => {
+  let options = undefined
+  if (acceptUnauthorized) {
+    const agent = new https.Agent({
+      rejectUnauthorized: false
+    })
+    options = { httpsAgent: agent }
+  }
+  return axios.get(url, options).catch(err => {
+    debug.forFetch(`Fetch failed: [${err.response.status}] ${url}`)
+    // Error 😨
+    if (err.response) {
+      /*
+       * The request was made and the server responded with a
+       * status code that falls out of the range of 2xx
+       */
+      debug.forFetch(err.response.data, err.response.headers)
+    } else if (err.request) {
+      /*
+       * The request was made but no response was received, `err.request`
+       * is an instance of XMLHttpRequest in the browser and an instance
+       * of http.ClientRequest in Node.js
+       */
+      debug.forFetch(err.request);
+    } else {
+      // Something happened in setting up the request and triggered an Error
+      debug.forFetch('Error', err.message);
+    }
+    debug.forFetch(err.config);
+  })
+}
+
 bot.onText(/(\/start|\/help|\/menu)/, (msg, match) => {
   trySaveNews(news, msg)
   const commands = [
@@ -35,7 +84,7 @@ bot.onText(/(\/start|\/help|\/menu)/, (msg, match) => {
     // '/news - tin đáng lưu tâm',
     // '/alert - ca bệnh mới nhất ở Việt Nam'
   ].join('\n')
-  bot.sendMessage(msg.chat.id, commands, { parse_mode: 'HTML' })
+  send(msg.chat.id, commands, { parse_mode: 'HTML' })
 })
 
 bot.onText(/\/admin/, (msg, match) => {
@@ -48,11 +97,11 @@ bot.onText(/\/admin/, (msg, match) => {
 
   const text = [
     'Subcription stats:\n~~~',
-        `Users: ${userCount}`,
-        `Groups: ${groupCount}`,
-        `TOTAL: ${total}`
+    `Users: ${userCount}`,
+    `Groups: ${groupCount}`,
+    `TOTAL: ${total}`
   ].join('\n')
-  bot.sendMessage(msg.chat.id, text)
+  send(msg.chat.id, text)
 })
 
 /*
@@ -63,13 +112,13 @@ bot.onText(/\/alert/, (msg, match) => {
 
     const { time, content } = news.last
     const text = `${time} - BỘ Y TẾ\n~~~~~~~~~~~~\n${content}`
-    bot.sendMessage(msg.chat.id, text)
+    send(msg.chat.id, text)
 })
 
 bot.onText(/\/new/, (msg, match) => {
     trySaveNews(news, msg)
     //const text = 'Nguồn tin: Lá chắn Virus Corona trên MXH Lotus'
-    //bot.sendMessage(msg.chat.id, text)
+    //send(msg.chat.id, text)
 })
 */
 
@@ -90,7 +139,7 @@ bot.onText(/\/status(\s+(\w+))?/, (msg, match) => {
   }
   text += '— Made with ❤️ by @iceteachainvn 🍵'
 
-  bot.sendMessage(chatId, text, makeSendOptions(msg, 'HTML'))
+  send(chatId, text, makeSendOptions(msg, 'HTML'))
 })
 
 const isNowNight = (tz = 7) => {
@@ -123,8 +172,11 @@ const makeSendOptions = (msg, parseMode) => {
   return options
 }
 
+const arrayFromEnv = name => process.env[name].split(';')
+
 const isAdmin = msg => {
-  return process.env.ADMINS.split(';').includes(String(msg.chat.id))
+  const admins = arrayFromEnv('ADMINS')
+  return admins.includes(String(msg.from.id)) || admins.includes(String(msg.chat.id))
 }
 
 const getTimestamp = text => {
@@ -135,25 +187,31 @@ const getTimestamp = text => {
   return Date.UTC(year, month - 1, day, hour, minutes, 0) - 7 * 60 * 60 * 1000
 }
 
+const sanitizeChatId = chatId => {
+  return (typeof chatId === 'number' || chatId.startsWith('@')) ? chatId : +chatId
+}
+
 const broadcastNews = ({ time, content }) => {
-  if (!news.subs) return
+  const includes = arrayFromEnv('INCLUDE')
+  const exclude = arrayFromEnv('EXCLUDE')
+
+  const subs = Array.from(new Set(Object.keys(news.subs || {}).concat(includes)))
+  if (!subs || !subs.length) return
+
+  console.log('hehe', subs)
 
   const text = `‼️${time} - BỘ Y TẾ‼️\n\r~~~~~~~~~~~~\n\r${content}`
   let timeout = 0
-  Object.keys(news.subs).forEach(chatId => {
+  subs.forEach(chatId => {
+    if (exclude.includes(chatId)) return
+
+    const sanitizedId = sanitizeChatId(chatId)
     timeout += 100
-    const options = makeSendOptions(+chatId)
+    const options = makeSendOptions(sanitizeChatId(sanitizedId))
     setTimeout(() => {
-      bot.sendMessage(+chatId, text, options)
+      send(sanitizedId, text, options)
     }, timeout)
   })
-}
-
-const getMoHWeb = async (url = 'https://ncov.moh.gov.vn/') => {
-  const agent = new https.Agent({
-    rejectUnauthorized: false
-  })
-  return axios.get(url, { httpsAgent: agent })
 }
 
 const hasLastEvent = lastEvent => {
@@ -171,15 +229,12 @@ const isNewEvent = (lastEvent, event) => {
   return age < oneHour
 }
 
-// https://ncov.moh.gov.vn/dong-thoi-gian is sometimes updated later
-// than the homepage 'https://ncov.moh.gov.vn/', for some reason
-// so we'll use data from homepage
+// Data on the timeline https://ncov.moh.gov.vn/dong-thoi-gian and
+// the homepage 'https://ncov.moh.gov.vn/' is not in sync
+// Sometimes the timeline is earlier, sometimes the homepage is earlier :D
 const updateNews = async () => {
-  const res = await getMoHWeb()
-
-  if (res.status !== 200) {
-    return console.error(`${res.status}: ${res.statusText}`)
-  }
+  const res = await fetch('https://ncov.moh.gov.vn/dong-thoi-gian', true)
+  if (!res) return
 
   const $ = cheerio.load(res.data)
 
@@ -195,16 +250,16 @@ const updateNews = async () => {
     saveNews(news).then(() => {
       // only broadcast if this is not first crawl
       lastEvent && lastEvent.timestamp && isNewEvent(lastEvent, event) && broadcastNews(event)
-    }).catch(console.error)
+    }).catch(debug.forBot)
   }
 }
 
 // because Vietnam's cases are reported earlier on MoH site than on Worldometers
 const updateVietnamData = async () => {
-  const res = await getMoHWeb()
+  const res = await fetch('https://ncov.moh.gov.vn/', true)
 
-  if (res.status !== 200) {
-    console.error(`Fallback to news.zing.vn because of failture loading cases from MoH. ${res.status}: ${res.statusText}`)
+  if (!res) {
+    debug.forBot('Fallback to news.zing.vn because of failture loading cases from MoH.')
     updateVietnamDataFromZing()
     return
   }
@@ -217,12 +272,9 @@ const updateVietnamData = async () => {
   }
 }
 
-const updateVietnamDataFromZing = async (url = 'https://news.zing.vn') => {
-  const res = await axios.get(url)
-
-  if (res.status !== 200) {
-    return console.error(`${res.status}: ${res.statusText}`, url)
-  }
+const updateVietnamDataFromZing = async () => {
+  const res = await fetch('https://news.zing.vn')
+  if (!res) return
 
   const $ = cheerio.load(res.data)
   const script = $('#widget-ticker script').html()
@@ -233,12 +285,9 @@ const updateVietnamDataFromZing = async (url = 'https://news.zing.vn') => {
   }
 }
 
-const getStatus = async (url = 'https://www.worldometers.info/coronavirus/') => {
-  const res = await axios.get(url)
-
-  if (res.status !== 200) {
-    return console.error(`${res.status}: ${res.statusText}`, url)
-  }
+const getStatus = async () => {
+  const res = await fetch('https://www.worldometers.info/coronavirus/')
+  if (!res) return
 
   const $ = cheerio.load(res.data)
 
@@ -262,7 +311,7 @@ const getStatus = async (url = 'https://www.worldometers.info/coronavirus/') => 
     d.byCountry.push(row)
   })
 
-  return d
+  cache = d
 }
 
 const getTop = (data, { country, top = 10 } = {}) => {
@@ -283,7 +332,10 @@ const makeCases = (cases, newCases) => {
   return t
 }
 
-const makeShortCountry = c => c.replace(' ', '').substr(0, 7)
+const makeShortCountry = c => {
+  if (NAMES[c]) return NAMES[c]
+  return c.replace(' ', '').substr(0, 7)
+}
 
 const makeTable = (data, filter) => {
   const headers = [['Nước', 'Nhiễm', 'Mới', 'Chết']]
@@ -320,19 +372,19 @@ const makeTable = (data, filter) => {
     }
     const hasChina = country === 'China'
     const text = [
-            `Quốc gia: ${country}`,
-            `Ca nhiễm: ${cases}`,
-            `${hasChina ? 'Hôm qua' : 'Trong ngày'}: ${newCases || 0}`,
-            `Tử vong: ${deaths || 0}`,
-            `${hasChina ? 'Hôm qua' : 'Trong ngày'}: ${newDeaths || 0}`,
-            `Số ca/1tr dân: ${casesPerM}`
+      `Quốc gia: ${country}`,
+      `Ca nhiễm: ${cases}`,
+      `${hasChina ? 'Hôm qua' : 'Trong ngày'}: ${newCases || 0}`,
+      `Tử vong: ${deaths || 0}`,
+      `${hasChina ? 'Hôm qua' : 'Trong ngày'}: ${newDeaths || 0}`,
+      `Số ca/1tr dân: ${casesPerM}`
     ].join('\n')
     return { list: false, hasChina, text }
   }
 }
 
 const updateStatus = async () => {
-  cache = await getStatus()
+  await getStatus()
   await updateVietnamData()
   if (!cache.vietnam || !cache.vietnam.cases) {
     cache.vietnam = cache.byCountry.find(c => c.country === 'Vietnam') || {}
@@ -346,4 +398,4 @@ const start = async () => {
   setInterval(updateStatus, +process.env.RELOAD_EVERY || 30000)
 }
 
-start().catch(console.error)
+start().catch(debug.forBot)

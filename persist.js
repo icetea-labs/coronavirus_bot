@@ -1,5 +1,7 @@
-const fileName = './save.txt'
 const fs = require('fs')
+const debug = require('debug')('bot:persist')
+
+const fileName = './save.txt'
 
 exports.loadNews = () => {
   return JSON.parse(fs.readFileSync(fileName).toString('utf-8'))
@@ -18,7 +20,7 @@ exports.tryLoadNews = () => {
   try {
     return exports.loadNews()
   } catch (err) {
-    console.error(err)
+    debug(err)
     return {}
   }
 }
@@ -26,13 +28,11 @@ exports.tryLoadNews = () => {
 exports.trySaveNews = (news, msg) => {
   if (msg && msg.chat.id) {
     const data = {
-      type: msg.chat.type,
-      date: msg.date
+      date: msg.date,
+      ...msg.chat
     }
-    if (msg.chat.username) {
-      data.username = msg.chat.username
-    }
+    delete data.id // id already used as key
     news.subs[msg.chat.id] = data
   }
-  setTimeout(() => exports.saveNews(news).catch(console.error), 0)
+  setTimeout(() => exports.saveNews(news).catch(debug), 0)
 }
