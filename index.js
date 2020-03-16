@@ -30,12 +30,12 @@ const bot = new TelegramBot(token, { polling: true })
 bot.onText(/(\/start|\/help|\/menu)/, (msg, match) => {
   trySaveNews(news, msg)
   const commands = [
-    '/status [country] - thống kê ca nhiễm và tử vong',
-    '[country] là tên nước, ví dụ india, không bắt buộc.'
+    '/status \- thống kê ca nhiễm và tử vong',
+    'Có thể xem theo quốc gia, ví dụ <code>\/status india</code>'
     // '/news - tin đáng lưu tâm',
     // '/alert - ca bệnh mới nhất ở Việt Nam'
   ].join('\n')
-  bot.sendMessage(msg.chat.id, commands)
+  bot.sendMessage(msg.chat.id, commands, { parse_mode: 'HTML' })
 })
 
 bot.onText(/\/admin/, (msg, match) => {
@@ -77,15 +77,18 @@ bot.onText(/\/status(\s+(\w+))?/, (msg, match) => {
   const chatId = msg.chat.id
   trySaveNews(news, msg)
 
-  const { list, text: mainText } = makeTable(cache, { country: match[2] })
+  const { list, hasChina, text: mainText } = makeTable(cache, { country: match[2] })
+  const onlyChina = !list && hasChina
 
   let text = `<b>Việt Nam</b>: ${makeCases(cache.vietnam.cases, cache.vietnam.newCases)}\n\r`
   text += `<b>Thế giới</b>: ${cache.global.cases + ' ca' || 'N/A'} (${cache.global.deaths || 'N/A'} tử vong)\n\r`
   text += '~~~\n\r'
   text += `<pre>${mainText}</pre>`
   text += '\n\r~~~\n\r<i>✱ Nguồn: Bộ Y Tế, Worldometers</i>\n\r'
-  text += `<i>✱ Ca ${list ? 'mới' : 'trong ngày'} tính từ nửa đêm GMT+0 (7h sáng VN). Riêng Trung Quốc là của ngày hôm trước.</i>\n\r`
-  text += 'Made with 🍵 by @iceteachainvn'
+  if (!onlyChina) {
+    text += `<i>✱ Ca ${list ? 'mới' : 'trong ngày'} tính từ nửa đêm GMT+0 (7h sáng VN)${hasChina ? '. Riêng Trung Quốc là của ngày hôm trước.' : ''}</i>\n\r`
+  }
+  text += '— Made with ❤️ by @iceteachainvn 🍵'
 
   bot.sendMessage(chatId, text, makeSendOptions(msg, 'HTML'))
 })
@@ -291,7 +294,9 @@ const makeTable = (data, filter) => {
   }
 
   if (topData.length > 1) {
+    let hasChina = false
     const rows = topData.map(({ country, cases, newCases, deaths }) => {
+      !hasChina && (hasChina = country === 'China')
       return [makeShortCountry(country), cases, newCases, deaths]
     })
     const text = table(headers.concat(rows), {
@@ -300,7 +305,7 @@ const makeTable = (data, filter) => {
       delimiterStart: false,
       delimiterEnd: false
     })
-    return { list: true, text }
+    return { list: true, hasChina, text }
   } else {
     let { country, cases, newCases, deaths, newDeaths, casesPerM } = topData[0]
     if (country === 'Vietnam' && data.vietnam) {
@@ -313,15 +318,16 @@ const makeTable = (data, filter) => {
       cases = Math.max(+cases, +data.vietnam.cases || 0)
       deaths = Math.max(+deaths || 0, +data.vietnam.deaths || 0)
     }
+    const hasChina = country === 'China'
     const text = [
             `Quốc gia: ${country}`,
             `Ca nhiễm: ${cases}`,
-            `Trong ngày: ${newCases || 0}`,
+            `${hasChina ? 'Hôm qua' : 'Trong ngày'}: ${newCases || 0}`,
             `Tử vong: ${deaths || 0}`,
-            `Trong ngày: ${newDeaths || 0}`,
-            `Ca/1tr dân: ${casesPerM}`
+            `${hasChina ? 'Hôm qua' : 'Trong ngày'}: ${newDeaths || 0}`,
+            `Số ca/1tr dân: ${casesPerM}`
     ].join('\n')
-    return { list: false, text }
+    return { list: false, hasChina, text }
   }
 }
 
