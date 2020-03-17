@@ -129,15 +129,19 @@ bot.onText(/\/status(\s+(\w+))?/, (msg, match) => {
   const { list, hasChina, text: mainText } = makeTable(cache, { country: match[2] })
   const onlyChina = !list && hasChina
 
-  let text = `<b>Việt Nam</b>: ${makeCases(cache.vietnam.cases, cache.vietnam.newCases)}\n\r`
-  text += `<b>Thế giới</b>: ${cache.global.cases + ' ca' || 'N/A'} (${cache.global.deaths || 'N/A'} tử vong)\n\r`
-  text += '~~~\n\r'
-  text += `<pre>${mainText}</pre>`
-  text += '\n\r~~~\n\r<i>✱ Nguồn: Bộ Y Tế, Worldometers</i>\n\r'
-  if (!onlyChina) {
-    text += `<i>✱ Ca ${list ? 'mới' : 'trong ngày'} tính từ nửa đêm GMT+0 (7h sáng VN)${hasChina ? '. Riêng Trung Quốc là của ngày hôm trước.' : ''}</i>\n\r`
+  let text = mainText
+
+  if (list) {
+    text = `<b>Việt Nam</b>: ${makeCases(cache.vietnam.cases, cache.vietnam.newCases)}\n\r`
+    text += `<b>Thế giới</b>: ${cache.global.cases + ' ca' || 'N/A'} (${cache.global.deaths || 'N/A'} tử vong)\n\r`
+    text += '~~~\n\r'
+    text += `<pre>${mainText}</pre>`
+    text += '\n\r~~~\n\r<i>✱ Nguồn: Bộ Y Tế, Worldometers</i>\n\r'
+    if (!onlyChina) {
+      text += `<i>✱ Ca ${list ? 'mới' : 'trong ngày'} tính từ nửa đêm GMT+0 (7h sáng VN)${hasChina ? '. Riêng Trung Quốc là của ngày hôm trước.' : ''}</i>\n\r`
+    }
+    text += '— Made with ❤️ by @iceteachainvn 🍵'
   }
-  text += '— Made with ❤️ by @iceteachainvn 🍵'
 
   send(chatId, text, makeSendOptions(msg, 'HTML'))
 })
@@ -372,12 +376,12 @@ const makeTable = (data, filter) => {
     }
     const hasChina = country === 'China'
     const text = [
-      `Quốc gia: ${country}`,
-      `Ca nhiễm: ${cases}`,
-      `${hasChina ? 'Hôm qua' : 'Trong ngày'}: ${newCases || 0}`,
-      `Tử vong: ${deaths || 0}`,
-      `${hasChina ? 'Hôm qua' : 'Trong ngày'}: ${newDeaths || 0}`,
-      `Số ca/1tr dân: ${casesPerM}`
+      `Quốc gia: <b>${country}</b>`,
+      `Ca nhiễm: <b>${cases}</b>`,
+      `${hasChina ? 'Hôm qua' : 'Trong ngày'}: <b>${newCases || 0}</b>`,
+      `Tử vong: <b>${deaths || 0}</b>`,
+      `${hasChina ? 'Hôm qua' : 'Trong ngày'}: <b>${newDeaths || 0}</b>`,
+      `Số ca/1tr dân: <b>${casesPerM}</b>`
     ].join('\n')
     return { list: false, hasChina, text }
   }
