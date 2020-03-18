@@ -59,42 +59,42 @@ bot.onText(/(\/start|\/help|\/menu|\/about)/, (msg, match) => {
 
 bot.onText(/\/admin(@\w+)?(\s+(\w+))?/, (msg, match) => {
   const what = match[3] || 'stats'
-  if (!['stats', 'super'].includes(what)) {
+  if (!['stats', 'groups'].includes(what)) {
     return
   }
   const isStats = (what === 'stats')
   if (!isAdmin(msg, isStats)) return
 
-  const text = isStats ? getStats() : getSuper()
+  const text = isStats ? getStats() : getGroups()
   send(msg.chat.id, text, { parse_mode: 'HTML' })
 })
 
-bot.onText(/\/fix/, async (msg, match) => {
-  if (!isAdmin(msg)) return
+// bot.onText(/\/fix/, async (msg, match) => {
+//   if (!isAdmin(msg)) return
 
-  const promises = []
-  const keys = Object.keys(store.subs)
-  keys.forEach(key => {
-    promises.push(bot.getChat(key))
-  })
+//   const promises = []
+//   const keys = Object.keys(store.subs)
+//   keys.forEach(key => {
+//     promises.push(bot.getChat(key))
+//   })
 
-  const results = await Promise.allSettled(promises)
-  results.forEach((r, i) => {
-    if (r.status === 'fulfilled') {
-      const k = keys[i]
-      const value = pickChatData(r.value)
-      let oldValue = store.subs[k]
-      if (typeof oldValue === 'number') {
-        oldValue = { date: Math.floor(oldValue / 1000), ...value }
-      } else {
-        oldValue = { date: oldValue.date, ...value }
-      }
-      debug(k, oldValue)
-      store.subs[k] = oldValue
-    }
-  })
-  trySaveData(store)
-})
+//   const results = await Promise.allSettled(promises)
+//   results.forEach((r, i) => {
+//     if (r.status === 'fulfilled') {
+//       const k = keys[i]
+//       const value = pickChatData(r.value)
+//       let oldValue = store.subs[k]
+//       if (typeof oldValue === 'number') {
+//         oldValue = { date: Math.floor(oldValue / 1000), ...value }
+//       } else {
+//         oldValue = { date: oldValue.date, ...value }
+//       }
+//       debug(k, oldValue)
+//       store.subs[k] = oldValue
+//     }
+//   })
+//   trySaveData(store)
+// })
 
 bot.onText(/\/alert/, (msg, match) => {
   trySaveData(store, msg)
@@ -191,7 +191,7 @@ const getStats = () => {
   ].join('\n')
 }
 
-const getSuper = () => {
+const getGroups = () => {
   let i = 1
   const lines = Object.entries(store.subs).reduce((groups, [key, value]) => {
     const nKey = +key
