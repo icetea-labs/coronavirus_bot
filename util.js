@@ -29,7 +29,7 @@ const handleAxiosError = (err, url) => {
 }
 
 const handleTelegramError = (err, action, id, text) => {
-  debugTelegram(`Telegram ${action} Error ${err.code} for ${id} text ${text.substr(0, 16)}...`)
+  debugTelegram(`Telegram ${action} Error ${err.code} for ${id} text ${text ? text.substr(0, 16) : text}...`)
   if (err.response && err.response.body) {
     debugTelegram(err.response.body)
   }
@@ -60,4 +60,18 @@ exports.sendMessage = (bot, id, text, options) => {
 
 exports.editMessage = (bot, text, options) => {
   return bot.editMessageText(text, options).catch(err => handleTelegramError(err, 'editMessageText', `${options.chat_id}/${options.message_id}`, text))
+}
+
+exports.pick = (obj, props) => {
+  if (typeof obj !== 'object') return obj
+  return props.reduce((newObj, p) => {
+    if (obj.hasOwnProperty(p)) {
+      newObj[p] = obj[p]
+    }
+    return newObj
+  }, {})
+}
+
+exports.pickChatData = chat => {
+  return exports.pick(chat, ['type', 'username', 'title', 'first_name', 'last_name'])
 }

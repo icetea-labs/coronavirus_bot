@@ -1,5 +1,6 @@
 const fs = require('fs')
 const debug = require('debug')('bot:persist')
+const { pickChatData } = require('./util')
 
 const fileName = './save.txt'
 
@@ -27,11 +28,8 @@ exports.tryLoadData = () => {
 
 exports.trySaveData = (data, msg) => {
   if (msg && msg.chat.id) {
-    const info = {
-      date: msg.date,
-      ...msg.chat
-    }
-    delete info.id // id already used as key
+    const info = pickChatData(msg.chat)
+    info.date = msg.date
     data.subs[msg.chat.id] = info
   }
   setTimeout(() => exports.saveData(data).catch(debug), 0)

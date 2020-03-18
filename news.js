@@ -6,8 +6,8 @@ exports.getNews = () => {
   const hvalue = process.env.NEWS_HVALUE
 
   return fetch(url, {
-      [hname]: hvalue
-    }).then(({ data }) => {
+    [hname]: hvalue
+  }).then(({ data }) => {
     return data.data.reduce((list, item, index) => {
       if (item.data && item.data.length) {
         const info = item.data[0]

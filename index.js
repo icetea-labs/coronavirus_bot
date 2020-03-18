@@ -4,7 +4,7 @@ const TelegramBot = require('node-telegram-bot-api')
 const table = require('markdown-table')
 const { tryLoadData, saveData, trySaveData } = require('./persist')
 const { getNews } = require('./news')
-const { fetch, sendMessage, editMessage } = require('./util')
+const { fetch, sendMessage, editMessage, pickChatData } = require('./util')
 const NAMES = require('./country.json')
 
 const debugFactory = require('debug')
@@ -57,21 +57,43 @@ bot.onText(/(\/start|\/help|\/menu|\/about)/, (msg, match) => {
   send(msg.chat.id, commands, { parse_mode: 'HTML', disable_web_page_preview: true })
 })
 
-bot.onText(/\/admin/, (msg, match) => {
-  if (!isAdmin(msg)) return
-  const subs = Object.keys(store.subs)
-  const total = subs.length
-  const users = subs.filter(s => s > 0)
-  const userCount = users.length
-  const groupCount = total - userCount
+bot.onText(/\/admin(@\w+)?(\s+(\w+))?/, (msg, match) => {
+  const what = match[3] || 'stats'
+  if (!['stats', 'super'].includes(what)) {
+    return
+  }
+  const isStats = (what === 'stats')
+  if (!isAdmin(msg, isStats)) return
 
-  const text = [
-    'Subcription stats:\n~~~',
-    `Users: ${userCount}`,
-    `Groups: ${groupCount}`,
-    `TOTAL: ${total}`
-  ].join('\n')
-  send(msg.chat.id, text)
+  const text = isStats ? getStats() : getSuper()
+  send(msg.chat.id, text, { parse_mode: 'HTML' })
+})
+
+bot.onText(/\/fix/, async (msg, match) => {
+  if (!isAdmin(msg)) return
+
+  const promises = []
+  const keys = Object.keys(store.subs)
+  keys.forEach(key => {
+    promises.push(bot.getChat(key))
+  })
+
+  const results = await Promise.allSettled(promises)
+  results.forEach((r, i) => {
+    if (r.status === 'fulfilled') {
+      const k = keys[i]
+      const value = pickChatData(r.value)
+      let oldValue = store.subs[k]
+      if (typeof oldValue === 'number') {
+        oldValue = { date: Math.floor(oldValue / 1000), ...value }
+      } else {
+        oldValue = { date: oldValue.date, ...value }
+      }
+      debug(k, oldValue)
+      store.subs[k] = oldValue
+    }
+  })
+  trySaveData(store)
 })
 
 bot.onText(/\/alert/, (msg, match) => {
@@ -86,7 +108,7 @@ bot.onText(/\/alert/, (msg, match) => {
 bot.onText(/\/new/, async (msg, match) => {
   trySaveData(store, msg)
   if (msg.chat.type !== 'private') {
-    send(msg.chat.id, 'Không hỗ trợ xem tin tức trong group, vui lòng <a href="https://t.me/CoronaAlertBot">chat riêng với bot</a> để xem.', {parse_mode: 'HTML'})
+    send(msg.chat.id, 'Không hỗ trợ xem tin tức trong group, vui lòng <a href="https://t.me/CoronaAlertBot">chat riêng với bot</a> để xem.', { parse_mode: 'HTML' })
     return
   }
 
@@ -129,12 +151,12 @@ bot.on('callback_query', function onCallbackQuery (callbackQuery) {
   return editMessage(bot, text, Object.assign(options, opts))
 })
 
-bot.onText(/\/status(\s+(\w+))?/, (msg, match) => {
+bot.onText(/\/status(@\w+)?(\s+(\w+))?/, (msg, match) => {
   const chatId = msg.chat.id
   trySaveData(store, msg)
 
-  const { list, text: mainText } = makeTable(cache, { country: match[2] })
-  // const { list, hasChina, text: mainText } = makeTable(cache, { country: match[2] })
+  const { list, text: mainText } = makeTable(cache, { country: match[3] })
+  // const { list, hasChina, text: mainText } = makeTable(cache, { country: match[3] })
   // const onlyChina = !list && hasChina
 
   let text = mainText
@@ -153,6 +175,46 @@ bot.onText(/\/status(\s+(\w+))?/, (msg, match) => {
 
   send(chatId, text, makeSendOptions(msg, 'HTML'))
 })
+
+const getStats = () => {
+  const subs = Object.keys(store.subs).map(Number)
+  const total = subs.length
+  const users = subs.filter(s => s > 0)
+  const userCount = users.length
+  const groupCount = total - userCount
+
+  return [
+    'Subcription stats:\n~~~',
+    `Users: ${userCount}`,
+    `Groups: ${groupCount}`,
+    `TOTAL: ${total}`
+  ].join('\n')
+}
+
+const getSuper = () => {
+  let i = 1
+  const lines = Object.entries(store.subs).reduce((groups, [key, value]) => {
+    const nKey = +key
+    if (nKey && nKey < 0) {
+      let name = key
+      if (value.title) {
+        name = value.title
+      } else if (value.username) {
+        name = value.username
+      }
+
+      if (value.type) {
+        name += ` (${value.type})`
+      }
+      const link = value.username ? `<a href="https://t.me/${value.username}">${name}</a>` : name
+      groups.push(`${i}. ${link}`)
+      i++
+    }
+    return groups
+  }, [])
+
+  return lines.length ? lines.join('\n') : 'No groups.'
+}
 
 const makeNewsMessage = (index = 0) => {
   if (news && news.list && news.list.length) {
@@ -228,9 +290,9 @@ const makeSendOptions = (msg, parseMode) => {
 
 const arrayFromEnv = name => process.env[name].split(';')
 
-const isAdmin = msg => {
+const isAdmin = (msg, acceptGroupChat) => {
   const admins = arrayFromEnv('ADMINS')
-  return admins.includes(String(msg.from.id)) || admins.includes(String(msg.chat.id))
+  return admins.includes(String(msg.chat.id)) || (acceptGroupChat && admins.includes(String(msg.from.id)))
 }
 
 const getTimestamp = text => {
