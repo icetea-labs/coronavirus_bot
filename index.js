@@ -85,10 +85,10 @@ bot.onText(/\/alert/, (msg, match) => {
 
 bot.onText(/\/new/, async (msg, match) => {
   trySaveData(store, msg)
-
-  // refresh news
-  news.list = await getNews()
-  news.timestamp = msg.date * 1000
+  if (msg.chat.type !== 'private') {
+    send(msg.chat.id, 'Không hỗ trợ xem tin tức trong group, vui lòng <a href="https://t.me/CoronaAlertBot">chat riêng với bot</a> để xem.', {parse_mode: 'HTML'})
+    return
+  }
 
   const { text, options } = makeNewsMessage()
   if (text) {
@@ -453,6 +453,14 @@ const makeTable = (data, filter) => {
   }
 }
 
+const updateNews = async () => {
+  const newNews = await getNews()
+  if (newNews && newNews.length) {
+    news.list = newNews
+    news.timestamp = Date.now()
+  }
+}
+
 const updateStatus = async () => {
   await getStatus()
   await updateVietnamData()
@@ -461,6 +469,7 @@ const updateStatus = async () => {
   }
 
   updateAlert()
+  updateNews()
 }
 
 const start = async () => {
