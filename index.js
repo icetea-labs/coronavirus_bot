@@ -4,7 +4,7 @@ const TelegramBot = require('node-telegram-bot-api')
 const table = require('markdown-table')
 const { tryLoadData, saveData, trySaveData } = require('./persist')
 const { getNews } = require('./news')
-const { fetch, sendMessage, editMessage, pickChatData } = require('./util')
+const { fetch, sendMessage, editMessage, isChatAdmin } = require('./util')
 const NAMES = require('./country.json')
 
 const debugFactory = require('debug')
@@ -44,9 +44,12 @@ bot.onText(/(\/start|\/help|\/menu|\/about)/, (msg, match) => {
   trySaveData(store, msg)
   const commands = [
     '/status - thống kê ca nhiễm và tử vong',
-    'Có thể xem theo quốc gia, ví dụ <code>/status india</code>\n',
+    'Có thể xem theo quốc gia, ví dụ <code>/status malay,indo</code>',
+    '/asean - thống kê cho các nước ASEAN\n',
     '/news - tin tức chọn lọc',
     '/alert - thông báo mới nhất từ Bộ Y Tế\n',
+    '/subscribe - đăng kí nhận thông báo mới',
+    '/unsubscribe - huỷ đăng kí\n',
     '~~~',
     "<i>Phát triển bởi <a href='https://icetea.io'>Icetea team</a>, tham gia <a href='https://t.me/iceteachainvn'>nhóm Telegram</a> đề đề xuất tính năng.</i>\n",
     '<b>Nguồn dữ liệu:</b>',
@@ -151,12 +154,16 @@ bot.on('callback_query', function onCallbackQuery (callbackQuery) {
   return editMessage(bot, text, Object.assign(options, opts))
 })
 
-bot.onText(/\/status(@\w+)?(\s+(\w+))?/, (msg, match) => {
-  const chatId = msg.chat.id
+bot.onText(/\/(status|asean)/, (msg, match) => {
   trySaveData(store, msg)
 
-  const { list, text: mainText } = makeTable(cache, { country: match[3] })
-  // const { list, hasChina, text: mainText } = makeTable(cache, { country: match[3] })
+  let country =  msg.text.split(' ').slice(1).join(' ').trim()
+  if (country === 'asean' || match[1] === 'asean') {
+    country = 'indonesia,singapore,thailand,malaysia,philippines,vietnam,cambodia,brunei,myanmar,laos,timor-leste'
+  }
+
+  const { list, text: mainText } = makeTable(cache, { country })
+  // const { list, hasChina, text: mainText } = makeTable(cache, { country })
   // const onlyChina = !list && hasChina
 
   let text = mainText
@@ -173,7 +180,27 @@ bot.onText(/\/status(@\w+)?(\s+(\w+))?/, (msg, match) => {
     text += "Made with ❤️ by <a href='https://t.me/iceteachainvn'>Icetea</a>"
   }
 
-  send(chatId, text, makeSendOptions(msg, 'HTML'))
+  send(msg.chat.id, text, makeSendOptions(msg, 'HTML'))
+})
+
+bot.onText(/\/(subscribe|unsubscribe)/, async (msg, match) => {
+  const cmd = match[1]
+  const noAlert = cmd === 'unsubscribe'
+  const oldNoAlert = Boolean((store.subs[msg.chat.id] || {}).noAlert)
+  if (noAlert === oldNoAlert) {
+    if (msg.chat.type === 'private') {
+      send(msg.chat.id, `Đang như vậy rồi, không cần ${cmd} nữa.`)
+    }
+    return
+  }
+
+  const admin = await isChatAdmin(bot, msg)
+  // no need say anything to spam group
+  if (!admin) return
+
+  trySaveData(store, msg, noAlert)
+
+  send(msg.chat.id, 'OK', { reply_to_message_id: msg.message_id })
 })
 
 const getStats = () => {
@@ -184,7 +211,7 @@ const getStats = () => {
   const groupCount = total - userCount
 
   return [
-    'Subcription stats:\n~~~',
+    'Usage stats:\n~~~',
     `Users: ${userCount}`,
     `Groups: ${groupCount}`,
     `TOTAL: ${total}`
@@ -328,6 +355,7 @@ const broadcastAlert = ({ time, content }) => {
   let timeout = 0
   subs.forEach(chatId => {
     if (exclude.includes(chatId)) return
+    if (store.subs[chatId].noAlert) return
 
     const sanitizedId = sanitizeChatId(chatId)
     timeout += 100
@@ -446,13 +474,22 @@ const getStatus = async () => {
   cache = d
 }
 
+const findByOneCountry = (countries, country) => {
+  const single = countries.find(c => c.country.toLowerCase() === country)
+  if (single) return [single]
+  return countries.filter(c => c.country.toLowerCase().includes(country))
+}
+
 const getTop = (data, { country, top = 10 } = {}) => {
   let countries = data.byCountry
   if (country) {
-    country = country.toLowerCase()
-    const single = countries.find(c => c.country.toLowerCase() === country)
-    if (single) return [single]
-    countries = countries.filter(c => c.country.toLowerCase().includes(country))
+    const countryArray = country.split(',').map(c => c.toLowerCase())
+    countries = countryArray.reduce((list, c) => {
+      return list.concat(findByOneCountry(countries, c))
+    }, [])
+    
+    // remove dup and sort
+    countries = Array.from(new Set(countries)).sort((a, b) => b.cases - a.cases)
   }
   return countries.filter((c, i) => i < top)
 }

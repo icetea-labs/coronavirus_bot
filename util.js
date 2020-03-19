@@ -29,6 +29,7 @@ const handleAxiosError = (err, url) => {
 }
 
 const handleTelegramError = (err, action, id, text) => {
+  if (Array.isArray(id)) id = id.join('/')
   debugTelegram(`Telegram ${action} Error ${err.code} for ${id} text ${text ? text.substr(0, 16) : text}...`)
   if (err.response && err.response.body) {
     debugTelegram(err.response.body)
@@ -59,7 +60,7 @@ exports.sendMessage = (bot, id, text, options) => {
 }
 
 exports.editMessage = (bot, text, options) => {
-  return bot.editMessageText(text, options).catch(err => handleTelegramError(err, 'editMessageText', `${options.chat_id}/${options.message_id}`, text))
+  return bot.editMessageText(text, options).catch(err => handleTelegramError(err, 'editMessageText', [options.chat_id, options.message_id], text))
 }
 
 exports.pick = (obj, props) => {
@@ -74,4 +75,10 @@ exports.pick = (obj, props) => {
 
 exports.pickChatData = chat => {
   return exports.pick(chat, ['type', 'username', 'title', 'first_name', 'last_name'])
+}
+
+exports.isChatAdmin = async (bot, msg) => {
+  if (!['group', 'supergroup'].includes(msg.chat.type)) return true
+  const result = await bot.getChatMember(msg.chat.id, msg.from.id).catch(err => handleTelegramError(err, 'getChatMember', [msg.chat.id, msg.from.id]))
+  return result && ['creator', 'administrator'].includes(result.status)
 }

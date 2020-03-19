@@ -26,10 +26,18 @@ exports.tryLoadData = () => {
   }
 }
 
-exports.trySaveData = (data, msg) => {
+exports.trySaveData = (data, msg, noAlert) => {
   if (msg && msg.chat.id) {
     const info = pickChatData(msg.chat)
     info.date = msg.date
+    if (noAlert != null) {
+      if (noAlert) info.noAlert = true
+    } else {
+      const old = data.subs[msg.chat.id]
+      const oldNoAlert = old != null ? old.noAlert : false
+      if (oldNoAlert) info.noAlert = true
+    }
+
     data.subs[msg.chat.id] = info
   }
   setTimeout(() => exports.saveData(data).catch(debug), 0)
