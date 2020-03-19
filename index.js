@@ -4,7 +4,7 @@ const TelegramBot = require('node-telegram-bot-api')
 const table = require('markdown-table')
 const { tryLoadData, saveData, trySaveData } = require('./persist')
 const { getNews } = require('./news')
-const { fetch, sendMessage, editMessage, isChatAdmin } = require('./util')
+const { fetch, sendMessage, editMessage, isChatAdmin, sortBy, patchVietnamData } = require('./util')
 const NAMES = require('./country.json')
 
 const debugFactory = require('debug')
@@ -169,7 +169,7 @@ bot.onText(/\/(status|asean)/, (msg, match) => {
   let text = mainText
 
   if (list) {
-    text = `<b>Việt Nam</b>: ${makeCases(cache.vietnam.cases, cache.vietnam.newCases)}\n\r`
+    text = `<b>Việt Nam</b>: ${makeVNCases()}\n\r`
     text += `<b>Thế giới</b>: ${cache.global.cases + '' || 'N/A'} (${cache.global.deaths || 'N/A'} tử vong)\n\r`
     text += '~~~\n\r'
     text += `<pre>${mainText}</pre>`
@@ -200,7 +200,7 @@ bot.onText(/\/(subscribe|unsubscribe)/, async (msg, match) => {
 
   trySaveData(store, msg, noAlert)
 
-  send(msg.chat.id, 'OK', { reply_to_message_id: msg.message_id })
+  send(msg.chat.id, 'Dạ', { reply_to_message_id: msg.message_id })
 })
 
 const getStats = () => {
@@ -481,7 +481,7 @@ const findByOneCountry = (countries, country) => {
 }
 
 const getTop = (data, { country, top = 10 } = {}) => {
-  let countries = data.byCountry
+  let countries = patchVietnamData(data.byCountry, data.vietnam)
   if (country) {
     const countryArray = country.split(',').map(c => c.toLowerCase())
     countries = countryArray.reduce((list, c) => {
@@ -489,15 +489,16 @@ const getTop = (data, { country, top = 10 } = {}) => {
     }, [])
     
     // remove dup and sort
-    countries = Array.from(new Set(countries)).sort((a, b) => b.cases - a.cases)
+    countries = sortBy(Array.from(new Set(countries)), 'cases', 'deaths')
   }
   return countries.filter((c, i) => i < top)
 }
 
-const makeCases = (cases, newCases) => {
+const makeVNCases = () => {
+  const { cases, newCases } = patchVietnamData(cache.byCountry, cache.vietnam, true)
   if (cases == null) return 'N/A'
   let t = cases + ' ca nhiễm'
-  if (newCases) t += ` (${newCases})`
+  if (newCases) t += ` (<b>${newCases}</b>)`
   return t
 }
 
@@ -528,17 +529,7 @@ const makeTable = (data, filter) => {
     })
     return { list: true, hasChina, text }
   } else {
-    let { country, cases, newCases, deaths, newDeaths, casesPerM } = topData[0]
-    if (country === 'Vietnam' && data.vietnam) {
-      if (+data.vietnam.cases && +cases < +data.vietnam.cases) {
-        newCases = 'N/A'
-      }
-      if (+data.vietnam.deaths && +deaths < +data.vietnam.deaths) {
-        newDeaths = 'N/A'
-      }
-      cases = Math.max(+cases, +data.vietnam.cases || 0)
-      deaths = Math.max(+deaths || 0, +data.vietnam.deaths || 0)
-    }
+    const { country, cases, newCases, deaths, newDeaths, casesPerM } = topData[0]
     const hasChina = country === 'China'
     const text = [
       `Quốc gia: <b>${country}</b>`,

@@ -82,3 +82,40 @@ exports.isChatAdmin = async (bot, msg) => {
   const result = await bot.getChatMember(msg.chat.id, msg.from.id).catch(err => handleTelegramError(err, 'getChatMember', [msg.chat.id, msg.from.id]))
   return result && ['creator', 'administrator'].includes(result.status)
 }
+
+exports.sortBy = (array, prop1, prop2) => {
+  return array.sort((a, b) => {
+    return b[prop1] - a[prop1] !== 0 ? b[prop1] - a[prop1] : b[prop2] - a[prop2]
+  })
+}
+
+exports.patchVietnamData = (list, vietnam, noPatch) => {
+  if (!vietnam) return
+  const vietnamRow = list.find(c => c.country === 'Vietnam')
+  if (!vietnamRow) return
+
+  let { country, cases, newCases, deaths, newDeaths, casesPerM } = vietnamRow
+
+  // adjust new cases and new deaths
+  if (+vietnam.cases && +cases < +vietnam.cases) {
+    newCases = (+newCases || 0) + (+vietnam.cases - +cases)
+  }
+  if (+vietnam.deaths && +deaths < +vietnam.deaths) {
+    newDeaths = (+newDeaths || 0) + (+vietnam.deaths - +deaths)
+  }
+
+  // adjust cases and deaths
+  cases = Math.max(+cases, +vietnam.cases || 0)
+  deaths = Math.max(+deaths || 0, +vietnam.deaths || 0)
+
+  const newRow = { country, cases, 
+    newCases: newCases ? `+${newCases}` : '',
+    deaths: deaths ? deaths : '', 
+    newDeaths: newDeaths ? `+${newDeaths}` : '',
+    casesPerM }
+
+  if (noPatch) return newRow
+
+  // patch to list
+  return list.map(c => (c.country === 'Vietnam' ? newRow : c))
+}
