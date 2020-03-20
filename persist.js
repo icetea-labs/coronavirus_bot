@@ -26,17 +26,22 @@ exports.tryLoadData = () => {
   }
 }
 
-exports.trySaveData = (data, msg, noAlert) => {
+const inject = (data, msg, info, prop, value) => {
+  if (value != null) {
+    if (value) info[prop] = value
+  } else {
+    const old = data.subs[msg.chat.id]
+    const oldNoAlert = old != null ? old[prop] : false
+    if (oldNoAlert) info[prop] = oldNoAlert
+  }
+}
+
+exports.trySaveData = (data, msg, noAlert, noTalk) => {
   if (msg && msg.chat.id) {
     const info = pickChatData(msg.chat)
     info.date = msg.date
-    if (noAlert != null) {
-      if (noAlert) info.noAlert = true
-    } else {
-      const old = data.subs[msg.chat.id]
-      const oldNoAlert = old != null ? old.noAlert : false
-      if (oldNoAlert) info.noAlert = true
-    }
+    inject(data, msg, info, 'noAlert', noAlert)
+    inject(data, msg, info, 'noTalk', noTalk)
 
     data.subs[msg.chat.id] = info
   }

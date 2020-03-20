@@ -4,7 +4,7 @@ const TelegramBot = require('node-telegram-bot-api')
 const table = require('markdown-table')
 const { tryLoadData, saveData, trySaveData } = require('./persist')
 const { getNews } = require('./news')
-const { fetch, sendMessage, editMessage, isChatAdmin, sortBy, patchVietnamData } = require('./util')
+const { fetch, sendMessage, editMessage, isChatAdmin, sortRowBy, patchVietnamData } = require('./util')
 const NAMES = require('./country.json')
 
 const debugFactory = require('debug')
@@ -40,16 +40,30 @@ const send = (id, text, options) => {
   return sendMessage(bot, id, text, options)
 }
 
-bot.onText(/(\/start|\/help|\/menu|\/about)/, (msg, match) => {
+bot.on('polling_error', debug)
+
+bot.onText(/\/(start|help|menu|about)/, (msg, match) => {
   trySaveData(store, msg)
+  if (handleNoTalk(msg)) return
+
+  const cmd = match[1]
+  const helpCmds = [
+    '/unsubscribe - huỷ đăng kí nhận thông báo từ Bộ Y Tế',
+    '/subscribe - đăng kí lại',
+    '/notalk - tắt chat với bot trong group',
+    '/talk - bật chat với bot trong group',
+    'Trong group, chỉ group admin mới thực hiện được 4 lệnh trên.\n'
+  ]
+  const startCmds = ['/help - xem danh sách lệch đầy đủ\n']
+  const extraCmds = cmd === 'start' ? startCmds : helpCmds
   const commands = [
-    '/status - thống kê ca nhiễm và tử vong',
+    '/status - thống kê theo ca nhiễm',
+    '/death - thống kê theo ca tử vong',
     'Có thể xem theo quốc gia, ví dụ <code>/status malay,indo</code>',
     '/asean - thống kê cho các nước ASEAN\n',
     '/news - tin tức chọn lọc',
-    '/alert - thông báo mới nhất từ Bộ Y Tế\n',
-    '/subscribe - đăng kí nhận thông báo mới',
-    '/unsubscribe - huỷ đăng kí\n',
+    '/alert - xem thông báo mới nhất từ Bộ Y Tế\n',
+    ...extraCmds,
     '~~~',
     "<i>Phát triển bởi <a href='https://icetea.io'>Icetea team</a>, tham gia <a href='https://t.me/iceteachainvn'>nhóm Telegram</a> đề đề xuất tính năng.</i>\n",
     '<b>Nguồn dữ liệu:</b>',
@@ -101,6 +115,8 @@ bot.onText(/\/admin(@\w+)?(\s+(\w+))?/, (msg, match) => {
 
 bot.onText(/\/alert/, (msg, match) => {
   trySaveData(store, msg)
+  if (handleNoTalk(msg)) return
+
   if (!store.last || !store.last.content) return
 
   const { time, content } = store.last
@@ -154,25 +170,36 @@ bot.on('callback_query', function onCallbackQuery (callbackQuery) {
   return editMessage(bot, text, Object.assign(options, opts))
 })
 
-bot.onText(/\/(status|asean)/, (msg, match) => {
+bot.onText(/\/(status|case|dead|death|vietnam|asean|total|world)/, (msg, match) => {
   trySaveData(store, msg)
+  if (handleNoTalk(msg)) return
+
+  const cmd = match[1]
 
   let country =  msg.text.split(' ').slice(1).join(' ').trim()
-  if (country === 'asean' || match[1] === 'asean') {
+  if (cmd === 'vietnam') {
+    country = 'vietnam'
+  } else if (['total', 'world'].includes(cmd)) {
+    country = 'total:'
+  } else if (country === 'asean' || cmd === 'asean') {
     country = 'indonesia,singapore,thailand,malaysia,philippines,vietnam,cambodia,brunei,myanmar,laos,timor-leste'
   }
 
-  const { list, text: mainText } = makeTable(cache, { country })
+  const byDeath = ['dead', 'death'].includes(cmd)
+  const { list, text: mainText } = makeTable(cache, { country, top: 10, byDeath })
   // const { list, hasChina, text: mainText } = makeTable(cache, { country })
   // const onlyChina = !list && hasChina
 
   let text = mainText
 
   if (list) {
-    text = `<b>Việt Nam</b>: ${makeVNCases()}\n\r`
-    text += `<b>Thế giới</b>: ${cache.global.cases + '' || 'N/A'} (${cache.global.deaths || 'N/A'} tử vong)\n\r`
+    text = `/vietnam: ${makeVNCases()}\n\r`
+    text += `/world: ${cache.global.cases + '' || 'N/A'} (${cache.global.deaths || 'N/A'} tử vong)\n\r`
     text += '~~~\n\r'
     text += `<pre>${mainText}</pre>`
+    if (!country) {
+      text += byDeath ? '\n\r\n\rTheo số ca nhiếm: /status' : '\n\r\n\rTheo số tử vong: /death'
+    }
     text += '\n\r~~~\n\r<i>Nguồn: Bộ Y Tế, Worldometers</i>\n\r'
     // if (!onlyChina) {
     //   text += `<i>✱ Ca ${list ? 'mới' : 'trong ngày'} tính từ nửa đêm GMT+0 (7h sáng VN)${hasChina ? '. Riêng Trung Quốc là của ngày hôm trước.' : ''}</i>\n\r`
@@ -202,6 +229,37 @@ bot.onText(/\/(subscribe|unsubscribe)/, async (msg, match) => {
 
   send(msg.chat.id, 'Dạ', { reply_to_message_id: msg.message_id })
 })
+
+bot.onText(/\/(talk|notalk)/, async (msg, match) => {
+  if (msg.chat.type === 'private') {
+    send(msg.chat.id, `Lệnh này chỉ có tác dụng trong group.`)
+    return
+  }
+
+  const cmd = match[1]
+  const noTalk = cmd === 'notalk'
+  const oldNoTalk = Boolean((store.subs[msg.chat.id] || {}).noTalk)
+  if (noTalk === oldNoTalk) {
+    return
+  }
+
+  const admin = await isChatAdmin(bot, msg)
+  // no need say anything to spam group
+  if (!admin) return
+
+  trySaveData(store, msg, undefined, noTalk)
+
+  send(msg.chat.id, 'Dạ', { reply_to_message_id: msg.message_id })
+})
+
+const isNoTalk = msg => Boolean((store.subs[msg.chat.id] || {}).noTalk)
+const handleNoTalk = msg => {
+  const shouldDeny = ['group', 'supergroup'].includes(msg.chat.type) && isNoTalk(msg)
+  if (shouldDeny) {
+    send(msg.chat.id, 'Admin đã cấm chat lệnh cho bot trong group này để giảm nhiễu. Vui lòng chat riêng với bot.')
+  }
+  return shouldDeny
+}
 
 const getStats = () => {
   const subs = Object.keys(store.subs).map(Number)
@@ -480,8 +538,9 @@ const findByOneCountry = (countries, country) => {
   return countries.filter(c => c.country.toLowerCase().includes(country))
 }
 
-const getTop = (data, { country, top = 10 } = {}) => {
-  let countries = patchVietnamData(data.byCountry, data.vietnam)
+const getTop = (data, { country, top, byDeath }) => {
+  if (!data.byCountry || !data.byCountry.length) return null
+  let countries = patchVietnamData(data.byCountry, data.vietnam) || data.byCountry
   if (country) {
     const countryArray = country.split(',').map(c => c.toLowerCase())
     countries = countryArray.reduce((list, c) => {
@@ -489,13 +548,16 @@ const getTop = (data, { country, top = 10 } = {}) => {
     }, [])
     
     // remove dup and sort
-    countries = sortBy(Array.from(new Set(countries)), 'cases', 'deaths')
+    const sortProps = !byDeath ? ['cases', 'deaths'] : ['deaths', 'cases']
+    countries = sortRowBy(Array.from(new Set(countries)), ...sortProps)
   }
-  return countries.filter((c, i) => i < top)
+
+  if (byDeath) countries = sortRowBy(countries, 'deaths', 'cases').filter(c => c.country !== 'Total:')
+  return countries.slice(0, top)
 }
 
 const makeVNCases = () => {
-  const { cases, newCases } = patchVietnamData(cache.byCountry, cache.vietnam, true)
+  const { cases, newCases } = patchVietnamData(cache.byCountry, cache.vietnam, true) || {}
   if (cases == null) return 'N/A'
   let t = cases + ' ca nhiễm'
   if (newCases) t += ` (<b>${newCases}</b>)`
@@ -508,18 +570,26 @@ const makeShortCountry = c => {
 }
 
 const makeTable = (data, filter) => {
-  const headers = [['Nước', 'Nhiễm', 'Mới', 'Chết']]
+  const byDeath = !!filter.byDeath
+  const headers = !byDeath ? [['Nước', 'Nhiễm', 'Mới', 'Chết']] : [['Nước', 'Chết', 'Mới', 'Nhiễm']]
   const topData = getTop(data, filter)
 
-  if (!topData || !topData.length) {
+  if (!topData) {
     return { text: 'Chưa có dữ liệu, vui lòng thử lại sau.' }
+  }
+
+  if (!topData.length) {
+    return { text: 'Không tìm thấy. Tên nước phải bằng tiếng Anh, kiểm tra lại xem có bị sai không?' }
   }
 
   if (topData.length > 1) {
     let hasChina = false
-    const rows = topData.map(({ country, cases, newCases, deaths }) => {
+    const rows = topData.map(({ country, cases, newCases, deaths, newDeaths }) => {
       !hasChina && (hasChina = country === 'China')
-      return [makeShortCountry(country), cases, newCases, deaths]
+      const shortCountry = makeShortCountry(country)
+      return !byDeath ?
+        [shortCountry, cases, newCases, deaths] :
+        [shortCountry, deaths, newDeaths, cases]
     })
     const text = table(headers.concat(rows), {
       align: ['l', 'r', 'r', 'r'],
@@ -531,8 +601,9 @@ const makeTable = (data, filter) => {
   } else {
     const { country, cases, newCases, deaths, newDeaths, casesPerM } = topData[0]
     const hasChina = country === 'China'
+    const isTotal = country === 'Total:'
     const text = [
-      `Quốc gia: <b>${country}</b>`,
+      `${isTotal ? '' : 'Quốc gia: '}<b>${country}</b>`,
       `Ca nhiễm: <b>${cases}</b>`,
       `${hasChina ? 'Hôm qua' : 'Trong ngày'}: <b>${newCases || 0}</b>`,
       `Tử vong: <b>${deaths || 0}</b>`,

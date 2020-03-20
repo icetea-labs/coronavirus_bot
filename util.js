@@ -83,30 +83,26 @@ exports.isChatAdmin = async (bot, msg) => {
   return result && ['creator', 'administrator'].includes(result.status)
 }
 
-exports.sortBy = (array, prop1, prop2) => {
-  return array.sort((a, b) => {
-    return b[prop1] - a[prop1] !== 0 ? b[prop1] - a[prop1] : b[prop2] - a[prop2]
-  })
-}
-
 exports.patchVietnamData = (list, vietnam, noPatch) => {
   if (!vietnam) return
   const vietnamRow = list.find(c => c.country === 'Vietnam')
   if (!vietnamRow) return
 
-  let { country, cases, newCases, deaths, newDeaths, casesPerM } = vietnamRow
+  const vnCases = exports.toInt(vietnam.cases)
+  const vnDeaths = exports.toInt(vietnam.deaths)
+  let { country, cases, newCases, deaths, newDeaths, casesPerM } = exports.rowAsNumber(vietnamRow)
 
   // adjust new cases and new deaths
-  if (+vietnam.cases && +cases < +vietnam.cases) {
-    newCases = (+newCases || 0) + (+vietnam.cases - +cases)
+  if (vnCases && cases < vnCases) {
+    newCases += vnCases - cases
   }
-  if (+vietnam.deaths && +deaths < +vietnam.deaths) {
-    newDeaths = (+newDeaths || 0) + (+vietnam.deaths - +deaths)
+  if (vnDeaths && deaths < vnDeaths) {
+    newDeaths += vnDeaths - deaths
   }
 
   // adjust cases and deaths
-  cases = Math.max(+cases, +vietnam.cases || 0)
-  deaths = Math.max(+deaths || 0, +vietnam.deaths || 0)
+  cases = Math.max(cases, vnCases)
+  deaths = Math.max(deaths, vnDeaths)
 
   const newRow = { country, cases, 
     newCases: newCases ? `+${newCases}` : '',
@@ -118,4 +114,27 @@ exports.patchVietnamData = (list, vietnam, noPatch) => {
 
   // patch to list
   return list.map(c => (c.country === 'Vietnam' ? newRow : c))
+}
+
+exports.toInt = s => {
+  if (typeof s === 'number') return s
+  return Number(s.split(',').join(''))
+}
+
+exports.rowAsNumber = oldRow => {
+  const row = { ...oldRow }
+  row.cases = exports.toInt(row.cases)
+  row.newCases = exports.toInt(row.newCases)
+  row.deaths = exports.toInt(row.deaths)
+  row.newDeaths = exports.toInt(row.newDeaths)
+  row.casesPerM = exports.toInt(row.casesPerM)
+  return row
+}
+
+exports.sortRowBy = (array, prop1, prop2) => {
+  return array.sort((a, b) => {
+    a = exports.rowAsNumber(a)
+    b = exports.rowAsNumber(b)
+    return b[prop1] - a[prop1] !== 0 ? b[prop1] - a[prop1] : b[prop2] - a[prop2]
+  })
 }
