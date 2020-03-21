@@ -120,7 +120,7 @@ bot.onText(/\/alert/, (msg, match) => {
   if (!store.last || !store.last.content) return
 
   const { time, content } = store.last
-  const text = `${time} - BỘ Y TẾ\n~~~~~~~~~~~~\n${formatAlert(content)}`
+  const text = makeAlertMessage(time, content, '')
   send(msg.chat.id, text)
 })
 
@@ -198,7 +198,7 @@ bot.onText(/\/(status|case|dead|death|vietnam|asean|total|world)/, (msg, match) 
     text += '~~~\n\r'
     text += `<pre>${mainText}</pre>`
     if (!country) {
-      text += byDeath ? '\n\r\n\rTheo số ca nhiếm: /status' : '\n\r\n\rTheo số tử vong: /death'
+      text += byDeath ? '\n\r\n\rTheo số ca nhiễm: /status' : '\n\r\n\rTheo số tử vong: /death'
     }
     text += '\n\r~~~\n\r<i>Nguồn: Bộ Y Tế, Worldometers</i>\n\r'
     // if (!onlyChina) {
@@ -392,14 +392,37 @@ const sanitizeChatId = chatId => {
   return (typeof chatId === 'number' || chatId.startsWith('@')) ? chatId : +chatId
 }
 
-const formatAlert = (text) => {
+const isAlertTitle = s => {
+  const l = s.length
+  return l > 8 && l < 48 && s === s.toUpperCase()
+}
+
+const formatAlert = text => {
+  let [title, ...rest] = text.split(':')
+  if (isAlertTitle(title)) {
+    text = rest.join(':')
+  } else {
+    title = ''
+  }
+
   const lines = text.split(';').map(s => s.trim())
-  let formated = lines.join('.\n\n')
+  let formated = lines.join('.\n\n').replace(': 1.', ':\n\n1.')
   const addNewsLink = process.env.PROMOTE_NEWS === '1'
   if (addNewsLink) {
     formated += '\n\nGõ /news để xem thêm tin tức chọn lọc về dịch bệnh.'
   }
-  return formated
+  return { title, body: formated }
+}
+
+const makeAlertMessage = (time, content, hilight = '‼️') => {
+  let { title, body } = formatAlert(content)
+  const pad = '~'.repeat(2 + (hilight ? 1 : 0))
+  let subtitle = `${pad}${time} - BỘ Y TẾ${pad}\n\r`
+  if (!title) {
+    title = `${time} - BỘ Y TẾ`
+    subtitle = '~'.repeat(23 +  (hilight ? 4 : 0))
+  }
+  return `${hilight + title + hilight}\n\r${subtitle}\n\r${body}`
 }
 
 const broadcastAlert = ({ time, content }) => {
@@ -409,11 +432,11 @@ const broadcastAlert = ({ time, content }) => {
   const subs = Array.from(new Set(Object.keys(store.subs || {}).concat(includes)))
   if (!subs || !subs.length) return
 
-  const text = `‼️${time} - BỘ Y TẾ‼️\n\r~~~~~~~~~~~~\n\r${formatAlert(content)}`
+  const text = makeAlertMessage(time, content)
   let timeout = 0
   subs.forEach(chatId => {
     if (exclude.includes(chatId)) return
-    if (store.subs[chatId].noAlert) return
+    if ((store.subs[chatId] || {}).noAlert) return
 
     const sanitizedId = sanitizeChatId(chatId)
     timeout += 100
