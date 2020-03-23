@@ -392,21 +392,44 @@ const sanitizeChatId = chatId => {
   return (typeof chatId === 'number' || chatId.startsWith('@')) ? chatId : +chatId
 }
 
-const isAlertTitle = s => {
+const formatAlertTitle = s => {
   const l = s.length
-  return l > 8 && l < 48 && s === s.toUpperCase()
+  if (l > 8 && l < 48 && s === s.toUpperCase()) {
+    return s.replace(/THÔNG\s+(TIN|BÁO)\s+(VỀ)*\s*(\d+ )*\s*CA\s+BỆNH(\s+SỐ)*/g, 'THÔNG BÁO $3CA BỆNH')
+  } else {
+    return null
+  }
+}
+
+const upperFirstChar = text => text.charAt(0).toUpperCase() + text.slice(1)
+
+const getLines = text => {
+  const lines = text.split(';')
+  return lines.reduce((a, s) => {
+    const t = s.trimStart()
+    const c = t.charAt(0)
+    if (!a.length || c === c.toUpperCase()) {
+      a.push(t)
+    } else {
+      a[a.length - 1] += `;${s}`
+    }
+    return a
+  }, [])
 }
 
 const formatAlert = text => {
   let [title, ...rest] = text.split(':')
-  if (isAlertTitle(title)) {
-    text = rest.join(':')
+  title = formatAlertTitle(title)
+  if (title) {
+    text = rest.join(':').trim()
+    // ensure first letter is uppercase
+    text = upperFirstChar(text)
   } else {
     title = ''
   }
 
-  const lines = text.split(';').map(s => s.trim())
-  let formated = lines.join('.\n\n').replace(': 1.', ':\n\n1.')
+  const lines = getLines(text)
+  let formated = lines.join('.\n\n').replace(/:\s*1./g, ':\n\n1.').replace(/\.\s*(B(N|n)\d\d\d+\s*\:)/g, '.\n\n$1')
   const addNewsLink = process.env.PROMOTE_NEWS === '1'
   if (addNewsLink) {
     formated += '\n\nGõ /news để xem thêm tin tức chọn lọc về dịch bệnh.'
@@ -582,7 +605,7 @@ const getTop = (data, { country, top, byDeath }) => {
 const makeVNCases = () => {
   const { cases, newCases } = patchVietnamData(cache.byCountry, cache.vietnam, true) || {}
   if (cases == null) return 'N/A'
-  let t = cases + ' ca nhiễm'
+  let t = cases + ' ca'
   if (newCases) t += ` (<b>${newCases}</b>)`
   return t
 }
