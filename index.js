@@ -14,7 +14,8 @@ const debug = debugFactory('bot:main')
 let cache = {
   global: {},
   vietnam: {},
-  byCountry: []
+  byCountry: [],
+  yesterday: []
 }
 
 const news = {
@@ -177,16 +178,18 @@ bot.onText(/\/(status|case|dead|death|vietnam|asean|total|world)/, (msg, match) 
   const cmd = match[1]
 
   let country =  msg.text.split(' ').slice(1).join(' ').trim()
+  let top = 10
   if (cmd === 'vietnam') {
     country = 'vietnam'
   } else if (['total', 'world'].includes(cmd)) {
     country = 'total:'
   } else if (country === 'asean' || cmd === 'asean') {
     country = 'indonesia,singapore,thailand,malaysia,philippines,vietnam,cambodia,brunei,myanmar,laos,timor-leste'
+    top = 11
   }
 
   const byDeath = ['dead', 'death'].includes(cmd)
-  const { list, text: mainText } = makeTable(cache, { country, top: 10, byDeath })
+  const { list, text: mainText } = makeTable(cache, { country, top, byDeath })
   // const { list, hasChina, text: mainText } = makeTable(cache, { country })
   // const onlyChina = !list && hasChina
 
@@ -549,6 +552,18 @@ const updateVietnamDataFromZing = async () => {
   }
 }
 
+const parseData = ($, day, array) => {
+  const headers = ['country', 'cases', 'newCases', 'deaths', 'newDeaths', 'recovered', 'activeCases', 'criticalCases', 'casesPerM', 'deathsPerM']
+  $(`#main_table_countries_${day} tbody tr`).each((rowNum, tr) => {
+    const $cells = $(tr).find('td')
+    const row = {}
+    headers.forEach((h, i) => {
+      row[h] = $cells.eq(i).text().trim()
+    })
+    array.push(row)
+  })
+}
+
 const getStatus = async () => {
   const res = await fetch('https://www.worldometers.info/coronavirus/')
   if (!res) return
@@ -557,7 +572,8 @@ const getStatus = async () => {
 
   const d = {
     global: {},
-    byCountry: []
+    byCountry: [],
+    yesterday: []
   }
 
   const $global = $('.maincounter-number span')
@@ -565,17 +581,15 @@ const getStatus = async () => {
   d.global.deaths = $global.eq(1).text().trim()
   d.global.decovered = $global.eq(2).text().trim()
 
-  const headers = ['country', 'cases', 'newCases', 'deaths', 'newDeaths', 'recovered', 'activeCases', 'criticalCases', 'casesPerM']
-  $('#main_table_countries_today tbody tr').each((rowNum, tr) => {
-    const $cells = $(tr).find('td')
-    const row = {}
-    headers.forEach((h, i) => {
-      row[h] = $cells.eq(i).text().trim()
-    })
-    d.byCountry.push(row)
-  })
+  parseData($, 'today', d.byCountry)
+  parseData($, 'yesterday', d.yesterday)
 
   cache = d
+}
+
+const hasNewCases = (c = 'Iran') => {
+  const item = search(c)
+  return Boolean(item && item.newCases && item.newCases.trim().length)
 }
 
 const findByOneCountry = (countries, country) => {
@@ -615,9 +629,20 @@ const makeShortCountry = c => {
   return c.replace(' ', '').substr(0, 7)
 }
 
+const patchNewCases = data => {
+  data.forEach(row => {
+    const yRow = search(row.country, true)
+    if (yRow) {
+      row.newCases = yRow.newCases
+    }
+  })
+}
+
 const makeTable = (data, filter) => {
+  const hasNew = hasNewCases()
   const byDeath = !!filter.byDeath
-  const headers = !byDeath ? [['Nước', 'Nhiễm', 'Mới', 'Chết']] : [['Nước', 'Chết', 'Mới', 'Nhiễm']]
+  const newText = hasNew ? 'Mới' : 'H.Qua'
+  const headers = !byDeath ? [['Nước', 'Nhiễm', newText, 'Chết']] : [['Nước', 'Chết', newText, 'Nhiễm']]
   const topData = getTop(data, filter)
 
   if (!topData) {
@@ -628,14 +653,19 @@ const makeTable = (data, filter) => {
     return { text: 'Không tìm thấy. Tên nước phải bằng tiếng Anh, kiểm tra lại xem có bị sai không?' }
   }
 
+  if (!hasNew) {
+    patchNewCases(topData)
+  }
+
   if (topData.length > 1) {
     let hasChina = false
     const rows = topData.map(({ country, cases, newCases, deaths, newDeaths }) => {
       !hasChina && (hasChina = country === 'China')
       const shortCountry = makeShortCountry(country)
+      const nc = (newCases.length === 7 & newCases[0] === '+') ? newCases.slice(1) : newCases
       return !byDeath ?
-        [shortCountry, cases, newCases, deaths] :
-        [shortCountry, deaths, newDeaths, cases]
+        [shortCountry, cases, nc, deaths] :
+        [shortCountry, deaths, nc, cases]
     })
     const text = table(headers.concat(rows), {
       align: ['l', 'r', 'r', 'r'],
@@ -668,11 +698,15 @@ const updateNews = async () => {
   }
 }
 
+const search = (country, yesterday, data) => {
+  return (data || cache)[yesterday ? 'yesterday' : 'byCountry'].find(c => c.country === country)
+}
+
 const updateStatus = async () => {
   await getStatus()
   await updateVietnamData()
   if (!cache.vietnam || !cache.vietnam.cases) {
-    cache.vietnam = cache.byCountry.find(c => c.country === 'Vietnam') || {}
+    cache.vietnam = search('Vietnam')
   }
 
   updateAlert()
