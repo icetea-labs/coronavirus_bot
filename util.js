@@ -105,14 +105,15 @@ exports.patchVietnamData = (list, vietnam, noPatch) => {
   cases = Math.max(cases, vnCases)
   deaths = Math.max(deaths, vnDeaths)
 
-  const newRow = { 
-    country, cases, 
+  const newRow = {
+    country,
+    cases,
     newCases: newCases ? `+${newCases}` : '',
-    deaths: deaths ? deaths : '', 
+    deaths: deaths || '',
     newDeaths: newDeaths ? `+${newDeaths}` : '',
     activeCases,
     casesPerM,
-    ...rest,
+    ...rest
   }
 
   if (noPatch) return newRow
