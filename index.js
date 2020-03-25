@@ -493,21 +493,33 @@ const isNewAlert = (lastEvent, event) => {
 // Data on the timeline https://ncov.moh.gov.vn/dong-thoi-gian and
 // the homepage 'https://ncov.moh.gov.vn/' is not in sync
 // Sometimes the timeline is earlier, sometimes the homepage is earlier :D
+const randUrl = () => {
+  const urls = [
+    'https://ncov.moh.gov.vn/',
+    'https://ncov.moh.gov.vn/dong-thoi-gian'
+  ]
+  const index = Math.floor(Math.random() * urls.length)
+  const otherIndex = index === 0 ? 1 : 0
+  return { main: urls[index], backup: urls[otherIndex] }
+}
+
 const updateAlert = async url => {
-  const fetchUrl = url || 'https://ncov.moh.gov.vn/dong-thoi-gian'
+  const { main, backup } = randUrl()
+  const tryAgain = () => {
+    if (url == null) {
+      debug('Main URL failed, fallover to backup', main, backup)
+      updateAlert(backup)
+    }
+  }
+  const fetchUrl = url || main
   const res = await fetch(fetchUrl)
-  if (!res) return
+  if (!res) return tryAgain()
 
   const $ = cheerio.load(res.data)
 
   const $this = $('.timeline-detail').eq(0)
   const time = $this.find('.timeline-head').text().trim()
-  if (!time) {
-    if (url == null) {
-      updateAlert('https://ncov.moh.gov.vn/')
-    }
-    return
-  }
+  if (!time) return tryAgain()
 
   const timestamp = getTimestamp(time)
   const content = $this.find('.timeline-content').text().trim()
