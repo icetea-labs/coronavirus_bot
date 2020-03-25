@@ -90,11 +90,12 @@ exports.patchVietnamData = (list, vietnam, noPatch) => {
 
   const vnCases = exports.toInt(vietnam.cases)
   const vnDeaths = exports.toInt(vietnam.deaths)
-  let { country, cases, newCases, deaths, newDeaths, casesPerM } = exports.rowAsNumber(vietnamRow)
+  let { country, cases, newCases, deaths, activeCases, newDeaths, casesPerM, ...rest } = exports.rowAsNumber(vietnamRow)
 
   // adjust new cases and new deaths
   if (vnCases && cases < vnCases) {
     newCases += vnCases - cases
+    activeCases += vnCases - cases
   }
   if (vnDeaths && deaths < vnDeaths) {
     newDeaths += vnDeaths - deaths
@@ -104,11 +105,15 @@ exports.patchVietnamData = (list, vietnam, noPatch) => {
   cases = Math.max(cases, vnCases)
   deaths = Math.max(deaths, vnDeaths)
 
-  const newRow = { country, cases, 
+  const newRow = { 
+    country, cases, 
     newCases: newCases ? `+${newCases}` : '',
     deaths: deaths ? deaths : '', 
     newDeaths: newDeaths ? `+${newDeaths}` : '',
-    casesPerM }
+    activeCases,
+    casesPerM,
+    ...rest,
+  }
 
   if (noPatch) return newRow
 
@@ -126,6 +131,9 @@ exports.rowAsNumber = oldRow => {
   row.cases = exports.toInt(row.cases)
   row.newCases = exports.toInt(row.newCases)
   row.deaths = exports.toInt(row.deaths)
+  row.recovered = exports.toInt(row.recovered)
+  row.activeCases = exports.toInt(row.activeCases)
+  row.criticalCases = exports.toInt(row.criticalCases)
   row.newDeaths = exports.toInt(row.newDeaths)
   row.casesPerM = exports.toInt(row.casesPerM)
   return row

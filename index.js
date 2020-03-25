@@ -587,8 +587,8 @@ const getStatus = async () => {
   cache = d
 }
 
-const hasNewCases = (c = 'Iran') => {
-  const item = search(c)
+const hasNewCases = (data, c = 'Iran') => {
+  const item = search(c, false, data)
   return Boolean(item && item.newCases && item.newCases.trim().length)
 }
 
@@ -629,21 +629,30 @@ const makeShortCountry = c => {
   return c.replace(' ', '').substr(0, 7)
 }
 
-const patchNewCases = data => {
-  data.forEach(row => {
+const patchNewCases = (data, hasNew) => {
+  return data.map(row => {
     const yRow = search(row.country, true)
     if (yRow) {
-      row.newCases = yRow.newCases
+      row = { ...row }
+      row.todayNewCases = row.newCases
+      row.yesterNewCases = yRow.newCases
+      row.todayNewDeaths = row.newDeaths
+      row.yesterNewDeaths = yRow.newDeaths
+      if (!hasNew) {
+        row.newCases = yRow.newCases
+        row.newDeaths = yRow.newDeaths
+      }
     }
+    return row
   })
 }
 
 const makeTable = (data, filter) => {
-  const hasNew = hasNewCases()
+  const hasNew = hasNewCases(data)
   const byDeath = !!filter.byDeath
   const newText = hasNew ? 'Mới' : 'H.Qua'
   const headers = !byDeath ? [['Nước', 'Nhiễm', newText, 'Chết']] : [['Nước', 'Chết', newText, 'Nhiễm']]
-  const topData = getTop(data, filter)
+  let topData = getTop(data, filter)
 
   if (!topData) {
     return { text: 'Chưa có dữ liệu, vui lòng thử lại sau.' }
@@ -653,9 +662,7 @@ const makeTable = (data, filter) => {
     return { text: 'Không tìm thấy. Tên nước phải bằng tiếng Anh, kiểm tra lại xem có bị sai không?' }
   }
 
-  if (!hasNew) {
-    patchNewCases(topData)
-  }
+  topData = patchNewCases(topData, hasNew)
 
   if (topData.length > 1) {
     let hasChina = false
@@ -665,7 +672,7 @@ const makeTable = (data, filter) => {
       const nc = (newCases.length === 7 & newCases[0] === '+') ? newCases.slice(1) : newCases
       return !byDeath ?
         [shortCountry, cases, nc, deaths] :
-        [shortCountry, deaths, nc, cases]
+        [shortCountry, deaths, newDeaths, cases]
     })
     const text = table(headers.concat(rows), {
       align: ['l', 'r', 'r', 'r'],
@@ -675,16 +682,25 @@ const makeTable = (data, filter) => {
     })
     return { list: true, hasChina, text }
   } else {
-    const { country, cases, newCases, deaths, newDeaths, casesPerM } = topData[0]
+    const { country, cases, todayNewCases, yesterNewCases, deaths, todayNewDeaths, yesterNewDeaths,
+      recovered, activeCases, criticalCases, casesPerM, deathsPerM } = topData[0]
     const hasChina = country === 'China'
     const isTotal = country === 'Total:'
     const text = [
       `${isTotal ? '' : 'Quốc gia: '}<b>${country}</b>`,
-      `Ca nhiễm: <b>${cases}</b>`,
-      `${hasChina ? 'Hôm qua' : 'Trong ngày'}: <b>${newCases || 0}</b>`,
-      `Tử vong: <b>${deaths || 0}</b>`,
-      `${hasChina ? 'Hôm qua' : 'Trong ngày'}: <b>${newDeaths || 0}</b>`,
-      `Số ca/1tr dân: <b>${casesPerM}</b>`
+      `Ca nhiễm:`,
+      `- Tổng: <b>${cases}</b>`,
+      `${hasChina ? '- Hôm qua' : '- Mới'}: <b>${todayNewCases || 0}</b>`,
+      `${hasChina ? '- Hôm kia' : '- Hôm qua'}: <b>${yesterNewCases || 0}</b>`,
+      `Tử vong:`,
+      `- Tổng: <b>${deaths || 0}</b>`,
+      `${hasChina ? '- Hôm qua' : '- Mới'}: <b>${todayNewDeaths || 0}</b>`,
+      `${hasChina ? '- Hôm kia' : '- Hôm qua'}: <b>${yesterNewDeaths || 0}</b>`,
+      `Đã khỏi: <b>${recovered || 0}</b>`,
+      `Chưa khỏi: <b>${activeCases || 0}</b>`,
+      `Bệnh nặng: <b>${criticalCases || 0}</b>`,
+      `Số ca/1tr dân: <b>${casesPerM || 0}</b>`,
+      `Tử vong/1tr dân: <b>${deathsPerM || 0}</b>`,
     ].join('\n')
     return { list: false, hasChina, text }
   }
