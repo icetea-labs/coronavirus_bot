@@ -147,3 +147,12 @@ exports.sortRowBy = (array, prop1, prop2) => {
     return b[prop1] - a[prop1] !== 0 ? b[prop1] - a[prop1] : b[prop2] - a[prop2]
   })
 }
+
+exports.escapeHtml = unsafe => {
+  return unsafe
+       .replace(/&/g, "&amp;")
+       .replace(/</g, "&lt;")
+       .replace(/>/g, "&gt;")
+       .replace(/"/g, "&quot;")
+       .replace(/'/g, "&#039;");
+}

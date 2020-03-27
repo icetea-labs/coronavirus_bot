@@ -4,7 +4,7 @@ const TelegramBot = require('node-telegram-bot-api')
 const table = require('markdown-table')
 const { tryLoadData, saveData, trySaveData } = require('./persist')
 const { getNews } = require('./news')
-const { fetch, sendMessage, editMessage, isChatAdmin, sortRowBy, patchVietnamData } = require('./util')
+const { fetch, sendMessage, editMessage, isChatAdmin, sortRowBy, patchVietnamData, escapeHtml } = require('./util')
 const NAMES = require('./country.json')
 
 const debugFactory = require('debug')
@@ -122,7 +122,7 @@ bot.onText(/\/alert/, (msg, match) => {
 
   const { time, content } = store.last
   const text = makeAlertMessage(time, content, '')
-  send(msg.chat.id, text)
+  send(msg.chat.id, text, { parse_mode: 'HTML' })
 })
 
 bot.onText(/\/new/, async (msg, match) => {
@@ -400,7 +400,7 @@ const formatAlertTitle = s => {
   if (l > 8 && l < 48 && s === s.toUpperCase()) {
     s = s.replace(/THÔNG\s+(TIN|BÁO)\s+(VỀ)*\s*(\d+ )*\s*CA\s+BỆNH(\s+SỐ)*/g, 'THÔNG BÁO $3CA BỆNH')
     if (s.endsWith('CỦA BỘ Y TẾ')) s = s.replace('CỦA BỘ Y TẾ', '').trim()
-    return s
+    return '<b>' + escapeHtml(s) + '</b>'
   } else {
     return null
   }
@@ -419,7 +419,9 @@ const getLines = text => {
       a[a.length - 1] += `;${s}`
     }
     return a
-  }, [])
+  }, []).map(l => {
+    return escapeHtml(l).replace(/^(BN\d\d\d+|Bệnh\s+nhân\s+\d\d\d+)/i, '<b>$1</b>')
+  })
 }
 
 const formatAlert = text => {
@@ -434,7 +436,7 @@ const formatAlert = text => {
   }
 
   const lines = getLines(text)
-  let formated = lines.join('.\n\n').replace(/:\s*1./g, ':\n\n1.').replace(/\.\s*(B(N|n)\d\d\d+\s*\:)/g, '.\n\n$1')
+  let formated = lines.join('.\n\n').replace(/:\s*1./g, ':\n\n1.').replace(/\.\s*(B(N|n)\d\d\d+\s*\:)/g, '.\n\n<b>$1</b>')
   const addNewsLink = process.env.PROMOTE_NEWS === '1'
   if (addNewsLink) {
     formated += '\n\nGõ /news để xem thêm tin tức chọn lọc về dịch bệnh.'
@@ -468,7 +470,7 @@ const broadcastAlert = ({ time, content }) => {
 
     const sanitizedId = sanitizeChatId(chatId)
     timeout += 100
-    const options = makeSendOptions(sanitizeChatId(sanitizedId))
+    const options = makeSendOptions(sanitizeChatId(sanitizedId), 'HTML')
     setTimeout(() => {
       send(sanitizedId, text, options)
     }, timeout)
@@ -622,11 +624,11 @@ const getTop = (data, { country, top, byDeath }) => {
     }, [])
 
     // remove dup and sort
-    const sortProps = !byDeath ? ['cases', 'deaths'] : ['deaths', 'cases']
-    countries = sortRowBy(Array.from(new Set(countries)), ...sortProps)
+    countries = Array.from(new Set(countries))
   }
 
-  if (byDeath) countries = sortRowBy(countries, 'deaths', 'cases').filter(c => c.country !== 'Total:')
+  const sortProps = !byDeath ? ['cases', 'deaths'] : ['deaths', 'cases']
+  countries = sortRowBy(countries, ...sortProps).filter(c => c.country !== 'Total:')
   return countries.slice(0, top)
 }
 

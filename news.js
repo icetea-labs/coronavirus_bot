@@ -13,7 +13,7 @@ exports.getNews = () => {
 
   return fetch(url, {
     [hname]: hvalue
-  }).then(({ data }) => {
+  }).then(({ data = { data: [] } } = {}) => {
     return data.data.reduce((list, item, index) => {
       if (item.data && item.data.length) {
         const info = item.data[0]
