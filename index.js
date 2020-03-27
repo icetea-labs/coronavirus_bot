@@ -18,13 +18,17 @@ let cache = {
   yesterday: []
 }
 
+let patients = []
+
 const news = {
   list: [],
   timestamp: 0
 }
 
 const store = Object.assign({
-  last: null,
+  last: null, // last alert
+  lastPtCount: 0, // last VN patient count
+  lastPtRowCount: 0, // last VN patent row
   subs: {}
 }, tryLoadData())
 
@@ -213,6 +217,31 @@ bot.onText(/\/(status|case|dead|death|vietnam|asean|total|world)/, (msg, match) 
   send(msg.chat.id, text, makeSendOptions(msg, 'HTML'))
 })
 
+bot.onText(/\/bn\s*(\d*)/i, async (msg, match) => {
+  const num = Number(match[1])
+  if (!num) {
+    send(msg.chat.id, 'Mã số bệnh nhân không hợp lệ. Cú pháp đúng ví dụ /bn123')
+    return
+  }
+  const pt = 'BN' + num
+  if (num < 17) {
+    send(msg.chat.id, `${pt} thuộc nhóm 16 bệnh nhân giai đoạn 1, từ ngày 23/1 đến ngày 13/2, đã khỏi bệnh hoàn toàn.`)
+    return
+  }
+
+  if (patients && patients.length) {
+    const item = patients.find(p => p.bnList.includes(pt))
+    if (item) {
+      send(msg.chat.id, `${item.bn}: ${item.content}`)
+    } else {
+      send(msg.chat.id, `Không tìm thấy bệnh nhân số ${num}.`)
+    }
+  } else {
+    send(msg.chat.id, 'Chưa có thông tin về bệnh nhân, vui lòng thử lại sau.')
+  }
+
+})
+
 bot.onText(/\/(subscribe|unsubscribe)/, async (msg, match) => {
   const cmd = match[1]
   const noAlert = cmd === 'unsubscribe'
@@ -262,6 +291,11 @@ const handleNoTalk = msg => {
     send(msg.chat.id, 'Admin đã cấm chat lệnh cho bot trong group này để giảm nhiễu. Vui lòng chat riêng với bot.')
   }
   return shouldDeny
+}
+
+const wakeAlerter = (m, parseMode) => {
+  const alerter = Number(process.env.ALERTER)
+  if (alerter) send(alerter, m, makeSendOptions(alerter, parseMode))
 }
 
 const getStats = () => {
@@ -452,7 +486,7 @@ const makeAlertMessage = (time, content, hilight = '‼️') => {
     title = `${time} - BỘ Y TẾ`
     subtitle = '~'.repeat(23 + (hilight ? 4 : 0))
   }
-  return `${hilight + title + hilight}\n\r${subtitle}\n\r${body}`
+  return `${hilight + title + hilight}\n\r${subtitle}\n\r${linkify(body)}`
 }
 
 const broadcastAlert = ({ time, content }) => {
@@ -469,7 +503,7 @@ const broadcastAlert = ({ time, content }) => {
     if ((store.subs[chatId] || {}).noAlert) return
 
     const sanitizedId = sanitizeChatId(chatId)
-    timeout += 100
+    timeout += 75
     const options = makeSendOptions(sanitizeChatId(sanitizedId), 'HTML')
     setTimeout(() => {
       send(sanitizedId, text, options)
@@ -537,6 +571,45 @@ const updateAlert = async url => {
   }
 }
 
+const extractNumber = bn => {
+  bn = bn.toUpperCase()
+  if (bn.startsWith('BN')) bn = bn.slice(2)
+  return bn
+}
+
+const handleVNRowChange = () => {
+  if (patients.length) {
+    const old = store.lastPtRowCount
+    store.lastPtRowCount = patients.length
+    if (old && old < patients.length) {
+      // recent (bigger number) are at the begining of patients array
+
+      const newPts = patients.slice(0, patients.length - old)
+      let bnList = []
+      const mess = newPts.reduce((m, p) => {
+        m.push(`<b>${escapeHtml(p.bn)}</b>: ${escapeHtml(p.content)}`)
+        bnList = bnList.concat(p.bnList)
+        return m
+      }, []).join('\n\n')
+      bnList = bnList.sort()
+      const bn = bnList.length <= 1 ? bnList[0] : `${extractNumber(bnList[0])}~${extractNumber(bnList[bnList.length - 1])}`
+      const title = `<b>‼️THÔNG BÁO CA BỆNH ${bn}‼️</b>`
+      wakeAlerter(`${title}\n\n${mess}`, 'HTML')
+    }
+  }
+}
+
+const handleVNCaseChange = () => {
+  const caseCnt = Number(cache.vietnam.cases)
+  if (caseCnt) {
+    const old = store.lastPtCount
+    store.lastPtCount = caseCnt
+    if (old && old < caseCnt) {
+      wakeAlerter(`Có thêm ca bệnh mới: ${old + 1}~${caseCnt}`)
+    }
+  }
+}
+
 // because Vietnam's cases are reported earlier on MoH site than on Worldometers
 const updateVietnamData = async () => {
   const res = await fetch('https://ncov.moh.gov.vn/')
@@ -550,10 +623,45 @@ const updateVietnamData = async () => {
   const m = res.data.match(/"VNALL","soCaNhiem":"(\d+)","tuVong":"(\d+)",/)
   if (m && m[1]) {
     cache.vietnam = Object.assign(cache.vietnam || {}, { cases: m[1], deaths: m[2] || '0' })
+    handleVNCaseChange()
   } else {
     updateVietnamDataFromZing()
   }
+
+  // now, update patient list
+  const $ = cheerio.load(res.data)
+  const lines = $('.col-md-9>div>p').text().replace('BN04', 'BN104').split('*')
+  const patientList = lines.reduce((list, line) => {
+    line = line.trim()
+    if (!line.length) return list
+
+    const [bn, ...rest] = line.split(':')
+    const bnList = bn.split(',').map(s => s.trim()).reduce((list, b) => {
+      const m = b.match(/BN(\d+)\s+đến\s+BN(\d+)/i)
+      if (m && m.length) {
+        const from = Number(m[1])
+        const to = Number(m[2])
+        for (let i = from; i <= to; i++) {
+          list.push('BN' + i)
+        }
+      } else {
+        list.push(b)
+      }
+      return list
+    }, [])
+    //  .join(',').split('đến').map(s => s.trim()).join('~')
+    const content = linkify(rest.join(':').trim().replace(/[-;]\s*(BN\d\d+)\s*:\s*/gi, '\n- $1: '))
+    list.push({bn, bnList, content})
+    return list
+  }, [])
+
+  if (patientList && patientList.length) {
+    patients = patientList
+    handleVNRowChange()
+  }
 }
+
+const linkify = s => s.replace(/(BN\d\d+)/gi, '/$1')
 
 const updateVietnamDataFromZing = async () => {
   const res = await fetch('https://news.zing.vn')
@@ -565,6 +673,7 @@ const updateVietnamDataFromZing = async () => {
 
   if (m && m[1]) {
     cache.vietnam = Object.assign(cache.vietnam || {}, { cases: m[1], deaths: m[2] || '0' })
+    handleVNCaseChange()
   }
 }
 
