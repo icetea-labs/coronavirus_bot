@@ -221,6 +221,7 @@ bot.onText(/\/(status|case|dead|death|vietnam|asean|total|world)/, (msg, match) 
 })
 
 bot.onText(/\/(sea?rch|budd?ha|b[aạ]chj?(?:\s+|_)?mai)(?:@\w+)?\s*(.*)/i, async (msg, match) => {
+  trySaveData(store, msg)
   const cmd = match[1].toLowerCase().replace(/(\s+|_)/, '')
   let keyword = match[2].trim().toLowerCase()
   if (['bachmai', 'bạchmai', 'bachjmai', 'bạchjmai'].includes(cmd)) {
@@ -235,12 +236,7 @@ bot.onText(/\/(sea?rch|budd?ha|b[aạ]chj?(?:\s+|_)?mai)(?:@\w+)?\s*(.*)/i, asyn
   }
 
   if (patients && patients.length) {
-    const keepVN = hasVnChars(keyword)
-    const list = patients.filter(p => {
-      let c = p.content.toLowerCase()
-      if (!keepVN) c = replaceVnChars(c)
-      return c.includes(keyword)
-    })
+    const list = searchPatients(keyword)
     if (list.length) {
       send(msg.chat.id, formatSearchResult(keyword, list), { parse_mode: 'HTML' })
     } else {
@@ -253,6 +249,7 @@ bot.onText(/\/(sea?rch|budd?ha|b[aạ]chj?(?:\s+|_)?mai)(?:@\w+)?\s*(.*)/i, asyn
 })
 
 bot.onText(/\/bn(?:@\w+)?\s*(\d*)/i, async (msg, match) => {
+  trySaveData(store, msg)
   const num = Number(match[1])
   if (!num) {
     send(msg.chat.id, 'Mã số bệnh nhân không hợp lệ. Cú pháp đúng ví dụ như /bn123')
@@ -267,7 +264,12 @@ bot.onText(/\/bn(?:@\w+)?\s*(\d*)/i, async (msg, match) => {
   if (patients && patients.length) {
     const item = patients.find(p => p.bnList.includes(pt))
     if (item) {
-      send(msg.chat.id, `${item.bn}: ${item.content}`)
+      let text = `<b>${escapeHtml(item.bn)}</b>: ${hilightKeywords(escapeHtml(item.content))}`
+      const list = searchPatients('bn' + num)
+      if (list.length) {
+        text += `\n\n${pt} có thể đã lây cho: ` + patientListToCmdList(list).join(', ')
+      }
+      send(msg.chat.id, text, { parse_mode: 'HTML'})
     } else {
       send(msg.chat.id, `Không tìm thấy bệnh nhân số ${num}.`)
     }
@@ -328,8 +330,31 @@ const handleNoTalk = msg => {
   return shouldDeny
 }
 
+const searchPatients = keyword => {
+  const keepVN = hasVnChars(keyword)
+  return patients.filter(p => {
+    let c = p.content.toLowerCase()
+    if (!keepVN) c = replaceVnChars(c)
+    const bnMatch = keyword.match(/^bn(\d\d\d*)$/i)
+    if (bnMatch) {
+      const ddd = bnMatch[1]
+      return c.includes(keyword) || c.match(new RegExp(`benh\\s+nhan\\s+(so\\s+)?${ddd}`))
+    } else {
+      return c.includes(keyword)
+    }
+  })
+}
+
+const hilightKeywords = t => {
+  return [/(bạch mai)/gi, /(buddha)/gi].reduce((s, w) => s.replace(w, (m, p) => {
+    return '/' + replaceVnChars(p.toLowerCase()).replace(/ /g, '_')
+  }), t)
+}
+
+const patientListToCmdList = list => list.reduce((ps, p) => ps = ps.concat(p.bnList), []).map(s => `/${s}`)
+
 const formatSearchResult = (keyword, list) => {
-  list = list.reduce((ps, p) => ps = ps.concat(p.bnList), []).map(s => `/${s}`)
+  list = patientListToCmdList(list)
   let s
   if (list.length <= 15) {
     s = list.join(', ')
@@ -523,7 +548,7 @@ const formatAlert = text => {
     //formated += '\n\nGõ /news để xem thêm tin tức chọn lọc về dịch bệnh.'
     formated += '\n\nThử /search để tìm kiếm bệnh nhân.'
   }
-  return { title, body: formated }
+  return { title, body: hilightKeywords(formated) }
 }
 
 const makeAlertMessage = (time, content, hilight = '‼️') => {
