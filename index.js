@@ -220,10 +220,10 @@ bot.onText(/\/(status|case|dead|death|vietnam|asean|total|world)/, (msg, match) 
   send(msg.chat.id, text, makeSendOptions(msg, 'HTML'))
 })
 
-bot.onText(/\/(sea?rch|budd?ha|bach(?:\s+|_)?mai)(?:@\w+)?\s*(.*)/i, async (msg, match) => {
+bot.onText(/\/(sea?rch|budd?ha|b[aạ]chj?(?:\s+|_)?mai)(?:@\w+)?\s*(.*)/i, async (msg, match) => {
   const cmd = match[1].toLowerCase().replace(/(\s+|_)/, '')
   let keyword = match[2].trim().toLowerCase()
-  if (cmd === 'bachmai') {
+  if (['bachmai', 'bạchmai', 'bachjmai', 'bạchjmai'].includes(cmd)) {
     keyword = 'bạch mai'
   } else if (['buddha', 'budha'].includes(cmd)) {
     keyword = 'buddha'
@@ -693,7 +693,7 @@ const updateVietnamData = async () => {
           list.push('BN' + i)
         }
       } else {
-        list.push(b)
+        list.push(b.replace(/\s+/g, ''))
       }
       return list
     }, [])

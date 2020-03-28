@@ -16,4 +16,4 @@ const map = {
 }
 
 exports.replaceVnChars = t => Object.entries(map).reduce((s, [k, v]) => s.replace(v, k), t)
-exports.hasVnChars = t => Object.values(map).some(v => v.test(t))
+exports.hasVnChars = t => Object.values(map).some(v => t.match(v))
