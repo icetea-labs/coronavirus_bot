@@ -67,6 +67,8 @@ bot.onText(/\/(start|help|menu|about)/, (msg, match) => {
     '/death - thống kê theo ca tử vong',
     'Có thể xem theo quốc gia, ví dụ <code>/status malay,indo</code>',
     '/asean - thống kê cho các nước ASEAN\n',
+    '/bn - xem thông tin về 1 bệnh nhân',
+    '/search - tìm kiếm bệnh nhân\n',
     '/news - tin tức chọn lọc',
     '/alert - xem thông báo mới nhất từ Bộ Y Tế\n',
     ...extraCmds,
