@@ -5,6 +5,7 @@ const table = require('markdown-table')
 const { tryLoadData, saveData, trySaveData } = require('./persist')
 const { getNews } = require('./news')
 const { fetch, sendMessage, editMessage, isChatAdmin, sortRowBy, patchVietnamData, escapeHtml } = require('./util')
+const { hasVnChars, replaceVnChars } = require('./vn')
 const NAMES = require('./country.json')
 
 const debugFactory = require('debug')
@@ -79,8 +80,8 @@ bot.onText(/\/(start|help|menu|about)/, (msg, match) => {
   send(msg.chat.id, commands, { parse_mode: 'HTML', disable_web_page_preview: true })
 })
 
-bot.onText(/\/admin(@\w+)?(\s+(\w+))?/, (msg, match) => {
-  const what = match[3] || 'stats'
+bot.onText(/\/admin(?:@\w+)?(?:\s+(\w+))?/, (msg, match) => {
+  const what = match[1] || 'stats'
   if (!['stats', 'groups'].includes(what)) {
     return
   }
@@ -217,10 +218,42 @@ bot.onText(/\/(status|case|dead|death|vietnam|asean|total|world)/, (msg, match) 
   send(msg.chat.id, text, makeSendOptions(msg, 'HTML'))
 })
 
-bot.onText(/\/bn\s*(\d*)/i, async (msg, match) => {
+bot.onText(/\/(sea?rch|budd?ha|bach(?:\s+|_)?mai)(?:@\w+)?\s*(.*)/i, async (msg, match) => {
+  const cmd = match[1].toLowerCase().replace(/(\s+|_)/, '')
+  let keyword = match[2].trim().toLowerCase()
+  if (cmd === 'bachmai') {
+    keyword = 'bạch mai'
+  } else if (['buddha', 'budha'].includes(cmd)) {
+    keyword = 'buddha'
+  }
+  if (!keyword) {
+    send(msg.chat.id, 'Cần nhập từ khoá tìm kiếm, ví dụ:\n<code>/search bach mai</code>\n<code>/search bar</code>\n<code>/search bn34</code>' +
+     '\nHoặc có thể dùng vài lệnh tắt như /bachmai, /buddha', { parse_mode: 'HTML'})
+    return
+  }
+
+  if (patients && patients.length) {
+    const keepVN = hasVnChars(keyword)
+    const list = patients.filter(p => {
+      let c = p.content.toLowerCase()
+      if (!keepVN) c = replaceVnChars(c)
+      return c.includes(keyword)
+    })
+    if (list.length) {
+      send(msg.chat.id, formatSearchResult(keyword, list), { parse_mode: 'HTML' })
+    } else {
+      send(msg.chat.id, `Không tìm thấy bệnh bệnh nhân nào cho từ khoá "${keyword}".`, {})
+    }
+  } else {
+    send(msg.chat.id, 'Chưa có thông tin về bệnh nhân, vui lòng thử lại sau.')
+  }
+
+})
+
+bot.onText(/\/bn(?:@\w+)?\s*(\d*)/i, async (msg, match) => {
   const num = Number(match[1])
   if (!num) {
-    send(msg.chat.id, 'Mã số bệnh nhân không hợp lệ. Cú pháp đúng ví dụ /bn123')
+    send(msg.chat.id, 'Mã số bệnh nhân không hợp lệ. Cú pháp đúng ví dụ như /bn123')
     return
   }
   const pt = 'BN' + num
@@ -291,6 +324,18 @@ const handleNoTalk = msg => {
     send(msg.chat.id, 'Admin đã cấm chat lệnh cho bot trong group này để giảm nhiễu. Vui lòng chat riêng với bot.')
   }
   return shouldDeny
+}
+
+const formatSearchResult = (keyword, list) => {
+  list = list.reduce((ps, p) => ps = ps.concat(p.bnList), []).map(s => `/${s}`)
+  let s
+  if (list.length <= 15) {
+    s = list.join(', ')
+  } else {
+    const more = list.length - 15
+    s = list.slice(0, 15).join(', ') + ` và ${more} bệnh nhân khác.`
+  }
+  return `Tìm thấy <b>${list.length}</b> bệnh nhân cho từ khoá "<i>${keyword}</i>": ${s}`
 }
 
 const wakeAlerter = (m, parseMode) => {
@@ -473,7 +518,8 @@ const formatAlert = text => {
   let formated = lines.join('.\n\n').replace(/:\s*1./g, ':\n\n1.').replace(/\.\s*(B(N|n)\d\d\d+\s*\:)/g, '.\n\n<b>$1</b>')
   const addNewsLink = process.env.PROMOTE_NEWS === '1'
   if (addNewsLink) {
-    formated += '\n\nGõ /news để xem thêm tin tức chọn lọc về dịch bệnh.'
+    //formated += '\n\nGõ /news để xem thêm tin tức chọn lọc về dịch bệnh.'
+    formated += '\n\nThử /search để tìm kiếm bệnh nhân.'
   }
   return { title, body: formated }
 }
@@ -776,7 +822,7 @@ const makeTable = (data, filter) => {
   const hasNew = hasNewCases(data)
   const byDeath = !!filter.byDeath
   const newText = hasNew ? 'Mới' : 'H.Qua'
-  const headers = !byDeath ? [['Nước', 'Nhiễm', newText, 'Chết']] : [['Nước', 'Chết', newText, 'Nhiễm']]
+  const headers = !byDeath ? [['Nước', '  Nhiễm', newText, 'Chết']] : [['Nước', ' Chết', newText, 'Nhiễm']]
   let topData = getTop(data, filter)
 
   if (!topData) {
@@ -804,7 +850,9 @@ const makeTable = (data, filter) => {
       padding: false,
       delimiterStart: false,
       delimiterEnd: false
-    })
+    }).split('\n').map((s, i) => {
+      return s.replace('|', '')
+    }).join('\n').replace(/\:/g, '-').replace(/\|/g, '¦')
     return { list: true, hasChina, text }
   } else {
     const {
