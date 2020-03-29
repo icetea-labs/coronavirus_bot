@@ -536,7 +536,8 @@ const sanitizeChatId = chatId => {
 const formatAlertTitle = s => {
   const l = s.length
   if (l > 8 && l < 48 && s === s.toUpperCase()) {
-    s = s.replace(/THÔNG\s+(TIN|BÁO)\s+(VỀ)*\s*(\d+ )*\s*CA\s+BỆNH(\s+SỐ)*/g, 'THÔNG BÁO $3CA BỆNH')
+    s = s.replace(/THÔNG\s+(?:TIN|BÁO)\s+(?:VỀ)*\s*(\d+ )*\s*CA\s+BỆNH(?:\s+SỐ)*/g, 'THÔNG BÁO $1CA BỆNH')
+      .replace(/(?:TỪ )?(\d\d\d+) ĐẾN (\d\d\d+)$/, '$1~$2')
     if (s.endsWith('CỦA BỘ Y TẾ')) s = s.replace('CỦA BỘ Y TẾ', '').trim()
     return '<b>' + escapeHtml(s) + '</b>'
   } else {
@@ -558,7 +559,7 @@ const getLines = text => {
     }
     return a
   }, []).map(l => {
-    return escapeHtml(l).replace(/^(BN\d\d\d+|Bệnh\s+nhân\s+(số )?\s*\d\d\d+)/i, '<b>$1</b>')
+    return escapeHtml(l).replace(/(?:BN|bệnh\s+nhân\s+(?:số |thứ )?)\s*(\d\d+)(?:\s*\(BN\1\))?/i, '<b>BN$1</b>')
   })
 }
 
@@ -766,7 +767,7 @@ const updateVietnamData = async () => {
   }
 }
 
-const linkify = s => s.replace(/(?:BN|bệnh\s+nhân\s+(?:số )?)\s*(\d\d+)/gi, '/BN$1')
+const linkify = s => s.replace(/(?:BN|bệnh\s+nhân\s+(?:số |thứ )?)\s*(\d\d+)(?:\s*\(BN\1\))?/gi, '/BN$1')
 
 const updateVietnamDataFromZing = async () => {
   const res = await fetch('https://news.zing.vn')
