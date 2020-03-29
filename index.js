@@ -224,10 +224,14 @@ bot.onText(/\/(sea?rch|budd?ha|b[aạ]chj?(?:\s+|_)?mai)(?:@\w+)?\s*(.*)/i, asyn
   trySaveData(store, msg)
   const cmd = match[1].toLowerCase().replace(/(\s+|_)/, '')
   let keyword = match[2].trim().toLowerCase()
+  if (keyword === 'hanoi') keyword = 'ha noi'
+  let recursive = false
   if (['bachmai', 'bạchmai', 'bachjmai', 'bạchjmai'].includes(cmd)) {
     keyword = 'bạch mai'
+    recursive = true
   } else if (['buddha', 'budha'].includes(cmd)) {
     keyword = 'buddha'
+    recursive = true
   }
   if (!keyword) {
     send(msg.chat.id, 'Cần nhập từ khoá tìm kiếm, ví dụ:\n<code>/search bach mai</code>\n<code>/search bar</code>\n<code>/search bn34</code>' +
@@ -236,9 +240,9 @@ bot.onText(/\/(sea?rch|budd?ha|b[aạ]chj?(?:\s+|_)?mai)(?:@\w+)?\s*(.*)/i, asyn
   }
 
   if (patients && patients.length) {
-    const list = searchPatients(keyword)
+    const list = searchPatients([], keyword, recursive)
     if (list.length) {
-      send(msg.chat.id, formatSearchResult(keyword, list), { parse_mode: 'HTML' })
+      send(msg.chat.id, formatSearchResult(keyword, list, recursive), { parse_mode: 'HTML' })
     } else {
       send(msg.chat.id, `Không tìm thấy bệnh bệnh nhân nào cho từ khoá "${keyword}".`, {})
     }
@@ -265,13 +269,17 @@ bot.onText(/\/bn(?:@\w+)?\s*(\d*)/i, async (msg, match) => {
     const item = patients.find(p => p.bnList.includes(pt))
     if (item) {
       let text = `<b>${escapeHtml(item.bn)}</b>: ${hilightKeywords(escapeHtml(item.content))}`
-      const list = searchPatients('bn' + num)
+      const list = searchPatients([], 'bn' + num)
       if (list.length) {
-        text += `\n\n${pt} có thể đã lây cho: ` + patientListToCmdList(list).join(', ')
+        text += `\n\n${pt} có thể đã lây cho: ` + patientListToCmdList(list).reverse().join(', ')
       }
       send(msg.chat.id, text, { parse_mode: 'HTML'})
     } else {
-      send(msg.chat.id, `Không tìm thấy bệnh nhân số ${num}.`)
+      if (store.lastPtCount > num) {
+        send(msg.chat.id, `Chưa cập nhật thông tin cho bệnh nhân ${num}, vui lòng đợi khoảng 10 phút.`)
+      } else {
+        send(msg.chat.id, `Không tìm thấy bệnh nhân ${num}.`)
+      }
     }
   } else {
     send(msg.chat.id, 'Chưa có thông tin về bệnh nhân, vui lòng thử lại sau.')
@@ -325,24 +333,45 @@ const isNoTalk = msg => Boolean((store.subs[msg.chat.id] || {}).noTalk)
 const handleNoTalk = msg => {
   const shouldDeny = ['group', 'supergroup'].includes(msg.chat.type) && isNoTalk(msg)
   if (shouldDeny) {
-    send(msg.chat.id, 'Admin đã cấm chat lệnh cho bot trong group này để giảm nhiễu. Vui lòng chat riêng với bot.')
+    send(msg.chat.id, 'Admin đã cấm chat lệnh cho bot trong group này. Vui lòng chat riêng với bot.')
   }
   return shouldDeny
 }
 
-const searchPatients = keyword => {
+const searchPatients = (collector, keyword, recursive) => {
+  const bnMatch = keyword.match(/^bn(\d\d\d*)$/i)
+  const kwordRegex = new RegExp('\\b' + keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b')
+  const hcmNames = ['hcm', 'ho chi minh', 'hồ chí minh', 'saigon', 'sài gòn']
+  const isHcm = hcmNames.includes(keyword)
   const keepVN = hasVnChars(keyword)
-  return patients.filter(p => {
+  const filtered = patients.filter(p => {
+    if (collector.includes(p)) return false
+
     let c = p.content.toLowerCase()
     if (!keepVN) c = replaceVnChars(c)
-    const bnMatch = keyword.match(/^bn(\d\d\d*)$/i)
     if (bnMatch) {
       const ddd = bnMatch[1]
-      return c.includes(keyword) || c.match(new RegExp(`benh\\s+nhan\\s+(so\\s+)?${ddd}`))
+      return c.match(kwordRegex) || c.match(new RegExp(`benh\\s+nhan\\s+(so\\s+)?${ddd}`))
+    } else if (isHcm) {
+      return hcmNames.some(name => c.includes(name))
     } else {
-      return c.includes(keyword)
+      return c.match(kwordRegex)
     }
   })
+
+  collector.push(...filtered)
+
+  // search recursive
+  if (recursive) {
+    filtered.forEach(p => {
+      p.bnList.forEach(bn => {
+        searchPatients(collector, bn.toLowerCase(), true)
+      })
+    })
+  }
+
+  return collector
+
 }
 
 const hilightKeywords = t => {
@@ -351,18 +380,21 @@ const hilightKeywords = t => {
   }), t)
 }
 
-const patientListToCmdList = list => list.reduce((ps, p) => ps = ps.concat(p.bnList), []).map(s => `/${s}`)
+const patientListToCmdList = list => list.reduce((ps, p) => ps = ps.concat(p.bnList), [])
+  .sort((a, b) => +b.slice(2) - +a.slice(2))
+  .map(s => `/${s}`)
 
-const formatSearchResult = (keyword, list) => {
+const formatSearchResult = (keyword, list, showAll) => {
   list = patientListToCmdList(list)
+  const show = 15
   let s
-  if (list.length <= 15) {
+  if (showAll || list.length <= show) {
     s = list.join(', ')
   } else {
-    const more = list.length - 15
-    s = list.slice(0, 15).join(', ') + ` và ${more} bệnh nhân khác.`
+    const more = list.length - show
+    s = list.slice(0, show).join(', ') + ` và ${more} bệnh nhân khác.`
   }
-  return `Tìm thấy <b>${list.length}</b> bệnh nhân cho từ khoá "<i>${keyword}</i>": ${s}`
+  return `Tìm thấy <b>${list.length}</b> bệnh nhân có từ khoá "<i>${keyword}</i>": ${s}`
 }
 
 const wakeAlerter = (m, parseMode) => {
@@ -810,7 +842,10 @@ const getTop = (data, { country, top, byDeath }) => {
   }
 
   const sortProps = !byDeath ? ['cases', 'deaths'] : ['deaths', 'cases']
-  countries = sortRowBy(countries, ...sortProps).filter(c => c.country !== 'Total:')
+  countries = sortRowBy(countries, ...sortProps)
+  if (countries.length > 1) {
+    countries = countries.filter(c => c.country !== 'Total:')
+  }
   return countries.slice(0, top)
 }
 
@@ -872,14 +907,24 @@ const makeTable = (data, filter) => {
         ? [shortCountry, cases, nc, deaths]
         : [shortCountry, deaths, newDeaths, cases]
     })
-    const text = table(headers.concat(rows), {
+
+    let lines = table(headers.concat(rows), {
       align: ['l', 'r', 'r', 'r'],
       padding: false,
       delimiterStart: false,
       delimiterEnd: false
     }).split('\n').map((s, i) => {
       return s.replace('|', '')
-    }).join('\n').replace(/\:/g, '-').replace(/\|/g, '¦')
+    })
+
+    const wrapLimit = 27
+    const delta = lines[0].length - wrapLimit
+    if (delta > 0) {
+      lines = lines.map((s, i) => s.replace(i === 1 ? '-' : ' ', ''))
+    }
+    
+    text = lines.join('\n').replace(/\:/g, '-').replace(/\|/g, '¦')
+
     return { list: true, hasChina, text }
   } else {
     const {
