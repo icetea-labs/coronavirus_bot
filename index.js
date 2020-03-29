@@ -575,7 +575,7 @@ const formatAlert = text => {
   }
 
   const lines = getLines(text)
-  let formated = lines.join('.\n\n').replace(/:\s*1./g, ':\n\n1.').replace(/\.\s*(B(N|n)\d\d\d+\s*[\:\,])/g, '.\n\n<b>$1</b>')
+  let formated = lines.join('.\n\n').replace(/:\s*1\./g, ':\n\n1.').replace(/\.\s*(B(N|n)\d\d\d+\s*[\:\,])/g, '.\n\n<b>$1</b>')
   const addNewsLink = process.env.PROMOTE_NEWS === '1'
   if (addNewsLink) {
     //formated += '\n\nGõ /news để xem thêm tin tức chọn lọc về dịch bệnh.'
@@ -591,6 +591,7 @@ const makeAlertMessage = (time, content, hilight = '‼️') => {
   if (!title) {
     title = `${time} - BỘ Y TẾ`
     subtitle = '~'.repeat(23 + (hilight ? 4 : 0))
+    hilight = ''
   }
   return `${hilight + title + hilight}\n\r${subtitle}\n\r${linkify(body)}`
 }
