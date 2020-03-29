@@ -234,7 +234,7 @@ bot.onText(/\/(sea?rch|budd?ha|b[aạ]chj?(?:\s+|_)?mai)(?:@\w+)?\s*(.*)/i, asyn
     recursive = true
   }
   if (!keyword) {
-    send(msg.chat.id, 'Cần nhập từ khoá tìm kiếm, ví dụ:\n<code>/search bach mai</code>\n<code>/search bar</code>\n<code>/search bn34</code>' +
+    send(msg.chat.id, 'Cần nhập từ khoá tìm kiếm, ví dụ:\n<code>/search bach mai</code>\n<code>/search thai nguyen</code>' +
      '\nHoặc có thể dùng vài lệnh tắt như /bachmai, /buddha', { parse_mode: 'HTML'})
     return
   }
@@ -558,7 +558,7 @@ const getLines = text => {
     }
     return a
   }, []).map(l => {
-    return escapeHtml(l).replace(/^(BN\d\d\d+|Bệnh\s+nhân\s+\d\d\d+)/i, '<b>$1</b>')
+    return escapeHtml(l).replace(/^(BN\d\d\d+|Bệnh\s+nhân\s+(số )?\s*\d\d\d+)/i, '<b>$1</b>')
   })
 }
 
@@ -574,7 +574,7 @@ const formatAlert = text => {
   }
 
   const lines = getLines(text)
-  let formated = lines.join('.\n\n').replace(/:\s*1./g, ':\n\n1.').replace(/\.\s*(B(N|n)\d\d\d+\s*\:)/g, '.\n\n<b>$1</b>')
+  let formated = lines.join('.\n\n').replace(/:\s*1./g, ':\n\n1.').replace(/\.\s*(B(N|n)\d\d\d+\s*[\:\,])/g, '.\n\n<b>$1</b>')
   const addNewsLink = process.env.PROMOTE_NEWS === '1'
   if (addNewsLink) {
     //formated += '\n\nGõ /news để xem thêm tin tức chọn lọc về dịch bệnh.'
@@ -766,7 +766,7 @@ const updateVietnamData = async () => {
   }
 }
 
-const linkify = s => s.replace(/(BN\d\d+)/gi, '/$1')
+const linkify = s => s.replace(/(?:BN|bệnh\s+nhân\s+(?:số )?)\s*(\d\d+)/gi, '/BN$1')
 
 const updateVietnamDataFromZing = async () => {
   const res = await fetch('https://news.zing.vn')
