@@ -73,7 +73,7 @@ bot.onText(/\/(start|help|menu|about)/, (msg, match) => {
     '/alert - xem thông báo mới nhất từ Bộ Y Tế\n',
     ...extraCmds,
     '~~~',
-    "<i>Phát triển bởi <a href='https://icetea.io'>Icetea team</a>, tham gia <a href='https://t.me/iceteachainvn'>nhóm Telegram</a> đề đề xuất tính năng.</i>\n",
+    "<i>Phát triển bởi <a href='https://icetea.io'>icetea.io team</a>, tham gia <a href='https://t.me/iceteachainvn'>nhóm Telegram</a> đề đề xuất tính năng.</i>\n",
     '<b>Nguồn dữ liệu:</b>',
     "- Số liệu Việt Nam và thông báo lấy từ <a href='https://ncov.moh.gov.vn/'>Bộ Y Tế</a>",
     "- Số liệu quốc tế lấy từ <a href='https://www.worldometers.info/coronavirus/'>worldometers</a>",
@@ -214,7 +214,7 @@ bot.onText(/\/(status|case|dead|death|vietnam|asean|total|world)/, (msg, match) 
     // if (!onlyChina) {
     //   text += `<i>✱ Ca ${list ? 'mới' : 'trong ngày'} tính từ nửa đêm GMT+0 (7h sáng VN)${hasChina ? '. Riêng Trung Quốc là của ngày hôm trước.' : ''}</i>\n\r`
     // }
-    text += "Made with ❤️ by <a href='https://t.me/iceteachainvn'>Icetea</a>"
+    text += "Made with ❤️ by <a href='https://t.me/iceteachainvn'>icetea.io</a>"
   }
 
   send(msg.chat.id, text, makeSendOptions(msg, 'HTML'))
