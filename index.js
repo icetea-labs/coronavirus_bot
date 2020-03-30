@@ -357,8 +357,8 @@ const searchPatients = (collector, keyword, recursive) => {
       return c.match(kwordRegex) || c.match(new RegExp(`benh\\s+nhan\\s+(so\\s+)?${ddd}`))
     } else if (isHcm) {
       return hcmNames.some(name => c.includes(name))
-    } else if (keyword === 'bạch mai') {
-      return ['bạch mai', 'trường sinh'].some(name => c.includes(name))
+    } else if (['bạch mai', 'bach mai'].includes(keyword)) {
+      return ['bạch mai', 'bach mai', 'trường sinh', 'truong sinh'].some(name => c.includes(name))
     } else {
       return c.match(kwordRegex)
     }
