@@ -220,22 +220,25 @@ bot.onText(/\/(status|case|dead|death|vietnam|asean|total|world)/, (msg, match) 
   send(msg.chat.id, text, makeSendOptions(msg, 'HTML'))
 })
 
-bot.onText(/\/(sea?rch|budd?ha|b[aạ]chj?(?:\s+|_)?mai)(?:@\w+)?\s*(.*)/i, async (msg, match) => {
+bot.onText(/\/(sea?rch|budd?ha|b[aạ]chj?(?:\s+|_)?mai|(?:truong|trường)(?:\s+|_)?sinh)(?:@\w+)?\s*(.*)/i, async (msg, match) => {
   trySaveData(store, msg)
-  const cmd = match[1].toLowerCase().replace(/(\s+|_)/, '')
+  const cmd = replaceVnChars(match[1].toLowerCase().replace(/(\s+|_)/, ''))
   let keyword = match[2].trim().toLowerCase()
   if (keyword === 'hanoi') keyword = 'ha noi'
   let recursive = false
-  if (['bachmai', 'bạchmai', 'bachjmai', 'bạchjmai'].includes(cmd)) {
+  if (['bachmai', 'bachjmai', 'bachjmai'].includes(cmd)) {
     keyword = 'bạch mai'
     recursive = true
   } else if (['buddha', 'budha'].includes(cmd)) {
     keyword = 'buddha'
     recursive = true
+  } else if ('truongsinh' === cmd) {
+    keyword = 'trường sinh'
+    recursive = true
   }
   if (!keyword) {
-    send(msg.chat.id, 'Cần nhập từ khoá tìm kiếm, ví dụ:\n<code>/search bach mai</code>\n<code>/search thai nguyen</code>' +
-     '\nHoặc có thể dùng vài lệnh tắt như /bachmai, /buddha', { parse_mode: 'HTML'})
+    send(msg.chat.id, 'Cần nhập từ khoá tìm kiếm, ví dụ:\n<code>/search bach mai</code>\n<code>/search truong sinh</code>' +
+     '\nLệnh tắt cho các từ khoá hay dùng: /bachmai, /truongsinh, /buddha', { parse_mode: 'HTML'})
     return
   }
 
@@ -354,6 +357,8 @@ const searchPatients = (collector, keyword, recursive) => {
       return c.match(kwordRegex) || c.match(new RegExp(`benh\\s+nhan\\s+(so\\s+)?${ddd}`))
     } else if (isHcm) {
       return hcmNames.some(name => c.includes(name))
+    } else if (keyword === 'bạch mai') {
+      return ['bạch mai', 'trường sinh'].some(name => c.includes(name))
     } else {
       return c.match(kwordRegex)
     }
@@ -590,8 +595,8 @@ const makeAlertMessage = (time, content, hilight = '‼️') => {
   let subtitle = `${pad}${time} - BỘ Y TẾ${pad}\n\r`
   if (!title) {
     title = `${time} - BỘ Y TẾ`
-    subtitle = '~'.repeat(23 + (hilight ? 4 : 0))
     hilight = ''
+    subtitle = '~'.repeat(23 + (hilight ? 4 : 0))
   }
   return `${hilight + title + hilight}\n\r${subtitle}\n\r${linkify(body)}`
 }
@@ -737,7 +742,11 @@ const updateVietnamData = async () => {
 
   // now, update patient list
   const $ = cheerio.load(res.data)
-  const lines = $('.col-md-9>div>p').text().replace('BN04', 'BN104').split('*')
+  const lines = $('.col-md-9>div>p').text()
+    .replace('BN04', 'BN104')
+    .replace('Bạch Mai (sẽ cập nhật thêm).', 'Bạch Mai (thuộc Công ty Trường Sinh)')
+    .replace(/(\*\s*BN\s*174\s*\:[^*]*)\*/, '$1 (thuộc Công ty Trường Sinh)*')
+    .split('*')
   const patientList = lines.reduce((list, line) => {
     line = line.trim()
     if (!line.length) return list
