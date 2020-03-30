@@ -228,14 +228,14 @@ bot.onText(/\/(sea?rch|budd?ha|b[aạ]chj?(?:\s+|_)?mai|(?:truong|trường)(?:\
   let recursive = false
   if (['bachmai', 'bachjmai', 'bachjmai'].includes(cmd)) {
     keyword = 'bạch mai'
-    recursive = true
   } else if (['buddha', 'budha'].includes(cmd)) {
     keyword = 'buddha'
-    recursive = true
   } else if ('truongsinh' === cmd) {
     keyword = 'trường sinh'
-    recursive = true
   }
+
+  recursive = ['bach mai', 'bạch mai', 'buddha', 'trường sinh', 'truong sinh'].includes(keyword)
+
   if (!keyword) {
     send(msg.chat.id, 'Cần nhập từ khoá tìm kiếm, ví dụ:\n<code>/search bach mai</code>\n<code>/search truong sinh</code>' +
      '\nLệnh tắt cho các từ khoá hay dùng: /bachmai, /truongsinh, /buddha', { parse_mode: 'HTML'})
