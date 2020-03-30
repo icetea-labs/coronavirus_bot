@@ -272,7 +272,7 @@ bot.onText(/\/bn(?:@\w+)?\s*(\d*)/i, async (msg, match) => {
     const item = patients.find(p => p.bnList.includes(pt))
     if (item) {
       let text = `<b>${escapeHtml(item.bn)}</b>: ${hilightKeywords(escapeHtml(item.content))}`
-      const list = searchPatients([], 'bn' + num)
+      const list = searchPatients([], 'bn' + num, false, true)
       if (list.length) {
         text += `\n\n${pt} có thể đã lây cho: ` + patientListToCmdList(list).reverse().join(', ')
       }
@@ -341,7 +341,7 @@ const handleNoTalk = msg => {
   return shouldDeny
 }
 
-const searchPatients = (collector, keyword, recursive) => {
+const searchPatients = (collector, keyword, recursive, excludeSelf) => {
   const bnMatch = keyword.match(/^bn(\d\d\d*)$/i)
   const kwordRegex = new RegExp('\\b' + keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b')
   const hcmNames = ['hcm', 'ho chi minh', 'hồ chí minh', 'saigon', 'sài gòn']
@@ -349,6 +349,7 @@ const searchPatients = (collector, keyword, recursive) => {
   const keepVN = hasVnChars(keyword)
   const filtered = patients.filter(p => {
     if (collector.includes(p)) return false
+    if (excludeSelf && bnMatch && p.bnList.some(bn => bn.toLowerCase() === keyword)) return false
 
     let c = p.content.toLowerCase()
     if (!keepVN) c = replaceVnChars(c)
@@ -370,7 +371,7 @@ const searchPatients = (collector, keyword, recursive) => {
   if (recursive) {
     filtered.forEach(p => {
       p.bnList.forEach(bn => {
-        searchPatients(collector, bn.toLowerCase(), true)
+        searchPatients(collector, bn.toLowerCase(), true, excludeSelf)
       })
     })
   }
@@ -557,14 +558,14 @@ const getLines = text => {
   return lines.reduce((a, s) => {
     const t = s.trimStart()
     const c = t.charAt(0)
-    if (!a.length || c === c.toUpperCase()) {
+    if (!a.length || (t.length > 20 && c === c.toUpperCase())) {
       a.push(t)
     } else {
       a[a.length - 1] += `;${s}`
     }
     return a
   }, []).map(l => {
-    return escapeHtml(l).replace(/(?:BN|bệnh\s+nhân\s+(?:số |thứ )?)\s*(\d\d+)(?:\s*\(BN\1\))?/i, '<b>BN$1</b>')
+    return escapeHtml(l).replace(/^(?:BN|bệnh\s+nhân\s+(?:số |thứ )?)\s*(\d\d+)(?:\s*\(BN\1\))?/i, '<b>BN$1</b>')
   })
 }
 
