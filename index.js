@@ -97,7 +97,7 @@ bot.onText(/\/admin(?:@\w+)?(?:\s+(\w+))?/, (msg, match) => {
     if (!lines || !lines.length) {
       send(msg.chat.id, 'No groups')
     } else {
-      const chunk = 2, n = lines.length
+      const chunk = 50, n = lines.length
       for (let i = 0; i < n; i += chunk) {
         const text = lines.slice(i, i + chunk).join('\n')
         setTimeout(() => {
