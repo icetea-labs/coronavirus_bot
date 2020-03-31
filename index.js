@@ -259,7 +259,7 @@ bot.onText(/\/bn(?:@\w+)?\s*(\d*)/i, async (msg, match) => {
   trySaveData(store, msg)
   const num = Number(match[1])
   if (!num) {
-    send(msg.chat.id, 'Mã số bệnh nhân không hợp lệ. Cú pháp đúng ví dụ như /bn123')
+    send(msg.chat.id, 'Mã số bệnh nhân không hợp lệ. Cú pháp đúng ví dụ như /bn133')
     return
   }
   const pt = 'BN' + num
@@ -438,6 +438,7 @@ const getGroups = () => {
       if (value.type) {
         name += ` (${value.type})`
       }
+      name = escapeHtml(name)
       const link = value.username ? `<a href="https://t.me/${value.username}">${name}</a>` : name
       groups.push(`${i}. ${link}`)
       i++
@@ -543,7 +544,7 @@ const formatAlertTitle = s => {
   const l = s.length
   if (l > 8 && l < 48 && s === s.toUpperCase()) {
     s = s.replace(/THÔNG\s+(?:TIN|BÁO)\s+(?:VỀ)*\s*(\d+ )*\s*CA\s+BỆNH(?:\s+SỐ)*/g, 'THÔNG BÁO $1CA BỆNH')
-      .replace(/(?:TỪ )?(\d\d\d+) ĐẾN (\d\d\d+)$/, '$1~$2')
+      .replace(/(?:TỪ )?(\d\d\d+)\s*(?:ĐẾN|\-)\s*(\d\d\d+)$/, '$1~$2')
     if (s.endsWith('CỦA BỘ Y TẾ')) s = s.replace('CỦA BỘ Y TẾ', '').trim()
     return '<b>' + escapeHtml(s) + '</b>'
   } else {
@@ -581,7 +582,7 @@ const formatAlert = text => {
   }
 
   const lines = getLines(text)
-  let formated = lines.join('.\n\n').replace(/:\s*1\./g, ':\n\n1.').replace(/\.\s*(B(N|n)\d\d\d+\s*[\:\,])/g, '.\n\n<b>$1</b>')
+  let formated = lines.join('.\n\n').replace(/:\s*1\./g, ':\n\n1.').replace(/\.\s*(BN\d\d\d+)(\s*(\:|\,|là\s+nam|là\s+nữ))/gi, '.\n\n<b>$1</b>$2')
   const addNewsLink = process.env.PROMOTE_NEWS === '1'
   if (addNewsLink) {
     //formated += '\n\nGõ /news để xem thêm tin tức chọn lọc về dịch bệnh.'
