@@ -90,8 +90,23 @@ bot.onText(/\/admin(?:@\w+)?(?:\s+(\w+))?/, (msg, match) => {
   const isStats = (what === 'stats')
   if (!isAdmin(msg, isStats)) return
 
-  const text = isStats ? getStats() : getGroups()
-  send(msg.chat.id, text, { parse_mode: 'HTML' })
+  if (isStats) {
+    send(msg.chat.id, getStats())
+  } else {
+    const lines = getGroups()
+    if (!lines || !lines.length) {
+      send(msg.chat.id, 'No groups')
+    } else {
+      const chunk = 2, n = lines.length
+      for (let i = 0; i < n; i += chunk) {
+        const text = lines.slice(i, i + chunk).join('\n')
+        setTimeout(() => {
+          send(msg.chat.id, text, { parse_mode: 'HTML' })
+        }, 100)
+      }
+    }
+  }
+
 })
 
 // bot.onText(/\/fix/, async (msg, match) => {
@@ -446,7 +461,7 @@ const getGroups = () => {
     return groups
   }, [])
 
-  return lines.length ? lines.join('\n') : 'No groups.'
+  return lines
 }
 
 const makeNewsMessage = (index = 0) => {
