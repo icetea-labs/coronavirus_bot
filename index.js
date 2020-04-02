@@ -73,7 +73,7 @@ bot.onText(/\/(start|help|menu|about)/, (msg, match) => {
     '/alert - xem thông báo mới nhất từ Bộ Y Tế\n',
     ...extraCmds,
     '~~~',
-    "<i>Phát triển bởi <a href='https://icetea.io'>icetea.io team</a>, tham gia <a href='https://t.me/iceteachainvn'>nhóm Telegram</a> đề đề xuất tính năng.</i>\n",
+    "<i>Phát triển bởi icetea.io team, tham gia <a href='https://t.me/iceteachainvn'>nhóm Telegram</a> đề đề xuất tính năng.</i>\n",
     '<b>Nguồn dữ liệu:</b>',
     "- Số liệu Việt Nam và thông báo lấy từ <a href='https://ncov.moh.gov.vn/'>Bộ Y Tế</a>",
     "- Số liệu quốc tế lấy từ <a href='https://www.worldometers.info/coronavirus/'>worldometers</a>",
@@ -109,6 +109,39 @@ bot.onText(/\/admin(?:@\w+)?(?:\s+(\w+))?/, (msg, match) => {
 
 })
 
+let cancelBroadcast = false
+bot.onText(/\/_broadcast_\s+(me|all)\s+(.+)/s, (msg, match) => {
+  if (!isAdmin(msg)) return
+  const whom = match[1]
+  const toAll = whom === 'all'
+  const what = match[2].trim()
+
+  if (what.length < 64) {
+    send(msg.chat.id, 'Message too short.')
+    return
+  }
+
+  send(msg.chat.id, what, { parse_mode: 'HTML' })
+  if (toAll) {
+    cancelBroadcast = false
+    send(msg.chat.id, 'Will broadcast in 5 minutes. To cancel, click /_cancel_')
+    setTimeout(() => {
+      if (!cancelBroadcast) {
+        broadcastAlert(what)
+      } else {
+        cancelBroadcast = false
+        send(msg.chat.id, 'Broadcast canceled.')
+      }
+    }, 5 * 60 * 1000)
+  }
+})
+
+bot.onText(/^\/_cancel_$/, (msg, match) => {
+  if (!isAdmin(msg)) return
+  cancelBroadcast = true
+  send(msg.chat.id, 'Flag set')
+})
+
 // bot.onText(/\/fix/, async (msg, match) => {
 //   if (!isAdmin(msg)) return
 
@@ -142,8 +175,7 @@ bot.onText(/\/alert/, (msg, match) => {
 
   if (!store.last || !store.last.content) return
 
-  const { time, content } = store.last
-  const text = makeAlertMessage(time, content, '')
+  const text = makeAlertMessage(store.last, '')
   send(msg.chat.id, text, { parse_mode: 'HTML' })
 })
 
@@ -606,7 +638,7 @@ const formatAlert = text => {
   return { title, body: hilightKeywords(formated) }
 }
 
-const makeAlertMessage = (time, content, hilight = '‼️') => {
+const makeAlertMessage = ({ time, content }, hilight = '‼️') => {
   let { title, body } = formatAlert(content)
   const pad = '~'.repeat(2 + (hilight ? 1 : 0))
   let subtitle = `${pad}${time} - BỘ Y TẾ${pad}\n\r`
@@ -618,14 +650,13 @@ const makeAlertMessage = (time, content, hilight = '‼️') => {
   return `${hilight + title + hilight}\n\r${subtitle}\n\r${linkify(body)}`
 }
 
-const broadcastAlert = ({ time, content }) => {
+const broadcastAlert = text => {
   const includes = arrayFromEnv('INCLUDE')
   const exclude = arrayFromEnv('EXCLUDE')
 
   const subs = Array.from(new Set(Object.keys(store.subs || {}).concat(includes)))
   if (!subs || !subs.length) return
 
-  const text = makeAlertMessage(time, content)
   let timeout = 0
   subs.forEach(chatId => {
     if (exclude.includes(chatId)) return
@@ -695,7 +726,7 @@ const updateAlert = async url => {
     store.last = event
     saveData(store).then(() => {
       // only broadcast if this is not first crawl
-      lastEvent && lastEvent.timestamp && isNewAlert(lastEvent, event) && broadcastAlert(event)
+      lastEvent && lastEvent.timestamp && isNewAlert(lastEvent, event) && broadcastAlert(makeAlertMessage(event))
     }).catch(debug)
   }
 }
