@@ -13,6 +13,7 @@
     "cheerio": "^1.0.0-rc.3",
     "debug": "^4.1.1",
     "dotenv": "^8.2.0",
+    "fastify": "^2.13.0",
     "markdown-table": "^2.0.0",
     "node-telegram-bot-api": "^0.40.0"
   }
