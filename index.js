@@ -121,7 +121,7 @@ bot.onText(/\/_broadcast_\s+(me|all)\s+(.+)/s, (msg, match) => {
     return
   }
 
-  send(msg.chat.id, what, { parse_mode: 'HTML' })
+  send(msg.chat.id, what, { parse_mode: 'HTML', disable_web_page_preview: true })
   if (toAll) {
     cancelBroadcast = false
     send(msg.chat.id, 'Will broadcast in 5 minutes. To cancel, click /_cancel_')
@@ -269,6 +269,8 @@ bot.onText(/\/(status|case|dead|death|vietnam|asean|total|world)/, (msg, match) 
 
 bot.onText(/\/(sea?rch|budd?ha|b[aạ]chj?(?:\s+|_)?mai|(?:truong|trường)(?:\s+|_)?sinh)(?:@\w+)?\s*(.*)/i, async (msg, match) => {
   trySaveData(store, msg)
+  if (handleNoTalk(msg)) return
+
   const cmd = replaceVnChars(match[1].toLowerCase().replace(/(\s+|_)/, ''))
   let keyword = match[2].trim().toLowerCase()
   if (keyword === 'hanoi') keyword = 'ha noi'
@@ -304,6 +306,8 @@ bot.onText(/\/(sea?rch|budd?ha|b[aạ]chj?(?:\s+|_)?mai|(?:truong|trường)(?:\
 
 bot.onText(/\/bn(?:@\w+)?\s*(\d*)/i, async (msg, match) => {
   trySaveData(store, msg)
+  if (handleNoTalk(msg)) return
+
   const num = Number(match[1])
   if (!num) {
     send(msg.chat.id, 'Mã số bệnh nhân không hợp lệ. Cú pháp đúng ví dụ như /bn133')
@@ -383,7 +387,11 @@ const isNoTalk = msg => Boolean((store.subs[msg.chat.id] || {}).noTalk)
 const handleNoTalk = msg => {
   const shouldDeny = ['group', 'supergroup'].includes(msg.chat.type) && isNoTalk(msg)
   if (shouldDeny) {
-    send(msg.chat.id, 'Admin đã cấm chat lệnh cho bot trong group này. Vui lòng chat riêng với bot.')
+    send(msg.chat.id, 'Admin đã cấm chat lệnh cho bot trong group này. Vui lòng chat riêng với bot.').then(r => {
+      setTimeout(() => {
+        bot.deleteMessage(r.chat.id, r.message_id).catch(e => undefined)
+      }, 10 * 60 * 1000)
+    })
   }
   return shouldDeny
 }

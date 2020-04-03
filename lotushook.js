@@ -1,5 +1,6 @@
 require('dotenv').config()
 const { sendDirect } = require('./send')
+const { getNewsItem } = require('./news')
 
 // Require the framework and instantiate it
 const fastify = require('fastify')({
@@ -7,20 +8,20 @@ const fastify = require('fastify')({
 })
 
 fastify.get('/', (req, res) => {
-    res.send('https://t.me/LaChanCovy')
+    res.type('html').send(`<script>location.href='https://t.me/LaChanCovy';</script>`)
 })
 
 // Declare a route
 fastify.post(`/hooks/${process.env.NEWS_HVALUE}`, (req, res) => {
     console.log(req.body)
-    sendDirect(JSON.stringify(req.body))
+    sendDirect(getNewsItem(req.body))
     res.send('Thank Lotus Team!')
 })
 
 // Run the server!
 fastify.listen(process.env.LOTUS_PORT, function (err, address) {
     if (err) {
-        fastify.log.error(err)
+        console.error(err)
         process.exit(1)
     }
     console.log(`Lotus hook server listening on ${address}`)

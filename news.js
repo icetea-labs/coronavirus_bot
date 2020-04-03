@@ -1,4 +1,5 @@
 const { fetch } = require('./util')
+const { escapeHtml } = require('./util')
 
 const getAdjustedDate = t => {
   const d = new Date(t)
@@ -18,8 +19,8 @@ exports.getNews = () => {
       if (item.data && item.data.length) {
         const info = item.data[0]
         const date = getAdjustedDate(info.created_at)
-        const link = info.link
-        const text = `<b>${date}</b> <i>(tin số ${index + 1}/${data.data.length})</i>\n${item.title}\n\n<a href='${link}'>Mở link</a>`
+        const link = info.link_instantview || info.link
+        const text = `<b>${date}</b> <i>(tin số ${index + 1}/${data.data.length})</i>\n${escapeHtml(item.title)}\n\n<a href='${link}'>Mở link</a>`
         list.push(text)
       } else {
         list.push(item.link_share)
@@ -27,4 +28,16 @@ exports.getNews = () => {
       return list
     }, [])
   })
+}
+
+exports.getNewsItem = item => {
+  if (item.data && item.data.length) {
+    const info = item.data[0]
+    const date = getAdjustedDate(info.created_at)
+    const link = info.link_instantview || info.link
+    const text = `<b>${date}</b>\n${escapeHtml(item.title)}\n\n${link}`
+    return text
+  } else {
+    return item.link_share
+  }
 }

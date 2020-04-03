@@ -4,7 +4,7 @@ const https = require('https');
 exports.sendDirect = options => {
     if (typeof options === 'string') options = { text: options }
     const postData = querystring.stringify({
-        chat_id: process.env.ALERTER,
+        chat_id: process.env.NEWS_RECEIVER,
         ...options
     });
 
