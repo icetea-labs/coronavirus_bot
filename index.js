@@ -389,7 +389,7 @@ const handleNoTalk = msg => {
   if (shouldDeny) {
     send(msg.chat.id, 'Admin đã cấm chat lệnh cho bot trong group này. Vui lòng chat riêng với bot.').then(r => {
       setTimeout(() => {
-        bot.deleteMessage(r.chat.id, r.message_id).catch(e => undefined)
+        bot.deleteMessage(r.chat.id, r.message_id).catch(debug)
       }, 10 * 60 * 1000)
     })
   }
