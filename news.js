@@ -4,12 +4,12 @@ const { escapeHtml } = require('./util')
 const getAdjustedDate = item => {
   let mil
   if (item.card_info.created_at) {
-    mil = item.card_info.created_at * 1000
+    mil = item.card_info.created_at * 1000 + 420 * 60 * 1000
   } else {
     const info = item.data[0]
     if (info.created_at) {
       const d = new Date(t)
-    mil = d.getTime() + d.getTimezoneOffset() * 60 * 1000
+      mil = d.getTime() + d.getTimezoneOffset() * 60 * 1000
     }
   }
   return mil ? new Date(mil).toLocaleString('vi-VN') : ''
@@ -56,9 +56,10 @@ exports.getNews = () => {
 exports.getNewsItem = item => {
   if (item.data && item.data.length) {
     const link = getLink(item)
-    const date = getAdjustedDate(item)
+    //const date = getAdjustedDate(item)
     const title = getTitle(item)
-    const text = `<b>${date}</b>\n${escapeHtml(title)}\n\n${link}`
+    //const text = `<b>${date}</b>\n${escapeHtml(title)}\n\n${link}`
+    const text = `${escapeHtml(title)}\n\n${link}`
     return text
   } else {
     return item.link_share

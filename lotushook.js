@@ -13,7 +13,6 @@ fastify.get('/', (req, res) => {
 
 // Declare a route
 fastify.post(`/hooks/${process.env.NEWS_HVALUE}`, (req, res) => {
-    console.log(req.body)
     sendDirect(getNewsItem(req.body))
     res.send('Thank Lotus Team!')
 })
