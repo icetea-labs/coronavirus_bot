@@ -59,7 +59,7 @@ exports.getNewsItem = item => {
     //const date = getAdjustedDate(item)
     const title = getTitle(item)
     //const text = `<b>${date}</b>\n${escapeHtml(title)}\n\n${link}`
-    const text = `${escapeHtml(title)}\n\n${link}`
+    const text = `${title}\n\n${link}`
     return text
   } else {
     return item.link_share
