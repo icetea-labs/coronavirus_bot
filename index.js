@@ -127,7 +127,7 @@ bot.onText(/\/_broadcast_\s+(me|all)\s+(.+)/s, (msg, match) => {
     send(msg.chat.id, 'Will broadcast in 5 minutes. To cancel, click /_cancel_')
     setTimeout(() => {
       if (!cancelBroadcast) {
-        broadcastAlert(what)
+        broadcastAlert([what, what]) // use same message for both bot & channel
       } else {
         cancelBroadcast = false
         send(msg.chat.id, 'Broadcast canceled.')
@@ -175,14 +175,14 @@ bot.onText(/\/alert/, (msg, match) => {
 
   if (!store.last || !store.last.content) return
 
-  const text = makeAlertMessage(store.last, '')
+  const [text, ] = makeAlertMessage(store.last, '')
   send(msg.chat.id, text, { parse_mode: 'HTML' })
 })
 
 bot.onText(/\/new/, async (msg, match) => {
   trySaveData(store, msg)
   if (msg.chat.type !== 'private') {
-    send(msg.chat.id, 'Không hỗ trợ xem tin tức trong group, vui lòng <a href="https://t.me/CoronaAlertBot">chat riêng với bot</a> để xem.', { parse_mode: 'HTML' })
+    send(msg.chat.id, 'Không hỗ trợ xem tin tức trong group, vui lòng <a href="https://t.me/CoronaAlertBot">chat riêng với bot</a> hoặc tham gia kênh @LaChanCovy.', { parse_mode: 'HTML' })
     return
   }
 
@@ -435,8 +435,11 @@ const searchPatients = (collector, keyword, recursive, excludeSelf) => {
 
 }
 
-const hilightKeywords = t => {
+const hilightKeywords = (t, forChannel) => {
   return [/(bạch mai)/gi, /(buddha)/gi].reduce((s, w) => s.replace(w, (m, p) => {
+    if (forChannel) {
+      return `<b>${p}</b>`
+    }
     return '/' + replaceVnChars(p.toLowerCase()).replace(/ /g, '_')
   }), t)
 }
@@ -637,17 +640,24 @@ const formatAlert = text => {
   }
 
   const lines = getLines(text)
-  let formated = lines.join('.\n\n').replace(/:\s*1\./g, ':\n\n1.').replace(/\.\s*(BN\d\d\d+)(\s*(\:|\,|là\s+nam|là\s+nữ))/gi, '.\n\n<b>$1</b>$2')
-  const addNewsLink = process.env.PROMOTE_NEWS === '1'
-  if (addNewsLink) {
-    //formated += '\n\nGõ /news để xem thêm tin tức chọn lọc về dịch bệnh.'
-    formated += '\n\nThử /search để tìm kiếm bệnh nhân.'
+  let bodyChannel = lines.join('.\n\n').replace(/:\s*1\./g, ':\n\n1.').replace(/\.\s*(BN\d\d\d+)(\s*(\:|\,|là\s+nam|là\s+nữ))/gi, '.\n\n<b>$1</b>$2')
+  let forBot = bodyChannel
+
+  const promo4Bot = process.env.PROMOTE_4BOT.trim()
+  if (promo4Bot) {
+    forBot += '\n\n' + promo4Bot
   }
-  return { title, body: hilightKeywords(formated) }
+
+  const promo4Channel = process.env.PROMOTE_4CHANNEL.trim()
+  if (promo4Channel) {
+    bodyChannel += '\n\n' + promo4Channel
+  }
+
+  return { title, body: hilightKeywords(forBot), bodyChannel: hilightKeywords(bodyChannel, true) }
 }
 
 const makeAlertMessage = ({ time, content }, hilight = '‼️') => {
-  let { title, body } = formatAlert(content)
+  let { title, body, bodyChannel } = formatAlert(content)
   const pad = '~'.repeat(2 + (hilight ? 1 : 0))
   let subtitle = `${pad}${time} - BỘ Y TẾ${pad}\n\r`
   if (!title) {
@@ -655,10 +665,11 @@ const makeAlertMessage = ({ time, content }, hilight = '‼️') => {
     hilight = ''
     subtitle = '~'.repeat(23 + (hilight ? 4 : 0))
   }
-  return `${hilight + title + hilight}\n\r${subtitle}\n\r${linkify(body)}`
+  let header = `${hilight + title + hilight}\n\r${subtitle}\n\r`
+  return [`${header}${linkify(body)}`, `${header}${linkify(bodyChannel, true)}`]
 }
 
-const broadcastAlert = text => {
+const broadcastAlert = ([botText, channelText]) => {
   const includes = arrayFromEnv('INCLUDE')
   const exclude = arrayFromEnv('EXCLUDE')
 
@@ -671,6 +682,8 @@ const broadcastAlert = text => {
     if ((store.subs[chatId] || {}).noAlert) return
 
     const sanitizedId = sanitizeChatId(chatId)
+    const isChannel = typeof sanitizeChatId === 'string' && sanitizeChatId.startsWith('@')
+    const text = isChannel ? channelText : botText
     timeout += 75
     const options = makeSendOptions(sanitizeChatId(sanitizedId), 'HTML')
     setTimeout(() => {
@@ -833,7 +846,7 @@ const updateVietnamData = async () => {
   }
 }
 
-const linkify = s => s.replace(/(?:BN|bệnh\s+nhân\s+(?:số |thứ )?)\s*(\d\d+)(?:\s*\(BN\1\))?/gi, '/BN$1')
+const linkify = (s, forChannel) => s.replace(/(BN|bệnh\s+nhân\s+(?:số |thứ )?)\s*(\d\d+)(?:\s*\(BN\1\))?/gi, forChannel ? '<b>$1$2</b>' : '/BN$2')
 
 const updateVietnamDataFromZing = async () => {
   const res = await fetch('https://news.zing.vn')

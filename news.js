@@ -17,10 +17,7 @@ const getAdjustedDate = item => {
 
 const getLink = item => {
   const info = item.data[0]
-  if (info) {
-    let l = info.link_instantview || info.link
-    if (l) return l
-  }
+  if (info && info.link) return info.link
   return item.link_share
 }
 
