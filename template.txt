@@ -1,3 +1,30 @@
+😷<b>BẢN TIN 4/4</b>😷
+
+[Xem bản web có đồ thị dễ hiểu <a href='https://lovelock.one/blog/139'>ở đây</a>]
+
+<b>1. Thế giới</b>
+- Toàn thế giới tăng thêm hơn <b>100 ngàn</b> ca nhiễm mới chỉ trong hôm qua, tăng hơn 25% so với con số ca thêm của ngày trước đó.
+- Riêng Mỹ tăng 32.284 ca, trong đó một nửa nằm ở 3 bang phía Đông - New York, New Jersey và Massachussetes
+- Nếu tách riêng bang New York thì số ca đã gần bằng Ý, Tây Ban Nha và sẽ vượt vào tuần tới
+- Tỉ lệ tử vong ở Mỹ đang ở mức kiểm soát được 2.66%, chứng tỏ sức chịu đựng của nền y tế Mỹ rất tốt
+- Hàn Quốc đang dần tụt khỏi top 20, tổng số ca tử vong của Hàn Quốc thậm chí còn ít hơn Indonesia (174 so với 181)
+- Tình hình ở Tokyo đang có dấu hiệu xấu đi dẫn đến lo ngại Tokyo có thể thành "New York của Nhật" nếu không kiểm soát tốt (<a href='https://edition.cnn.com/2020/04/03/asia/tokyo-coronavirus-japan-hnk-intl/index.html'>nguồn</a>)
+
+2. Việt Nam
+- Bộ Y Tế thông báo 4 ca bệnh mới tối qua và thêm 2 ca sáng nay, nâng tổng số ca tại Việt Nam lên 239
+- Trong số ngày, có 1 ca rất đáng chú ý là bệnh nhân 237, 64 tuổi, quốc tịch Thuỵ Điển, có bệnh lý nền (ung thư máu). Bệnh nhân này đến Việt Nam từ tháng 12/2019, di chuyển nhiều địa điểm, tình cờ bị tai nạn vào viện mới phát hiện nhiễm nCoV. Đây là 1 trường hợp lây nhiễm trong cộng đồng không rõ từ đâu mà chúng ta đang lo ngại. Bộ Y Tế đã ra thông báo khẩn tìm kiếm những người liên quan (<a href='https://ipfs.icetea.io/gateway/ipfs/QmSXyw6tsueX7iDBbG1273GFbS8qRVZoyEyy7U5swFuXdR'>xem hình</a>)
+- Bệnh nhân 161 trở nặng và phải thở máy. Đây là bệnh nhân 88 tuổi, có nhiều bệnh lý nền, đang điều trị tại bệnh viện Bạch Mai. Bốn bệnh nhân nặng còn lại có tiến triển tốt, có 3 đã được rút máy thở. Ba trong số bốn bệnh nhân này đã âm tính nCoV nhiều lần nhưng do nhiều bệnh lý nền nên sức khoẻ còn yếu cần giữ lại viện điều trị (<a href='https://vnexpress.net/suc-khoe/benh-nhan-161-tro-nang-4079033.html'>nguồn</a>)
+- Chủ tịch Hà Nội cho biết từ ngày 4/4 người dân ra đường khi không cần thiết có thể bị phạt (<a href='https://tuoitre.vn/tu-ngay-4-4-ha-noi-phat-nguoi-ra-duong-khi-khong-can-thiet-20200403190443947.htm'>nguồn</a>).
+- 33 mẫu dương tính trong số 5222 trường hợp xét nghiệm nhanh bằng que thử Hàn Quốc từ ngày 31/3 đến 3/4, kết quả xét nghiệm khẳng định 26 mẫu âm tính nCoV, còn 7 trường hợp đang chờ kết quả (<a href='https://vnexpress.net/suc-khoe/26-ca-xet-nghiem-nhanh-duong-tinh-khong-nhiem-ncov-4079245.html'>nguồn</a>)
+- VinGroup sẽ sản xuất máy thở, bao gồm cả máy xâm nhập và máy không xâm nhập, theo thông tin phát đi từ tập đoàn này (<a href='https://vingroup.net/tin-tuc-su-kien/bai-viet/2166/vingroup-bat-tay-vao-san-xuat-may-tho-va-may-do-than-nhiet'>nguồn</a>)
+
+<i>Nếu bạn dùng Telegram, có thể tham gia kênh @LaChanCoVy để cập nhật tin tức đáng chú ý. Kênh này được quản lý bởi <a href='https://icetea.io'>Icetea team</a>, tin tức chọn lọc bởi team <a href='https://lotus.vn/lachanviruscorona'>Lá chắn Virus Corona</a> của MXH Lotus.</i>
+
+<a href='https://lovelock.one/blog/137'>Xem bản tin ngày hôm trước (3/4)</a>
+
+~~~
+Thực hiện bởi icetea.io team
+
 😷<b>BẢN TIN TRƯA 3/4</b>😷
 
 <b>1. Thế giới</b>

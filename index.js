@@ -924,7 +924,7 @@ const getTop = (data, { country, top, byDeath }) => {
   const sortProps = !byDeath ? ['cases', 'deaths'] : ['deaths', 'cases']
   countries = sortRowBy(countries, ...sortProps)
   if (countries.length > 1) {
-    countries = countries.filter(c => c.country !== 'Total:')
+    countries = countries.filter(c => (c.country !== 'Total:' && c.country !== 'World'))
   }
   return countries.slice(0, top)
 }
