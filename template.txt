@@ -1,3 +1,29 @@
+😷<b>BẢN TIN TRƯA 5/4</b>😷
+
+Việt Nam ghi nhận chỉ 1 ca mới trong 24 giờ.
+
+[Xem bản web có đồ thị dễ hiểu <a href='https://lovelock.one/blog/140'>ở đây</a>]
+
+<b>1. Thế giới</b>
+- Tình hình thế giới nói chung vẫn đang rất nghiêm trọng với hơn <i>1,2 triệu</i> ca nhiễm và gần <i>65 ngàn</i> ca tử vong, chưa có dấu hiệu khả quan (/status)
+- Những ngày qua, Pháp thay đổi cách đếm để theo chuẩn quốc tế, theo đó đếm thêm các ca bệnh và tử vong cũ và mới ở các viện dưỡng lão (trước đây chỉ đếm trong bệnh viện). Kết quả là số ca nhiễm và tử vong tăng đột biến (89.953 ca với 7560 tử vong), cho thấy tình hình của Pháp cũng nghiêm trọng tương tự Ý và Tây Ban Nha
+- Ngày hôm qua số lượng tử vong của Anh tăng đột biến, 708 ca. Thổ Nhĩ Kỳ ghi nhận con số kỉ lục 3013 ca mới. Anh, Pháp, Thổ Nhĩ Kỳ là những cái tên cần chú ý trong top 10 những ngày tới. Trong khi đó, Ý vẫn đang có tiến triển tốt.
+- Thời gian để số ca tử vong tăng gấp đôi đang là 3 ngày ở Anh, so với 10 ngày ở Ý, 7 ngày ở Tây Ban Nha, và 4 ngày ở Mỹ (<a href='https://ipfs.icetea.io/gateway/ipfs/QmXTXZiavgfWFZvSvgQYZZ98JKEAbpPGGMvAzqu6oQ671v'>xem hình</a>).
+- Khu vực ĐNA (/asean) vẫn có sự phân tách rõ ràng giữa 5 quốc gia dẫn đầu và các nước còn lại (<a href='https://ipfs.icetea.io/gateway/ipfs/Qmenuha6dup47n97Pv79hsg49K7aMi6vNqrXAHFDMA9QMk'>xem hình</a>)
+
+<b>2. Việt Nam</b>
+- Ngày hôm qua, Việt Nam ghi nhận 2 ca buổi sáng và 1 ca buổi tối, nâng tổng số ca lên 240. Sáng nay không ghi nhận ca nào mới. Như vậy, trong 24 giờ, Việt Nam chỉ ghi nhận 01 ca bệnh mới
+- Số ca bệnh nặng ở Việt Nam tăng lên 7. Trong đó, ca nặng nhất trước đây là bác của /BN17 đã có thể ngưng dùng ECMO (tim phổi nhân tạo) để chuyển sang thở máy. Hiện tại, trong 7 ca nặng, có 2 ca thở máy (người còn lại là /BN161) và 5 ca thở ôxy. Chưa có ca nặng nào được ra viện
+- Trong các ca tiếp xúc với "bệnh nhân lang thang" /BN237, chưa có ca ghi nhận dương tính nào
+- Đường phố Hà Nội vắng vẻ sau chỉ thị không ra đường nếu không cần thiết (<a href='https://ipfs.icetea.io/gateway/ipfs/QmczSMaHtquRGLWncpLENU2osajNuH5Bvq7FZkJW4LiSwM'>xem hình</a>)
+
+Tham gia kênh Telegram @LaChanCoVy để không bỏ lỡ các tin tức đáng chú ý.
+
+<a href='https://lovelock.one/blog/139'>Xem bản tin ngày hôm qua</a>
+
+~~~
+Thực hiện bởi icetea.io team
+
 😷<b>BẢN TIN 4/4</b>😷
 
 [Xem bản web có đồ thị dễ hiểu <a href='https://lovelock.one/blog/139'>ở đây</a>]

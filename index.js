@@ -682,10 +682,10 @@ const broadcastAlert = ([botText, channelText]) => {
     if ((store.subs[chatId] || {}).noAlert) return
 
     const sanitizedId = sanitizeChatId(chatId)
-    const isChannel = typeof sanitizeChatId === 'string' && sanitizeChatId.startsWith('@')
+    const isChannel = typeof sanitizedId === 'string' && sanitizedId.startsWith('@')
     const text = isChannel ? channelText : botText
     timeout += 75
-    const options = makeSendOptions(sanitizeChatId(sanitizedId), 'HTML')
+    const options = makeSendOptions(sanitizedId, 'HTML')
     setTimeout(() => {
       send(sanitizedId, text, options)
     }, timeout)
