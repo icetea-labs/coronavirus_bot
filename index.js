@@ -127,6 +127,7 @@ bot.onText(/\/_broadcast_\s+(me|all)\s+(.+)/s, (msg, match) => {
     send(msg.chat.id, 'Will broadcast in 5 minutes. To cancel, click /_cancel_')
     setTimeout(() => {
       if (!cancelBroadcast) {
+        send(msg.chat.id, 'Start broadcasting!')
         broadcastAlert([what, what]) // use same message for both bot & channel
       } else {
         cancelBroadcast = false
