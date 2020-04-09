@@ -182,6 +182,9 @@ bot.onText(/\/alert/, (msg, match) => {
 
 bot.onText(/\/new/, async (msg, match) => {
   trySaveData(store, msg)
+  send(msg.chat.id, 'Bot không còn hỗ trợ tính năng tin tức nữa, vui lòng tham gia group @LaChanCoVy để xem các tin tức đáng chú ý.')
+  return
+
   if (msg.chat.type !== 'private') {
     send(msg.chat.id, 'Không hỗ trợ xem tin tức trong group, vui lòng <a href="https://t.me/CoronaAlertBot">chat riêng với bot</a> hoặc tham gia kênh @LaChanCovy.', { parse_mode: 'HTML' })
     return
@@ -226,7 +229,7 @@ bot.on('callback_query', function onCallbackQuery (callbackQuery) {
   return editMessage(bot, text, Object.assign(options, opts))
 })
 
-bot.onText(/\/(status|case|dead|death|vietnam|asean|total|world)/, (msg, match) => {
+bot.onText(/\/(status|case|dead|death|vietnam|asean|eu|europe|total|world)/, (msg, match) => {
   trySaveData(store, msg)
   if (handleNoTalk(msg)) return
 
@@ -237,7 +240,9 @@ bot.onText(/\/(status|case|dead|death|vietnam|asean|total|world)/, (msg, match) 
   if (cmd === 'vietnam') {
     country = 'vietnam'
   } else if (['total', 'world'].includes(cmd)) {
-    country = 'total:'
+    country = 'world'
+  } else if (['eu', 'europe'].includes(cmd)) {
+    country = 'europe'
   } else if (country === 'asean' || cmd === 'asean') {
     country = 'indonesia,singapore,thailand,malaysia,philippines,vietnam,cambodia,brunei,myanmar,laos,timor-leste'
     top = 11
@@ -925,7 +930,8 @@ const getTop = (data, { country, top, byDeath }) => {
   const sortProps = !byDeath ? ['cases', 'deaths'] : ['deaths', 'cases']
   countries = sortRowBy(countries, ...sortProps)
   if (countries.length > 1) {
-    countries = countries.filter(c => (c.country !== 'Total:' && c.country !== 'World'))
+    const list = ['Total:', 'World', 'Europe', 'North America']
+    countries = countries.filter(c => !list.includes(c.country))
   }
   return countries.slice(0, top)
 }
@@ -1015,13 +1021,12 @@ const makeTable = (data, filter) => {
     const hasChina = country === 'China'
     const isTotal = country === 'Total:'
     const text = [
-      `${isTotal ? '' : 'Quốc gia: '}<b>${country}</b>`,
-      'Ca nhiễm:',
-      `- Tổng: <b>${cases}</b>`,
+      `<b>${country}</b>`,
+      '~~~',
+      `Ca nhiễm: <b>${cases}</b>`,
       `${hasChina ? '- Hôm qua' : '- Mới'}: <b>${todayNewCases || 0}</b>`,
       `${hasChina ? '- Hôm kia' : '- Hôm qua'}: <b>${yesterNewCases || 0}</b>`,
-      'Tử vong:',
-      `- Tổng: <b>${deaths || 0}</b>`,
+      `Tử vong: <b>${deaths || 0}</b>`,
       `${hasChina ? '- Hôm qua' : '- Mới'}: <b>${todayNewDeaths || 0}</b>`,
       `${hasChina ? '- Hôm kia' : '- Hôm qua'}: <b>${yesterNewDeaths || 0}</b>`,
       `Đã khỏi: <b>${recovered || 0}</b>`,
