@@ -229,7 +229,7 @@ bot.on('callback_query', function onCallbackQuery (callbackQuery) {
   return editMessage(bot, text, Object.assign(options, opts))
 })
 
-bot.onText(/\/(status|case|dead|death|vietnam|asean|eu|europe|total|world)/, (msg, match) => {
+bot.onText(/\/(status|case|dead|death|vietnam|asean|eu|europe|us|usa|asia|africa|total|global|world)/, (msg, match) => {
   trySaveData(store, msg)
   if (handleNoTalk(msg)) return
 
@@ -239,10 +239,16 @@ bot.onText(/\/(status|case|dead|death|vietnam|asean|eu|europe|total|world)/, (ms
   let top = 10
   if (cmd === 'vietnam') {
     country = 'vietnam'
-  } else if (['total', 'world'].includes(cmd)) {
+  } else if (['total', 'world', 'global'].includes(cmd)) {
     country = 'world'
   } else if (['eu', 'europe'].includes(cmd)) {
     country = 'europe'
+  } else if (['us', 'usa'].includes(cmd)) {
+    country = 'usa'
+  } else if (['asia'].includes(cmd)) {
+    country = 'asia'
+  } else if (['africa'].includes(cmd)) {
+    country = 'africa'
   } else if (country === 'asean' || cmd === 'asean') {
     country = 'indonesia,singapore,thailand,malaysia,philippines,vietnam,cambodia,brunei,myanmar,laos,timor-leste'
     top = 11
@@ -930,7 +936,7 @@ const getTop = (data, { country, top, byDeath }) => {
   const sortProps = !byDeath ? ['cases', 'deaths'] : ['deaths', 'cases']
   countries = sortRowBy(countries, ...sortProps)
   if (countries.length > 1) {
-    const list = ['Total:', 'World', 'Europe', 'North America']
+    const list = ['Total:', 'World', 'Europe', 'North America', 'South America', 'Asia', 'Africa', 'Oceania']
     countries = countries.filter(c => !list.includes(c.country))
   }
   return countries.slice(0, top)
@@ -971,7 +977,7 @@ const makeTable = (data, filter) => {
   const hasNew = hasNewCases(data)
   const byDeath = !!filter.byDeath
   const newText = hasNew ? 'Mới' : 'H.Qua'
-  const headers = !byDeath ? [['Nước', '  Nhiễm', newText, 'Chết']] : [['Nước', ' Chết', newText, 'Nhiễm']]
+  const headers = !byDeath ? [['Nước', '  Nhiễm', newText, 'Chết']] : [['Nước', '   Chết', newText, 'Nhiễm']]
   let topData = getTop(data, filter)
 
   if (!topData) {
