@@ -714,9 +714,9 @@ const isNewAlert = (lastEvent, event) => {
   if (lastEvent.timestamp >= event.timestamp) return false
 
   const age = Date.now() - event.timestamp
-  const oneHour = 60 * 60 * 1000
+  const freshDuration = +process.env.ALERT_FRESH_DURATION || 180 * 60 * 1000
 
-  return age < oneHour
+  return age < freshDuration
 }
 
 // Data on the timeline https://ncov.moh.gov.vn/dong-thoi-gian and
@@ -808,25 +808,30 @@ const updateVietnamData = async () => {
   const res = await fetch('https://ncov.moh.gov.vn/')
 
   if (!res) {
-    debug('Fallback to news.zing.vn because of failture loading cases from MoH.')
+    debug('Fallback to zingnews.vn because of failture loading cases from MoH.')
     updateVietnamDataFromZing()
     return
   }
 
-  const m = res.data.match(/"VNALL","soCaNhiem":"(\d+)","tuVong":"(\d+)",/)
-  if (m && m[1]) {
-    cache.vietnam = Object.assign(cache.vietnam || {}, { cases: m[1], deaths: m[2] || '0' })
+  const $ = cheerio.load(res.data)
+  const cases = $('.box-tke .text-danger-new .font24').eq(0).text()
+  const deaths = $('.box-tke .text-danger-new1 .font24').eq(0).text()
+
+  if (cases) {
+    cache.vietnam = Object.assign(cache.vietnam || {}, { cases, deaths: deaths || '0' })
     handleVNCaseChange()
   } else {
     updateVietnamDataFromZing()
   }
+}
+
+const updatePatientList = async () => {
+
+  const res = await fetch('https://raw.githubusercontent.com/TradaTech/coronavirus_bot/master/bn.txt')
+  if (!res) return
 
   // now, update patient list
-  const $ = cheerio.load(res.data)
-  const lines = $('.col-md-9>div>p').text()
-    .replace('BN04', 'BN104')
-    .replace('Bạch Mai (sẽ cập nhật thêm).', 'Bạch Mai (thuộc Công ty Trường Sinh)')
-    .replace(/(\*\s*BN\s*174\s*\:[^*]*)\*/, '$1 (thuộc Công ty Trường Sinh)*')
+  const lines = res.data
     .split('*')
   const patientList = lines.reduce((list, line) => {
     line = line.trim()
@@ -861,12 +866,14 @@ const updateVietnamData = async () => {
 const linkify = (s, forChannel) => s.replace(/(BN|bệnh\s+nhân\s+(?:số |thứ )?)\s*(\d\d+)(?:\s*\(BN\1\))?/gi, forChannel ? '<b>$1$2</b>' : '/BN$2')
 
 const updateVietnamDataFromZing = async () => {
-  const res = await fetch('https://news.zing.vn')
+  const res = await fetch('https://zingnews.vn/dich-viem-phoi-corona.html')
   if (!res) return
 
   const $ = cheerio.load(res.data)
-  const script = $('#widget-ticker script').html()
-  const m = script.match(/"title":\s*"Việt Nam",\s*"cases":\s*(\d+),\s*"deaths":\s(\d+),/)
+  const script = $('#corona-table-n-map script').html()
+  if (!script) return
+
+  const m = script.match(/"title":\s*"Việt Nam",\s*"cases":\s*(\d+),\s*"deaths":\s*(\d+),/)
 
   if (m && m[1]) {
     cache.vietnam = Object.assign(cache.vietnam || {}, { cases: m[1], deaths: m[2] || '0' })
@@ -1064,8 +1071,10 @@ const updateStatus = async () => {
     cache.vietnam = search('Vietnam')
   }
 
+  updatePatientList()
+
   updateAlert()
-  updateNews()
+  //updateNews()
 }
 
 const start = async () => {

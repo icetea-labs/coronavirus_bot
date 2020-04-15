@@ -1,0 +1,477 @@
+*BN267: nam, 46 tuổi, xóm Hội, Hạ Lôi, Mê Linh, Hà Nội, là bố của BN 257, chồng của BN 258, có tiếp xúc gần với BN243 tại nhà ngày 20/3. Ngày 8/4, được cách ly tập trung tại Hà Nội. Ngày 13/4 bệnh nhân khởi phát với triệu chứng sốt nhẹ, mệt mỏi, đau rát họng, đau người, được lấy mẫu bệnh phẩm. Xét nghiệm ngày 14/4 cho kết quả dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở 2.
+
+*BN266: 36 tuổi, trú tại Thường Tín, Hà Nội. Ngày 08-10/3, bệnh nhân đến chăm mẹ tại Khoa Phục hồi chức năng, Bệnh viện Bạch Mai. Ngày 12/3, bệnh nhân có biểu hiện ngứa họng. Từ ngày 30/3 bệnh nhân cách ly tại nhà. Ngày 12/4, bệnh nhân được lấy mẫu bệnh phẩm và cho kết quả xét nghiệm dương tính với SARS-CoV-2 vào ngày 14/4. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở 2.
+
+*BN265: nam, 26 tuổi, trú tại Hà Tĩnh, ngày 23/3 từ Thái Lan nhập cảnh về Việt Nam qua cửa khẩu Cha Lo, Quảng Bình, hiện đang được cách ly, điều trị tại Bệnh viện Cầu Treo, Hà Tĩnh.
+
+*BN264: nữ, 24 tuổi, trú tại Hạ Lôi, thuộc diện sàng lọc và được lấy mẫu xét nghiệm ngày 11/4, có kết quả xét nghiệm dương tính với SARS-CoV-2 vào ngày 13/4, hiện đang được cách ly, điều trị tại BV Bệnh nhiệt đới Trung ương cơ sở 2.
+
+*BN263: nữ, 45 tuổi, trú tại Hạ Lôi, Mê Linh, Hà Nội. Ngày 25/3, bệnh nhân có biểu hiện sốt rét, đau rát họng, ho khan, mệt. Bệnh nhân thuộc diện sàng lọc và được lấy mẫu xét nghiệm ngày 11/4, được kết luận dương tính với SARS-CoV-2 vào ngày 13/4, hiện đang được cách ly, điều trị tại BV Bệnh nhiệt đới Trung ương cơ sở 2.
+
+*BN262: nam, 26 tuổi, trú tại xóm Chợ, Hạ Lôi, ngày 27/3 có tiếp xúc gần với BN254 (là bác của bệnh nhân), ngày 31/3 có xuất hiện ho khan, sốt, được lấy mẫu bệnh phẩm ngày 11/4 và xét nghiệm ngày 12/4 cho kết quả dương tính với virus SARS-CoV-2. Hiện 2 bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở 2.
+
+*BN261: nữ, 60 tuổi, trú tại xóm Hội, Hạ Lôi, Mê Linh, Hà Nội, bán tạp hoá tại chợ Hạ trong xóm Hội, được lấy mẫu bệnh phẩm ngày 11/4 và xét nghiệm ngày 12/4 cho kết quả dương tính với SARS-CoV-2.
+
+*BN260: nữ, 35 tuổi, quốc tịch Việt Nam, địa chỉ ở xóm Đường, thôn Hạ Lôi, làm nghề trồng hoa, không đi đâu xa trong vòng 2 tuần gần đây. Hàng ngày thường đi chợ sau đó ra đồng chăm hoa rồi về nhà. Có thói quen mua thịt tại nhà Bảy Huấn (tại xóm Đường) cũng là nơi BN259 hay tới mua thịt. Ngày 6/4, có tiếp xúc gần với 2 người F1 của BN243 khi đi giao hoa.
+
+*BN259: nữ, 41 tuổi, ở xóm Bàng, thôn Hạ Lôi, xã Mê Linh, huyện Mê Linh, Hà Nội, là vợ BN254, thỉnh thoảng có đi giao hoa tại thôn Liễu Trì, xã Mê Linh và một số nơi khác khi có đơn hàng, thường xuyên mua hàng tại nhà BN250 (lần cuối ngày 25/3). Từ ngày 03/4-06/4, có đi sang xóm, thôn khác gồm xóm Chùa, xóm Ao Sen, thôn Liễu Trì để giao hoa và mua đồ, có tiếp xúc nhiều người. Lần cuối tiếp xúc chồng là BN254 vào 8/4, trước khi BN254 lên chạy thận ở BV Thận Hà Nội.
+
+*BN258: nữ, 47 tuổi, địa chỉ ở Mê Linh, Hà Nội. Là mẹ BN257 (đang được cách ly tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở 2).
+
+*BN257: nữ, 15 tuổi, địa chỉ ở Mê Linh, Hà Nội. Ngày 20/3/2020, BN243 (bạn của bố bệnh nhân) có đến chơi nhà và nói chuyện với bố bệnh nhân.
+
+*BN256: nam, 52 tuổi, địa chỉ ở Văn Lâm, Hưng Yên. Ngày 27/3, bệnh nhân từ Nga về sân bay Nội Bài trên chuyến bay số hiệu SU290.
+
+*BN255:  nam, 29 tuổi, có địa chỉ tại Bắc Quang, Hà Giang. Ngày 27/3, bệnh nhân từ Nga về Sân bay Quốc tế Nội Bài trên chuyến bay SU290.
+
+*BN254: nam, 51 tuổi, trú  ở Mê Linh, Hà Nội, là hàng xóm có tiếp xúc gần BN243,  BN250. 
+
+*BN253: nữ, 41 tuổi, trú ở Mê Linh, Hà Nội, là chị dâu, ở gần nhà  và có tiếp xúc gần với BN243. 
+
+*BN252: nam, 6 tuổi, có địa chỉ tại Quận 5, TP. Hồ Chí Minh. Bệnh nhân sống tại Campuchia cùng gia đình có 5 người, trong đó 2 người đã được xác định mắc COVID-19 và được cách ly, điều trị tại Campuchia. Ngày 8/4, bệnh nhân cùng 2 người còn lại trong gia đình trở về Việt Nam qua cửa khẩu Mộc Bài, Tây Ninh.
+
+*BN251: nam, 64 tuổi, trú tại Bình Lục, Hà Nam. Từ ngày 20/3 đến nay bệnh nhân điều trị tại Khoa Tiêu hoá, Bệnh viện Đa khoa tỉnh Hà Nam, con trai và con dâu từ Hà Nội về chăm. Trường hợp này đang được tiếp tục điều tra nguồn lây.
+
+*BN250: nữ, 50 tuổi, trú tại Mê Linh, Hà Nội. Bệnh nhân là hàng xóm và có tiếp xúc gần BN243.
+
+*BN249: nam, 55 tuổi, quốc tịch Việt Nam. Bệnh nhân từ Mỹ về đến Việt Nam ngày 22/3, có quá cảnh tại Hồng Kông. (ĐÃ KHỎI)
+
+*BN248: nam, 20 tuổi, quốc tịch Việt Nam. Bệnh nhân từ Mỹ, quá cảnh Nhật Bản trên chuyến bay JL079 về Việt Nam ngày 23/3/2020 nhập cảnh tại sân bay Tân Sơn Nhất.
+
+*BN247: nam, 28 tuổi, địa chỉ tại quận Bình Thạnh, TP. Hồ Chí Minh. Bệnh nhân đi làm hàng ngày từ TP. Hồ Chí Minh xuống Đồng Nai và là đồng nghiệp, thuộc nhóm tiếp xúc gần với BN124 và BN151.
+
+*BN246: nam, 33 tuổi, có địa chỉ tại huyện Yên Thành, tỉnh Nghệ An. Ngày 24/3, bệnh nhân từ Nga trở về Việt Nam trên chuyến bay SU290.         
+
+*BN245: nữ, 21 tuổi, có địa chỉ tại Quỳnh Lưu, Nghệ An, nhân viên làm móng tại Tây Ban Nha. Bệnh nhân từ Tây Ban Nha đến Nga, nối chuyến từ Nga về Việt Nam ngày 25/3 trên chuyến bay SU290. 
+
+*BN244: nữ, 44 tuổi, có địa chỉ tại Bố Trạch, Quảng Bình, nhân viên phục vụ quán ăn nhanh tại Đức. Bệnh nhân từ Đức đến Nga, nối chuyến từ Nga về Việt Nam ngày 25/3 trên chuyến bay SU290. 
+*BN243: nam, 47 tuổi, cư trú tại huyện Mê Linh, TP Hà Nội. Ngày 12/3, bệnh nhân đưa vợ đi khám bệnh tại Khoa Miễn dịch - Dị ứng, Bệnh viện Bạch Mai và về trong ngày, ăn uống tại quán cơm đường Giải Phóng đối diện cổng bệnh viện. 
+
+*BN242: nữ, 34 tuổi, có địa chỉ tại Cẩm Xuyên, tỉnh Hà Tĩnh, sinh sống và làm việc tại Nga. Ngày 25/3, bệnh nhân từ Nga về Việt Nam trên chuyến bay SU290. 
+
+*BN241: nam, 20 tuổi, có địa chỉ tại Quận 2, TP. Hồ Chí Minh. Bệnh nhân là du học sinh tại Anh. Ngày 21/3/2020 từ Anh  về Việt Nam trên chuyến bay số hiệu VN0050.
+
+*BN240: nữ, 29 tuổi, có địa chỉ tại Lục Nam, tỉnh Bắc Giang, làm việc tại Thái Lan. Ngày 20/3, bệnh nhân về Hà Nội trên chuyến bay VN618. Trước khi về Việt Nam, bệnh nhân có tham gia buổi liên hoan với gia đình BN166.
+
+*BN239: nam, 71 tuổi, địa chỉ tại Tam Dương, tỉnh Vĩnh Phúc.  Ngày 11 và 18/3 đi khám, điều trị tại Khoa Tiêu hóa, Bệnh viện Bạch Mai và có mua đồ ăn ở căng tin bệnh viện.
+
+*BN238: nữ, 17 tuổi, địa chỉ tại Thạch Hà, tỉnh Hà Tĩnh; là lao động tự do và có ở cùng bạn (BN 210) tại Thái Lan. Ngày 17/3, bệnh nhân từ Thái Lan về Việt Nam, nhập cảnh qua Cửa khẩu Cha Lo ngày 18/3.
+
+*BN237: nam, 64 tuổi, quốc tịch Thụy Điển, đến Việt Nam từ cuối tháng 12/2019, di chuyển tới một số địa phương và lưu trú tại Hà Nội từ 22/3/2020 đến nay. (ĐÃ KHỎI)
+
+*BN236: nữ, 26 tuổi, quốc tịch Anh, lưu trú tại Quận 2, TP. Hồ Chí Minh. Ngày 14/3/2020, bệnh nhân có tới quán bar Buddha, tiếp xúc với trường hợp bệnh COVID-19.
+
+*BN235: nam, 25 tuổi, quốc tịch Anh. Ngày 14/3/2020 có đi quán Bar Buddha (TP. Hồ Chí Minh).
+
+*BN234: nữ, 69 tuổi, có địa chỉ tại huyện Buôn Đôn, tỉnh Đăk Lăk. Ngày 17/3/2020, bệnh nhân từ Paris về Việt Nam trên chuyến bay số hiệu VN2106. (ĐÃ KHỎI)
+
+*BN233: nữ, 24 tuổi, có địa chỉ tại Diễn Châu, Nghệ An. Bệnh nhân từ nước ngoài về trên chuyến bay SU290, nhập cảnh ngày 27/3.
+
+*BN232: nam, 67 tuổi, có địa chỉ tại Bà Rịa-Vũng Tàu. Bệnh nhân từ nước ngoài về trên chuyến bay SU290, nhập cảnh ngày 27/3.
+
+*BN231: nữ, 57 tuổi, có địa chỉ tại huyện Na Rì, tỉnh Bắc Kạn, là nhân viên Công ty Trường Sinh.
+
+*BN230: nữ, 28 tuổi, có địa chỉ tại tỉnh Hà Tĩnh. Bệnh nhân từ nước ngoài về, nhập cảnh ngày 20/3.
+
+*BN229: nữ, 30 tuổi, có địa chỉ tại tỉnh Hà Tĩnh. Bệnh nhân từ nước ngoài về, nhập cảnh ngày 20/3.
+
+*BN228: nam, 29 tuổi, có địa chỉ tại tỉnh Bắc Giang.  Bệnh nhân từ nước ngoài về, nhập cảnh ngày 20/3.
+
+* BN227: nam,  31 tuổi, là con của BN209,  có tiếp xúc gần tại gia đình trong khoảng thời gian từ 16-25/3.
+
+* BN226: nam, 22 tuổi, về nước cùng chuyến bay với BN 212 ngày 27/3.
+
+* BN225: nam,  35 tuổi, quê An Dương, Hải Phòng, làm việc ở Nga 10 năm nay, về nước trên chuyến bay SU290 ngày 25/3/2020
+
+* BN224: nam, 39 tuổi, quốc tịch Brazil, có địa chỉ tại Quận 2, TP Hồ Chí Minh. Bệnh nhân có thời gian sống cùng phòng với BN158 tại chung cư  Masteri.
+
+* BN223:  nữ, 29 tuổi ở Hải Hậu, Nam Định, chăm sóc người thân tại Khoa Phục hồi chức năng, Bệnh viện Bạch Mai từ 11/3.
+
+* BN222: nữ, 28 tuổi, có địa chỉ tại Long Biên, Hà Nội; sống và làm việc tại Mỹ. Ngày 20/3, bệnh nhân về Việt Nam trên chuyến bay mang số hiệu JL751. (ĐÃ KHỎI)
+
+* BN221: nữ, 24 tuổi, quốc tịch Việt Nam, du học sinh tại Canada. Ngày 24/3, bệnh nhân từ Canada về Việt Nam, có quá cảnh ở Đài Bắc, Đài Loan.
+
+* BN220: nam, 20 tuổi, quốc tịch Việt Nam, từ Pháp về nước ngày 17/3.
+
+* BN219: nữ, 59 tuổi, quê Hưng Yên; chăm sóc người bệnh tại Khoa Thần kinh Bệnh viện Bạch Mai,  cùng phòng bệnh với BN133 ngày 16/3.
+
+* BN218: nữ 43 tuổi, có địa chỉ tại Phú Xá, Thái Nguyên. Bệnh nhân về nước trên chuyến bay SU290 ngày 25/3/2020
+
+* BN217: nữ, 25 tuổi, có địa chỉ tại Nam Đàn, Nghệ An. Bệnh nhân từ Nhật Bản về nước ngày 25/3/2020 trên chuyến bay NH857.
+
+* BN216: nữ, 48 tuổi, từ Đức trở về Việt Nam trên chuyến bay SU 290 ngày 23/3.
+
+* BN215: nam, 31 tuổi, nhân viên công ty Trường Sinh, có địa chỉ tại Đống Đa, Hà Nội.
+
+* BN214: nữ, 45 tuổi, nhân viên Công ty Trường Sinh, cung cấp dịch vụ cho Bệnh viện Bạch Mai.
+
+* BN213:  nữ, 40 tuổi, có địa chỉ tại Thanh Oai, Hà Nội. Do sốt 38,6 độ C nên bệnh nhân đã cùng chồng đến khám tại Trung tâm nhiệt đới, Bệnh viện Bạch Mai.
+
+*BN212: nữ, 35 tuổi, có địa chỉ tại Hưng Hà, Thái Bình. Bệnh nhân cùng chồng từ Nga về Việt Nam ngày 27/3 trên chuyến bay mang số hiệu SU290.
+
+*BN211: nữ, 23 tuổi, có địa chỉ tại Đống Đa, Hà Nội, là du học sinh tại Mỹ. Ngày 19/3, bệnh nhân từ Mỹ về Việt Nam, quá cảnh Abu Dhabi và Bangkok, đến Hà Nội ngày 20/3/2020
+
+*BN210: nữ, 26 tuổi, có địa chỉ ở huyện Can Lộc, tỉnh Hà Tĩnh. Bệnh nhân từ Thái Lan về nước ngày 20/3,  trước đó có tiếp xúc gần với BN146.
+
+*BN209: nữ, 55 tuổi, có địa chỉ tại Long Biên, Hà Nội. Từ ngày 18/3 đến 24/3, bệnh nhân có tiếp xúc gần với BN163 tại bếp ăn công ty Xăng Dầu Khu vực I.
+
+*BN 208: nữ, 38 tuổi, là nhân viên công ty Trường Sinh cung cấp dịch vụ tại Bệnh viện Bạch Mai.
+
+* BN207: nam, 49 tuổi, quốc tịch Brazil trú tại Quận 2, TP Hồ Chí Minh. Bệnh nhân là chồng BN151 và là đồng nghiệp BN14.
+
+* BN206: nam, 48 tuổi, có địa chỉ tại Quận 2, TPHCM; là lái xe riêng của BN124 và BN151, hàng ngày đưa đón hai người đến các chi nhánh công ty tại Đồng Nai và TP Hồ Chí Minh.
+
+* BN205: nam, 41 tuổi, nhân viên Công ty Trường Sinh, cung cấp dịch vụ cho Bệnh viện Bạch Mai. (ĐÃ KHỎI)
+
+* BN 204: nam, 10 tuổi có địa chỉ tại Quận 2, TP.HCM. Bệnh nhân đi từ CH Czech tới Thổ Nhĩ Kỳ vào ngày 14/03/2020 và từ Thổ Nhĩ Kỳ về tới Việt Nam ngày 15/3/2020 (cùng chuyến bay với BN83) trên chuyến bay số hiệu TK162. (ĐÃ KHỎI)
+
+* BN203: nữ, 35 tuổi, quốc tịch Việt Nam. Bệnh nhân đi từ Hy Lạp về trên chuyến bay TK162, quá cảnh ở Thổ Nhĩ Kỳ, nhập cảnh Việt Nam ngày 17/3/2020. (ĐÃ KHỎI)
+
+* BN202: nữ, 57 tuổi, là nhân viên công ty Trường Sinh làm việc tại căng tin Bệnh viện Bạch Mai. (ĐÃ KHỎI)
+
+* BN201: nữ, 23 tuổi, là nhân viên công ty Trường Sinh làm việc tại căng tin Bệnh viện Bạch Mai.
+
+* BN200: nữ, 61 tuổi, là nhân viên công ty Trường Sinh làm việc tại căng tin Bệnh viện Bạch Mai. (ĐÃ KHỎI)
+
+* BN199: nữ, 57 tuổi, là nhân viên công ty Trường Sinh làm việc tại căng tin Bệnh viện Bạch Mai.
+
+* BN198: nữ, 53 tuổi, là nhân viên công ty Trường Sinh làm việc tại căng tin Bệnh viện Bạch Mai. (ĐÃ KHỎI)
+
+* BN197: nam, 41 tuổi, địa chỉ khu đô thị Thanh Hà, Hà Nội. Ngày 12/3/2020, bệnh nhân có đến khám tại Trung tâm Bệnh Nhiệt đới, Bệnh viện Bạch Mai. (ĐÃ KHỎI)
+
+* BN196: nữ, 34 tuổi, là nhân viên công ty Trường Sinh làm việc tại căng tin Bệnh viện Bạch Mai.
+
+* BN195: nữ, 41 tuổi, là nhân viên công ty Trường Sinh làm việc tại căng tin Bệnh viện Bạch Mai.
+
+*BN194: nữ, sinh năm 1978,  làm việc tại công ty Trường Sinh cung cấp dịch vụ cho BV Bạch Mai (ĐÃ KHỎI)
+
+*BN193: nữ, sinh năm 1999, làm việc tại công ty Trường Sinh cung cấp dịch vụ cho BV Bạch Mai
+
+*BN192: nữ, sinh năm 1997, làm việc tại công ty Trường Sinh cung cấp dịch vụ cho BV Bạch Mai (ĐÃ KHỎI)
+
+*BN191: nữ, sinh năm 1984,  làm việc tại công ty Trường Sinh cung cấp dịch vụ cho BV Bạch Mai
+
+*BN190: nữ, sinh năm 1971,  làm việc tại công ty Trường Sinh cung cấp dịch vụ cho BV Bạch Mai
+
+*BN189: nữ, 46 tuổi, địa chỉ tại Nông Cống, Thanh Hóa, là nhân viên thuộc bộ phận chuyển phát nước sôi của Công ty Trường Sinh tại Bệnh viện Bạch Mai.
+
+* BN188: nữ, 44 tuổi, địa chỉ tại Mỹ Đức, Hà Nội, là nhân viên của công ty Trường Sinh cung cấp nước sôi cho Bệnh viện Bạch Mai.
+
+* BN187:  nam, 30 tuổi, quốc tịch Mỹ, trú tại Tây Hồ, Hà Nội. Từ nước ngoài về sân bay Nội Bài trên chuyến bay VN0054 ngày 13/03/2020. (ĐÃ KHỎI)
+
+* BN186:  nữ, 52 tuổi, quốc tịch Pháp, là vợ của bệnh nhân số 76, đến Sân bay Tân Sơn Nhất ngày 10/03/2020 trên chuyến bay TK162.
+
+* BN185: nam, 38 tuổi, địa chỉ tại Hoài Đức, Hà Nội. Bệnh nhân vào chăm anh rể điều trị tại Khoa Thần kinh – Bệnh viện Bạch Mai.
+
+* BN184:  nữ, 42 tuổi, địa chỉ tại Diễn Châu, Nghệ An, là nhân viên bán hàng và chuyển phát nước sôi của Công ty Trường Sinh.
+
+* BN183: nữ, 43 tuổi, địa chỉ tại Cầu Giấy, Hà Nội; là phóng viên có tiếp xúc gần với bệnh nhân số 148 ngày 12/3/2020.
+
+* BN182: nữ, 19 tuổi, ở Hà Nội, du học sinh từ Thuỵ Sỹ (quá cảnh) Thái Lan về Nội Bài ngày 20/03/2020 trên chuyến bay VN618.
+
+* BN181: nam, 33 tuổi ở Hà Nội, từ Thái Lan về Việt Nam ngày 20/03/2020 trên chuyến bay TG564.
+
+* BN180: nữ, 27 tuổi địa chỉ tại Mỹ Đức, Hà Nội, du học sinh tại Pháp (quá cảnh Thái Lan) về Nội Bài ngày 20/03/2020 trên chuyến bay TG564.
+
+* BN179: 62 tuổi, có địa chỉ ở quận Hà Đông, TP Hà Nội, từ nước ngoài về trên chuyến bay EK394, nhập cảnh ngày 18/03. (ĐÃ KHỎI)
+
+* BN178: nữ, 44 tuổi, làm việc tại công ty Trường Sinh cung cấp dịch vụ cho BV Bạch Mai. Hiện bệnh nhân được cách ly, điều trị tại Đại Từ, Thái Nguyên.
+
+* BN177: nữ, 49 tuổi, làm việc tại công ty Trường Sinh cung cấp dịch vụ cho BV Bạch Mai, tiếp xúc với nhiều người.
+
+* BN176: nữ, 38 tuổi, làm việc tại công ty Trường Sinh cung cấp dịch vụ cho BV Bạch Mai, tiếp xúc với nhiều người.
+
+* BN175: nam, 57 tuổi, làm việc tại công ty Trường Sinh cung cấp dịch vụ cho BV Bạch Mai, tiếp xúc với nhiều người.
+
+* BN174: nữ, làm việc tại nhà ăn Bệnh viện Bạch Mai (thuộc Công ty Trường Sinh).
+
+* BN 173: nữ, quốc tịch Việt Nam,  sống và làm việc Mátxcơva (LB Nga) về nước ngày 25/3/2020.
+
+* BN 172: nữ, là con dâu bệnh nhân số 133, chăm sóc bệnh nhân 23 ngày.
+
+* BN171: nữ, 19 tuổi, có địa chỉ tại quận 10, TP. Hồ Chí Minh, là du học sinh tại Mỹ. Bệnh nhân từ Mỹ về, quá cảnh ở Philippines, nhập cảnh Việt Nam ngày 13/3/2020. (ĐÃ KHỎI)
+
+* BN170: nam, 27 tuổi ở huyện Kim Sơn, tỉnh Ninh Bình. Ngày 20 - 22/3 ở Bệnh viện Bạch Mai chăm bố chữa bệnh, đến mua và ăn cơm 5 lần ở quầy số 1 căng tin Bệnh viện Bạch Mai.
+
+* BN169, BN168: nữ, là nhân viên cung cấp nước sôi của Bệnh viện Bạch Mai (thuộc Công ty Trường Sinh).
+
+* BN167: nữ, 20 tuổi, quốc tịch Đan Mạch, ngày 8/3/2020 cùng bạn nhập cảnh sân bay Hà Nội trên chuyến bay số hiệu QR976.
+
+* BN166: nữ, 25 tuổi ở Lục Nam, Bắc Giang. Bệnh nhân sống tại Thái Lan, về Việt Nam ngày 20/03/2020 trên chuyến bay mang số hiệu TG564.
+
+* BN165: nam, 58 tuổi ở Đông Anh, Hà Nội. Bệnh nhân từ Anh về Việt Nam ngày 23/03/2020 trên chuyến bay mang số hiệu VN0054.
+
+* BN164: nam, 23 tuổi ở Rạch Giá, Kiên Giang. Bệnh nhân là du học sinh tại Anh, về Việt Nam ngày 23/03/2020 trên chuyến bay mang số hiệu VN0054.
+
+* BN163: nữ, 43 tuổi (cháu gái BN161), trú tại Long Biên, Hà Nội , là người vào chăm sóc BN161.
+
+* BN162: nữ, 63 tuổi, con dâu BN161, trú tại Thượng Thanh, Long Biên, là người vào chăm sóc BN161.
+
+* BN161: nữ, 88 tuổi , trú tại Văn Lâm, Hưng Yên, là người nằm cùng phòng với BN133 tại Phòng điều trị tự nguyên, Khoa Thần kinh Bệnh viện  Bạch Mai từ ngày 17-22/3/2020 .
+
+* BN160: nữ, 30 tuổi, trú tại TP Bảo Lộc, tỉnh Lâm Đồng, đã  tiếp xúc với chị gái bị COVID-19 tại Tây Ban Nha, ngày 23/3/2020  về Việt Nam trên chuyến bay SU292. (ĐÃ KHỎI)
+
+* BN159: nam, quốc tịch Brazil, 33 tuổi, trú tại quận 2, TP. Hồ Chí Minh. Bệnh nhân có tiếp xúc ca bệnh dương tính trong quán bar Buddha ngày 14/3/2020. (ĐÃ KHỎI)
+
+* BN158: nam, quốc tịch Brazil, 45 tuổi  trú quận 2, TP. Hồ Chí Minh, có tiếp xúc với ca bệnh dương tính trong quán bar Buddha  ngày 14/03/2020.
+
+* BN157: nữ, quốc tịch Anh, 31 tuổi, trú tại quận 4, TP. Hồ Chí Minh, là người có tiếp xúc với ca bệnh dương tính trong quán bar Buddha. (ĐÃ KHỎI)
+
+* BN156: nam, 21 tuổi quê TP Trà Vinh, là du học sinh tại Anh. Ngày 22/3/2020, bệnh nhân bay  từ London (Anh) về tới  Cần Thơ  trên chuyến bay số hiệu VN0050, chung chuyến bay với BN145.
+
+* BN155: nữ, 21 tuổi, địa chỉ tại thị trấn Ân Thi, tỉnh Hưng Yên, là sinh viên trường Đại học tại Anh. Ngày 22/3/2020 từ Anh về tới Cần Thơ  trên chuyến bay  số hiệu VN0050, cùng chuyến bay với BN145.
+
+* BN154: nữ, 23 tuổi,  trú tại TP Hạ Long, Quảng Ninh, là du học sinh tại Anh.  Ngày 22/3/2020, bệnh nhân bay  từ Anh về tới Cần Thơ  trên chuyến bay số hiệu VN0050, chung chuyến bay với BN145. (ĐÃ KHỎI)
+
+* BN153: nữ, 60 tuổi trú tại quận Hải Châu, TP. Đà Nẵng. Bệnh nhân sang Australia thăm người thân và trở về Việt Nam ngày 21/3/2020 trên chuyến bay số hiệu VN772. (ĐÃ KHỎI)
+
+* BN152: nữ, 27 tuổi trú tại quận Tân Phú, TP. Hồ Chí Minh, là chị gái sống cùng nhà với BN127 (nam nhân viên quán Bar Buddha). (ĐÃ KHỎI)
+
+* BN151: nữ, quốc tịch Brazil, 45 tuổi, trú tại Quận 2, TP. Hồ Chí Minh, là đồng nghiệp, tiếp xúc gần với BN124.
+
+* BN150: nam, 55 tuổi trú tại Quận 1, TP. Hồ Chí Minh. Ngày 13/3/2020 cùng vợ từ Hoa Kỳ về Việt Nam, quá cảnh tại Đài Loan - Trung Quốc trên chuyến bay của hãng hàng không EVA Air, số hiệu BR395. 
+
+* BN149: nam, 40 tuổi ở Long Biên, Hà Nội, là lao động tự do tại Bang Hessen - CHLB Đức. Ngày 23/3/2020 về Việt Nam trên chuyến bay VN36 của Vietnam Airlines.
+
+* BN148: nam, 58 tuổi, quốc tịch Pháp thường trú ở Đống Đa, Hà Nội, là du khách từ Pháp đến Việt Nam ngày 12/03/2020 trên chuyến bay VN0018. (ĐÃ KHỎI)
+
+* BN147: nam, 19 tuổi ở Cầu Giấy, Hà Nội, là du học sinh từ Anh, đáp chuyến bay VN0054 của Vietnam Airlines về Nội Bài ngày 21/03/2020.
+
+* BN146: nữ, 17 tuổi ở huyện Nghi Lộc,  Nghệ An, đi từ Thái Lan về ngày 20/03/2020, trước đó có tiếp xúc gần với ca dương tính xác định tại Đà Nẵng.
+
+* BN145: nam, 34 tuổi trú quận Tân Phú, TP. Hồ Chí Minh. Bệnh nhân đáp chuyến bay VN0050 của Hãng hàng không VietnamAirlines, số ghế 28A, về tới sân bay Cần Thơ ngày 22/3/2020.
+
+* BN144: nam, 22 tuổi, trú tại quận Phú Nhuận, TP. Hồ Chí Minh. Bệnh nhân từ Anh về Việt Nam trên chuyến bay của Vietnam Airlines VN0050 ngày 22/3/2020.
+
+* BN143: nữ, 58 tuổi, quốc tịch Nam Phi thường trú quận Tân Phú, TP. Hồ Chí Minh. Từ Hoa Kỳ, quá cảnh tại Đài Loan và về tới Việt Nam ngày 21/3/2020 trên chuyến bay số hiệu BR395.
+
+* BN142: nam, 26 tuổi ở huyện Bình Chánh, TP.Hồ Chí Minh, là du học sinh tại Hoa Kỳ. Bệnh nhân từ Hoa Kỳ và về tới Việt Nam ngày 10/3/2020 trên chuyến bay có số  hiệu BR395. (ĐÃ KHỎI)
+
+* BN141: bác sỹ, 29 tuổi, làm việc tại Khoa Cấp cứu, Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh, bị lây khi thao tác thiết lập máy thở cho BN28, phơi nhiễm cùng ngày với một bác sĩ khác là BN116.
+
+* BN140: nam, 21 tuổi ở Tây Hồ, Hà Nội, là du học sinh từ Anh, nhập cảnh về Nội Bài ngày 21/03/2020 trên chuyến bay VN0054. (ĐÃ KHỎI)
+
+* BN139: nữ, 24 tuổi ở Hai Bà Trưng, Hà Nội, là du học sinh tại Anh, nhập cảnh về Nội Bài ngày 21/03/2020 trên chuyến bay VN0054.
+
+* BN138: nam, 23 tuổi ởĐống Đa, Hà Nội, là học sinh từ Anh, nhập cảnh về Nội Bài ngày 21/03/2020 trên chuyến bay VN0054. (ĐÃ KHỎI)
+
+* BN137: nam, 36 tuổi ở Yên Thành, Nghệ An, là du khách từ Đức, nhập cảnh về Nội Bài ngày 15/03/2020. (ĐÃ KHỎI)
+
+* BN136: nữ, 23 tuổi ở Hoàng Mai, Hà Nội. Bệnh nhân là học sinh từ Mỹ, nhập cảnh về Nội Bài ngày 16/03/2020. (ĐÃ KHỎI)
+
+* BN135: nữ 27 tuổi (địa chỉ của bố mẹ ở quận Lê Chân, TP.Hải Phòng). Ngày 19/3/2020 bệnh nhân khởi hành từ Copenhagen, Đan Mạch, quá cảnh tại Doha và Bangkok, nhập cảnh Việt Nam ngày 21/3/2020 trên chuyến bay số hiệu PG947. (ĐÃ KHỎI)
+
+* BN134: nam, 10 tuổi ở Thạch Thất, Hà Nội, từ nước ngoài về Nội Bài ngày 18/03/2020 trên chuyến bay SU290.
+
+* BN133: nữ, 66 tuổi ở Tân Phong, Lai Châu, trong tháng 3/2020 có đến Bệnh viện Bạch Mai điều trị bệnh và 22/03/2020 trở về nhà tại tỉnh Lai Châu.
+
+* BN132: nữ, 25 tuổi, địa chỉ ở Quận Long Biên, Hà Nội, từ Tây Ban Nha về nước, quá cảnh tại Nga và về tới Nội Bài ngày 22/03/2020 trên chuyến bay SU290. (ĐÃ KHỎI)
+
+* BN131: nam, 23 tuổi, địa chỉ ở Quận Bình Chánh, TP. Hồ Chí Minh, từ Tây Ban Nha về nước, quá cảnh tại Nga và về tới Nội Bài ngày 22/03/2020 trên chuyến bay SU290. (ĐÃ KHỎI)
+
+* BN130: nam, 30 tuổi, địa chỉ ở Quận Bình Chánh, TP. Hồ Chí Minh,  từ Tây Ban Nha về nước, quá cảnh tại Nga và về Nội Bài ngày 22/03/2020 trên chuyến bay SU290. (ĐÃ KHỎI)
+
+* BN129: nam, 20 tuổi ở Nghĩa Tân, Hà Nội, là du học sinh tại Anh, nhập cảnh về Nội Bài ngày 20/03/2020 trên chuyến bay VN0054. (ĐÃ KHỎI)
+
+* BN128: nam, 20 tuổi ở Lê Chân, TP. Hải Phòng, là du học sinh tại Anh, nhập cảnh về Nội Bài ngày 20/03/2020 trên chuyến bay VN0054.
+
+* BN127: nam, 23 tuổi, trú tại Quận Tân Phú, TP. Hồ Chí Minh, là nhân viên phục vụ bàn (theo ca 21h00 - 04h00) tại quán Bar Buddha - Quận 2.
+
+* BN126: nam, quốc tịch Nam Phi, 28 tuổi, trú tại Quận 7, TP Hồ Chí Minh, là bạn với BN125. (ĐÃ KHỎI)
+
+* BN125: nữ, quốc tịch Nam Phi, 22 tuổi, trú tại Quận 7, TPHCM, đã từng đến quán bar Buddha từ 21h30 ngày 14/3/2020 đến 03h00 ngày 15/3/2020. (ĐÃ KHỎI)
+
+* BN124: nam, 52 tuổi, quốc tịch Brazil, trú tại Quận 2, TP. Hồ Chí Minh. Ngày 14/3/2020, bệnh nhân có đến quán bar Buddha.
+
+* BN123: nữ, 17 tuổi, trú tại huyện Bình Đại, tỉnh Bến Tre sống tại Sarawar - Malaysia được 3-4 tháng nay. Bệnh nhân từ Malaysia sang Brunei và trở về Việt Nam trên chuyến bay số hiệu BI381 ngày 17/3/2020. (ĐÃ KHỎI)
+
+*BN122: nữ, 24 tuổi ở huyện Can Lộc, tỉnh Hà Tĩnh, là nhân viên quán rượu tại Bangkok – Thái Lan. Ngày 20/3/2020, bệnh nhân từ Sân bay Quốc tế Suvarnabhumi - Thái Lan về đến Cảng hàng không quốc tế Đà Nẵng  trên chuyến bay số hiệu TG947. (ĐÃ KHỎI)
+
+* BN121: nam, 58 tuổi, trú tại Quận Tân Bình, TP. Hồ Chí Minh. Ngày 19/3/2020 nhập cảnh Cảng hàng không quốc tế Tân Sơn Nhất trên chuyến bay số hiệu NH831 từ New York- Hoa Kỳ về Việt Nam, quá cảnh tại Narita - Nhật Bản. (ĐÃ KHỎI)
+
+* BN120: nam, quốc tịch Canada, 27 tuổi, trú tại Quận 2, TP. Hồ Chí Minh. Bệnh nhân từ Canada vào Việt Nam từ ngày 11/2/2020 đến nay, bệnh nhân trực tiếp tiếp xúc với BN91 từ ngày 14/3/2020 tại một số quán ăn, nơi vui chơi, trong đó có quán Bar Buddha. (ĐÃ KHỎI)
+
+* BN119: nam, 29 tuổi, quốc tịch Mỹ, trú tại Quận Bình Thạnh, TP. Hồ Chí Minh. Từ ngày 01/3 đến ngày 15/3/2020, bệnh nhân thường xuyên di chuyển giữa Việt Nam, Indonesia, Thái Lan và về lại Việt Nam ngày 15/3/2020. (ĐÃ KHỎI)
+
+*BN118:  nữ, 23 tuổi, trú tại huyện Châu Phú, tỉnh An Giang. Hai tuần gần đây bệnh nhân từ Việt Nam sang Campuchia làm nhân viên casino Galaxy và về Việt Nam ngày 19/3/2020 qua cửa khẩu Mộc Bài-Tây Ninh. (ĐÃ KHỎI)
+
+*BN117: nam, 30 tuổi, trú tại huyện Tân Hưng, Long An, làm nghề công nghệ thông tin. Từ ngày 09/3/2020 đến ngày 19/3/2020, bệnh nhân du lịch ở Campuchia và về Việt Nam qua cửa khẩu Mộc Bài-Tây Ninh. (ĐÃ KHỎI)
+
+* BN116: nam, 29 tuổi, quốc tịch Việt Nam, bác sỹ khoa Cấp cứu, Bệnh viện Bệnh nhiệt đới trung ương cơ sở Đông Anh, tham gia chống dịch COVID-19 từ 31/1/2020. (ĐÃ KHỎI)
+
+* BN115: nữ, 44 tuổi, quốc tịch Việt Nam, sống tại Cộng Hòa Séc (là con gái của BN94). Bệnh nhân về  Việt Nam và nhập cảnh qua sân bay Nội Bài ngày 18/03/2020 trên chuyến bay SU290 với BN94 và BN93.
+
+* BN114: nam, 19 tuổiở Hoàng Mai, Hà Nội, là du học sinh Việt Nam tại Hà Lan về nước ngày 15/03/2020 trên chuyến bay SQ176 (quá cảnh tại Singapore).
+
+* BN113: nữ, 18 tuổi ở Hoàn Kiếm, Hà Nội, là du học sinh Anh về nước trên chuyến bay VN054 ngày 18/03/2020. (ĐÃ KHỎI)
+
+* BN112: nữ, 30 tuổi ở Hoàn Kiếm, Hà Nội, là du học sinh tại Pháp. Sáng 18/3/2020 về tới sân bay Nội Bài trên chuyến bay VN018. (ĐÃ KHỎI)
+
+* BN111: nữ, 25 tuổi ở Hải Hậu, Nam Định, là du học sinh tại Pháp, về Việt Nam ngày 18/03/2020 trên chuyến bay VN018. (ĐÃ KHỎI)
+
+* BN110: nữ, 19 tuổi ở Đống Đa, Hà Nội, là du học sinh tại Mỹ, về Việt Nam ngày 19/03/2020 (quá cảnh tại Nhật Bản, sau đó từ Nhật Bản về Hà Nội trên chuyến bay JL751 (ĐÃ KHỎI)
+
+* BN109: nam, 42 tuổi ở Hoàng Mai, Hà Nội, là giảng viên một trường đại học của Anh, về nước ngày 15/3/2020 (quá cảnh qua Bangkok, Thái Lan sau đó từ Thái Lan về Việt Nam trên chuyến bay TG560).
+
+* BN108: nam, 19 tuổi ở Cầu Giấy, Hà Nội, là du học sinh Việt Nam tại Anh về nước ngày 18/3/2020 trên chuyến bay VN054.
+
+* BN107: nữ, 25 tuổi, là con gái và sống cùng BN86, thường trú tại Thanh Xuân, Hà Nội. (ĐÃ KHỎI)
+
+* BN106, BN105: là hành khách trên chuyến bay của hãng hàng không AirAsia số hiệu AK575 từ Malaysia về tới sân bay Cần Thơ sáng ngày 18/3/2020, gồm:
+
+- BN106: Bệnh nhân nữ, quốc tịch Việt Nam, 20 tuổi, địa chỉ ở huyện Châu Phú, An Giang. 
+
+- BN105: Bệnh nhân nữ, quốc tịch Việt Nam, 35 tuổi, địa chỉ ở huyện Chợ Mới, An Giang.
+
+* BN104, BN103, BN102, BN101:  đi cùng trên chuyến bay của Hãng Hàng không Vietnam Airlines số hiệu VN0050 từ Anh về  sân bay Cần Thơ sáng ngày 18/3/2020, gồm:
+
+- BN104: nữ, 33 tuổi ở Quận 12, TP. Hồ Chí Minh. (ĐÃ KHỎI)
+
+- BN103: nam, 22 tuổi, địa chỉ ở Quận Phú Nhuận, TPHCM. (ĐÃ KHỎI)
+
+- BN102: nữ, 9 tuổi, địa chỉ ở Quận Hoàn Kiếm, Hà Nội. (ĐÃ KHỎI)
+
+- BN101: nữ, 26 tuổi, địa chỉ ở Tp.Vũng Tàu, Bà Rịa-Vũng Tàu. (ĐÃ KHỎI)
+
+* BN100: nam, 55 tuổi ở Quận 8, TP. Hồ Chí Minh. Ngày 03/3/2020, bệnh nhân từ Kuala Lumpur - Malaysia về Việt Nam trên chuyến bay của hãng hàng không AsiaAir số hiệu AK524. (ĐÃ KHỎI)
+
+* BN99: 29 tuổi, ở Quận Bình Thạnh, TP. Hồ Chí Minh. Bệnh nhân từ Paris – Pháp về tới sân bay Tân Sơn Nhất ngày 18/3/2020 trên chuyến bay của hãng hàng không AirFrance số hiệu AF258. (ĐÃ KHỎI)
+
+* BN98: nam, 34 tuổi, quốc tịch Anh, trú tại Quận 4, TP. Hồ Chí Minh (cùng phòng với BN97). Bệnh nhân từ Malaysia về sân bay Tân Sơn Nhất ngày 06/3/2020; cùng BN97 đến quán Bar Buddha ngày 14/3/2020. (ĐÃ KHỎI)
+
+* BN97: nam, 34 tuổi quốc tịch Anh, trú tại Quận 4, TP. Hồ Chí Minh. Bệnh nhân ở Malaysia trong 2 tuần trước khi về Việt Nam, ngày 14/3/2020 có đến quán Bar Buddha (nơi BN91 cũng tới cùng ngày).
+
+* BN96: nữ, 21 tuổi ở Quận 8, TP. Hồ Chí Minh; từ Pháp về Việt Nam, quá cảnh Dubai trên chuyến bay của hãng hàng không Emirates số hiệu EK392 và nhập cảnh sân bay Tân Sơn Nhất ngày 19/3/2020. (ĐÃ KHỎI)
+
+* BN95: nam, 20 tuổi ở Quận Gò Vấp, TP. Hồ Chí Minh là du học sinh tại Pháp. Ngày 18/3/2020 về tới sân bay Tân Sơn Nhất từ Pháp, trên chuyến bay của hãng hàng không AirFrance số hiệu AF258. (ĐÃ KHỎI)
+
+* BN94: nữ, 64 tuổi ở TP. Bắc Giang. Bệnh nhân sang Cộng hòa Séc thăm con gái, về Nội Bài ngày 18/03/2020 trên chuyến bay SU290 có cùng BN93. (ĐÃ KHỎI)
+
+* BN93: nam, 20 tuổi, địa chỉ ở Đống Đa, TP. Hà Nội. Bệnh nhân là sinh viên du học Hungary, nhập cảnh tại sân bay Nội Bài ngày 18/03/2020. (ĐÃ KHỎI)
+
+* BN92: nam, 21 tuổi trú tại TP. Đà Lạt, tỉnh Lâm Đồng, là du học sinh tại Pháp, về Việt Nam ngày 17/3/2020 trên chuyến bay của Qatar Airways số hiệu QR970. 
+
+* BN91: nam, quốc tịch Anh, 43 tuổi, trú tại Quận 2, TP.HCM là phi công hãng hàng không Vietnam Airrline.
+
+* BN90: nữ, 21 tuổi, quốc tịch Việt Nam ở Quận Bình Thạnh, TP.HCM. Bệnh nhân từ Tây Ban Nha đi Dubai và về tới sân bay Tân Sơn Nhất ngày 16/3/2020 trên chuyến bay của hãng hàng không Emirates số hiệu EK392. (ĐÃ KHỎI BỆNH)
+
+* BN89: nữ, quốc tịch Việt Nam, 22 tuổi ở Quận 7, TP Hồ Chí Minh. Bệnh nhân về sân bay Tân Sơn Nhất khuya ngày 17/3/2020 từ Nhật Bản trên chuyến bay có số hiệu NH 831. (ĐÃ KHỎI BỆNH)
+
+* BN88:  nữ, 25 tuổi trú tại Hà Đông, Hà Nội, là du học sinh tại Anh, nhập cảnh về Nội Bài ngày 12/03/2020. (ĐÃ KHỎI)
+
+* BN87: nữ, 34 tuổi, điều dưỡng làm việc tiếp đón tại khu cách ly Trung tâm Bệnh nhiệt đới thuộc Bệnh viện Bạch Mai. Qua rà soát cho thấy, bệnh nhân có nhiều lần tiếp xúc gần với BN86.
+
+* BN86: nữ 54 tuổi, điều dưỡng của Phòng khám ngoại trú HIV - Trung tâm Bệnh nhiệt đới thuộc Bệnh viện Bạch Mai, trở về sau kỳ nghỉ ở Côn Đảo. (ĐÃ KHỎI)
+
+* BN85: nam, 20 tuổi ở Ba Đình, Hà Nội, là du học sinh tại Anh, nhập cảnh về Nội Bài ngày 18/03/2020 trên chuyến bay VN0054. (ĐÃ KHỎI)
+
+* BN84: nam, 21 tuổi ở Đống Đa, Hà Nội, là du học sinh tại Anh, nhập cảnh về Nội Bài ngày 18/03/2020 trên chuyến bay VN0054. (ĐÃ KHỎI)
+
+* BN83: nữ, 50 tuổi, quốc tịch Hoa Kỳ, trú tại quận Bình Thạnh, TP. Hồ Chí Minh. Bệnh nhân đi Phuket - Thái Lan và từ Istanbul - Thổ Nhĩ Kỳ lên chuyến bay của hãng hàng không Turkish Airline, số hiệu TK162 về tới Việt Nam ngày 15/3/2020. (ĐÃ KHỎI)
+
+* BN82: nữ, 16 tuổi ở Quận 5, TP.Hồ Chí Minh. Ngày 14/3/2020 cùng mẹ từ London - Anh đi Dubai và sau đó về Việt Nam ngày 15/3/2020 trên chuyến bay của hãng hàng không Emirates, số hiệu EK364. (ĐÃ KHỎI)
+
+* BN81: nam, 20 tuổi quê tỉnh Kom Tum. Ngày 14/3/2020 từ Paris - Pháp lên chuyến bay của hãng hàng không AirFrance, số hiệu AF258 và về tới Việt Nam ngày 15/3/2020. (ĐÃ KHỎI)
+
+* BN80: nam, 18 tuổi quê tỉnh Bạc Liêu, con của BN79. Ngày 14/3/2020, cùng BN79 từ London (Anh) đi Dubai và sau đó về Việt Nam ngày 15/3 trên chuyến bay của hãng hàng không Emirates, số hiệu EK392. (ĐÃ KHỎI)
+
+* BN79: nữ, 48 tuổi quê tỉnh Bạc Liêu, sống tại Anh gần 2 năm nay. Ngày 14/3/2020, từ London (Anh) đi Dubai và sau đó về Việt Nam ngày 15/3 trên chuyến bay của hãng hàng không Emirates, số hiệu EK392. (ĐÃ KHỎI BỆNH)
+
+* BN78: nam, 22 tuổi quê quán Hà Nội, là du học sinh tại Anh, nhập cảnh về Nội Bài ngày 17/03/2020 trên chuyến bay EK394. (ĐÃ KHỎI)
+
+* BN77: nữ, 25 tuổi quê quán Hà Nội, là du học sinh tại Anh, nhập cảnh về Nội Bài ngày 17/03/2020 trên chuyến bay QR976. (ĐÃ KHỎI)
+
+* BN76: nam, 52 tuổi, quốc tịch Pháp, là hành khách trên chuyến bay TK162 nhập cảnh tại Cảng hàng không quốc tế Tân Sơn Nhất ngày 10/03/2020. (ĐÃ KHỎI)
+
+* BN75: nữ, 40 tuổi, ở Quận 2, TP. Hồ Chí Minh, từ Việt Nam sang London - Anh thăm người thân và về Việt Nam trên chuyến bay VN50 của hãng hàng không VietnamAirline. (ĐÃ KHỎI )
+
+* BN74: nam, 23 tuổi ở Lâm Thao, Phú Thọ trở về Việt Nam chuyến bay VN0018 ngày 16/03/2020. (ĐÃ KHỎI)
+
+* BN73: nam, 11 tuổi ở Huyện Thanh Miện, Hải Dương, về Việt Nam trên chuyến bay VN0054 ngày 09/03/2020. (ĐÃ KHỎI)
+
+* BN72: nữ, 25 tuổi, quốc tịch Pháp, là hành khách trên chuyến bay từ Pháp về Nội Bài ngày 09/03/2020 (ĐÃ KHỎI)
+
+* BN71: nữ, 19 tuổi, trú quán ở Hai Bà Trưng, Hà Nội, là du học sinh tại Anh, nhập cảnh về Nội Bài ngày 16/03/2020 trên chuyến bay TK164. (ĐÃ KHỎI)
+
+* BN70: nam, 19 tuổi, trú quán ở Thanh Xuân, Hà Nội, là du học sinh tại Anh, nhập cảnh về Nội Bài ngày 16/03/2020 trên chuyến bay TK164. (ĐÃ KHỎI)
+
+* BN69: nam, 30 tuổi, quốc tịch Đức, tạm trú tại Quận Hai Bà Trưng, Hà Nội, là du khách, nhập cảnh Nội Bài ngày 13/03/2020 trên chuyến bay SU290. (ĐÃ KHỎI)
+
+* BN68: nam, 41 tuổi, quốc tịch Mỹ, lấy vợ người Việt Nam có địa chỉ tại TP. Đà Nẵng. Bệnh nhân đi từ Singapore đến TP Đà Nẵng trên chuyến bay MI 632  trưa ngày 14/3/2020. (ĐÃ KHỎI)
+
+* BN67: nam, 36 tuổi trú quán huyện Thuận Nam, tỉnh Ninh Thuận, là người đi cùng BN61 đến Malaysia và về Việt Nam ngày 04/3/2020 trên chuyến bay VJ826. (ĐÃ KHỎI)
+
+* BN66: nữ, 21 tuổi, trú quận 7, TP.HCM. Ngày 14/3 bệnh nhân đi từ Mỹ ( Pennsylvania - Philadenphia) tới Toronto - Canada và quá cảnh ở Đài Loan, về tới Việt Nam ngày 16/3 trên chuyến bay BR 395. (ĐÃ KHỎI BỆNH)
+
+* BN65: nữ, 28 tuổi trú quận Gò Vấp, TP.HCM có tiếp xúc và làm việc cùng BN45,48 vào các ngày 7/3 và 10/3. 
+
+* BN64: nữ, 35 tuổi, trú quận 8, TP.HCM đi cùng bạn trai từ Thuỵ Sỹ tới Dubai và về Việt Nam ngày 12/3/2020 trên chuyến bay EK392 từ Thuỵ Sỹ quá cảnh Dubai về Cảng hàng không sân bay Tân Sơn Nhất. (ĐÃ KHỎI BỆNH)
+
+* BN63: nữ, 20 tuổi trú quận Cầu Giấy, Hà Nội, là du học sinh tại Anh nhập cảnh về Nội Bài ngày 15/03/2020 trên chuyến bay TG564. (ĐÃ KHỎI)
+
+* BN62: nam, 18 tuổi trú quận Hoàn Kiếm,  Hà Nội, là du học sinh từ Anh về Việt Nam trên chuyến bay Vietnam Airlines từ Anh về Việt Nam ngày 16/03/2020. (ĐÃ KHỎI)
+
+* BN61: nam giới 42 tuổi, trú quán huyện Thuận Nam, tỉnh Ninh Thuận từ Malaysia về sân bay Tân Sơn Nhất ngày 4/3/2020 trên chuyến bay VJ826. (ĐÃ KHỎI)
+
+* BN60: nam, 29 tuổi quốc tịch Pháp là hành khách trên chuyến bay từ Pháp về Nội Bài ngày 09/03/2020. (ĐÃ KHỎI)
+
+* BN59:  nữ  30 tuổi, trú quán quận Long Biên, Hà Nội, là tiếp viên trên chuyến bay từ Vương Quốc Anh về Việt Nam ngày 02/3/2020. (ĐÃ KHỎI)
+
+* BN58: nữ  26 tuổi, trú quán quận Ba Đình,  Hà Nội, là du học sinh tại Pháp, nhập cảnh tại Cảng Hàng không quốc tế Nội Bài ngày 15/3/2020. (ĐÃ KHỎI)
+
+* BN57: nam  66 tuổi, quốc tịch Anh, là hành khách  trên chuyến bay từ Anh về Nội Bài (cùng BN46 tại Hà Nội) sáng 09/03/2020. (ĐÃ KHỎI)
+
+* BN56: nam, 30 tuổi quốc tịch Anh, là hành khách trên chuyến bay từ Anh về Nội Bài sáng 09/03/2020 (ĐÃ KHỎI)
+
+* BN55: nam 35 tuổi, quốc tịch Đức, là hành khách trên chuyến bay VN0018 từ Pháp về Nội Bài sáng ngày 14/3/2020 (ĐÃ KHỎI)
+
+* BN54: nam, sinh năm 1987, quốc tịch Latvia, từ Tây Ban Nha nhập cảnh TP. HCM ngày 8/3/2020 cùng vợ trên chuyến bay TK162. (ĐÃ KHỎI)
+
+* BN53: nam 53 tuổi, quốc tịch Cộng hoà Czech, nhập cảnh vào Việt Nam ngày 10/3 từ chuyến bay QR970 có quá cảnh tại sân bay Doha (Qatar). (ĐÃ KHỎI BỆNH)
+
+* BN52: nữ 22 tuổi tại Hà Nội, là du học sinh ở Châu Âu đi qua nhiều nước, về Nội Bài trên chuyến bay QR968 ngày 13/3/2020 .
+
+* BN51: nam  50 tuổi tại Hà Nội từ Paris về Việt Nam ngày 10/3/2020 (ĐÃ KHỎI) .
+
+* BN50:  nữ 24 tuổi tại Hạ Long (Quảng Ninh), là hành khách trên chuyến bay từ London (Anh) về Việt Nam ngày 9/3/2020
+
+* BN49: nam  71 tuổi quốc tịch Anh, đi trên chuyến bay VN0054 từ London tới Hà Nội ngày 2/3/2020, là chồng của BN30. (ĐÃ KHỎI)
+
+* BN48: nam31 tuổi, trú quán tại quận 10, thành phố Hồ Chí Minh, ngồi chung xe ô tô với BN45 và cùng gặp gỡ với BN34 (ĐÃ KHỎI)
+
+* BN47:  nữ 43 tuổi tại Hà Nội, là giúp việc trong toà nhà của BN17, có tiếp xúc gần với BN17 (ĐÃ KHỎI)
+
+* BN46:  nữ 30 tuổi tại Hà Nội, là tiếp viên hàng không trên chuyến bay từ London (Anh) về Hà Nội ngày 09/3/2020. (ĐÃ KHỎI)
+* BN45:  nam, trú quán tại quận Tân Bình, TP. Hồ Chí Minh có tiếp xúc gần với BN34 ngày 3/3/2020. (ĐÃ KHỎI)
+
+* BN44:  nam13 tuổi, quê tỉnh Bình Thuận, tiếp xúc gần với BN37  (ĐÃ KHỎI)
+
+* BN43: nữ 47 tuổi, quê Bình Thuận tiếp xúc gần với BN38 (ĐÃ KHỎI)
+
+* BN42, BN41, BN40: quê tỉnh Bình Thuận, trong đó có bệnh nhi 02 tuổi có tiếp xúc gần với BN34 (cả ba ĐÃ KHỎI)
+
+* BN39: nam 25 tuổi, là hướng dẫn viên du lịch cư trú tại quận Cầu Giấy (Hà Nội), có tiếp xúc với BN24 khi dẫn đoàn khách nước ngoài đi du lịch tại tỉnh Ninh Bình (ĐÃ KHỎI).
+
+* BN38, BN37, BN36: quê ở Bình Thuận có tiếp xúc gần với BN34 đã được xác định mắc COVID-19 ngày 10/3/2020. BN37 và BN38 đã khỏi.
+
+* BN35: phụ nữ 29 tuổi, quốc tịch Việt Nam, ngày 4/3/2020 có tiếp xúc trực tiếp với hai người Anh (sau này xác định là BN22 và BN23) tại siêu thị Điện máy Xanh ở Đà Nẵng (ĐÃ KHỎI). 
+
+* BN34:  nữ 51 tuổi, quốc tịch Việt Nam, khởi hành từ Washington DC (Mỹ) về Việt Nam, quá cảnh tại sân bay Quốc tế Doha (Qatar) và sáng ngày 2/3/2020 nhập cảnh vào Việt Nam. (ĐÃ KHỎI)
+
+* BN33: nam 58 tuổi,  quốc tịch Anh, là hành khách cùng đi trên chuyến bay VN0054 từ Anh về Việt Nam (ĐÃ KHỎI).
+
+* BN32:  nữ 24 tuổi sống tại Anh, quốc tịch Việt Nam, có tiếp xúc với BN17 hôm 27/2 tại Anh, đã trở về Việt Nam ngày 9/3/2020 . (ĐÃ KHỎI)
+
+* BN31: nam 49 tuổi, quốc tịch Anh cùng đi trên chuyến bay VN0054 từ Anh về Việt Nam ngày 2/3/2020 (ĐÃ KHỎI)
+
+* BN22 đến BN30:  là hành khách nước ngoài cùng đi trên chuyến bay VN0054 từ Anh về Việt Nam ngày 2/3/2020, cụ thể:
+
+- BN22: 60 tuổi, quốc tịch Anh (ĐÃ KHỎI) ;  BN23: 66 tuổi, quốc tịch Anh (ĐÃ KHỎI) ; BN24: 58 tuổi, quốc tịch Anh (ĐÃ KHỎI); BN25: 70 tuổi, quốc tịch Anh (ĐÃ KHỎI); BN26: 50 tuổi, quốc tịch Ireland (ĐÃ KHỎI); BN27: 67 tuổi, quốc tịch Anh (ĐÃ KHỎI); BN28: 74 tuổi, quốc tịch Anh; BN29: 58 tuổi, quốc tịch Anh (ĐÃ KHỎI); BN30: nữ 66 tuổi, quốc tịch Anh (ĐÃ KHỎI);
+
+* BN21: nam 61 tuổi ở Hà Nội, là người ngồi gần hàng ghế trên chuyến bay với BN17. (ĐÃ KHỎI)
+
+* BN20, BN19: 2 người tiếp xúc gần với  BN17 đã xác định mắc COVID-19 ngày 6/3. BN19 là lái xe, đã khỏi. BN20 là bác ruột của BN17, là một ca bệnh nặng.
+
+* BN18: nam 27 tuổi, quê Thái Bình đến Daegu (Hàn Quốc) và trở về Việt Nam ngày 4/3/2020  (ĐÃ KHỎI)
+
+* BN17: nữ 26 tuổi tại Hà Nội đi thăm chị gái tại Anh và qua Italy, Pháp và trở về Hà Nội ngày 2/3/2020 (ĐÃ KHỎI). 
