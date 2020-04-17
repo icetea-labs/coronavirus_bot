@@ -133,7 +133,7 @@ bot.onText(/\/_broadcast_\s+(me|all)\s+(.+)/s, (msg, match) => {
         cancelBroadcast = false
         send(msg.chat.id, 'Broadcast canceled.')
       }
-    }, 1000)
+    }, 5 * 60 * 1000)
   }
 })
 
