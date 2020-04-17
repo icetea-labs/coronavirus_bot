@@ -121,19 +121,19 @@ bot.onText(/\/_broadcast_\s+(me|all)\s+(.+)/s, (msg, match) => {
     return
   }
 
-  send(msg.chat.id, what, { parse_mode: 'HTML', disable_web_page_preview: true })
+  send(msg.chat.id, what, { parse_mode: 'HTML', disable_web_page_preview: false })
   if (toAll) {
     cancelBroadcast = false
     send(msg.chat.id, 'Will broadcast in 5 minutes. To cancel, click /_cancel_')
     setTimeout(() => {
       if (!cancelBroadcast) {
         send(msg.chat.id, 'Start broadcasting!')
-        broadcastAlert([what, what]) // use same message for both bot & channel
+        broadcastAlert([what, what], 'HTML', true) // use same message for both bot & channel
       } else {
         cancelBroadcast = false
         send(msg.chat.id, 'Broadcast canceled.')
       }
-    }, 5 * 60 * 1000)
+    }, 1000)
   }
 })
 
@@ -579,9 +579,9 @@ const isGroup = msgOrTypeOrId => {
   return true
 }
 
-const makeSendOptions = (msg, parseMode) => {
+const makeSendOptions = (msg, parseMode, showPreview) => {
   const options = {
-    disable_web_page_preview: true,
+    disable_web_page_preview: !showPreview,
     disable_notification: isNowNight() || isGroup(msg)
   }
   if (parseMode) {
@@ -681,7 +681,7 @@ const makeAlertMessage = ({ time, content }, hilight = '‼️') => {
   return [`${header}${linkify(body)}`, `${header}${linkify(bodyChannel, true)}`]
 }
 
-const broadcastAlert = ([botText, channelText]) => {
+const broadcastAlert = ([botText, channelText], parseMode = 'HTML', showPreview) => {
   const includes = arrayFromEnv('INCLUDE')
   const exclude = arrayFromEnv('EXCLUDE')
 
@@ -697,7 +697,7 @@ const broadcastAlert = ([botText, channelText]) => {
     const isChannel = typeof sanitizedId === 'string' && sanitizedId.startsWith('@')
     const text = isChannel ? channelText : botText
     timeout += 75
-    const options = makeSendOptions(sanitizedId, 'HTML')
+    const options = makeSendOptions(sanitizedId, parseMode, showPreview)
     setTimeout(() => {
       send(sanitizedId, text, options)
     }, timeout)
