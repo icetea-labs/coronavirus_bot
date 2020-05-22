@@ -887,7 +887,8 @@ const parseData = ($, day, array) => {
     const $cells = $(tr).find('td')
     const row = {}
     headers.forEach((h, i) => {
-      row[h] = $cells.eq(i).text().trim()
+      // skip # column so use (i + 1)
+      row[h] = $cells.eq(i + 1).text().trim()
     })
     array.push(row)
   })
@@ -916,7 +917,7 @@ const getStatus = async () => {
   cache = d
 }
 
-const hasNewCases = (data, c = 'Iran') => {
+const hasNewCases = (data, c = 'Italy') => {
   const item = search(c, false, data)
   return Boolean(item && item.newCases && item.newCases.trim().length)
 }
@@ -984,7 +985,7 @@ const makeTable = (data, filter) => {
   const hasNew = hasNewCases(data)
   const byDeath = !!filter.byDeath
   const newText = hasNew ? 'Mới' : 'H.Qua'
-  const headers = !byDeath ? [['Nước', '  Nhiễm', newText, 'Chết']] : [['Nước', '   Chết', newText, 'Nhiễm']]
+  const headers = !byDeath ? [['Nước', '  Nhiễm', newText, 'Chết']] : [['Nước', '    Chết', newText, 'Nhiễm']]
   let topData = getTop(data, filter)
 
   if (!topData) {
@@ -1003,9 +1004,11 @@ const makeTable = (data, filter) => {
       !hasChina && (hasChina = country === 'China')
       const shortCountry = makeShortCountry(country)
       const nc = (newCases.length === 7 & newCases[0] === '+') ? newCases.slice(1) : newCases
+      const td = deaths // (deaths.length > 6) ? deaths.replace(',', '') : deaths
+      const tc = cases // (cases.length > 8) ? cases.replace(',', '') : cases
       return !byDeath
-        ? [shortCountry, cases, nc, deaths]
-        : [shortCountry, deaths, newDeaths, cases]
+        ? [shortCountry, tc, nc, td]
+        : [shortCountry, td, newDeaths, tc]
     })
 
     let lines = table(headers.concat(rows), {
