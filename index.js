@@ -985,7 +985,7 @@ const makeTable = (data, filter) => {
   const hasNew = hasNewCases(data)
   const byDeath = !!filter.byDeath
   const newText = hasNew ? 'Mới' : 'H.Qua'
-  const headers = !byDeath ? [['Nước', '     Nhiễm', newText]] : [['Nước', '    Chết', newText]]
+  const headers = !byDeath ? [['Nước', '     Nhiễm', newText]] : [['Nước', ' Tử vong', newText]]
   let topData = getTop(data, filter)
 
   if (!topData) {
