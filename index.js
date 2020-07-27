@@ -960,7 +960,7 @@ const makeVNCases = () => {
 
 const makeShortCountry = c => {
   if (NAMES[c]) return NAMES[c]
-  return c.replace(' ', '').substr(0, 7)
+  return c.replace(' ', '').substr(0, 9)
 }
 
 const patchNewCases = (data, hasNew) => {
@@ -985,7 +985,7 @@ const makeTable = (data, filter) => {
   const hasNew = hasNewCases(data)
   const byDeath = !!filter.byDeath
   const newText = hasNew ? 'Mới' : 'H.Qua'
-  const headers = !byDeath ? [['Nước', '  Nhiễm', newText, 'Chết']] : [['Nước', '    Chết', newText, 'Nhiễm']]
+  const headers = !byDeath ? [['Nước', '     Nhiễm', newText]] : [['Nước', '    Chết', newText]]
   let topData = getTop(data, filter)
 
   if (!topData) {
@@ -1005,10 +1005,13 @@ const makeTable = (data, filter) => {
       const shortCountry = makeShortCountry(country)
       const nc = (newCases.length === 7 & newCases[0] === '+') ? newCases.slice(1) : newCases
       const td = deaths // (deaths.length > 6) ? deaths.replace(',', '') : deaths
-      const tc = cases // (cases.length > 8) ? cases.replace(',', '') : cases
+      const tc = cases //(cases.length > 8) ? cases.replace(',', '') : cases
+      // if (!byDeath && headers[0][1].length < tc.length + 2) {
+      //   headers[0][1] = ' '.repeat(tc.length - 3) + 'Nhiễm'
+      // }
       return !byDeath
-        ? [shortCountry, tc, nc, td]
-        : [shortCountry, td, newDeaths, tc]
+        ? [shortCountry, tc, nc]
+        : [shortCountry, td, newDeaths]
     })
 
     let lines = table(headers.concat(rows), {
@@ -1020,10 +1023,12 @@ const makeTable = (data, filter) => {
       return s.replace('|', '')
     })
 
-    const wrapLimit = 27
+    const wrapLimit = 25
     const delta = lines[0].length - wrapLimit
     if (delta > 0) {
       lines = lines.map((s, i) => s.replace(i === 1 ? '-' : ' ', ''))
+    } else if (delta <= -2) {
+      lines = lines.map((s, i) => s.replace('|', i === 1 ? '-|-' :' | '))
     }
     
     text = lines.join('\n').replace(/\:/g, '-').replace(/\|/g, '¦')
