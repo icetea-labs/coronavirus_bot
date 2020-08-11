@@ -16,7 +16,9 @@
 
 *BN813 đến BN831 tại Đà Nẵng: độ tuổi từ 7-85, gồm: 8 F1, 3 BN, 3 người chăm sóc, 2 liên quan khu vực quanh BV Đà Nẵng, 1 NVYT, 1 NV phục vụ, 1 tại quận Cẩm Lệ.  
 
-*BN811, BN812: Trong đó 1 ca tại Hà Nội, 1 ca tại Bắc Giang. CA BỆNH 811 (BN811) tại Bắc Giang: Bệnh nhân nữ, 33 tuổi, có địa chỉ tại xã Yên Định, huyện Sơn Động, tỉnh Bắc Giang. Bệnh nhân là F1, cùng 5 người trong gia đình (BN673, BN674, BN744, BN793, BN794) đi du lịch Đà Nẵng. CA BỆNH 812 (BN812) tại Hà Nội: Bệnh nhân nam, 63 tuổi, có địa chỉ tại phường Phú Diễn, quận Bắc Từ Liêm, Hà Nội. Bệnh nhân là F1 của BN447 (đi du lịch Đà Nẵng), tiếp xúc lần cuối ngày 27/7/2020. 
+*BN812 tại Hà Nội: Bệnh nhân nam, 63 tuổi, có địa chỉ tại phường Phú Diễn, quận Bắc Từ Liêm, Hà Nội. Bệnh nhân là F1 của BN447 (đi du lịch Đà Nẵng), tiếp xúc lần cuối ngày 27/7/2020. 
+
+*BN811 tại Bắc Giang: Bệnh nhân nữ, 33 tuổi, có địa chỉ tại xã Yên Định, huyện Sơn Động, tỉnh Bắc Giang. Bệnh nhân là F1, cùng 5 người trong gia đình (BN673, BN674, BN744, BN793, BN794) đi du lịch Đà Nẵng. 
 
 *BN795, BN797 đến BN810 tại Đà Nẵng, gồm: 1 nhân viên y tế, 1 bệnh nhân và 13 F1.
 
@@ -46,7 +48,11 @@
 
 *BN751 tại Hải Dương: Bệnh nhân nam, 45 tuổi, ở Cam Phúc Bắc, Cam Ranh, Khánh Hoà, tiền sử bệnh nhân có ra Hà Nội công tác và tiếp xúc với vợ, con (đang sống tại Quận Sơn Trà, Đà Nẵng ra Hà Nội ngày 23/7/2020) tại Hà Nội. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở 2. 
 
-*BN748 đến BN750: tại Quảng Trị (2), Thanh Hoá (1), liên quan đến Đà Nẵng. Cụ thể: CA BỆNH 748 (BN748): Bệnh nhân nữ, 54 tuổi, có địa chỉ tại Quảng Vinh, TP. Sầm Sơn, Thanh Hóa, là F1 của BN620, liên quan Đà Nẵng. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở 2. CA BỆNH 749 (BN749): Bệnh nhân nữ, 27 tuổi, có địa chỉ tại xã Vĩnh Hoà, Vĩnh Linh, tỉnh Quảng Trị, là người chăm sóc người thân tại Khoa Ngoại - Thần kinh, Bệnh viện Đà Nẵng từ ngày 17/7. CA BỆNH 750 (BN750): Bệnh nhân nam, 28 tuổi, có địa chỉ tại phường Đông Lễ, thành phố Đông Hà, tỉnh Quảng Trị. Bệnh nhân là bạn (F1) của BN749 (tiếp xúc ngày 18/7). Hiện 2 bệnh nhân được cách ly, điều trị tại Bệnh viện chuyên khoa lao và bệnh phổi Quảng Trị.
+*BN750: Bệnh nhân nam, 28 tuổi, có địa chỉ tại phường Đông Lễ, thành phố Đông Hà, tỉnh Quảng Trị. Bệnh nhân là bạn (F1) của BN749 (tiếp xúc ngày 18/7). Hiện 2 bệnh nhân được cách ly, điều trị tại Bệnh viện chuyên khoa lao và bệnh phổi Quảng Trị.
+
+*BN749: Bệnh nhân nữ, 27 tuổi, có địa chỉ tại xã Vĩnh Hoà, Vĩnh Linh, tỉnh Quảng Trị, là người chăm sóc người thân tại Khoa Ngoại - Thần kinh, Bệnh viện Đà Nẵng từ ngày 17/7.
+
+*BN748: Bệnh nhân nữ, 54 tuổi, có địa chỉ tại Quảng Vinh, TP. Sầm Sơn, Thanh Hóa, là F1 của BN620, liên quan Đà Nẵng. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở 2. 
 
 *BN745 đến BN747: tại Bà Rịa - Vũng Tàu, liên quan chuyến Tàu chở gas Texiana từ Qatar về Cảng Vũng Tàu ngày 28/7, cách ly, lấy mẫu ngay trên tàu sau nhập cảnh. Hiện bệnh nhân cách ly, điều trị tại Trung tâm Y tế huyện Long Điền, tỉnh Bà Rịa - Vũng Tàu.
 
@@ -58,7 +64,9 @@
 
 *BN718, nữ, 67 tuổi, quê quán: Đà Nẵng, đã tử vong tối 5/8, được xét nghiệm khẳng định dương tính với Sars-CoV-2 cuối giờ sáng 6/8. 
 
-*BN714 đến BN717: Quảng Nam (3), Hà Nội (1) liên quan đến Đà Nẵng. Cụ thể: CA BỆNH 714 (BN714): Bệnh nhân nam, 42 tuổi, có địa chỉ tại Phúc Diễn, Bắc Từ Liêm, Hà Nội, là nhân viên điều hành xe buýt. Bệnh nhân có tiền sử đi du lịch cùng gia đình tại Đà Nẵng từ 14-17/7. CA BỆNH 715 đến 717 (BN715-717): tại Quảng Nam, độ tuổi từ 42-45, trong đó 1 bệnh nhân là F1 (con gái) của BN593, (em) của BN547, BN625, 2 bệnh nhân là F1 của BN456. Hiện 3 bệnh nhân đang được cách ly, điều trị tại Bệnh viện Đa khoa Trung ương Quảng Nam.
+*BN715 đến BN717: tại Quảng Nam, độ tuổi từ 42-45, trong đó 1 bệnh nhân là F1 (con gái) của BN593, (em) của BN547, BN625, 2 bệnh nhân là F1 của BN456. Hiện 3 bệnh nhân đang được cách ly, điều trị tại Bệnh viện Đa khoa Trung ương Quảng Nam.
+
+*BN714: Bệnh nhân nam, 42 tuổi, có địa chỉ tại Phúc Diễn, Bắc Từ Liêm, Hà Nội, là nhân viên điều hành xe buýt. Bệnh nhân có tiền sử đi du lịch cùng gia đình tại Đà Nẵng từ 14-17/7. 
 
 *BN680 đến BN713: tại Đà Nẵng, độ tuổi từ 1-75, trong đó 14 ca là F1 của bệnh nhân liên quan Bệnh viện Đà Nẵng, 10 ca là bệnh nhân tại Bệnh viện Đà Nẵng, 7 ca là người chăm sóc tại Bệnh viện Đà Nẵng, 1 bệnh nhân là nhân viên y tế tại Bệnh viện Phụ sản - Nhi Đà Nẵng, 1 ca là công an canh phạm nhân tại Khoa Thận - Nội tiết, Bệnh viện Đà Nẵng, 1 ca tại quận Liên Chiều, Đà Nẵng.
 
@@ -66,7 +74,9 @@
 
 *BN673 đến BN678: tại Bắc Giang: 2, Lạng Sơn: 4 - cùng gia đình, độ tuổi 10-41, cùng nhóm du lịch tại Đà Nẵng. Hiện 6 bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở 2.
 
-*BN671, BN672: Là 2 ca tại Quảng Nam, có liên quan đến Bệnh viện Đà Nẵng. CA BỆNH 671 (BN671): Bệnh nhân nam, 33 tuổi, có địa chỉ tại xã Duy Sơn, huyện Duy Xuyên, tỉnh Quảng Nam. Là bệnh nhân khoa Ngoại - Thần kinh, Bệnh viện Đà Nẵng, là F1 của BN524. CA BỆNH 672 (BN672): Bệnh nhân nam, 37 tuổi, có địa chỉ tại xã Đại Hiệp, huyện Đại Lộc, tỉnh Quảng Nam. Bệnh nhân là người chăm sóc người thân tại Khoa Thận - Tiết niệu, Bệnh viện Đà Nẵng, là F1 của BN469.
+*BN672: Bệnh nhân nam, 37 tuổi, có địa chỉ tại xã Đại Hiệp, huyện Đại Lộc, tỉnh Quảng Nam. Bệnh nhân là người chăm sóc người thân tại Khoa Thận - Tiết niệu, Bệnh viện Đà Nẵng, là F1 của BN469.
+
+*BN671: Bệnh nhân nam, 33 tuổi, có địa chỉ tại xã Duy Sơn, huyện Duy Xuyên, tỉnh Quảng Nam. Là bệnh nhân khoa Ngoại - Thần kinh, Bệnh viện Đà Nẵng, là F1 của BN524.
 
 *BN670: Bệnh nhân nam, 50 tuổi, có địa chỉ tại Thành Trực, Thạch Thành, Thanh Hóa. Ngày 29/7, bệnh nhân từ Guinea Xích đạo về Sân bay Nội Bài trên chuyến bay VN6 (trước đó đã ghi nhận 20 ca dương tính trên chuyến bay này). Bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở 2 ngay sau nhập cảnh.
 
