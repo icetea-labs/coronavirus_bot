@@ -12,7 +12,23 @@
 
 *BN857: Nam; 26 tuổi; Duy Xuyên, Quảng Nam. Từ ngày 20-23 và 27/7/2020, bệnh nhân tiếp xúc với BN619, BN731.
 
-*BN848 đến BN856 ở các địa bàn Sơn Trà, Hải Châu, Hòa Vang, Liên Chiểu (Đà Nẵng), tuổi từ 14 đến 78, thông tin dịch tễ đang được cập nhật bổ sung. 
+*BN856: Nam; 30 tuổi; Liên Chiểu, Đà Nẵng (Thông tin dịch tễ về ca bệnh đang được cập nhật bổ sung).
+
+*BN855: Nữ; 61 tuổi; Liên Chiểu, Đà Nẵng (Thông tin dịch tễ về ca bệnh đang được cập nhật bổ sung).
+
+*BN854: Nữ; 70 tuổi; Hải Châu, Đà Nẵng (Thông tin dịch tễ về ca bệnh đang được cập nhật bổ sung).
+
+*BN853: Nam; 14 tuổi; Sơn Trà, Đà Nẵng (Thông tin dịch tễ về ca bệnh đang được cập nhật bổ sung).
+
+*BN852: Nam; 40 tuổi; Sơn Trà, Đà Nẵng (Thông tin dịch tễ về ca bệnh đang được cập nhật bổ sung).
+
+*BN851: Nữ; 67 tuổi; Hòa Vang, Đà Nẵng (Thông tin dịch tễ về ca bệnh đang được cập nhật bổ sung).
+
+*BN850: Nam; 55 tuổi; Hải Châu, Đà Nẵng (Thông tin dịch tễ về ca bệnh đang được cập nhật bổ sung).
+
+*BN849: Nữ; 39 tuổi; Sơn Trà, Đà Nẵng (Thông tin dịch tễ về ca bệnh đang được cập nhật bổ sung).
+
+*BN848: Nữ; 78 tuổi; Sơn Trà, Đà Nẵng (Thông tin dịch tễ về ca bệnh đang được cập nhật bổ sung).
 
 *BN847: Bệnh nhân nam, 44 tuổi. Ngày 04/8/2020 từ đảo Guam (Hoa Kỳ) trên chuyến bay OAE423 nhập cảnh sân bay Tân Sơn Nhất, được cách ly tập trung ngay sau khi nhập cảnh. Kết quả xét nghiệm mẫu lần 2 ngày 09/8/2020 là dương tính với SARS- CoV-2. Hiện tại bệnh nhân được cách ly, điều trị tại Bệnh viện dã chiến Củ Chi.
 
