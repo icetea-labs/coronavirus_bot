@@ -1,3 +1,37 @@
+*BN880: Nam, 46 tuổi; ở Thanh Khê, Đà Nẵng, đang được điều tra, bổ sung thông tin dịch tễ.
+
+*BN879: Nam, 33 tuổi; ở Hải Châu, Đà Nẵng, đang được điều tra, bổ sung thông tin dịch tễ.
+
+*BN878: Nam, 30 tuổi; ở Hải Châu, Đà Nẵng, đang được điều tra, bổ sung thông tin dịch tễ.
+
+*BN877: Nam, 41 tuổi; ở Thanh Khê, Đà Nẵng, đang được điều tra, bổ sung thông tin dịch tễ.
+
+*BN876: Nam, 51 tuổi; ở Duy Xuyên, Quảng Nam, đang được điều tra, bổ sung thông tin dịch tễ.
+
+*BN875: Nữ, 26 tuổi; Liên Chiểu, Đà Nẵng. Là sinh viên thực tập tại Bệnh viện Đà Nẵng và trong thời gian từ ngày 15-24/7/2020 có tiếp xúc với 2 nhân viên y tế là BN435 và BN574. 
+
+*BN874: Nữ, 56 tuổi; ở Hải Châu, Đà Nẵng. Là vợ bệnh nhân BN666. 
+
+*BN873: Nữ, 77 tuổi; ở Hòa Vang, Đà Nẵng. Bệnh nhân có đến Bệnh viện Đà Nẵng điều trị và có tiếp xúc với con dâu là BN823. 
+
+*BN872: Nam, 56 tuổi; ở Hòa Vang, Đà Nẵng. Bệnh nhân tiếp xúc với BN823 và tiếp xúc với mẹ là BN873. 
+
+*BN871: Nữ, 59 tuổi; ở Cẩm Lệ, Đà Nẵng. Bệnh nhân là vợ của BN825. 
+
+*BN870: Nữ, 35 tuổi; ở Điện Bàn, Quảng Nam. Bệnh nhân là con và có tiếp xúc với BN478. 
+
+*BN869: Nữ, 83 tuổi; ở Hòa Vang, Đà Nẵng. Bệnh nhân điều trị tại Bệnh viện Đà Nẵng trong thời gian 04-08/7/2020 và 11-19/7/2020.
+
+*BN868: Nữ, 58 tuổi; ở Thanh Khê, Đà Nẵng. Bệnh nhân điều trị tại Bệnh viện Đà Nẵng từ ngày 19-25/7/2020. 
+
+*BN867: Nam, 63 tuổi; ở Bình Giang, Hải Dương. Ngày 31/7/2020, bệnh nhân có ho, mệt mỏi. Ngày 8/8/2020, bệnh nhân đi khám tại Bệnh viện Trung ương Quân đội 108, sau đó về nhà con gái tại Thanh Trì, Hà Nội. Ngày 9/8/2020 khám và nhập Bệnh viện Thanh Nhàn với chẩn đoán viêm phổi nặng, ngày 10/8/2020 lấy mẫu gửi Trung tâm Kiểm soát bệnh tật TP. Hà Nội, kết quả lần 1 âm tính. Ngày 11/8/2020 lấy mẫu lần 2, kết quả xét nghiệm Bệnh viện Thanh Nhàn và Trung tâm Kiểm soát bệnh tật TP. Hà Nội đều dương tính với SARS-CoV-2. 
+
+*BN866: Nam, 33 tuổi; Mỹ Lộc, Nam Định, được phát hiện tại Hải Phòng, cách ly ngay sau khi nhập cảnh.
+
+*BN865: Nam, 33 tuổi; Cẩm Giàng, Hải Dương, được phát hiện tại Hải Phòng, cách ly ngay sau khi nhập cảnh.
+
+*BN864: Nữ, 36 tuổi; Nghi Lộc, Nghệ An, được phát hiện tại Hải Phòng, cách ly ngay sau khi nhập cảnh.
+
 *BN863: Nữ; 52 tuổi; Ngũ Hành Sơn, Đà Nẵng.
 
 *BN862: Nữ; 66 tuổi; Hướng Hóa, Quảng Trị. Bệnh nhân là mẹ và chăm sóc BN832 từ ngày 02-07/8/2020. Hiện tại các BN861-862 đang được cách ly, điều trị tại Bệnh viện Lao và các bệnh phổi Quảng Trị. 
