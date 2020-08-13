@@ -1,3 +1,9 @@
+*BN883: Nữ, 83 tuổi; Hội An, Quảng Nam. Là mẹ của BN858. Từ ngày 9-23/7/2020 nhập viện điều trị Bệnh viện Đà Nẵng. Từ trưa ngày 23/7/2020 về nhà tại Hội An. Kết quả xét nghiệm ngày 12/8/2020 dương tính với SARS-CoV-2. Hiện được cách ly, điều trị tại Bệnh viện đa khoa Khu vực Quảng Nam.
+
+*BN882: Nam, 51 tuổi; thường trú tại Quận Gò Vấp, TP Hồ Chí Minh; tạm trú tại Duy Xuyên, Quảng Nam. Ngày 28/7/2020 từ TP. Hồ Chí Minh ra chăm sóc mẹ là BN524 tại Bệnh viện đa khoa khu vực Quảng Nam. Ngày 29/7/2020 có tiếp xúc trực tiếp với BN626. Sau đó được đưa vào khu cách ly tập trung Khách sạn Mỹ Sơn. Kết quả xét nghiệm ngày 12/8/2020 dương tính với SARS-CoV-2. Hiện được cách ly, điều trị tại Bệnh viện đa khoa Khu vực Quảng Nam.
+
+*BN881: Nữ, 40 tuổi, quận Ba Đình, TP Hà Nội. Ngày 09/8/2020 bệnh nhân từ Ả Rập - Xê Út về sân bay Cần Thơ trên chuyến bay VN5002, được cách ly tập trung tại tỉnh Bạc Liêu ngay sau khi nhập cảnh. Lấy mẫu xét nghiệm ngày 11/8/2020, kết quả dương tính với SARS-CoV-2. Hiện được cách ly, điều trị tại Bệnh viện đa khoa tỉnh Bạc Liêu.
+
 *BN880: Nam, 46 tuổi; ở Thanh Khê, Đà Nẵng, đang được điều tra, bổ sung thông tin dịch tễ.
 
 *BN879: Nam, 33 tuổi; ở Hải Châu, Đà Nẵng, đang được điều tra, bổ sung thông tin dịch tễ.
