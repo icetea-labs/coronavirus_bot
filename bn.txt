@@ -1,3 +1,15 @@
+*BN911: Nam, 79 tuổi, Duy Xuyên - Quảng Nam, chồng của BN 722.
+
+*BN910: Nam, 6 tuổi, Duy Xuyên - Quảng Nam, cháu của BN 722.
+
+*BN909: Nữ, 38 tuổi, Duy Xuyên - Quảng Nam, con của BN 722.
+
+*BN908: Nữ, 59 tuổi, địa chỉ thường trú Quỳnh Phụ - Thái Bình, làm việc cùng địa chỉ tại thành phố Hải Dương, có tiếp xúc với BN867.
+
+*BN907: Nam, 17 tuổi, địa chỉ thường trú tại Thanh Hà, Hải Dương, làm việc cùng địa chỉ tại thành phố Hải Dương, có tiếp xúc với BN867.
+
+*BN906: Nữ, 72 tuổi, địa chỉ thường trú tại Thanh Hà, Hải Dương, làm việc cùng địa chỉ tại thành phố Hải Dương, có tiếp xúc với BN867.
+
 *BN905: Nam, 65 tuổi, Điện Bàn, Quảng Nam, thăm bệnh nhân điều trị tại Bệnh viện Đà Nẵng.
 
 *BN904: Nữ, 36 tuổi, Đông Hà, Quảng Trị, tiếp xúc với BN750.
