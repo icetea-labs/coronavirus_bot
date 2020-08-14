@@ -150,17 +150,17 @@
 
 *BN795, BN797 đến BN810 tại Đà Nẵng, gồm: 1 nhân viên y tế, 1 bệnh nhân và 13 F1.
 
-*BN793, BN794 tại Bắc Giang: đều là ca F1, cùng nhóm gia đình đi du lịch Đà Nẵng 21-24/7, hiện đang cách ly, điều trị tại BV Bệnh nhiệt đới T.Ư, cơ sở Đông Anh.
+*BN793, BN794: tại Bắc Giang đều là ca F1, cùng nhóm gia đình đi du lịch Đà Nẵng 21-24/7, hiện đang cách ly, điều trị tại BV Bệnh nhiệt đới T.Ư, cơ sở Đông Anh.
 
-*BN792, BN796 tại Quảng Nam: 1 ca thăm người thân tại Khoa Nội thận - Nội tiết, BV Đà Nẵng và 1 ca là Bệnh nhân Khoa Thận - TN, BV Đà Nẵng. Hiện đang cách ly, điều trị tại BVĐK T.Ư Quảng Nam.
+*BN792, BN796: tại Quảng Nam 1 ca thăm người thân tại Khoa Nội thận - Nội tiết, BV Đà Nẵng và 1 ca là Bệnh nhân Khoa Thận - TN, BV Đà Nẵng. Hiện đang cách ly, điều trị tại BVĐK T.Ư Quảng Nam.
 
-*BN791 tại Khánh Hoà: nam, 45 tuổi, có địa chỉ tại Cam Nghĩa, Cam Ranh, Khánh Hoà, là F1 BN751, hiện đang cách ly, điều trị tại BV BNĐ Khánh Hoà.
+*BN791: tại Khánh Hoà nam, 45 tuổi, có địa chỉ tại Cam Nghĩa, Cam Ranh, Khánh Hoà, là F1 BN751, hiện đang cách ly, điều trị tại BV BNĐ Khánh Hoà.
 
-*BN790 tại Hà Nội: nam, 17 tuổi, địa chỉ tại Hưng Long, Bình Chánh, Bình Dương. Ngày 6/8 từ Mỹ về Sân bay Nội Bài trên chuyến bay VN2, cách ly ngay sau nhập cảnh tại HN, hiện BN cách ly, điều trị tại BV Bệnh nhiệt đới T.Ư, cơ sở Đông Anh.
+*BN790: tại Hà Nội nam, 17 tuổi, địa chỉ tại Hưng Long, Bình Chánh, Bình Dương. Ngày 6/8 từ Mỹ về Sân bay Nội Bài trên chuyến bay VN2, cách ly ngay sau nhập cảnh tại HN, hiện BN cách ly, điều trị tại BV Bệnh nhiệt đới T.Ư, cơ sở Đông Anh.
 
-*BN788, BN789 tại Khánh Hoà: Ngày 5/8, 2 BN này từ Mexico (quá cảnh Nhật) nhập cảnh SB Cam Ranh trên chuyến bay VJ7837, được cách ly ngay sau nhập cảnh tại Trung tâm giáo dục Quốc phòng an ninh thuộc Đại học Nha Trang. Hiện BN cách ly, điều trị tại BV BNĐ Khánh Hoà.
+*BN788, BN789: tại Khánh Hoà. Ngày 5/8, 2 BN này từ Mexico (quá cảnh Nhật) nhập cảnh SB Cam Ranh trên chuyến bay VJ7837, được cách ly ngay sau nhập cảnh tại Trung tâm giáo dục Quốc phòng an ninh thuộc Đại học Nha Trang. Hiện BN cách ly, điều trị tại BV BNĐ Khánh Hoà.
 
-*BN786, BN787 tại Quảng Ngãi: 1 ca là F1 của BN574 (mẹ), BN572 (em), BN710 (cha) và 1 ca là F1 của BN630. 
+*BN786, BN787: tại Quảng Ngãi, 1 ca là F1 của BN574 (mẹ), BN572 (em), BN710 (cha) và 1 ca là F1 của BN630. 
 
 *BN785: Nam, 42 tuổi, có địa chỉ tại Đức Thượng, Hoài Đức, Hà Nội. Ngày 16-20/7 cùng gia đình đi du lịch Đà Nẵng. Hiện BN cách ly, điều trị tại BV BNĐ cơ sở Đông Anh. 
 
@@ -186,11 +186,9 @@
 
 *BN744: tại Bắc Giang, nữ, 7 tuổi, F1 của BN673, BN674, cùng nhóm du lịch tại Đà Nẵng với BN675-678 tại Lạng Sơn. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở 2. 
 
-*BN719 đến BN723 và BN730: tại Quảng Nam độ tuổi từ 30-51, liên quan Đà Nẵng, gồm 2 bệnh nhân, 3 F1 (BN562, BN456, BN592), 1 người chăm sóc tại Bệnh viện Đà Nẵng. Hiện các bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa Trung ương Quảng Nam. 
+*BN719 đến BN723, BN730: tại Quảng Nam độ tuổi từ 30-51, liên quan Đà Nẵng, gồm 2 bệnh nhân, 3 F1 (BN562, BN456, BN592), 1 người chăm sóc tại Bệnh viện Đà Nẵng. Hiện các bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa Trung ương Quảng Nam. 
 
-*BN718, BN724 đến BN729 và BN731 đến BN743: tại Đà Nẵng, tuổi từ 1-69, gồm: 9 F1, 5 bệnh nhân, 3 người chăm sóc, 1 nhân viên y tế, 1 tại quận Thanh Khê, Đà Nẵng (đang tiếp tục điều tra). 
-
-*BN718, nữ, 67 tuổi, quê quán: Đà Nẵng, đã tử vong tối 5/8, được xét nghiệm khẳng định dương tính với Sars-CoV-2 cuối giờ sáng 6/8. 
+*BN718, BN724 đến BN729, BN731 đến BN743: tại Đà Nẵng, tuổi từ 1-69, gồm: 9 F1, 5 bệnh nhân, 3 người chăm sóc, 1 nhân viên y tế, 1 tại quận Thanh Khê, Đà Nẵng (đang tiếp tục điều tra). 
 
 *BN715 đến BN717: tại Quảng Nam, độ tuổi từ 42-45, trong đó 1 bệnh nhân là F1 (con gái) của BN593, (em) của BN547, BN625, 2 bệnh nhân là F1 của BN456. Hiện 3 bệnh nhân đang được cách ly, điều trị tại Bệnh viện Đa khoa Trung ương Quảng Nam.
 
