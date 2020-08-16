@@ -1,3 +1,55 @@
+*BN951: Bệnh nhân nam, 27 tuổi, có địa chỉ tại Yên Thành, Nghệ An. Ngày 29/7/2020 từ Guinea Xích đạo về Sân bay Nội Bài trên chuyến bay VN6, được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở 2 ngay sau nhập cảnh. Kết quả xét nghiệm lần 4 ngày 14/8/2020 dương tính với virus SARS-CoV-2.
+
+*BN950: Nam, 15 tuổi, thành phố Hải Dương, tiếp xúc với BN906.
+
+*BN949: Nam, 42, tuổi, được cách ly tập trung ngay sau khi nhập cảnh. 949 từ đảo Guam (Hoa Kỳ) trên chuyến bay OAE423 về sân bay Tân Sơn Nhất ngày 04/08/2020, được cách ly ngay sau khi nhập cảnh tại Khu A - Bệnh viện dã chiến Củ Chi.
+
+*BN948: Nam, 22, tuổi, được cách ly tập trung ngay sau khi nhập cảnh. BN948 từ đảo Guam (Hoa Kỳ) trên chuyến bay OAE423 về sân bay Tân Sơn Nhất ngày 04/08/2020, được cách ly ngay sau khi nhập cảnh tại Khu A - Bệnh viện dã chiến Củ Chi.
+
+*BN947: Nam, 57, tuổi, được cách ly tập trung ngay sau khi nhập cảnh. BN947 từ đảo Guam (Hoa Kỳ) trên chuyến bay OAE423 về sân bay Tân Sơn Nhất ngày 04/08/2020, được cách ly ngay sau khi nhập cảnh tại Khu A - Bệnh viện dã chiến Củ Chi.
+
+*BN946: Nam, 53, tuổi, được cách ly tập trung ngay sau khi nhập cảnh. BN946 từ đảo Guam (Hoa Kỳ) trên chuyến bay OAE423 về sân bay Tân Sơn Nhất ngày 04/08/2020, được cách ly ngay sau khi nhập cảnh tại Khu A - Bệnh viện dã chiến Củ Chi.
+
+*BN945: Nam, 19 tuổi, Hòa Vang, Đà Nẵng, được rà soát lấy mẫu tại khu phong tỏa thuộc xã Hòa Tiến, huyện Hòa Vang, Đà Nẵng.
+
+*BN944: Nữ, 37 tuổi, Cẩm Lệ, Đà Nẵng. 
+
+*BN943: Nam, 31 tuổi, Liên Chiểu, Đà Nẵng, tiếp xúc với BN430.
+
+*BN942: Nữ, 62 tuổi, Hải Châu, Đà Nẵng, tiếp xúc với BN915. 
+
+*BN941: Nữ, 28 tuổi, Hòa Vang, Đà Nẵng, tiếp xúc với BN872.
+
+*BN940: Nữ, 50 tuổi, Hòa Vang, Đà Nẵng, tiếp xúc với BN872.
+
+*BN939: Nữ, 66 tuổi, Thanh Khê, Đà Nẵng, Người nhà bệnh nhân điều trị tại Bệnh viện Đà Nẵng.
+
+*BN938: Nam, 34 tuổi, Thanh Khê, Đà Nẵng, Người nhà bệnh nhân điều trị tại Bệnh viện Đà Nẵng.
+
+*BN937: Nữ, 52 tuổi, Thanh Khê, Đà Nẵng, Người nhà bệnh nhân điều trị tại Bệnh viện Đà Nẵng.
+
+*BN936: Nam, 56 tuổi, Hải Châu, Đà Nẵng, Bệnh nhân điều trị tại Bệnh viện Đà Nẵng.
+
+*BN935: Nam, 91 tuổi, Điện Bàn, Quảng Nam, Bệnh nhân điều trị tại Bệnh viện Đà Nẵng.
+
+*BN934: Nữ, 35 tuổi, Thành phố Hội An, Quảng Nam (con của BN774, mẹ của BN842).
+
+*BN933: Nữ, 35 tuổi, Thành phố Hội An, Quảng Nam. BN933 được rà soát lấy mẫu tại khu phong tỏa thuộc phường Minh An, thành phố Hội An. 
+
+*BN932: Nam, 14 tuổi, Thành phố Hội An, Quảng Nam. BN932 được rà soát lấy mẫu tại khu phong tỏa thuộc phường Minh An, thành phố Hội An.
+
+*BN931: Nam, 66 tuổi, Thành phố Hội An, Quảng Nam. BN931 được rà soát lấy mẫu tại khu phong tỏa thuộc phường Minh An, thành phố Hội An.
+
+*BN930: Bệnh nhân nữ, 41 tuổi, có địa chỉ tại xã Minh Thuận, huyện Vụ Bản, tỉnh Nam Định. Bệnh nhân có tiền sử mắc COVID-19 và điều trị khỏi tại Nga ngày 24/6/2020. Ngày 10/8/2020, bệnh nhân từ Liên bang Nga về sân bay Vân Đồn trên chuyến bay VN5062, được cách ly ngay tại Tiểu đoàn 2, Trung đoàn 180, Bộ Chỉ huy Quân sự tỉnh Nam Định. Ngày 11/8, bệnh nhân được Trung tâm Kiểm soát Bệnh tật tỉnh Nam Định lấy mẫu xét nghiệm cho kết quả nghi ngờ. Ngày 13/8, bệnh nhân được lấy mẫu gửi Viện Vệ sinh Dịch tễ Trung ương xét nghiệm, kết quả ngày 14/8 bệnh nhân dương tính với vi rút SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Nam Định.
+
+*BN929 tại Quảng Nam: Bệnh nhân nữ, 57 tuổi, là F1 (vợ) BN796.
+
+*BN928 tại Quảng Nam: Bệnh nhân nam, 5 tuổi, là F1 (là cháu nội) BN796
+
+*BN913 đến BN927: tại Đà Nẵng, gồm 2 ca là bệnh nhân, 1 ca là người chăm sóc, 2 ca là F1, 9 ca liên quan Bệnh viện Đà Nẵng, 1 ca tại quận Hải Châu (đang tiếp tục điều tra).
+
+*BN912 tại TP. Hồ Chí Minh: Bệnh nhân nam, 27 tuổi, quốc tịch Trung Quốc. Ngày 27/7, bệnh nhân cùng 7 người Trung Quốc nhập cảnh trái phép qua biên giới phía Bắc Việt Nam. Từ 27-29/7, bệnh nhân đi ô tô vào TP.Hồ Chí Minh. Ngày 30/7, bệnh nhân được phát hiện, đưa cách ly, lấy mẫu xét nghiệm tại Bệnh viện quận 7, kết quả đều âm tính. Ngày 01/8, bệnh nhân chuyển cách ly tại Bệnh viện Dã chiến Củ Chi, được lấy mẫu xét nghiệm ngày 3/8 và 6/8, kết quả đều âm tính. Ngày 12/8 lấy mẫu lần 3, kết quả có 1/8 mẫu dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã Chiến Củ Chi. 
+
 *BN911: Nam, 79 tuổi, Duy Xuyên - Quảng Nam, chồng của BN 722.
 
 *BN910: Nam, 6 tuổi, Duy Xuyên - Quảng Nam, cháu của BN 722.
