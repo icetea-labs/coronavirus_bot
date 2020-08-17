@@ -1,3 +1,7 @@
+*BN964: Nữ, 49 tuổi, Tam Kỳ, Quảng Nam. Ngày 11/7/2020, bệnh nhân có đi đám cưới tại Duy Tân, Đà Nẵng. Ngày 15/8/2020, bệnh nhân được lấy mẫu, kết quả xét nghiệm ngày 16/8/2020 dương tính với vi rút SARS-CoV-2.
+
+*BN963: Nam, 30 tuổi, Tân Bình, thành phố Hải Dương. Ngày 03/8/2020, bệnh nhân ăn tối tại nhà hàng ở phường Phạm Ngũ Lão, Thành phố Hải Dương (nơi đã được xác định có ổ dịch COVID-19 sau đó). Ngày 15/8/2020, bệnh nhân được lấy mẫu, kết quả xét nghiệm ngày 16/8/2020 dương tính với vi rút SARS-CoV-2.
+
 *BN962: Nam, 30 tuổi, Thanh Xuân, Hà Nội. Có đến thành phố Đà Nẵng từ 20-22/7/2020. Ngày 03/8/2020 bệnh nhân xuất hiện triệu chứng sốt 390C đến khám bệnh tại Bệnh viện Thanh Nhàn, được lấy mẫu gửi Trung tâm Kiểm soát bệnh tật Hà Nội làm xét nghiệm lần 1, kết quả âm tính. Ngày 15/8/2020 được lấy mẫu lần 2, kết quả xét nghiệm tại Bệnh viện Thanh Nhàn và Trung tâm Kiểm soát bệnh tật Hà Nội dương tính SARS-COV-2.
 
 *BN961: Nữ, 32 tuổi, Nhân viên y tế Bệnh viện dã chiến Hòa Vang, Đà Nẵng.
