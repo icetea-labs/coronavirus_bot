@@ -1,3 +1,13 @@
+*BN976: nam, 42 tuổi, có địa chỉ tại Thạch Sơn, Thạch Thành, Thanh Hóa. Ngày 29/7/2020, bệnh nhân từ Guinea Xích Đạo về Sân bay Nội Bài trên chuyến bay VN6 và được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở 1 (Đông Anh).
+
+*BN974 đến BN975: tại Đà Nẵng, có độ tuổi từ 33-59 tuổi, gồm: 1 ca là nhân viên y tế tại Bệnh viện Đà Nẵng, 1 ca là bảo vệ tại Bệnh viện Đà Nẵng, 1 ca tại quận Thanh Khê.
+
+*BN970 đến BN973: tại Hải Dương, có độ tuổi từ 13-41 tuổi, liên quan đến ổ dịch đường Ngô Quyền, TP Hải Dương (trước đó đã ghi nhận 5 ca tại ổ dịch này).
+
+*BN969: tại Hà Nội, nữ, 25 tuổi, có địa chỉ tại Phường Trương Định, quận Hai Bà Trưng, là F1 của BN962.
+
+*BN965 đến BN968: tại Đà Nẵng, có độ tuổi từ 33-59 tuổi, là người nhà bệnh nhân
+
 *BN964: Nữ, 49 tuổi, Tam Kỳ, Quảng Nam. Ngày 11/7/2020, bệnh nhân có đi đám cưới tại Duy Tân, Đà Nẵng. Ngày 15/8/2020, bệnh nhân được lấy mẫu, kết quả xét nghiệm ngày 16/8/2020 dương tính với vi rút SARS-CoV-2.
 
 *BN963: Nam, 30 tuổi, Tân Bình, thành phố Hải Dương. Ngày 03/8/2020, bệnh nhân ăn tối tại nhà hàng ở phường Phạm Ngũ Lão, Thành phố Hải Dương (nơi đã được xác định có ổ dịch COVID-19 sau đó). Ngày 15/8/2020, bệnh nhân được lấy mẫu, kết quả xét nghiệm ngày 16/8/2020 dương tính với vi rút SARS-CoV-2.
