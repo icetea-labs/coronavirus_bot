@@ -1,3 +1,11 @@
+*BN981 đến 983: tại Quảng Nam, độ tuổi từ 15- 90 tuổi, gồm: 1 ca là bệnh nhân Bệnh viện Đà Nẵng; 2 ca là F1 của của các bệnh nhân trước đó. Hiện 3 bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa khu vực Quảng Nam.
+
+*BN980: được cách ly ngay sau nhập cảnh tại Cần Thơ. Bệnh nhân nữ, 37 tuổi, có địa chỉ tại Đức Nhuận, Mậu Đức, Quảng Ngãi. Ngày 15/8, bệnh nhân từ Philippines về Cần Thơ trên chuyến bay VJ7816, được cách ly ngay sau nhập cảnh tại Cần Thơ. Ngày 16/8, bệnh nhân được Trung tâm Kiểm soát Bệnh tật tỉnh Cần Thơ lấy mẫu xét nghiệm cho kết quả bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Lao và bệnh phổi TP. Cần Thơ
+
+*BN979: tại Hà Nội, bệnh nhân nữ, 33 tuổi, có địa chỉ tại Phú Thượng, Tây Hồ, Hà Nội. Bệnh nhân có tiền sử đi du lịch Đà Nẵng ngày 22-25/7, bệnh nhân được cách ly tại nhà. Ngày 16/8, bệnh nhân được lấy mẫu gửi Viện Vệ sinh Dịch tễ Trung ương xét nghiệm, kết quả ngày 17/8 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN977, BN978: tại Hải Dương, 2 bệnh nhân đều 46 tuổi, liên quan đến ổ dịch đường Ngô Quyền (quán bò tươi) (đã có 9 ca tại ổ dịch này). Hiện 2 bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới TP. Hải Dương.
+
 *BN976: nam, 42 tuổi, có địa chỉ tại Thạch Sơn, Thạch Thành, Thanh Hóa. Ngày 29/7/2020, bệnh nhân từ Guinea Xích Đạo về Sân bay Nội Bài trên chuyến bay VN6 và được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở 1 (Đông Anh).
 
 *BN974 đến BN975: tại Đà Nẵng, có độ tuổi từ 33-59 tuổi, gồm: 1 ca là nhân viên y tế tại Bệnh viện Đà Nẵng, 1 ca là bảo vệ tại Bệnh viện Đà Nẵng, 1 ca tại quận Thanh Khê.
