@@ -1,10 +1,14 @@
+*BN1009: Bệnh nhân nam, 47 tuổi, có địa chỉ tại phường Nại Hiên Đông, quận Sơn Trà, Đà Nẵng, là F1 (con) của BN 797, (chồng) của BN 781, (bố) của BN780.
+
+*BN1008: Bệnh nhân nữ, 75 tuổi, có địa chỉ tại xã Hòa Tiến, huyện Hòa Vang, Đà Nẵng, là F1 (mẹ) của BN988
+
 *BN1007: Bệnh nhân nam, 27 tuổi, ở TP.Hồ Chí Minh. Ngày 29/7, bệnh nhân từ Guinea Xích Đạo về Sân bay Nội Bài trên chuyến bay VN6 và được cách ly ngay. Sau khi hết thời gian cách ly sau khi nhập cảnh, ngày 14/8 bệnh nhân về TP. Hồ Chí Minh cách ly tại nhà, được lấy mẫu xét nghiêm và cho kết quả bệnh nhân dương tính với vi rút SARS-CoV-2 vào ngày 19/8. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện dã chiến Củ Chi.
 
 *BN1000: tại Khánh Hòa, bệnh nhân nam, 33 tuổi, là chuyên gia, quốc tịch Philippines. Ngày 14/8, bệnh nhân từ Hàn Quốc về Sân bay Cam Ranh trên chuyến bay OZ773, được cách ly ngay sau nhập cảnh tại Khánh Hoà và được lấy mẫu xét nghiệm gửi Viện Pasteur Nha Trang có kết quả dương tính với vi rút SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Khánh Hòa. 
 
 *BN999: tại Quảng Nam, bệnh nhân nam, 26 tuổi, có địa chỉ tại Duy Thành, Duy Xuyên, Quảng Nam, là F1 (chồng) của BN775 và (anh vợ) BN671 điều trị tại khoa Ngoại - Thần kinh, Bệnh viện Đà Nẵng. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa khu vực miền núi phía Bắc Quảng Nam.
 
-*BN994 đến BN998 và BN1001 đến BN1006: tại Đà Nẵng, độ tuổi từ 24-65, gồm: 7 ca là người chăm sóc (6 ca tại Bệnh viện Đà Nẵng, 1 ca tại Bệnh viện Ung bướu Đà Nẵng); 3 ca là F1 của các bệnh nhân trước đó và 1 ca là bệnh nhân tại Bệnh viện Đà Nẵng.
+*BN994 đến BN998, BN1001 đến BN1006: tại Đà Nẵng, độ tuổi từ 24-65, gồm: 7 ca là người chăm sóc (6 ca tại Bệnh viện Đà Nẵng, 1 ca tại Bệnh viện Ung bướu Đà Nẵng); 3 ca là F1 của các bệnh nhân trước đó và 1 ca là bệnh nhân tại Bệnh viện Đà Nẵng.
 
 *BN993: tại Hải Dương, bệnh nhân nữ, 40 tuổi, có địa chỉ tại phường Tân Bình, TP. Hải Dương, tỉnh Hải Dương, có tiền sử tiếp xúc gần với BN906 và BN970, liên quan ổ dịch tại đường Ngô Quyền, TP. Hải Dương. Ngày 14/8, bệnh nhân được cách ly tập trung tại khu ký túc xá Trường Đại học Hải Dương. Ngày 15/8, bệnh nhân được lấy mẫu xét nghiệm, kết quả âm tính với vi rút SARS-CoV-2. Ngày 17/8, bệnh nhân được lấy mẫu xét nghiệm lần 2, kết quả xét nghiệm ngày 18/8 của Trung tâm Kiểm soát bệnh tật Hải Dương và Viện Vệ sinh Dịch tễ Trung ương cho kết quả dương tính với vi rút SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới TP. Hải Dương.
 
@@ -256,7 +260,7 @@
 
 *B842: Bệnh nhân nam, 8 tuổi, thành phố Hội An, tỉnh Quảng Nam. Bệnh nhân là cháu ngoại của BN774. 
 
-*BN834 đến BN841 tại Quảng Nam: độ tuổi từ 11-70, gồm: 3 F1, 2 người chăm sóc, 2 bệnh nhân, 1 người về từ Đà Nẵng.
+*BN834 đến BN841: tại Quảng Nam, độ tuổi từ 11-70, gồm: 3 F1, 2 người chăm sóc, 2 bệnh nhân, 1 người về từ Đà Nẵng.
 
 *BN832, BN833: tại Quảng Trị độ tuổi 29-37, là F1 của BN 750.
 
@@ -282,9 +286,9 @@
 
 *BN785: Nam, 42 tuổi, có địa chỉ tại Đức Thượng, Hoài Đức, Hà Nội. Ngày 16-20/7 cùng gia đình đi du lịch Đà Nẵng. Hiện BN cách ly, điều trị tại BV BNĐ cơ sở Đông Anh. 
 
-*BN755 đến BN771 và BN780 đến BN784 tại Đà Nẵng gồm các đối tượng: 16 ca là bệnh nhân, 3 ca là F1, 2 ca là người thăm, 1 ca tại quận Hải Châu (đang tiếp tục điều tra). 
+*BN755 đến BN771, BN780 đến BN784: tại Đà Nẵng gồm các đối tượng: 16 ca là bệnh nhân, 3 ca là F1, 2 ca là người thăm, 1 ca tại quận Hải Châu (đang tiếp tục điều tra). 
 
-*BN772 đến BN779 tại Quảng Nam gồm các đối tượng: 7 ca là F1, 1 ca thăm người thân tại Khoa Nội Thận - Nội tiết, Bệnh viện Đà Nẵng. Hiện 8 bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa Trung ương Quảng Nam.
+*BN772 đến BN779: tại Quảng Nam gồm các đối tượng: 7 ca là F1, 1 ca thăm người thân tại Khoa Nội Thận - Nội tiết, Bệnh viện Đà Nẵng. Hiện 8 bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa Trung ương Quảng Nam.
 
 *BN754: tại Bà Rịa - Vũng Tàu, bệnh nhân nam, 30 tuổi, liên quan tàu chở gas Texiana từ Qatar về Cảng Vũng Tàu ngày 28/7, được cách ly trên tàu, lấy mẫu ngay sau nhập cảnh. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bà Rịa. 
 
