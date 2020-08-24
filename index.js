@@ -652,7 +652,10 @@ const formatAlert = text => {
   }
 
   const lines = getLines(text)
-  let bodyChannel = lines.join('.\n\n').replace(/:\s*1\./g, ':\n\n1.').replace(/\.\s*(BN\d\d\d+)(\s*(\:|\,|là\s+nam|là\s+nữ))/gi, '.\n\n<b>$1</b>$2')
+  let bodyChannel = lines.join('.\n\n')
+    .replace(/:\s*1\./g, ':\n\n1.')
+    .replace(/\.\s*(BN\d\d\d+)(\s*(\:|\,|là\s+nam|là\s+nữ))/gi, '.\n\n<b>$1</b>$2')
+    .replace(/\-\s*(CA\s*BỆNH\s*\d\d\d+)/gi, '\n\n- <b>$1</b>')
   let forBot = bodyChannel
 
   const promo4Bot = process.env.PROMOTE_4BOT.trim()
