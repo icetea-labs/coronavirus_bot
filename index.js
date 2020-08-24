@@ -641,6 +641,13 @@ const getLines = text => {
 }
 
 const formatAlert = text => {
+
+  // prevent message too long, we truncate 3600 letters
+  const moreText = '... [lược bớt do qúa dài]'
+  if (text.length > 3600) {
+    text = text.slice(0, 3600 - moreText.length) + '... [lược bớt do qúa dài]'
+  }
+
   let [title, ...rest] = text.split(':')
   title = formatAlertTitle(title)
   if (title) {
@@ -885,7 +892,7 @@ const updateVietnamDataFromZing = async () => {
 }
 
 const parseData = ($, day, array) => {
-  const headers = ['country', 'cases', 'newCases', 'deaths', 'newDeaths', 'recovered', 'activeCases', 'criticalCases', 'casesPerM', 'deathsPerM']
+  const headers = ['country', 'cases', 'newCases', 'deaths', 'newDeaths', 'recovered', 'newRecovered', 'activeCases', 'criticalCases', 'casesPerM', 'deathsPerM']
   $(`#main_table_countries_${day} tbody tr`).each((rowNum, tr) => {
     const $cells = $(tr).find('td')
     const row = {}
@@ -954,10 +961,10 @@ const getTop = (data, { country, top, byDeath }) => {
 }
 
 const makeVNCases = () => {
-  const { cases, newCases } = patchVietnamData(cache.byCountry, cache.vietnam, true) || {}
+  const { cases, /* newCases, */ deaths } = patchVietnamData(cache.byCountry, cache.vietnam, true) || {}
   if (cases == null) return 'N/A'
   let t = cases + ' ca'
-  if (newCases) t += ` (<b>${newCases}</b>)`
+  if (deaths) t += ` (<b>${deaths}</b> tử vong)`
   return t
 }
 
