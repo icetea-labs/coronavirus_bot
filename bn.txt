@@ -1,3 +1,15 @@
+*BN1022: Nữ, 63 tuổi, Liên Hồng, thành phố Hải Dương, tỉnh Hải Dương, là mẹ đẻ và ở cùng với con trai là BN1016.
+
+*BN1021: Nam, 8 tuổi, Liên Hồng, thành phố Hải Dương, tỉnh Hải Dương, là con của BN1016.
+
+*BN1020: Nam, 26 tuổi, Hòa Khánh Bắc, Hòa Vang, Đà Nẵng, tiếp xúc với BN996
+
+*BN1019: Nữ, 37 tuổi, Hòa Khánh Bắc, Liên Chiểu, Đà Nẵng, là nhân viên y tế Bệnh Viện Đà Nẵng (tăng cường cho Bệnh viện Phổi Đà Nẵng từ 06/8/2020 đến nay, đã được cách ly tại khách sạn từ ngày 5/8/2020)
+
+*BN1018: Nam, 57 tuổi, Hải Châu 2, Hải Châu, Đà Nẵng, là nhân viên y tế Bệnh viện Đà Nẵng
+
+*BN1017: Nữ, 68 tuổi, Mỹ An, Ngũ Hành Sơn, Đà Nẵng, là người đi chợ được lấy mẫu xét nghiệm sàng lọc ngày 23/8/2020 tại chợ Hà Thân, phường An Hải Tây, quận Sơn Trà, Đà Nẵng.
+
 *BN1016: tại Hải Dương, bệnh nhân nam, 33 tuổi, có địa chỉ tại xã Liên Hồng, TP. Hải Dương, tỉnh Hải Dương, bệnh nhân có tiền sử tiếp xúc gần với BN977, liên quan ổ dịch tại đường Ngô Quyền, TP. Hải Dương. Ngày 12/8, bệnh nhân được cách ly tập trung tại Hải Dương. Ngày 20/8, bệnh nhân được lấy mẫu xét nghiệm kết quả nghi ngờ, mẫu gửi Viện Vệ sinh Dịch tễ Trung ương, kết quả xét nghiệm ngày 23/8 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Hải Dương.
 
 *BN1015: tại Đà Nẵng, bệnh nhân nữ, 44 tuổi, có địa chỉ tại thị trấn Nam Phước, huyện Duy Xuyên, tỉnh Quảng Nam. Ngày 06-18/8 chăm sóc người thân tại Bệnh viện Đà Nẵng, có tiếp xúc gần với BN996, BN997, BN998, BN1006. Ngày 18/8, bệnh nhân được cách ly, lấy mẫu xét nghiệm, kết quả bệnh nhân âm tính với vi rút SARS-CoV-2. Ngày 21/8, bệnh nhân khởi phát với sốt, được lấy mẫu xét nghiệm lần 2, kết quả bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Phổi Đà Nẵng.
