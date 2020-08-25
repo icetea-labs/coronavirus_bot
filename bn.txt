@@ -34,7 +34,7 @@
 
 *BN999: tại Quảng Nam, bệnh nhân nam, 26 tuổi, có địa chỉ tại Duy Thành, Duy Xuyên, Quảng Nam, là F1 (chồng) của BN775 và (anh vợ) BN671 điều trị tại khoa Ngoại - Thần kinh, Bệnh viện Đà Nẵng. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa khu vực miền núi phía Bắc Quảng Nam.
 
-*BN994 đến BN998, BN1001 đến BN1006: tại Đà Nẵng, độ tuổi từ 24-65, gồm: 7 ca là người chăm sóc (6 ca tại Bệnh viện Đà Nẵng, 1 ca tại Bệnh viện Ung bướu Đà Nẵng); 3 ca là F1 của các bệnh nhân trước đó và 1 ca là bệnh nhân tại Bệnh viện Đà Nẵng.
+*BN994 đến BN998, BN1001 đến BN1006: tại Đà Nẵng, độ tuổi từ 24-65, gồm: 7 ca là người chăm sóc (6 ca tại Bệnh viện Đà Nẵng, 1 ca tại Bệnh viện Ung bướu Đà Nẵng); 3 ca là F1 của các bệnh nhân trước  đó và 1 ca là bệnh nhân tại Bệnh viện Đà Nẵng
 
 *BN993: tại Hải Dương, bệnh nhân nữ, 40 tuổi, có địa chỉ tại phường Tân Bình, TP. Hải Dương, tỉnh Hải Dương, có tiền sử tiếp xúc gần với BN906 và BN970, liên quan ổ dịch tại đường Ngô Quyền, TP. Hải Dương. Ngày 14/8, bệnh nhân được cách ly tập trung tại khu ký túc xá Trường Đại học Hải Dương. Ngày 15/8, bệnh nhân được lấy mẫu xét nghiệm, kết quả âm tính với vi rút SARS-CoV-2. Ngày 17/8, bệnh nhân được lấy mẫu xét nghiệm lần 2, kết quả xét nghiệm ngày 18/8 của Trung tâm Kiểm soát bệnh tật Hải Dương và Viện Vệ sinh Dịch tễ Trung ương cho kết quả dương tính với vi rút SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới TP. Hải Dương.
 
