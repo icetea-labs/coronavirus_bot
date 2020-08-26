@@ -1,3 +1,39 @@
+*BN1034: Nam, 34 tuổi, thành phố Hải Dương, tỉnh Hải Dương. BN1032 từ Nga nhập cảnh tại sân bay Vân Đồn ngày 11/8/2020 trên chuyến bay VN5062, được chuyển đi cách ly ngay sau khi nhập cảnh tại tỉnh Hải Dương. Kết quả xét nghiệm lần 1 ngày 13/8/2020 âm tính, lần 2 ngày 25/8/2020 dương tính với SARS-CoV-2.
+
+*BN1033: Nữ, 58 tuổi, thành phố Đồng Hới, Quảng Bình. BN1033 từ Nga nhập cảnh tại sân bay Vân Đồn ngày 11/8/2020 trên chuyến bay VN5062, được chuyển đi cách ly ngay sau khi nhập cảnh tại tỉnh Hải Dương. Kết quả xét nghiệm lần 1 ngày 13/8/2020 âm tính, lần 2 ngày 25/8/2020 dương tính với SARS-CoV-2.
+
+*BN1032: Nam, 21 tuổi, Cầu Giấy, Hà Nội. BN1034 từ Nga nhập cảnh tại sân bay Vân Đồn ngày 11/8/2020 trên chuyến bay VN5062, được chuyển đi cách ly ngay sau khi nhập cảnh tại tỉnh Hải Dương. Kết quả xét nghiệm lần 1 ngày 13/8/2020 âm tính, lần 2 ngày 25/8/2020 dương tính với SARS-CoV-2.
+
+*BN1031: Nam, 38 tuổi, Quận 6, Thành phố Hồ Chí Minh. Bệnh nhân đã mắc COVID-19 tại UAE từ ngày 01/7/2020 và có 3 lần xét nghiệm âm tính trước khi về nước. BN1030-1031 từ Các Tiểu vương quốc Ả Rập Thống nhất (UAE) nhập cảnh tại sân bay Cần Thơ ngày 09/8/2020 trên chuyến bay VN5002, được chuyển đi cách ly ngay sau khi nhập cảnh tại Khu cách ly tỉnh Bạc Liêu, kết quả xét nghiệm lần 1 ngày 10/8/2020 âm tính, lần 2 ngày 25/8/2020 dương tính với SARS-CoV-2.
+
+*BN1030: Nam, 42 tuổi, huyện Quế Võ, tỉnh Bắc Ninh. Bệnh nhân đã mắc COVID-19 tại UAE từ ngày 23/6/2020 và có 3 lần xét nghiệm âm tính trước khi về nước. 
+
+*BN1029: Nữ, 46 tuổi, Mỹ An, Ngũ Hành Sơn, Đà Nẵng, cùng gia đình và tiếp xúc với BN1017.
+
+*BN1028: Nữ, 20 tuổi, Mỹ An, Ngũ Hành Sơn, Đà Nẵng, cùng gia đình và tiếp xúc với BN1017.
+
+*BN1027: Nam, 43 tuổi, Mỹ An, Ngũ Hành Sơn, Đà Nẵng, cùng gia đình và tiếp xúc với BN1017.
+
+*BN1026: Nữ, 21 tuổi, Mỹ An, Ngũ Hành Sơn, Đà Nẵng, cùng gia đình và tiếp xúc với BN1017.
+
+*BN1025: Nam, 70 tuổi, Mỹ An, Ngũ Hành Sơn, Đà Nẵng, cùng gia đình và tiếp xúc với BN1017.
+
+*BN1024: Nữ, 16 tuổi, Hòa Tiến, Hòa Vang, Đà Nẵng, được lấy mẫu ngày 24/8 tại khu vực đang được phong tỏa thuộc phường Hòa Tiến, quận Hòa Vang, thành phố Đà Nẵng.
+
+*BN1023: Nam, 20 tuổi, Hòa Tiến, Hòa Vang, Đà Nẵng, được lấy mẫu ngày 24/8 tại khu vực đang được phong tỏa thuộc phường Hòa Tiến, quận Hòa Vang, thành phố Đà Nẵng.
+
+*BN1022: Nữ, 63 tuổi, Liên Hồng, thành phố Hải Dương, tỉnh Hải Dương, là mẹ đẻ và ở cùng với con trai là BN1016.
+
+*BN1021: Nam, 8 tuổi, Liên Hồng, thành phố Hải Dương, tỉnh Hải Dương, là con của BN1016.
+
+*BN1020: Nam, 26 tuổi, Hòa Khánh Bắc, Hòa Vang, Đà Nẵng, tiếp xúc với BN996
+
+*BN1019: Nữ, 37 tuổi, Hòa Khánh Bắc, Liên Chiểu, Đà Nẵng, là nhân viên y tế Bệnh Viện Đà Nẵng (tăng cường cho Bệnh viện Phổi Đà Nẵng từ 06/8/2020 đến nay, đã được cách ly tại khách sạn từ ngày 5/8/2020)
+
+*BN1018: Nam, 57 tuổi, Hải Châu 2, Hải Châu, Đà Nẵng, là nhân viên y tế Bệnh viện Đà Nẵng
+
+*BN1017: Nữ, 68 tuổi, Mỹ An, Ngũ Hành Sơn, Đà Nẵng, là người đi chợ được lấy mẫu xét nghiệm sàng lọc ngày 23/8/2020 tại chợ Hà Thân, phường An Hải Tây, quận Sơn Trà, Đà Nẵng.
+
 *BN1016: tại Hải Dương, bệnh nhân nam, 33 tuổi, có địa chỉ tại xã Liên Hồng, TP. Hải Dương, tỉnh Hải Dương, bệnh nhân có tiền sử tiếp xúc gần với BN977, liên quan ổ dịch tại đường Ngô Quyền, TP. Hải Dương. Ngày 12/8, bệnh nhân được cách ly tập trung tại Hải Dương. Ngày 20/8, bệnh nhân được lấy mẫu xét nghiệm kết quả nghi ngờ, mẫu gửi Viện Vệ sinh Dịch tễ Trung ương, kết quả xét nghiệm ngày 23/8 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Hải Dương.
 
 *BN1015: tại Đà Nẵng, bệnh nhân nữ, 44 tuổi, có địa chỉ tại thị trấn Nam Phước, huyện Duy Xuyên, tỉnh Quảng Nam. Ngày 06-18/8 chăm sóc người thân tại Bệnh viện Đà Nẵng, có tiếp xúc gần với BN996, BN997, BN998, BN1006. Ngày 18/8, bệnh nhân được cách ly, lấy mẫu xét nghiệm, kết quả bệnh nhân âm tính với vi rút SARS-CoV-2. Ngày 21/8, bệnh nhân khởi phát với sốt, được lấy mẫu xét nghiệm lần 2, kết quả bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Phổi Đà Nẵng.
@@ -22,7 +58,7 @@
 
 *BN999: tại Quảng Nam, bệnh nhân nam, 26 tuổi, có địa chỉ tại Duy Thành, Duy Xuyên, Quảng Nam, là F1 (chồng) của BN775 và (anh vợ) BN671 điều trị tại khoa Ngoại - Thần kinh, Bệnh viện Đà Nẵng. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa khu vực miền núi phía Bắc Quảng Nam.
 
-*BN994 đến BN998, BN1001 đến BN1006: tại Đà Nẵng, độ tuổi từ 24-65, gồm: 7 ca là người chăm sóc (6 ca tại Bệnh viện Đà Nẵng, 1 ca tại Bệnh viện Ung bướu Đà Nẵng); 3 ca là F1 của các bệnh nhân trước đó và 1 ca là bệnh nhân tại Bệnh viện Đà Nẵng.
+*BN994 đến BN998, BN1001 đến BN1006: tại Đà Nẵng, độ tuổi từ 24-65, gồm: 7 ca là người chăm sóc (6 ca tại Bệnh viện Đà Nẵng, 1 ca tại Bệnh viện Ung bướu Đà Nẵng); 3 ca là F1 của các bệnh nhân trước  đó và 1 ca là bệnh nhân tại Bệnh viện Đà Nẵng
 
 *BN993: tại Hải Dương, bệnh nhân nữ, 40 tuổi, có địa chỉ tại phường Tân Bình, TP. Hải Dương, tỉnh Hải Dương, có tiền sử tiếp xúc gần với BN906 và BN970, liên quan ổ dịch tại đường Ngô Quyền, TP. Hải Dương. Ngày 14/8, bệnh nhân được cách ly tập trung tại khu ký túc xá Trường Đại học Hải Dương. Ngày 15/8, bệnh nhân được lấy mẫu xét nghiệm, kết quả âm tính với vi rút SARS-CoV-2. Ngày 17/8, bệnh nhân được lấy mẫu xét nghiệm lần 2, kết quả xét nghiệm ngày 18/8 của Trung tâm Kiểm soát bệnh tật Hải Dương và Viện Vệ sinh Dịch tễ Trung ương cho kết quả dương tính với vi rút SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới TP. Hải Dương.
 
