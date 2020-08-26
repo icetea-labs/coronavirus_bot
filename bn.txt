@@ -1,3 +1,13 @@
+*BN1034: Nam, 34 tuổi, thành phố Hải Dương, tỉnh Hải Dương. BN1032 từ Nga nhập cảnh tại sân bay Vân Đồn ngày 11/8/2020 trên chuyến bay VN5062, được chuyển đi cách ly ngay sau khi nhập cảnh tại tỉnh Hải Dương. Kết quả xét nghiệm lần 1 ngày 13/8/2020 âm tính, lần 2 ngày 25/8/2020 dương tính với SARS-CoV-2.
+
+*BN1033: Nữ, 58 tuổi, thành phố Đồng Hới, Quảng Bình. BN1033 từ Nga nhập cảnh tại sân bay Vân Đồn ngày 11/8/2020 trên chuyến bay VN5062, được chuyển đi cách ly ngay sau khi nhập cảnh tại tỉnh Hải Dương. Kết quả xét nghiệm lần 1 ngày 13/8/2020 âm tính, lần 2 ngày 25/8/2020 dương tính với SARS-CoV-2.
+
+*BN1032: Nam, 21 tuổi, Cầu Giấy, Hà Nội. BN1034 từ Nga nhập cảnh tại sân bay Vân Đồn ngày 11/8/2020 trên chuyến bay VN5062, được chuyển đi cách ly ngay sau khi nhập cảnh tại tỉnh Hải Dương. Kết quả xét nghiệm lần 1 ngày 13/8/2020 âm tính, lần 2 ngày 25/8/2020 dương tính với SARS-CoV-2.
+
+*BN1031: Nam, 38 tuổi, Quận 6, Thành phố Hồ Chí Minh. Bệnh nhân đã mắc COVID-19 tại UAE từ ngày 01/7/2020 và có 3 lần xét nghiệm âm tính trước khi về nước. BN1030-1031 từ Các Tiểu vương quốc Ả Rập Thống nhất (UAE) nhập cảnh tại sân bay Cần Thơ ngày 09/8/2020 trên chuyến bay VN5002, được chuyển đi cách ly ngay sau khi nhập cảnh tại Khu cách ly tỉnh Bạc Liêu, kết quả xét nghiệm lần 1 ngày 10/8/2020 âm tính, lần 2 ngày 25/8/2020 dương tính với SARS-CoV-2.
+
+*BN1030: Nam, 42 tuổi, huyện Quế Võ, tỉnh Bắc Ninh. Bệnh nhân đã mắc COVID-19 tại UAE từ ngày 23/6/2020 và có 3 lần xét nghiệm âm tính trước khi về nước. 
+
 *BN1029: Nữ, 46 tuổi, Mỹ An, Ngũ Hành Sơn, Đà Nẵng, cùng gia đình và tiếp xúc với BN1017.
 
 *BN1028: Nữ, 20 tuổi, Mỹ An, Ngũ Hành Sơn, Đà Nẵng, cùng gia đình và tiếp xúc với BN1017.
