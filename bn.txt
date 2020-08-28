@@ -1,3 +1,7 @@
+*BN1038: Nam, 23 tuổi, tạm trú tại Hàng Bài, Hoàn Kiếm, Hà Nội, quê quán tại tỉnh Bà Rịa - Vũng Tàu. Ngày 11/8/2020 từ Nga về sân bay Vân Đồn trên chuyến bay VN5062, được chuyển đi cách ly tập trung tại tỉnh Hải Dương ngay sau khi nhập cảnh. Trong thời gian cách ly ở cùng phòng với BN1034. Ngày 25/8/2020 sau khi hết thời gian cách ly đã về nhà trọ tại Hàng Bài, Hoàn Kiếm, Hà Nội, Trung tâm Y tế quận Hoàn Kiếm đã lấy mẫu xét nghiệm và đưa vào cách ly tại trường Cao đẳng nghề công nghệ cao Hà Nội, quận Nam Từ Liêm. Kết quả xét nghiệm ngày 27/8/2020 tại Trung tâm Kiểm soát bệnh tật Hà Nội dương tính với SARS-CoV-2. Hiện tại bệnh nhân đang được cách ly, điều trị tại Bệnh viện Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN1037: Nữ, 29 tuổi, An Hải, Bắc Sơn Trà, Đà Nẵng, tiếp xúc với BN1036, kết quả xét nghiệm ngày 27/8/2020 dương tính với SARS-CoV-2. 
+
 *BN1036: Nam, 52 tuổi, Hòa An, Cẩm Lệ, Đà Nẵng. Bệnh nhân tiếp xúc với BN1025, BN1027 và BN1029. Kết quả xét nghiệm ngày 26/8/2020 dương tính với SARS-CoV-2. Hiện tại bệnh nhân được cách ly, điều trị tại Bệnh viện dã chiến Hòa Vang.
 
 *BN1035: Nữ, 34 tuổi, Nam Sách, Hải Dương. Bệnh nhân từ Đài Loan nhập cảnh sân bay Cam Ranh ngày 07/8/2020 trên chuyến bay VJ2849, được cách ly tập trung tại Trung tâm Giáo dục quốc phòng an ninh - Đại học Nha Trang, tỉnh Khánh Hòa ngay sau khi nhập cảnh. Kết quả xét nghiệm lần 1 ngày 08/8/2020 và lần 2 ngày 14/8/2020 âm tính, lần 3 ngày 26/8/2020 dương tính với SARS-CoV-2. Hiện tại bệnh nhân được cách ly, điều trị tại Trung tâm Y tế Cam Lâm.
