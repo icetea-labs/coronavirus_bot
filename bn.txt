@@ -1,3 +1,7 @@
+*BN1046: ghi nhận tại Khánh Hoà, bệnh nhân nam, 30 tuổi, là thuyền viên trên Tàu Nippon Maru (Tàu chờ hàng hoá trao đổi tại Nhật Bản), có địa chỉ tại phường Hoàng Diệu, TP. Thái Bình, tỉnh Thái Bình. Ngày 30/8, bệnh nhân trên Tàu Nippon Maru từ Nhật Bản nhập cảng Nha Trang, được cách ly ngay sau nhập cảnh.
+
+*BN1045: ghi nhận tại Hải Dương, bệnh nhân nam, 72 tuổi, có địa chỉ tại xã Thống Nhất, huyện Gia Lộc, Hải Dương.
+
 *BN1044: tại Phú Thọ, bệnh nhân nam, 62 tuổi, quốc tịch Ấn Độ, là chuyên gia. Ngày 28/8, bệnh nhân từ Ấn Độ về sân bay Nội Bài trên chuyến bay 6E8679, được cách ly ngay sau nhập cảnh, lấy mẫu xét nghiệm tại Phú Thọ cho kết quả nghi ngờ. Bệnh nhân được cách ly, điều trị tại Bệnh viện BNĐ TƯ cơ sở Đông Anh tại đây bệnh nhân được lấy mẫu xét nghiệm, kết quả bệnh nhân dương tính với vi rút SARS-CoV-2.
 
 *BN1043: tại Hà Nội, bệnh nhân nữ, 29 tuổi, có địa chỉ tại Liên Bảo, Vĩnh Yên, Vĩnh Phúc. Ngày 28/8, bệnh nhân từ Ấn Độ về sân bay Nội Bài trên chuyến bay 6E8679, được cách ly ngay sau nhập cảnh, lấy mẫu xét nghiệm tại Hà Nội. Kết quả xét nghiệm bệnh nhân dương tính với vi rút SARS-CoV-2. Hiện cả 2 bệnh nhân cách ly, điều trị tại Bệnh viện BNĐ TƯ cơ sở Đông Anh.
