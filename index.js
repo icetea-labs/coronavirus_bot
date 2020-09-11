@@ -658,11 +658,19 @@ const formatAlert = text => {
     title = ''
   }
 
-  const lines = getLines(text)
-  let bodyChannel = lines.join('.\n\n')
-    .replace(/:\s*1\./g, ':\n\n1.')
-    .replace(/\.\s*(BN\d\d\d+)(\s*(\:|\,|là\s+nam|là\s+nữ))/gi, '.\n\n<b>$1</b>$2')
-    .replace(/\-\s*((BN|CA\s*B.NH)\s*\d\d\d+)/gi, '\n\n- <b>$1</b>')
+  const formatted = text.includes('\r') || text.includes('\n')
+
+  let bodyChannel = text
+  if (!formatted) {
+    const lines = getLines(text)
+    bodyChannel = lines.join('.\n\n')
+      .replace(/:\s*1\./g, ':\n\n1.')
+      .replace(/\.\s*(BN\d\d\d+)(\s*(\:|\,|là\s+nam|là\s+nữ))/gi, '.\n\n<b>$1</b>$2')
+      .replace(/\-\s*((BN|CA\s*B.NH)\s*\d\d\d+)/gi, '\n\n🦠 <b>$1</b>')
+      // .replace(/\n\s*\n\s*\n/g, '\n\n')
+  } else {
+    bodyChannel = text.replace(/\-\s*((BN|CA\s*B.NH)\s*\d\d\d+)/gi, '🦠 <b>$1</b>')
+  }
   let forBot = bodyChannel
 
   const promo4Bot = process.env.PROMOTE_4BOT.trim()
