@@ -1,3 +1,23 @@
+*BN1226: nam, 61 tuổi, quốc tịch Việt Nam, có địa chỉ tại phường 10, quận 4, TP. Hồ Chí Minh. Ngày 08/11, bệnh nhân từ Hoa Kỳ nhập cảnh Sân bay Đà Nẵng trên chuyến bay VN311, được cách ly tập trung ngay, lấy mẫu xét nghiệm tại Trường Cảnh sát Nhân dân V - xã Bình Phục, huyện Thăng Bình, Quảng Nam. Kết quả xét nghiệm ngày 09/11, bệnh nhân dương tính với vi rút SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Phòng khám Điện Nam - Điện Ngọc, Bệnh viện Đa khoa Khu vực Quảng Nam.
+
+*BN1225: nam, 28 tuổi, quốc tịch Việt Nam, có địa chỉ tại phường 9, TP. Sóc Trăng, tỉnh Sóc Trăng. Ngày 08/11, bệnh nhân từ Nhật Bản nhập cảnh Sân bay Đà Nẵng trên chuyến bay VN311, được cách ly tập trung ngay tại TP. Đà Nẵng. Kết quả xét nghiệm ngày 09/11, bệnh nhân dương tính với vi rút SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Phổi Đà Nẵng.
+
+*BN1224: nam, 40 tuổi, quốc tịch Việt Nam, có địa chỉ tại xã Trần Phú, huyện Chương Mỹ, Hà Nội. Ngày 31/10, bệnh nhân từ Liên Bang Nga nhập cảnh Sân bay Vân Đồn trên chuyến bay VN5062, được cách ly tập trung ngay tại Trung đoàn 814, tỉnh Hòa Bình. Kết quả xét nghiệm lần 2 ngày 10/11, bệnh nhân dương tính với vi rút SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Hòa Bình.
+
+*BN1223: nam, 59 tuổi, quốc tịch Việt Nam, có địa chỉ tại xã Cẩm Xá, huyện Mỹ Hào, Hưng Yên. Ngày 31/10, bệnh nhân từ Liên Bang Nga nhập cảnh Sân bay Vân Đồn trên chuyến bay VN5062, được cách ly tập trung ngay tại Trung đoàn 814, tỉnh Hòa Bình. Kết quả xét nghiệm lần 2 ngày 10/11, bệnh nhân dương tính với vi rút SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Hòa Bình.
+
+*BN1222: nam, 51 tuổi, quốc tịch Việt Nam, có địa chỉ tại xã Thiệu Châu, huyện Thiệu Hóa, Thanh Hóa. Ngày 31/10, bệnh nhân từ Liên Bang Nga nhập cảnh Sân bay Vân Đồn trên chuyến bay VN5062, được cách ly tập trung ngay tại Trung đoàn 814, tỉnh Hòa Bình. Kết quả xét nghiệm lần 2 ngày 10/11, bệnh nhân dương tính với vi rút SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Hòa Bình.
+
+*BN1221: nam, 45 tuổi, quốc tịch Đức, là chuyên gia. Ngày 08/11, bệnh nhân trên từ Singapore nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay SQ178, được cách ly ngay tại Ninh Thuận. Ngày 09/11, được lấy mẫu gửi Viện Pasteur Nha Trang, kết quả xét nghiệm bệnh nhân dương tính với vi rút SARS-CoV-2. Hiện cả bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Ninh Thuận.
+
+*BN1220: nam, 45 tuổi, quốc tịch Nga, là chuyên gia. Ngày 08/11, bệnh nhân từ Nga nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay IAE4405, được cách ly ngay, lấy mẫu xét nghiệm tại tỉnh Bà Rịa - Vũng Tàu. Ngày 10/11, kết quả xét nghiệm bệnh nhân dương tính với vi rút SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bà Rịa.
+
+*BN1219: nam, 62 tuổi, quốc tịch Nga, là chuyên gia. Ngày 08/11, bệnh nhân từ Nga nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay IAE4405, được cách ly ngay, lấy mẫu xét nghiệm tại tỉnh Bà Rịa - Vũng Tàu. Ngày 10/11, kết quả xét nghiệm bệnh nhân dương tính với vi rút SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bà Rịa.
+
+*BN1218: nam, 46 tuổi, quốc tịch Nga, là chuyên gia. Ngày 08/11, bệnh nhân từ Nga nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay IAE4405, được cách ly ngay, lấy mẫu xét nghiệm tại tỉnh Bà Rịa - Vũng Tàu. Ngày 10/11, kết quả xét nghiệm bệnh nhân dương tính với vi rút SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bà Rịa.
+
+*BN1217: nam, 25 tuổi, quốc tịch Nga, là chuyên gia. Ngày 08/11, bệnh nhân từ Nga nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay IAE4405, được cách ly ngay, lấy mẫu xét nghiệm tại tỉnh Bà Rịa - Vũng Tàu. Ngày 10/11, kết quả xét nghiệm bệnh nhân dương tính với vi rút SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bà Rịa.
+
 *BN1215: nam, 31 tuổi, quốc tịch Việt Nam, có địa chỉ tại Minh Khai, quận Hai Bà Trưng, Hà Nội. Ngày 07/11, bệnh nhân từ Hà Lan nhập cảnh Sân bay Cần Thơ trên chuyến bay VN5032, được cách ly tập trung ngay tại khu cách ly tập trung của TP. Cần Thơ. Ngày 08/11, bệnh nhân được lấy mẫu xét nghiệm. Kết quả xét nghiệm ngày 08/11, bệnh nhân dương tính với vi rút SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Lao và Bệnh phổi Thành phố Cần Thơ.
 
 *BN1214: nam, 32 tuổi, quốc tịch Việt Nam, có địa chỉ tại xã Tân Thành, huyện Mai Châu, tỉnh Hòa Bình. Ngày 07/11, bệnh nhân từ Hà Lan nhập cảnh Sân bay Cần Thơ trên chuyến bay VN5032, được cách ly tập trung ngay tại khu cách ly tập trung của TP. Cần Thơ. Ngày 08/11, bệnh nhân được lấy mẫu xét nghiệm. Kết quả xét nghiệm ngày 08/11, bệnh nhân dương tính với vi rút SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Lao và Bệnh phổi Thành phố Cần Thơ.
