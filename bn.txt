@@ -1,3 +1,55 @@
+*BN1252: nữ, 18 tuổi, quốc tịch Việt Nam, có địa chỉ tại phường Thạch Thang, quận Hải Châu, TP. Đà Nẵng. Ngày 08/11, bệnh nhân từ Hoa Kỳ, quá cảnh Nhật Bản nhập cảnh sân bay Đà Nẵng trên chuyến bay VN311, được cách ly ngay trên địa bàn TP. Đà Nẵng. Ngày 09/11, được lấy mẫu xét nghiệm lần 1, kết quả âm tính với SARS-CoV-2. Ngày 10/11, bệnh nhân có triệu chứng sốt, được lấy mẫu xét nghiệm lần 2, kết quả xét nghiệm lần 2 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Phổi Đà Nẵng.
+
+*BN1251: nam, 47 tuổi, quốc tịch Việt Nam, có địa chỉ tại xã Dị Chế, Huyện Tiên Lữ, tỉnh Hưng Yên. Ngày 08/11, bệnh nhân từ Rumani nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay VN82, được cách ly ngay, lấy mẫu xét nghiệm tại TP. Hồ Chí Minh. Ngày 11/11, kết quả xét nghiệm bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN1250: nam, 31 tuổi, quốc tịch Việt Nam, có địa chỉ tại xã Nghi Liên, TP Vinh, tỉnh Nghệ An. Ngày 08/11, bệnh nhân từ Rumani nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay VN82, được cách ly ngay, lấy mẫu xét nghiệm tại TP. Hồ Chí Minh. Ngày 11/11, kết quả xét nghiệm bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN1249: nam, 30 tuổi, quốc tịch Việt Nam, có địa chỉ tại xã Hưng Mỹ, huyện Hưng Nguyên, tỉnh Nghệ An. Ngày 08/11, bệnh nhân từ Rumani nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay VN82, được cách ly ngay, lấy mẫu xét nghiệm tại TP. Hồ Chí Minh. Ngày 11/11, kết quả xét nghiệm bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN1248: nam, 36 tuổi, quốc tịch Việt Nam, có địa chỉ tại xã Nam Viêm, thị xã Phúc Yên, tỉnh Vĩnh Phúc. Ngày 08/11, bệnh nhân từ Rumani nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay VN82, được cách ly ngay, lấy mẫu xét nghiệm tại TP. Hồ Chí Minh. Ngày 11/11, kết quả xét nghiệm bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN1247: nam, 53 tuổi, quốc tịch Việt Nam, có địa chỉ tại xã Đại Hùng, huyện Ứng Hòa, Hà Nội. Ngày 08/11, bệnh nhân từ Rumani nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay VN82, được cách ly ngay, lấy mẫu xét nghiệm tại TP. Hồ Chí Minh. Ngày 11/11, kết quả xét nghiệm bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN1246: nam, 24 tuổi, quốc tịch Việt Nam, có địa chỉ tại phường 12, TP. Vũng Tàu, tỉnh Bà Rịa - Vũng Tàu. Ngày 08/11, bệnh nhân từ Rumani nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay VN82, được cách ly ngay, lấy mẫu xét nghiệm tại TP. Hồ Chí Minh. Ngày 11/11, kết quả xét nghiệm bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN1245: nam, 37 tuổi, quốc tịch Việt Nam, có địa chỉ tại xã Tiến Thắng, huyện Mê Linh, Hà Nội. Ngày 08/11, bệnh nhân từ Rumani nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay VN82, được cách ly ngay, lấy mẫu xét nghiệm tại TP. Hồ Chí Minh. Ngày 11/11, kết quả xét nghiệm bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN1244: nam, 32 tuổi, quốc tịch Việt Nam, có địa chỉ tại xã Diễn Lợi, huyện Diễn Châu, tỉnh Nghệ An. Ngày 08/11, bệnh nhân từ Rumani nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay VN82, được cách ly ngay, lấy mẫu xét nghiệm tại TP. Hồ Chí Minh. Ngày 11/11, kết quả xét nghiệm bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN1243: nam, 30 tuổi, quốc tịch Việt Nam, có địa chỉ tại phường Đức Thuận, thị xã Hồng Lĩnh, tỉnh Hà Tĩnh. Ngày 08/11, bệnh nhân từ Rumani nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay VN82, được cách ly ngay, lấy mẫu xét nghiệm tại TP. Hồ Chí Minh. Ngày 11/11, kết quả xét nghiệm bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN1242: nam, 27 tuổi, quốc tịch Việt Nam, có địa chỉ tại xã Phượng Kỳ, Huyện Tứ Kỳ, tỉnh Hải Dương. Ngày 08/11, bệnh nhân từ Rumani nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay VN82, được cách ly ngay, lấy mẫu xét nghiệm tại TP. Hồ Chí Minh. Ngày 11/11, kết quả xét nghiệm bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN1241: nam, 41 tuổi, quốc tịch Việt Nam, có địa chỉ tại xã Xuân Hòa, huyện Nam Đàn, tỉnh Nghệ An. Ngày 08/11, bệnh nhân từ Rumani nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay VN82, được cách ly ngay, lấy mẫu xét nghiệm tại TP. Hồ Chí Minh. Ngày 11/11, kết quả xét nghiệm bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN1240: nam, 50 tuổi, quốc tịch Việt Nam, có địa chỉ tại xã Lê Hồng, huyện Thanh Miện, tỉnh Hải Dương. Ngày 08/11, bệnh nhân từ Rumani nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay VN82, được cách ly ngay, lấy mẫu xét nghiệm tại TP. Hồ Chí Minh. Ngày 11/11, kết quả xét nghiệm bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN1239: nam, 48 tuổi, quốc tịch Việt Nam, có địa chỉ tại xã Diễn Lợi, huyện Diễn Châu, tỉnh Nghệ An. Ngày 08/11, bệnh nhân từ Rumani nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay VN82, được cách ly ngay, lấy mẫu xét nghiệm tại TP. Hồ Chí Minh. Ngày 11/11, kết quả xét nghiệm bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN1238: nữ, 44 tuổi, quốc tịch Việt Nam, có địa chỉ tại Thị trấn Quỳ Hợp, Huyện Quỳ Hợp, tỉnh Nghệ An. Ngày 08/11, bệnh nhân từ Rumani nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay VN82, được cách ly ngay, lấy mẫu xét nghiệm tại TP. Hồ Chí Minh. Ngày 11/11, kết quả xét nghiệm bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN1237: nam, 45 tuổi, quốc tịch Việt Nam, có địa chỉ tại xã Diễn Lợi, huyện Diễn Châu, tỉnh Nghệ An. Ngày 08/11, bệnh nhân từ Rumani nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay VN82, được cách ly ngay, lấy mẫu xét nghiệm tại TP. Hồ Chí Minh. Ngày 11/11, kết quả xét nghiệm bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN1236: nam, 31 tuổi, quốc tịch Việt Nam, có địa chỉ tại xã Hải Lựu, huyện Sông Lô, tỉnh Vĩnh Phúc. Ngày 08/11, bệnh nhân từ Rumani nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay VN82, được cách ly ngay, lấy mẫu xét nghiệm tại TP. Hồ Chí Minh. Ngày 11/11, kết quả xét nghiệm bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN1235: nam, 44 tuổi, quốc tịch Việt Nam, có địa chỉ tại xã Thái Phúc, huyện Thái Thụy, tỉnh Thái Bình. Ngày 08/11, bệnh nhân từ Rumani nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay VN82, được cách ly ngay, lấy mẫu xét nghiệm tại TP. Hồ Chí Minh. Ngày 11/11, kết quả xét nghiệm bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN1234: nam, 43 tuổi, quốc tịch Việt Nam, có địa chỉ tại xã Nga Thủy, huyện Nga Sơn, tỉnh Thanh Hóa. Ngày 08/11, bệnh nhân từ Rumani nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay VN82, được cách ly ngay, lấy mẫu xét nghiệm tại TP. Hồ Chí Minh. Ngày 11/11, kết quả xét nghiệm bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN1233: nam, 32 tuổi, quốc tịch Việt Nam, có địa chỉ tại xã Kỳ Tiến, huyện Kỳ Anh, tỉnh Hà Tĩnh. Ngày 08/11, bệnh nhân từ Rumani nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay VN82, được cách ly ngay, lấy mẫu xét nghiệm tại TP. Hồ Chí Minh. Ngày 11/11, kết quả xét nghiệm bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN1232: nam, 27 tuổi, quốc tịch Việt Nam, có địa chỉ tại xã Quang Lộc, huyện Hậu Lộc, tỉnh Thanh Hóa. Ngày 08/11, bệnh nhân từ Rumani nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay VN82, được cách ly ngay, lấy mẫu xét nghiệm tại TP. Hồ Chí Minh. Ngày 11/11, kết quả xét nghiệm bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN1231: nam, 49 tuổi, quốc tịch Việt Nam, có địa chỉ tại xã Huyền Sơn, huyện Lục Nam, tỉnh Bắc Giang. Ngày 08/11, bệnh nhân từ Rumani nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay VN82, được cách ly ngay, lấy mẫu xét nghiệm tại TP. Hồ Chí Minh. Ngày 11/11, kết quả xét nghiệm bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN1230: nam, 30 tuổi, quốc tịch Việt Nam, có địa chỉ tại xã Yên Sơn, huyện Thanh Sơn, tỉnh Phú Thọ. Ngày 08/11, bệnh nhân từ Rumani nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay VN82, được cách ly ngay, lấy mẫu xét nghiệm tại TP. Hồ Chí Minh. Ngày 11/11, kết quả xét nghiệm bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN1229: nam, 23 tuổi, quốc tịch Việt Nam, có địa chỉ tại xã Bắc Hồng, huyện Đông Anh, Hà Nội. Ngày 08/11, bệnh nhân từ Rumani nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay VN82, được cách ly ngay, lấy mẫu xét nghiệm tại TP. Hồ Chí Minh. Ngày 11/11, kết quả xét nghiệm bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN1228: nam, 25 tuổi, quốc tịch Việt Nam, có địa chỉ tại xã Hưng Trạch, huyện Bố Trạch, tỉnh Quảng Bình. Ngày 08/11, bệnh nhân từ Rumani nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay VN82, được cách ly ngay, lấy mẫu xét nghiệm tại TP. Hồ Chí Minh. Ngày 11/11, kết quả xét nghiệm bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN1227: nam, 24 tuổi, quốc tịch Việt Nam, có địa chỉ tại xã Gia Phong, huyện Gia Viễn, tỉnh Ninh Bình. Ngày 08/11, bệnh nhân từ Rumani nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay VN82, được cách ly ngay, lấy mẫu xét nghiệm tại TP. Hồ Chí Minh. Ngày 11/11, kết quả xét nghiệm bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
 *BN1226: nam, 61 tuổi, quốc tịch Việt Nam, có địa chỉ tại phường 10, quận 4, TP. Hồ Chí Minh. Ngày 08/11, bệnh nhân từ Hoa Kỳ nhập cảnh Sân bay Đà Nẵng trên chuyến bay VN311, được cách ly tập trung ngay, lấy mẫu xét nghiệm tại Trường Cảnh sát Nhân dân V - xã Bình Phục, huyện Thăng Bình, Quảng Nam. Kết quả xét nghiệm ngày 09/11, bệnh nhân dương tính với vi rút SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Phòng khám Điện Nam - Điện Ngọc, Bệnh viện Đa khoa Khu vực Quảng Nam.
 
 *BN1225: nam, 28 tuổi, quốc tịch Việt Nam, có địa chỉ tại phường 9, TP. Sóc Trăng, tỉnh Sóc Trăng. Ngày 08/11, bệnh nhân từ Nhật Bản nhập cảnh Sân bay Đà Nẵng trên chuyến bay VN311, được cách ly tập trung ngay tại TP. Đà Nẵng. Kết quả xét nghiệm ngày 09/11, bệnh nhân dương tính với vi rút SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Phổi Đà Nẵng.
