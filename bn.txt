@@ -1,4 +1,118 @@
-*BN1888-BN1891: tại Gia Lai, 3 F1 liên quan ổ dịch Công ty POYUN, tỉnh Hải Dương; 1 ca bệnh đang được điều tra dịch tễ.
+*BN1888 đến BN1891: tại Gia Lai, 3 F1 liên quan ổ dịch Công ty POYUN, tỉnh Hải Dương; 1 ca bệnh đang được điều tra dịch tễ.
+
+*BN1886 đến BN1887: tại Bình Dương, 2 F1 của BN1843, BN1801 liên quan ổ dịch thành phố Chí Linh, tỉnh Hải Dương.
+
+*BN1884 đến BN1885: tại Hải Dương, là công nhân thành phố Chí Linh, tỉnh Hải Dương, đã được cách ly, không có nguy cơ lây nhiễm ra cộng đồng, lấy mẫu xét nghiệm lần đầu âm tính ngày 28/1.
+
+*BN1883: tại Hà Nội, F1 của BN1814 liên quan ổ dịch thành phố Chí Linh, tỉnh Hải Dương.
+
+*BN1878 đến BN1882: tại Hải Dương, 5 F1 liên quan ổ dịch Chí Linh, tỉnh Hải Dương.
+
+*BN1875 đến BN1877: tại Gia Lai, 3 F1 liên quan ổ dịch thành phố Chí Linh, tỉnh Hải Dương.
+
+*BN1852 đến BN1857, BN1873 đến BN1874: tại Quảng Ninh, 5 F1 liên quan ổ dịch Công ty POYUL, tỉnh Hải Dương; 3 F1 liên quan ổ dịch Sân bay Vân Đồn, Quảng Ninh.
+
+*BN1868 đến BN1872: tại Hải Dương, 5 F1 liên quan ổ dịch Chí Linh, tỉnh Hải Dương.
+
+*BN1867: nam, 43 tuổi, là chuyên gia, quốc tịch Nga. Ngày 01/02/2021, bệnh nhân từ Nga nhập cảnh Sân bay Nội Bài trên chuyến bay ZF2074/2078, được cách ly ngay, lấy mẫu xét nghiệm tại thành phố Hà Nội. Kết quả xét nghiệm ngày 02/02/2021, bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN1866: nam, 51 tuổi, có địa chỉ tại phường Dịch Vọng Hậu, quận Cầu Giấy, thành phố Hà Nội. F1 BN1814 liên quan ổ dịch thành phố Chí Linh, tỉnh Hải Dương. Hiện bệnh nhân đang cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN1858 đến BN1865: tại Hải Dương, 8 F1 liên quan ổ dịch Chí Linh, tỉnh Hải Dương.
+
+*BN1851: nam, 44 tuổi, có địa chỉ tại thị trấn Lai Cách, huyện Cẩm Giàng, Hải Dương. Ngày 31/01/2021, bệnh nhân khởi phát với triệu chứng sốt, ho, đau rát họng và khám tại Bệnh viện Đa khoa tỉnh Hải Dương, được lấy mẫu xét nghiệm. Kết quả xét nhiệm ngày 01/2/2021 bệnh nhân dương tính với vi rút SARS-CoV-2. Hiện bệnh nhân đang cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Hải Dương.
+
+*BN1850: Bệnh nhân nam, 24 tuổi, là chuyên gia, quốc tịch Nam Phi. Ngày 17/01/2021, bệnh nhân trên từ UAE nhập cảnh sân bay Tân Sơn Nhất trên chuyến bay QR970, được cách ly ngay, lấy mẫu xét nghiệm tại thành phố Hồ Chí Minh. Kết quả xét nghiệm ngày 31/01/2021, bệnh nhân dương tính với vi rút SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN1847 đến BN1849: tại Quảng Ninh, 2 F1 BN1795, liên quan ổ dịch tại thành phố Chí Linh, tỉnh Hải Dương và 1 F1 BN1701, liên quan ổ dịch Công ty POYUN, tỉnh Hải Dương.
+
+*BN1845 đến BN1846: tại Gia Lai, bệnh nhân nữ, 31 tuổi và bệnh nhân nam, 38 tuổi, liên quan ổ dịch thành phố Chí Linh, tỉnh Hải Dương. 
+
+*BN1844: tại Hải Dương, liên quan ổ dịch huyện Ninh Giang, tỉnh Hải Dương.
+
+*BN1843: tại Bình Dương, nữ 19 tuổi, có địa chỉ tại xã An Bình, huyện Phú Giáo, tỉnh Bình Dương, có tiếp xúc gần với BN1644.
+
+*BN1827 đến BN1842: tại Hải Dương, là các trường hợp được xác định từ các mẫu bệnh phẩm đã được lấy trước đó tại ổ dịch Công ty POYUN, tỉnh Hải Dương.
+
+*BN1826: tại Hà Nội, địa chỉ tại huyện Đông Anh, Thành phố Hà Nội.
+
+*BN1825: tại Hà Nội, địa chỉ tại Nam Từ Liêm, Hà Nội.
+
+*BN1823, BN1824: tại Hà Nội, địa chỉ thường trú tại huyện Mê Linh, Thành phố Hà Nội.
+
+*BN1821, BN1822: tại Quảng Ninh, 2 F1 BN1553, liên quan ổ dịch sân bay Vân Đồn, Quảng Ninh.
+
+*BN1820: tại Bắc Giang, nữ, 18 tuổi, địa chỉ thường trú tại huyện Lục Nam, tỉnh Bắc Giang; liên quan ổ dịch tại thành phố Chí Linh, tỉnh Hải Dương.
+
+*BN1819: có địa chỉ tại quận Cầu Giấy, Thành phố Hà Nội, nữ, 48 tuổi, tham dự đám cưới của gia đình BN1814 tại thành phố Chí Linh, tỉnh Hải Dương. Kết quả xét nghiệm ngày 31/01/2021 tại Trung tâm Kiểm soát bệnh tật Thành phố Hà Nội dương tính SARS-CoV-2. Hiện tại bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN1818: có địa chỉ tại quận Nam Từ Liêm, Thành phố Hà Nội, nữ, 40 tuổi, có tiền sử tiếp xúc với BN1723. Kết quả xét nghiệm ngày 31/01/2021 tại Trung tâm Kiểm soát bệnh tật Thành phố Hà Nội dương tính SARS-CoV-2. Hiện tại bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN1814, BN1815: địa chỉ tại Nam Từ Liêm, Hà Nội, thông tin dịch tễ đang được điều tra bổ sung.
+
+*BN1805 đến BN1813: tại Vũng Tàu, từ Mỹ nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay VN417 ngày 29/01/2021.
+
+*BN1803, BN1804: tại Tiền Giang, được cách ly ngay sau khi nhập cảnh, từ Pháp nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay VN10 ngày 29/1/2021. 
+
+*BN1802: tại Bình Dương, là chuyên gia, được cách ly ngay sau khi nhập cảnh, quốc tịch Trung Quốc. Kết quả xét nghiệm lần 2 ngày 30/1/21 dương tính với SARS-CoV-2. 
+
+*BN1801: thường trú tại huyện Phú Giáo, tỉnh Bình Dương, có tiếp xúc gần với BN1644. 
+
+*BN1741, BN1742: được cách ly ngay sau khi nhập cảnh, công dân Việt Nam từ Đức nhập cảnh cảng hàng không quốc tế Cam Ranh, Khánh Hòa trên chuyến bay VN30 ngày 28/01/2021. 
+
+*BN1740: địa chỉ thường trú tại thị xã Đông Triều, tỉnh Quảng Ninh, là con của BN1726.
+
+*BN1735 đến BN1739: được cách ly ngay sau khi nhập cảnh, công dân Việt Nam từ Đức nhập cảnh cảng hàng không quốc tế Cam Ranh, Khánh Hòa trên chuyến bay VN30 ngày 28/01/2021.
+
+*BN1726, 1727: địa chỉ thường trú tại thị xã Đông Triều, tỉnh Quảng Ninh, có liên quan đến ổ dịch của Thành phố Chí Linh, tỉnh Hải Dương
+
+*BN1724, BN1725: địa chỉ thường trú tại huyện Đông Anh và huyện Mê Linh, Thành phố Hà Nội, có tiền sử tiếp xúc với BN1694. 
+
+*BN1658 đến BN1705: tại Hải Dương, 48 ca bệnh có liên quan dịch tễ với ổ dịch tại Thành phố Chí Linh, tỉnh Hải Dương.
+
+*BN1655 đến BN1657: có địa chỉ thường trú tại thị xã Đông Triều, tỉnh Quảng Ninh, có liên quan dịch tễ với ổ dịch tại Thành phố Chí Linh, tỉnh Hải Dương.
+
+*BN1654: bệnh nhân nam, 20 tuổi; có địa chỉ thường trú tại Chí Linh, Hải Dương, tạm trú tại quận Cầu Giấy, Thành phố Hà Nội, có liên quan dịch tễ với ổ dịch tại thành phố Chí Linh, tỉnh Hải Dương.
+
+*BN1653: được cách ly ngay sau khi nhập cảnh. Bệnh nhân nam, 31 tuổi, quốc tịch Việt Nam, địa chỉ ở Quận 10, Thành phố Hồ Chí Minh. Bệnh nhân từ Nhật Bản nhập cảnh Sân bay Tân Sơn Nhất ngày 27/01/2021. Kết quả xét nghiệm ngày 28/01/2021 dương tính với SARS-CoV-2. 
+
+*BN1652: bệnh nhân nữ, 2 tuổi, là con gái của BN1565, có địa chỉ thường trú tại tỉnh Hải Dương và có liên quan dịch tễ đến ổ dịch tại thành phố Chí Linh, tỉnh Hải Dương.
+
+*BN1648 đến BN1651: tại Hải Dương, các bệnh nhân này đều có liên quan dịch tễ với ổ dịch tại Thành phố Chí Linh, tỉnh Hải Dương.
+
+*BN1582 đến BN1647: tại Hải Dương, các bệnh nhân này đều có liên quan dịch tễ với ổ dịch tại Thành phố Chí Linh, tỉnh Hải Dương.
+
+*BN1581: có địa chỉ thường trú tại quận Hai Bà Trưng, Thành phố Hà Nội, có liên quan dịch tễ với trường hợp mắc bệnh trước đó là bệnh nhân BN1553.
+
+*BN1575 đến BN1580: tại Hải Dương, các bệnh nhân này đều có liên quan dịch tễ với ổ dịch tại Thành phố Chí Linh, tỉnh Hải Dương.
+
+*BN1573, BN1574: tại Quảng Ninh, có liên quan dịch tễ với trường hợp mắc bệnh trước đó là bệnh nhân BN1553.
+
+*BN1566 đến BN1572: tại Quảng Ninh, có liên quan dịch tễ với trường hợp mắc bệnh trước đó là bệnh nhân BN1553.
+
+*BN1562 đến BN1564: tại Quảng Ninh, có liên quan dịch tễ với trường hợp mắc bệnh trước đó là bệnh nhân BN1553.
+
+*BN1565: tại Bắc Ninh, có địa chỉ thường trú tại tỉnh Hải Dương và có liên quan dịch tễ đến ổ dịch tại Thành phố Chí Linh, tỉnh Hải Dương.
+
+*BN1561: tại Hải Phòng, có địa chỉ thường trú tại tỉnh Hải Dương và có liên quan dịch tễ đến ổ dịch tại Thành phố Chí Linh, tỉnh Hải Dương.
+
+*BN1560: được cách ly ngay sau khi nhập cảnh tại TP. Đà Nẵng. Bệnh nhân nữ, 65 tuổi, quốc tịch Việt Nam, có địa chỉ ở TP. Mỹ Tho, tỉnh Tiền Giang
+
+*BN1559: được cách ly ngay sau khi nhập cảnh tại TP. Đà Nẵng. Bệnh nhân nam, 22 tuổi, quốc tịch Việt Nam, có địa chỉ ở quận Bình Tân, TP. Hồ Chí Minh
+
+*BN1558: được cách ly ngay sau khi nhập cảnh tại TP. Đà Nẵng. Bệnh nhân nữ, 27 tuổi, quốc tịch Việt Nam, có địa chỉ ở Quận 3, TP. Hồ Chí Minh
+
+*BN1557: được cách ly ngay sau khi nhập cảnh tại TP. Đà Nẵng. Bệnh nhân nam, 31 tuổi, quốc tịch Việt Nam, có địa chỉ ở quận Long Biên, Hà Nội
+
+*BN1556: được cách ly ngay sau khi nhập cảnh tại TP. Đà Nẵng. Bệnh nhân nữ, 31 tuổi, quốc tịch Việt Nam, có địa chỉ ở quận Long Biên, Hà Nội
+
+*BN1555: được cách ly ngay sau khi nhập cảnh tại TP. Đà Nẵng. Bệnh nhân nam, 86 tuổi, quốc tịch Việt Nam, có địa chỉ ở quận Ba Đình, Hà Nội.
+
+*BN1554: được cách ly ngay sau khi nhập cảnh tại TP. Hồ Chí Minh. Bệnh nhân nam, 28 tuổi, quốc tịch Costa Rica, là chuyên gia. Bệnh nhân từ Mỹ nhập cảnh Sân bay Tân Sơn Nhất ngày 24/01/2021 trên chuyến bay CX799. Lấy mẫu ngày 25/01/2021, kết quả xét nghiệm ngày 26/01/2021 tại Trung tâm Kiểm soát bệnh tật TP. Hồ Chí Minh dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN1553: nam, 31 tuổi, quốc tịch Việt Nam, nghề nghiệp: nhân viên Cảng hàng không Vân Đồn, có địa chỉ thường trú tại phường Hồng Hà, TP Hạ Long, tỉnh Quảng Ninh. Do có biểu hiện sốt, ho khan, đau họng, bệnh nhân đã tự đến bệnh viện khám. Bệnh viện đã lấy mẫu bệnh phẩm, kết quả xét nghiệm tối 27/1 của Trung tâm Kiểm soát Bệnh tật Quảng Ninh khẳng định bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh. 
+
+*BN1552: nữ, 34 tuổi, quốc tịch Việt Nam, nghề nghiệp: công nhân công ty TNHH POYUN, có địa chỉ thường trú tại Kim Điền, xã Hưng Đạo, TP Chí Linh, tỉnh Hải Dương. Bệnh nhân có giao tiếp gần với bệnh nhân nữ được phát hiện dương tính sau khi nhập cảnh Osaka (Nhật Bản). Bệnh nhân đã được cách ly tập trung và lấy mẫu xét nghiệm. Kết quả xét nghiệm khẳng định tối 27/1 cho thấy bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh.
 
 *BN1433: nam, 19 tuổi, là công dân Việt Nam, có địa chỉ tại thị trấn Đồi Ngô, huyện Lục Nam, tỉnh Bắc Giang. Ngày 06/12, bệnh nhân từ Mỹ quá cảnh Nhật Bản nhập cảnh Sân bay Quốc tế Đà Nẵng trên chuyến bay VN319, được cách ly ngay, lấy mẫu xét nghiệm tại Đà Nẵng. Kết quả xét nghiệm ngày 24/12, bệnh nhân dương tính với SAR-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Phổi Đà Nẵng.
 
