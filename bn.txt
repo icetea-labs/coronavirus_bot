@@ -1,3 +1,15 @@
+*BN1912 đến BN1948: là công nhân khu công nghiệp thuộc thành phố Chí Linh, tỉnh Hải Dương, đã được cách ly, không có nguy cơ lây ra cộng đồng, được lấy mẫu ngày 28/01/2021 xét nghiệm lần 1 âm tính với vi rút SARS-CoV-2. Ngày 03/02/2021, kết quả xét nghiệm lần 2 có 37 bệnh nhân dương tính với virus SARS-CoV-2.
+
+*BN1903 đến BN1911: là công nhân tại thành phố Chí Linh, tỉnh Hải Dương, đã được cách ly, không có nguy cơ lây nhiễm ra cộng đồng
+
+*BN1902: nam, 25 tuổi, quốc tịch Việt Nam, có địa chỉ tại xã Thanh Khương, huyện Thuận Thành, tỉnh Bắc Ninh. Ngày 01/02/2021, bệnh nhân từ Nhật Bản nhập cảnh Sân bay Đà Nẵng trên chuyến bay VJ5925, được cách ly ngay tại tỉnh Quảng Nam. Kết quả xét nghiệm lần 1 ngày 02/02/2021, bệnh nhân dương tính với vi rút SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa Trung ương Quảng Nam.
+
+*BN1897 đến BN1901: tại Hải Dương, liên quan đến ổ dịch phường Lê Lợi, tỉnh Hải Dương.
+
+*BN1896: tại Gia Lai, 1 F1 liên quan ổ dịch huyện Ia Pa, tỉnh Gia Lai.
+
+*BN1892 đến BN1895: tại Quảng Ninh, 4 F1 liên quan ổ dịch thành phố Chí Linh, tỉnh Hải Dương.
+
 *BN1888 đến BN1891: tại Gia Lai, 3 F1 liên quan ổ dịch Công ty POYUN, tỉnh Hải Dương; 1 ca bệnh đang được điều tra dịch tễ.
 
 *BN1886 đến BN1887: tại Bình Dương, 2 F1 của BN1843, BN1801 liên quan ổ dịch thành phố Chí Linh, tỉnh Hải Dương.
