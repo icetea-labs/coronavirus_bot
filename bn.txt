@@ -1,3 +1,39 @@
+*BN2005: nam, 32 tuổi, có địa chỉ tại phường Nguyễn Cư Trinh, quận 1, TP. Hồ Chí Minh. Bệnh nhân trên là nhân viên bốc xếp hàng, hành lý tại sân bay Tân Sơn Nhất, cùng chung 1 đội với BN1979, có giao tiếp với nhau, công việc không có tiếp xúc với hành khách, đang tiếp tục điều tra mở rộng. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN2004: nam, 28 tuổi, có địa chỉ tại phường Thạnh Lộc, quận 12, TP. Hồ Chí Minh. Bệnh nhân trên là nhân viên bốc xếp hàng, hành lý tại sân bay Tân Sơn Nhất, cùng chung 1 đội với BN1979, có giao tiếp với nhau, công việc không có tiếp xúc với hành khách, đang tiếp tục điều tra mở rộng. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN2003: nam, 30 tuổi, có địa chỉ tại phường Trung Mỹ Tây, quận 12, TP. Hồ Chí Minh. Bệnh nhân trên là nhân viên bốc xếp hàng, hành lý tại sân bay Tân Sơn Nhất, cùng chung 1 đội với BN1979, có giao tiếp với nhau, công việc không có tiếp xúc với hành khách, đang tiếp tục điều tra mở rộng. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN2002: nam, 41 tuổi, có địa chỉ tại phường 15, quận Tân Bình, TP. Hồ Chí Minh. Bệnh nhân trên là nhân viên bốc xếp hàng, hành lý tại sân bay Tân Sơn Nhất, cùng chung 1 đội với BN1979, có giao tiếp với nhau, công việc không có tiếp xúc với hành khách, đang tiếp tục điều tra mở rộng. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN2001: là F1 BN1711, liên quan đến ổ xã Lê Ninh, huyện Kinh Môn, tỉnh Hải Dương, đã được cách ly tập trung ngày 29/01/2021, kết quả xét nghiệm lần 1 ngày 30/01/2021 bệnh nhân âm tính với SARS-CoV-2, kết quả xét nghiệm lần 2 ngày ngày 07/02/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang cách ly, điều trị tại Bệnh viện dã chiến Trường Đại học Kỹ thuật Y tế Hải Dương.
+
+*BN1986 đến BN2000: là F1, liên quan đến ổ dịch khu công nghiệp thành phố Chí Linh, tỉnh Hải Dương, đã được cách ly tập trung, kết quả xét nghiệm lần 1 ân tính với SARS-CoV-2, kết quả xét nghiệm lần 2 ngày 07/02/2021 các bệnh nhân dương tính với SARS-CoV-2. Hiện 15 bệnh nhân này đang cách ly, điều trị tại Bệnh viện Dã chiến thành phố Chí Linh, tỉnh Hải Dương
+
+*BN1983 đến BN1985: là bệnh nhân nam, có độ tuổi từ 21 đến 34 tuổi, liên quan đến ổ dịch huyện Cẩm Giàng, tỉnh Hải Dương. Hiện 3 bệnh nhân được cách ly, điều trị tại Bệnh viện Trường Đại học Kỹ thuật Y tế Hải Dương.
+
+*BN1982: bệnh nhân nam, 50 tuổi, có địa chỉ tại thị xã Ayun Pa, tỉnh Gia Lai, liên quan đến ổ dịch huyện Ia Pa, tỉnh Gia Lai, đã được cách ly tập trung ngày 03/2/2021, được lấy mẫu xét nghiệm ngày 05/2/2021, kết quả xét nghiệm ngày 06/2/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Trung tâm Y tế thị xã Ayun Pa, tỉnh Gia Lai.
+
+*BN1981: bệnh nhân nam, 22 tuổi, có địa chỉ tại xã An Sinh, thị xã Đông Triều, tỉnh Quảng Ninh, là F1, liên quan ổ dịch khu công nghiệp thành phố Chí Linh, tỉnh Hải Dương, đã được cách ly tập trung, lấy mẫu xét nghiệm ngày 28/01, kết quả xét nghiệm lần 1 âm tính với SARS-CoV-2. Kết quả xét nghiệm lần 2 ngày 06/02 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân cách ly, điều trị tại Bệnh viện Việt Nam-Thụy Điển Uông Bí, tỉnh Quảng Ninh.
+
+*BN1980: bệnh nhân nam, 21 tuổi, có địa chỉ tại phường Vĩnh Phú, thành phố Thuận An, tỉnh Bình Dương, là F1 BN1979, hiện đang tiếp tục điều tra dịch tễ. Hiện bệnh nhân cách ly, điều trị tại Trung tâm Y tế thành phố Thuận An, tỉnh Bình Dương.
+
+*BN1979: bệnh nhân nam, 27 tuổi, có địa chỉ tại phường Vĩnh Phú, thành phố Thuận An, tỉnh Bình Dương, là nhân viên sân bay Tân Sơn Nhất. Hiện đang tiếp tục điều tra dịch tễ. Hiện bệnh nhân cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi, Thành phố Hồ Chí Minh.
+
+*BN1978: nam, 29 tuổi, là công dân Việt Nam, có địa chỉ tại xã Kim Lan, huyện Gia Lâm, thành phố Hà Nội. Ngày 02/01/2021, bệnh nhân từ Nhật Bản nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay VJ7139, được cách ly ngay, lấy mẫu xét nghiệm tại Long An. Kết quả xét nghiệm ngày 05/02/2021, bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Long An.
+
+*BN1977: là F1 BN1565, đã được cách ly tập trung, lấy mẫu xét nghiệm ngày 28/01, kết quả xét nghiệm lần 1 âm tính với vi rút SARS-CoV-2. Kết quả xét nghiệm lần 2 ngày 06/02 bệnh nhân dương tính với vi rút SARS-CoV-2. Hiện bệnh nhân cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Bắc Ninh.
+
+*BN1976: tại Hà Giang, là F1 BN1871, BN1872 liên quan ổ dịch huyện Cẩm Giàng, tỉnh Hải Dương.
+
+*BN1959 đến BN1967, BN1973 đến BN1975: 2 ca là công nhân khu công nghiệp thuộc thành phố Chí Linh, tỉnh Hải Dương, đã được cách ly, không có nguy cơ lây ra cộng đồng; 8 ca liên quan khu công nghiệp thành phố Chí Linh, tỉnh Hải Dương và 2 ca là F1 liên quan ổ dịch huyện Cẩm Giàng, tỉnh Hải Dương.
+
+*BN1970 đến BN1972: tại Điện Biên, 02 ca là F1 liên quan ổ dịch huyện Cẩm Giàng, tỉnh Hải Dương và 01 ca đang điều tra dịch tễ.
+
+*BN1968 đến BN1969: tại Quảng Ninh, 02 ca là F1 của BN1627, liên quan ổ dịch Công ty POYUN, tỉnh Hải Dương.
+
+*N1958: tại Hà Nội, là F1 của BN1814, liên quan ổ dịch thành phố Chí Linh, tỉnh Hải Dương.
+
 *BN1957: tại Bình Dương, là F1 BN1886, liên quan ổ dịch thành phố Chí Linh, tỉnh Hải Dương.
 
 *BN1956: tại Hà Nội, là F1 BN1883, liên quan ổ dịch thành phố Chí Linh, tỉnh Hải Dương.
