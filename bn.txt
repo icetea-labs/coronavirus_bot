@@ -1,3 +1,29 @@
+*BN2053: nữ, 60, tuổi, địa chỉ tại thị xã Đông Triều, tỉnh Quảng Ninh, là vợ bệnh nhân BN2052 (thông tin dịch tễ đang được điều tra bổ sung). Kết quả xét nghiệm ngày 08/02/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Việt Nam-Thụy Điển Uông Bí.
+
+*BN2052: nam, 61, tuổi, địa chỉ tại thị xã Đông Triều, tỉnh Quảng Ninh (thông tin dịch tễ đang được điều tra bổ sung). Kết quả xét nghiệm ngày 08/02/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Việt Nam-Thụy Điển Uông Bí.
+
+*BN2051: nữ, 34 tuổi, địa chỉ tại thị xã Đông Triều, tỉnh Quảng Ninh, là công nhân Công ty TNHH POYUN, được cách ly từ 29/01/2021. Kết quả xét nghiệm lần 2 ngày 08/02/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Việt Nam-Thụy Điển Uông Bí.
+
+*BN2039 đến BN2050: ghi nhận tại tỉnh Hải Dương, là các ca bệnh trong khu phong tỏa tại huyện Cẩm Giàng, Kim Thành, Chí Linh (thông tin dịch tễ đang điều tra bổ sung).
+
+*BN2014 đến BN2038: ghi nhận tại Thành phố Hồ Chí Minh, là các ca bệnh có tiếp xúc với các bệnh nhân trước đó được ghi nhận tại sân bay Tân Sơn Nhất (thông tin dịch tễ đang điều tra bổ sung).
+
+*BN2013: nữ, 32 tuổi, huyện Kong Chro, tỉnh Gia Lai. Bệnh nhân tiếp xúc gần với BN1845. Hiện bệnh nhân được cách ly, điều trị tại Trung tâm Y tế Ayunpa, tỉnh Gia Lai.
+
+*BN2012: nam, 33 tuổi, huyện Ia Pa, tỉnh Gia Lai. Bệnh nhân tiếp xúc gần với BN1952, BN1982. Hiện bệnh nhân được cách ly, điều trị tại Trung tâm Y tế Ayunpa, tỉnh Gia Lai.
+
+*BN2011: nữ, 10 tháng tuổi, địa chỉ tại quận Nam Từ Liêm, Hà Nội. Bệnh nhân là con của BN2009. Kết quả xét nghiệm ngày 08/02/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN2010: nữ, 50 tuổi, địa chỉ tại quận Nam Từ Liêm, Hà Nội. Bệnh nhân tiếp xúc gần với BN2009. Kết quả xét nghiệm ngày 08/02/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN2009: nữ, 28 tuổi, địa chỉ tại quận Nam Từ Liêm, Thành phố Hà Nội. Bệnh nhân có tiếp xúc với BN1722, ngày 05/02/2021 bệnh nhân có biểu hiện sốt, ho, đau họng. Lấy mẫu ngày 06/02/2021, kết quả xét nghiệm ngày 07/02/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN2008: nam, 5 tuổi, địa chỉ tại Thành phố Hạ Long, tỉnh Quảng Ninh. Bệnh nhân là con và có tiếp xúc với BN1553, được cách ly từ ngày 27/01/2020. Kết quả xét nghiệm lần 2 ngày 07/02/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện số 2 tỉnh Quảng Ninh.
+
+*BN2007: nữ, 43 tuổi, địa chỉ tại Thị xã Đông Triều, tỉnh Quảng Ninh. Bệnh nhân là công nhân của Công ty TNHH Poyun, được cách ly từ 30/01/2021. Kết quả xét nghiệm lần 2 ngày 07/02/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Việt Nam-Thụy Điển Uông Bí.
+
+*BN2006: nam, 7 tuổi, địa chỉ tại thị xã Đông Triều, tỉnh Quảng Ninh. Bệnh nhân là con và có tiếp xúc với BN1727, được cách ly từ ngày 29/01/2020. Kết quả xét nghiệm lần 2 ngày 07/02/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Việt Nam Thụy Điển Uông Bí. 
+
 *BN2005: nam, 32 tuổi, có địa chỉ tại phường Nguyễn Cư Trinh, quận 1, TP. Hồ Chí Minh. Bệnh nhân trên là nhân viên bốc xếp hàng, hành lý tại sân bay Tân Sơn Nhất, cùng chung 1 đội với BN1979, có giao tiếp với nhau, công việc không có tiếp xúc với hành khách, đang tiếp tục điều tra mở rộng. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
 
 *BN2004: nam, 28 tuổi, có địa chỉ tại phường Thạnh Lộc, quận 12, TP. Hồ Chí Minh. Bệnh nhân trên là nhân viên bốc xếp hàng, hành lý tại sân bay Tân Sơn Nhất, cùng chung 1 đội với BN1979, có giao tiếp với nhau, công việc không có tiếp xúc với hành khách, đang tiếp tục điều tra mở rộng. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
