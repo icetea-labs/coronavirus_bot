@@ -1,3 +1,109 @@
+*BN2274 đến BN2311: tại Hải Dương, trong đó 34 ca là F1, đã được cách ly trước đó và 04 ca là chùm ca bệnh trong cùng 1 gia đình, phát hiện thông qua giám sát sốt, ho trong cộng đồng. Công tác điều tra dịch tễ đang được tiếp tục thực hiện. Hiện các bệnh nhân trên đang được cách ly, điều trị tại Bệnh viện Dã chiến số 2 Trường Đại học Kỹ thuật Y tế Hải Dương.
+
+*BN2273: tại Hà Nội, là F1 của BN1819, đã được cách ly trước đó. Kết quả xét nghiệm lần 2 ngày 15/02, bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN2272: tại Quảng Ninh, là F1 của BN2092, đã được cách ly trước đó. Kết quả xét nghiệm lần 3 ngày 16/02 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện số 2 Quảng Ninh.
+
+*BN2270, BN2271: tại Hải Dương, đều là F1 đã được cách ly trước đó, trong đó BN2270 liên quan ổ dịch huyện Cẩm Giàng và BN2271 liên quan ổ dịch huyện Kinh Môn. Hiện cả 2 bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến số 2 (Trường Đại học Kỹ thuật Y tế Hải Dương).
+
+*BN2241 đến BN2269: tại Hải Dương, đều là F1 đã được cách ly trước đó, chủ yếu liên quan ổ dịch tại huyện Chí Linh. Hiện 29 ca được cách ly, điều trị tại Bệnh viện Dã chiến số 1 (Trung tâm Y tế TP Chí Linh)
+
+*BN2240: tại Hà Nội, nam, 43 tuổi, quốc tịch Nhật Bản, có địa chỉ lưu trú tại một khách sạn ở phường Quảng An, Quận Tây Hồ. Bệnh nhân trên là F1 của BN2229 (họp cùng ngày 02/2), đã được cách ly, lấy mẫu xét nghiệm ngày 14/2. Kết quả xét nghiệm ngày 15/02, các bệnh nhân dương tính với SARS-CoV-2. Hiện 2 bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung Ương cơ sở Đông Anh.
+
+*BN2235-BN2239: tại Hải Dương, đều là F1 đã được cách ly trước đó, chủ yếu liên quan ổ dịch tại huyện Chí Linh. Hiện được cách ly, điều trị tại Bệnh viện Dã chiến số 2 (Trường Đại học Kỹ thuật Y tế Hải Dương).
+
+*BN2234: tại Hà Nội: nữ, 25 tuổi, có địa chỉ tại phường Điện Biên, quận Ba Đình, Hà Nội. Bệnh nhân trên là F1 của BN2229 (họp cùng ngày 02/2), đã được cách ly, lấy mẫu xét nghiệm ngày 14/2. Kết quả xét nghiệm ngày 15/02, các bệnh nhân dương tính với SARS-CoV-2. Hiện 2 bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung Ương cơ sở Đông Anh.
+
+*BN2230-BN2233: tại Hải Dương, đều là F1 đã được cách ly trước đó, chủ yếu liên quan ổ dịch tại huyện Chí Linh. Hiện được cách ly, điều trị tại Bệnh viện Dã chiến số 2 (Trường Đại học Kỹ thuật Y tế Hải Dương).
+
+*BN2229: nam, 54 tuổi, quốc tịch Nhật Bản, chuyên gia công ty TNHH Mitsui, Việt Nam. Bệnh nhân nhập cảnh vào làm việc tại Việt Nam ngày 17/01/2021 tại Sân bay Tân Sơn Nhất. Sau khi nhập cảnh, bệnh nhân được cách ly tập trung tại Phường 2, quận Tân Bình, Thành phố Hồ Chí Minh từ 17-31/01, có kết quả xét nghiệm 2 lần âm tính với SARS-CoV2 (vào các ngày 17 và 31/1). Ngày 01/2, bệnh nhân bay ra Hà Nội và trú tại một khách sạn ở quận Tây Hồ. Trong khoảng thời gian từ ngày 01-13/2, bệnh nhân đi lại, làm việc giữa khách sạn và công ty. Khoảng 19h ngày 13/2, bệnh nhân được phát hiện tử vong trong phòng khách sạn. Kết quả xét nghiệm mẫu bệnh phẩm ngày 14/2, bệnh nhân dương tính với SARS-CoV-2. Nguyên nhân tử vong đang được điều tra làm rõ.
+
+*BN2196 đến BN2205, BN2208 đến BN2228: 31 ca ghi nhận tại tỉnh Hải Dương. Trong đó 29 ca là các trường hợp F1 đã được cách ly tập trung từ trước, không có nguy cơ lây nhiễm ra cộng đồng và 02 ca trong khu vực đã được cách ly phong tỏa.
+
+*BN2207: ghi nhận tại Hà Nội, nữ, 8 tuổi, huyện Mê Linh, Thành phố Hà Nội, là F1 của BN2142, đã được cách ly từ 30/01/2021. Kết quả xét nghiệm ngày 13/02/2021 dương tính với SARS-CoV-2. Hiện các bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN2206: ghi nhận tại Hà Nội: nữ, 58 tuổi, huyện Mê Linh, Thành phố Hà Nội, là F1 của BN2142, đã được cách ly từ 30/01/2021. Kết quả xét nghiệm ngày 13/02/2021 dương tính với SARS-CoV-2. Hiện các bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN2143, BN2150 đến BN2195: là 47 ca ghi nhận tại tỉnh Hải Dương. Trong đó 43 trường hợp là F1 đã được cách ly tập trung từ trước, không có nguy cơ lây nhiễm ra cộng đồng; 4 trường hợp tại khu vực đã cách ly phong tỏa  đang được điều tra dịch tễ bổ sung.
+
+*BN2149: nữ, 8 tuổi, quốc tịch Hàn Quốc. Bệnh nhân từ Hàn Quốc nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay KE683 ngày 29/01/2021, được cách ly ngay sau khi nhập cảnh tại Thành phố Hồ Chí Minh. Kết quả xét nghiệm lần 2 ngày 12/02/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN2148: nữ, 39 tuổi, quốc tịch Đài Loan. Bệnh nhân từ Đài Loan nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay CI783 ngày 28/01/2021, được cách ly ngay sau khi nhập cảnh tại Thành phố Hồ Chí Minh. Kết quả xét nghiệm lần 2 ngày 11/02/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN2147: nam, 39, tuổi, là chuyên gia quốc tịch Mỹ. Bệnh nhân từ Mỹ quá cảnh Hồng Kông, sau đó nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay CX799 ngày 09/02/2021, được cách ly ngay sau khi nhập cảnh tại Thành phố Hồ Chí Minh. Kết quả xét nghiệm ngày 11/02/2021 dương tính với SARS-CoV-2.  Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN2146: nữ, 55 tuổi, công dân Việt Nam, địa chỉ tại quận Thanh Khê, thành phố Đà Nẵng. Bệnh nhân từ Mỹ quá cảnh Hàn Quốc, sau đó nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay VN417 ngày 28/01/2021, được cách ly ngay sau khi nhập cảnh tại Thành phố Hồ Chí Minh. Kết quả xét nghiệm lần 2 ngày 11/02/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN2145: ghi nhận tại Hồ Chí Minh, nữ, 46 tuổi, địa chỉ tại  quận 12, Thành phố Hồ Chí Minh. Bệnh nhân là F1 của BN2144, đã được cách ly trước đó. Kết quả xét nghiệm ngày 11/02/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN2144: ghi nhận tại Hồ Chí Minh, nam, 26 tuổi, địa chỉ tại quận 12, Thành phố Hồ Chí Minh. Bệnh nhân là nhân viên bốc xếp hàng hóa thời vụ của Công ty VIASG tại sân bay Tân Sơn Nhất, đã được cách ly trước đó. Kết quả xét nghiệm ngày 11/02/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN2142: ghi nhận tại Hà Nội, nữ, 33 tuổi, địa chỉ tại Mê Linh, Hà Nội. Bệnh nhân là công nhân tại nhà máy Z153 và là F1 của BN1694 và BN1695, đã được cách ly tập trung từ ngày 30/01/2021. Kết quả xét nghiệm lần 2 ngày 11/02/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN2141: ghi nhận tại Bắc Ninh, nam, 25 tuổi, địa chỉ tại huyện Lương Tài, tỉnh Bắc Ninh. Bệnh nhân là F1 của BN1565, được cách ly tập trung từ ngày 28/01/2021. Kết quả xét nghiệm lần 3 ngày 11/02/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Bắc Ninh.
+
+*BN2140: ghi nhận tại Gia Lai, nam, 32 tuổi, địa chỉ tại thị xã Ayun Pa, tỉnh Gia Lai. Bệnh nhân là F1 của BN1891, BN2076, BN2077. Kết quả xét nghiệm ngày 11/02/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Trung tâm Y tế thị xã Ayun Pa, tỉnh Gia Lai.
+
+*BN2113 đến BN2139: ghi nhận tại Hải Dương, 27 ca là các trường hợp F1 đã được cách ly tập trung từ trước, không có nguy cơ lây nhiễm ra cộng đồng. Kết quả xét nghiệm ngày 11/02/2021 dương tính với SARS-CoV-2.
+
+*BN2112: ghi nhận tại Quảng Ninh, nữ, 31 tuổi, địa chỉ tại thị xã Đông Triều, tỉnh Quảng Ninh. Bệnh nhân là F1 của BN2052, được cách ly tập trung từ ngày 08/02/2021. Kết quả xét nghiệm lần 2 ngày 11/02/2021 dương tính với SARS-CoV-2. Hiện các bệnh nhân được cách ly, điều trị tại Bệnh viện Việt Nam - Thụy Điển Uông Bí.
+
+*BN2111: ghi nhận tại Quảng Ninh, nam, 34 tuổi, địa chỉ tại thị xã Đông Triều, tỉnh Quảng Ninh. Bệnh nhân là F1 của BN2052, được cách ly tập trung từ ngày 08/02/2021. Kết quả xét nghiệm lần 2 ngày 11/02/2021 dương tính với SARS-CoV-2. Hiện các bệnh nhân được cách ly, điều trị tại Bệnh viện Việt Nam - Thụy Điển Uông Bí.
+
+*BN2110: ghi nhận tại Hà Nội, nam, 2 tháng tuổi, địa chỉ tại huyện Mê Linh, Thành phố Hà Nội. Bệnh nhân là F1 của BN1725, được cách ly từ ngày 31/01/2021. Ngày 10/02/2021 có sốt, ho, được lấy mẫu xét nghiệm, kết quả xét nghiệm dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN2095 đến BN2109: 15 ca ghi nhận tại Hải Dương là các trường hợp F1 đã được cách ly tập trung từ trước, không có nguy cơ lây nhiễm ra cộng đồng. Kết quả xét nghiệm ngày 10/02/2021 dương tính với SARS-CoV-2.
+
+*BN2094: nữ, 23 tuổi, địa chỉ tại thị xã Đông Triều, tỉnh Quảng Ninh. Bệnh nhân là công nhân Công ty TNHH POYUN, được cách ly từ ngày 29/01/2021. Kết quả xét nghiệm lần 3 ngày 09/02/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Việt Nam-Thụy Điển Uông Bí.
+
+*BN2093: nam, 4 tuổi, địa chỉ tại thị xã Đông Triều, tỉnh Quảng Ninh. Bệnh nhân là F1 của BN1633, BN1656, BN1655, được cách ly tập trung từ ngày 28/01/2021. Kết quả xét nghiệm lần 3 ngày 09/02/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Việt Nam-Thụy Điển Uông Bí
+
+*BN2092: nam, 26 tuổi, địa chỉ tại thị xã Đông Triều, tỉnh Quảng Ninh. Bệnh nhân là F1 của BN1959. Kết quả xét nghiệm ngày 09/02/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Việt Nam-Thụy Điển Uông Bí.
+
+*BN2087 đến BN2091: tại Hải Dương, là các trường hợp F1 đã được cách ly tập trung từ trước, không có nguy cơ lây nhiễm ra cộng đồng. Kết quả xét nghiệm ngày 10/02/2021 dương tính với với SARS-CoV-2.
+
+*BN2086: ghi nhận tại tỉnh Hải Dương, là bệnh nhân có sốt, ho được giám sát thông qua khám phân loại sàng lọc tại bệnh viện. Kết quả xét nghiệm ngày 10/02/2021 dương tính với với SARS-CoV-2.
+
+*BN2078 đến BN2085: tại Hải Dương, là các trường hợp F1 đã được cách ly tập trung từ trước, không có nguy cơ lây nhiễm ra cộng đồng. Kết quả xét nghiệm ngày 10/02/2021 dương tính với với SARS-CoV-2.
+
+*BN2077: tại Gia Lai, nữ, 34 tuổi, địa chỉ tại huyện Ia Pa, tỉnh Gia Lai. Bệnh nhân là F1 của BN1891, đã được cách ly tập trung từ ngày 31/01/2021. Kết quả xét nghiệm mẫu bệnh phẩm của bệnh nhân ngày 10/02/2021 dương tính với với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Gia Lai.
+
+*BN2076: tại Gia Lai, nữ, 31 tuổi, địa chỉ tại huyện Ia Pa, tỉnh Gia Lai. Bệnh nhân là F1 của BN1875, đã được cách ly tập trung từ ngày 01/02/2021. Kết quả xét nghiệm mẫu bệnh phẩm của bệnh nhân ngày 10/02/2021 dương tính với với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Gia Lai.
+
+*BN2075: tại Gia Lai, nữ, 27 tuổi, địa chỉ tại huyện Ia Pa, tỉnh Gia Lai. Bệnh nhân là F1 của BN1875, đã được cách ly tập trung từ ngày 30/01/2021. Kết quả xét nghiệm mẫu bệnh phẩm của bệnh nhân ngày 10/02/2021 dương tính với với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Gia Lai.
+
+*BN2074: tại Gia Lai, nữ, 39 tuổi, địa chỉ tại huyện Ia Pa, tỉnh Gia Lai. Bệnh nhân là F1 của BN1875, đã được cách ly tập trung từ ngày 01/02/2021. Kết quả xét nghiệm mẫu bệnh phẩm của bệnh nhân ngày 10/02/2021 dương tính với với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Gia Lai.
+
+*BN2073: tại Quảng Ninh, nữ, 30 tuổi, địa chỉ tại Thành phố Hạ Long, tỉnh Quảng Ninh. Bệnh nhân là F1 của BN1553, đã được cách ly từ ngày 28/01/2021. Kết quả xét nghiệm ngày 09/02/2021 dương tính với với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện số 2 tỉnh Quảng Ninh.
+
+*BN2072: tại TP Hồ Chí Minh, nam, 29 tuổi, địa chỉ tại quận Tân Bình, TP Hồ Chí Minh. Bệnh nhân làm việc tại bộ phận hướng dẫn bốc xếp thuộc Trung tâm điều hành công ty VIAGS (cùng bộ phận và là F1 của BN1979). Kết quả xét nghiệm ngày 09/02/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN2071: được cách ly ngay sau nhập cảnh tại TP Hồ Chí Minh, nam, 31 tuổi, là chuyên gia, quốc tịch Indonesia. Bệnh nhân từ Indonesia nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay SQ178 ngày 7/02/2021, được cách ly ngay sau khi nhập cảnh tại TP Hồ Chí Minh. Kết quả xét nghiệm ngày 09/02/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN2070: nam, 22 tuổi, địa chỉ tại huyện Lục Nam, tỉnh Bắc Giang. Bệnh nhân là chồng và có tiếp xúc với BN1820, đã được cách ly tập trung từ ngày 01/02/2021. Kết quả xét nghiệm lần 4 ngày 09/02/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN2069: nữ, 6 tuổi, địa chỉ tại thị xã Ayun Pa, tỉnh Gia Lai, trong vùng phong tỏa. Kết quả xét nghiệm ngày 09/02/2021 dương tính với với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Trung tâm Y tế thị xã Ayunpa, tỉnh Gia Lai.
+
+*BN2068: ghi nhận tại Thành phố Hồ Chí Minh, nam, 43 tuổi, là chuyên gia, quốc tịch Costa Rica. Bệnh nhân từ Mỹ quá cảnh Hồng Kông, sau đó nhập cảnh sân bay Tân Sơn Nhất ngày 24/01/2021, được cách ly ngay sau khi nhập cảnh tại Thành phố Hồ Chí Minh. Kết quả xét nghiệm lần 2 ngày 07/02/2021 dương tính với với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện dã chiến Củ Chi.
+
+*BN2067: nữ, 16 tuổi, công dân Việt Nam, địa chỉ tại huyện Nhà Bè, Thành phố Hồ Chí Minh. Bệnh nhân từ Mỹ quá cảnh Hồng Kông, sau đó nhập cảnh Sân bay Tân Sơn Nhất ngày 05/02/2021, được cách ly ngay sau khi nhập cảnh tại Thành phố Hồ Chí Minh. Kết quả xét nghiệm ngày 06/02/2021 dương tính với với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN2066: nam, 25 tuổi, địa chỉ tại Quận 3, Thành phố Hồ Chí Minh. Bệnh nhân là nhân viên Công ty VIAGS, làm việc ở bộ phận bốc xếp hành lý tại sân bay Tân Sơn Nhất. Kết quả xét nghiệm của bệnh nhân ngày 08/02/2021 dương tính với với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện dã chiến Củ Chi.
+
+*BN2065: nam, 43 tuổi, địa chỉ tại quận Tân Bình, Thành phố Hồ Chí Minh. Bệnh nhân là nhân viên hãng VNA chi nhánh Miền Nam, làm việc ở bộ phận giám sát bốc xếp hàng hóa. Kết quả xét nghiệm của bệnh nhân ngày 08/02/2021 dương tính với với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện dã chiến Củ Chi.
+
+*BN2064: nam, 73 tuổi, địa chỉ tại quận Cầu Giấy, Thành phố Hà Nội. Bệnh nhân tiếp xúc với BN1819, đã được cách ly từ 30/01/2021. Kết quả xét nghiệm lần 2 ngày 09/02/2021 dương tính với với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN2062: nữ, 69 tuổi, địa chỉ tại huyện Yên Mỹ, tỉnh Hưng Yên. Bệnh nhân tiếp xúc với BN2060. Kết quả xét nghiệm ngày 08/02/2021 dương tính với với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN2063: nữ, 38 tuổi, địa chỉ tại huyện Yên Mỹ, tỉnh Hưng Yên. Bệnh nhân tiếp xúc với BN2060. Kết quả xét nghiệm ngày 08/02/2021 dương tính với với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN2061: ghi nhận tại tỉnh Long An, nam, 26 tuổi, công dân Việt Nam, địa chỉ tại huyện Cai Lậy, tỉnh Tiền Giang. Ngày 02/02/2021, bệnh nhân từ Nhật Bản nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay VJ7139, được cách ly ngay sau khi nhập cảnh tại tỉnh Long An. Kết quả xét nghiệm lần 2 ngày 09/02/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa khu vực Đồng Tháp Mười, tỉnh Long An.
+
+*BN2060: nam, 38 tuổi, địa chỉ tại huyện Yên Mỹ, tỉnh Hưng Yên, có liên quan dịch tễ với ổ dịch ở huyện Lai Cách, tỉnh Hải Dương. Kết quả xét nghiệm ngày 08/02/2021 và ngày 09/02/2021 đều dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN2054 đến BN2059: ghi nhận tại tỉnh Hải Dương, là các trường hợp liên quan đến ổ dịch Chí Linh, đã được cách ly tập trung. Xét nghiệm lần 3 ngày 08/02/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Trung tâm Y tế thành phố Chí Linh, tỉnh Hải Dương.
+
 *BN2053: nữ, 60, tuổi, địa chỉ tại thị xã Đông Triều, tỉnh Quảng Ninh, là vợ bệnh nhân BN2052 (thông tin dịch tễ đang được điều tra bổ sung). Kết quả xét nghiệm ngày 08/02/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Việt Nam-Thụy Điển Uông Bí.
 
 *BN2052: nam, 61, tuổi, địa chỉ tại thị xã Đông Triều, tỉnh Quảng Ninh (thông tin dịch tễ đang được điều tra bổ sung). Kết quả xét nghiệm ngày 08/02/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Việt Nam-Thụy Điển Uông Bí.
