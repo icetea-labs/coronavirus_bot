@@ -10,7 +10,7 @@
 
 *BN2240: tại Hà Nội, nam, 43 tuổi, quốc tịch Nhật Bản, có địa chỉ lưu trú tại một khách sạn ở phường Quảng An, Quận Tây Hồ. Bệnh nhân trên là F1 của BN2229 (họp cùng ngày 02/2), đã được cách ly, lấy mẫu xét nghiệm ngày 14/2. Kết quả xét nghiệm ngày 15/02, các bệnh nhân dương tính với SARS-CoV-2. Hiện 2 bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung Ương cơ sở Đông Anh.
 
-*BN2235-BN2239: tại Hải Dương, đều là F1 đã được cách ly trước đó, chủ yếu liên quan ổ dịch tại huyện Chí Linh. Hiện được cách ly, điều trị tại Bệnh viện Dã chiến số 2 (Trường Đại học Kỹ thuật Y tế Hải Dương).
+*BN2235 đến BN2239: tại Hải Dương, đều là F1 đã được cách ly trước đó, chủ yếu liên quan ổ dịch tại huyện Chí Linh. Hiện được cách ly, điều trị tại Bệnh viện Dã chiến số 2 (Trường Đại học Kỹ thuật Y tế Hải Dương).
 
 *BN2234: tại Hà Nội: nữ, 25 tuổi, có địa chỉ tại phường Điện Biên, quận Ba Đình, Hà Nội. Bệnh nhân trên là F1 của BN2229 (họp cùng ngày 02/2), đã được cách ly, lấy mẫu xét nghiệm ngày 14/2. Kết quả xét nghiệm ngày 15/02, các bệnh nhân dương tính với SARS-CoV-2. Hiện 2 bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung Ương cơ sở Đông Anh.
 
