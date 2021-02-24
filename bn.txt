@@ -1,3 +1,11 @@
+*BN2402, BN2403: ghi nhận tại Hải Dương, là các trường hợp F1 liên quan đến ổ dịch tại Công ty TNHH điện tử Poyun (thành phố Chí Linh), đều đã được cách ly tập trung trước đó. Hiện các bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến số 1 - Trung tâm Y tế thành phố Chí Linh.
+
+*BN2401: ghi nhận tại Hải Dương, là trường hợp F1 đã được cách ly tập trung trước đó. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Dã chiến số 1 - Trung tâm Y tế thành phố Chí Linh.
+
+*BN2400: ghi nhận tại Quảng Ninh, là trường hợp F1 liên quan đến các bệnh nhân BN1633 và BN1655, BN1656, BN2093. Hiện bệnh nhân đang được cách ly, điều trị tại Điều trị tại Bệnh viện số 2 tỉnh Quảng Ninh.
+
+*BN2396 đến BN2399: ghi nhận tại Hải Dương, là các trường hợp F1 đã được cách ly tập trung trước đó. Hiện các bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến số 2 Trường Đại học Kỹ thuật Y tế Hải Dương
+
 *BN2393 đến BN2395: ghi nhận tại Hải Dương, là các trường hợp F1, liên quan đến ổ dịch xã Kim Liên, huyện Kim Thành, tỉnh Hải Dương, đều đã được cách ly tập trung trước đó. Hiện các bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến số 2 Trường Đại học Kỹ thuật Y tế Hải Dương.
 
 *BN2091, BN2092: ghi nhận tại Hải Phòng, thông tin dịch tễ đang được tiếp tục điều tra bổ sung. Hiện các bệnh nhân đang được cách ly, điều trị tại Bệnh viện Hữu nghị Việt Tiệp.
