@@ -1,3 +1,21 @@
+*BN2461: nữ, 29 tuổi, công dân Việt Nam, địa chỉ tại xã Thụy Lâm, huyện Đông Anh, thành phố Hà Nội. Bệnh nhân từ nước ngoài nhập cảnh cửa khẩu quốc tế Hà Tiên ngày 25-26/02/2021, tất cả đều được cách ly ngay sau khi nhập cảnh tại tỉnh Kiên Giang, kết quả xét nghiệm ngày 28/02/2021 dương tính với SARS-CoV-2. Hiện các bệnh nhân được cách ly, điều trị tại Trung tâm Y tế thành phố Hà Tiên, tỉnh Kiên Giang.
+
+*BN2460: tại huyện Kim Thành, Hải Dương, là F1 của BN2436, BN2437; đã được cách ly tập trung từ ngày 28/02/2021. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến số 3 - Đại học Sao Đỏ cơ sở 2.
+
+*BN2459: nam, 21 tuổi, công dân Việt Nam, địa chỉ tại xã Vĩnh Thạnh Trung, huyện Châu Phú, tỉnh An Giang. Bệnh nhân từ nước ngoài nhập cảnh cửa khẩu quốc tế Hà Tiên ngày 25-26/02/2021, tất cả đều được cách ly ngay sau khi nhập cảnh tại tỉnh Kiên Giang, kết quả xét nghiệm ngày 28/02/2021 dương tính với SARS-CoV-2. Hiện các bệnh nhân được cách ly, điều trị tại Trung tâm Y tế thành phố Hà Tiên, tỉnh Kiên Giang.
+
+*BN2458: nam, 22 tuổi, công dân Việt Nam, địa chỉ tại xã Mỹ Luông, huyện Chợ Mới, tỉnh An Giang. Bệnh nhân từ nước ngoài nhập cảnh cửa khẩu quốc tế Hà Tiên ngày 25-26/02/2021, tất cả đều được cách ly ngay sau khi nhập cảnh tại tỉnh Kiên Giang, kết quả xét nghiệm ngày 28/02/2021 dương tính với SARS-CoV-2. Hiện các bệnh nhân được cách ly, điều trị tại Trung tâm Y tế thành phố Hà Tiên, tỉnh Kiên Giang.
+
+*BN2457: nữ, 33 tuổi, công dân Việt Nam, địa chỉ tại phường Vĩnh Phước, thành phố Nha Trang, tỉnh Khánh Hòa. Bệnh nhân từ nước ngoài nhập cảnh cửa khẩu quốc tế Hà Tiên ngày 25-26/02/2021, tất cả đều được cách ly ngay sau khi nhập cảnh tại tỉnh Kiên Giang, kết quả xét nghiệm ngày 28/02/2021 dương tính với SARS-CoV-2. Hiện các bệnh nhân được cách ly, điều trị tại Trung tâm Y tế thành phố Hà Tiên, tỉnh Kiên Giang.
+
+*BN2456: nữ, 34 tuổi, công dân Việt Nam, địa chỉ tại phường 4, quận 3, thành phố Hồ Chí Minh. Bệnh nhân từ nước ngoài nhập cảnh cửa khẩu quốc tế Hà Tiên ngày 25-26/02/2021, tất cả đều được cách ly ngay sau khi nhập cảnh tại tỉnh Kiên Giang, kết quả xét nghiệm ngày 28/02/2021 dương tính với SARS-CoV-2. Hiện các bệnh nhân được cách ly, điều trị tại Trung tâm Y tế thành phố Hà Tiên, tỉnh Kiên Giang.
+
+*BN2455: tại huyện Kinh Môn, Hải Dương, là F1 của BN2248; đã được cách ly tập trung từ ngày 28/02/2021. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến số 3 - Đại học Sao Đỏ cơ sở 2.
+
+*BN2449 đến BN2454: tại thành phố Chí Linh, Hải Dương, là các F1 đã được cách ly tập trung từ ngày 28/01/2021. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến số 3 - Đại học Sao Đỏ cơ sở 2.
+
+*
+
 *BN2404 đến BN2412: ghi nhận tại Hải Dương, trong đó 06 ca tại xã Kim Liên, huyện Kim Thành là người trong vùng phong tỏa, 02 ca tại huyện Cẩm Giàng là F1 của ổ dịch cũ được cách ly tập trung trước đó, 01 ca tại huyện Thanh Hà được phát hiện thông qua sàng lọc, đã được cách ly. Hiện các bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến số 2 - Bệnh viện Đại học Kỹ thuật  Y tế Hải Dương.
 
 *BN2402, BN2403: ghi nhận tại Hải Dương, là các trường hợp F1 liên quan đến ổ dịch tại Công ty TNHH điện tử Poyun (thành phố Chí Linh), đều đã được cách ly tập trung trước đó. Hiện các bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến số 1 - Trung tâm Y tế thành phố Chí Linh.
