@@ -1,8 +1,8 @@
-*BN2470 đến BN2472: tại xã Kim Đính, huyện Kim Thành, là F1 của BN2437; đã được cách ly tập trung ngày 28/02/2021. Hiện các bệnh nhân trên được cách ly, điều trị tại Bệnh viện Dã chiến số 3 - Đại học Sao Đỏ cơ sở 2.
+*BN2470 đến BN2472: tại xã Kim Đính, huyện Kim Thành, Hải Dương, là F1 của BN2437; đã được cách ly tập trung ngày 28/02/2021. Hiện các bệnh nhân trên được cách ly, điều trị tại Bệnh viện Dã chiến số 3 - Đại học Sao Đỏ cơ sở 2.
 
-*BN2469: tại xã Ngũ Phúc, huyện Kim Thành: là F1 là của BN2436; đã được cách ly tập trung từ ngày 28/02/2021. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến số 3 - Đại học Sao Đỏ cơ sở 2.
+*BN2469: tại xã Ngũ Phúc, huyện Kim Thành, Hải Dương, là F1 là của BN2436; đã được cách ly tập trung từ ngày 28/02/2021. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến số 3 - Đại học Sao Đỏ cơ sở 2.
 
-*BN2462 đến BN2468: tại xã Kim Đính, huyện Kim Thành: là F1 của BN2437; đã được cách ly tập trung ngày 28/02/2021. Hiện các bệnh nhân trên được cách ly, điều trị tại Bệnh viện Dã chiến số 3 - Đại học Sao Đỏ cơ sở 2.
+*BN2462 đến BN2468: tại xã Kim Đính, huyện Kim Thành, Hải Dương là F1 của BN2437; đã được cách ly tập trung ngày 28/02/2021. Hiện các bệnh nhân trên được cách ly, điều trị tại Bệnh viện Dã chiến số 3 - Đại học Sao Đỏ cơ sở 2.
 
 *BN2461: nữ, 29 tuổi, công dân Việt Nam, địa chỉ tại xã Thụy Lâm, huyện Đông Anh, thành phố Hà Nội. Bệnh nhân từ nước ngoài nhập cảnh cửa khẩu quốc tế Hà Tiên ngày 25-26/02/2021, tất cả đều được cách ly ngay sau khi nhập cảnh tại tỉnh Kiên Giang, kết quả xét nghiệm ngày 28/02/2021 dương tính với SARS-CoV-2. Hiện các bệnh nhân được cách ly, điều trị tại Trung tâm Y tế thành phố Hà Tiên, tỉnh Kiên Giang.
 
@@ -30,7 +30,7 @@
 
 *BN2444: tại huyện Cẩm Giàng, Hải Dương được phát hiện qua lấy mẫu xét nghiệm sàng lọc tại khu vực đã được phong tỏa từ ngày 05/02/2021. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến số 2 - Bệnh viện Đại học Kĩ thuật y tế Hải Dương.
 
-*BN2443: nhập cảnh tại tỉnh Đồng Tháp: bệnh nhân nam, 37 tuổi, công dân Việt Nam, địa chỉ tại huyện Châu Thành, tỉnh Hậu Giang. Bệnh nhân  nhập cảnh qua cửa khẩu Thường Phước, huyện Hồng Ngự ngày 26/02/2021, được cách ly ngay sau khi nhập cảnh tại tỉnh Đồng Tháp, kết quả xét nghiệm ngày 27/02/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện đa khoa khu vực Hồng Ngự.
+*BN2443: bệnh nhân nam, 37 tuổi, công dân Việt Nam, địa chỉ tại huyện Châu Thành, tỉnh Hậu Giang. Bệnh nhân  nhập cảnh qua cửa khẩu Thường Phước, huyện Hồng Ngự ngày 26/02/2021, được cách ly ngay sau khi nhập cảnh tại tỉnh Đồng Tháp, kết quả xét nghiệm ngày 27/02/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện đa khoa khu vực Hồng Ngự.
 
 *BN2442: nữ, 66 tuổi, công dân Việt Nam, địa chỉ tại Quận 1, Thành phố Hồ Chí Minh. Bệnh nhân nhập cảnh qua cửa khẩu quốc tế Mộc Bài ngày 14/02/2021, được cách ly ngay sau khi nhập cảnh tại tỉnh Tây Ninh, kết quả xét nghiệm lần 2 ngày 27/02/2021 dương tính với SARS-CoV-2. Hiện các bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Tây Ninh.
 
