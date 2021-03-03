@@ -1,3 +1,13 @@
+*BN2482: tại thành phố Hải Dương, là F1 của BN2210; đã được cách ly tập trung từ ngày 14/02/2021. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến số 2 – Bệnh viện Đại học Kỹ thuật Y tế Hải Dương.
+
+*BN2479 đến BN2481: tại huyện Kim Thành, Hải Dương, là các F1, đã được cách ly tập trung từ ngày 28/02/2021. Hiện các bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến số 3 - Đại học Sao Đỏ cơ sở 2.
+
+*BN2478: tại thành phố Chí Linh, Hải Dương, là F1 của BN1632; đã được cách ly tập trung từ ngày 28/01/2021. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến số 3 - Đại học Sao Đỏ cơ sở 2.
+
+*BN2477: nữ, 23 tuổi, công dân Việt Nam, địa chỉ tại phường 6, quận 4, Thành phố Hồ Chí Minh. Bệnh nhân từ nước ngoài nhập cảnh cửa khẩu quốc tế Hà Tiên ngày 28/02/2021, được cách ly ngay sau khi nhập cảnh tại tỉnh Kiên Giang. Kết quả xét nghiệm lần 1 ngày 02/03/2021 dương tính với SARS-CoV-2. Hiện các bệnh nhân được cách ly, điều trị tại Trung tâm Y tế thành phố Hà Tiên, tỉnh Kiên Giang.
+
+*BN2476: nữ, 23 tuổi, công dân Việt Nam, địa chỉ tại phường 12, quận 8, Thành phố Hồ Chí Minh. Bệnh nhân từ nước ngoài nhập cảnh cửa khẩu quốc tế Hà Tiên ngày 28/02/2021, được cách ly ngay sau khi nhập cảnh tại tỉnh Kiên Giang. Kết quả xét nghiệm lần 1 ngày 02/03/2021 dương tính với SARS-CoV-2. Hiện các bệnh nhân được cách ly, điều trị tại Trung tâm Y tế thành phố Hà Tiên, tỉnh Kiên Giang.
+
 *BN2474, BN2475: là công dân Việt Nam, từ nước ngoài nhập cảnh vào Hà Tiên, tỉnh Kiên Giang ngày 27/02 và được cách ly ngay sau khi nhập cảnh. Kết quả xét nghiệm lần 1 ngày 01/3 dương tính với SARS-CoV-2. Hiện các bệnh nhân đang được cách ly, điều trị tại Trung tâm Y tế TP. Hà Tiên.
 
 *BN2473: là chuyên gia, quốc tịch Trung Quốc, từ Trung Quốc nhập cảnh Sân bay Tân Sơn Nhất ngày 28/02 và được cách ly ngay sau khi nhập cảnh. Kết quả xét nghiệm lần 1 ngày 01/3 dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Bình Dương.
