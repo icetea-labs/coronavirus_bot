@@ -80,6 +80,8 @@
 
 *BN2514: nam, 26 tuổi, là chuyên gia, quốc tịch Trung Quốc. Bệnh nhân từ Seoul (Hàn Quốc) nhập cảnh Sân bay Tân Sơn Nhất ngày 05/03/2021, đã được cách ly ngay sau khi nhập cảnh tại Thành phố Hồ Chí Minh. Kết quả xét nghiệm ngày 06/03/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện dã chiến Củ Chi.
 
+*BN2513: nam, 44 tuổi, là chuyên gia, quốc tịch Đài Loan. Ngày 22/02/2021 từ Đài Loan nhập cảnh Sân bay Tân Sơn Nhất, đã được cách ly ngay sau khi nhập cảnh tại tỉnh Bình Dương. Kết quả xét nghiệm lần 2 ngày 07/03/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Bình Dương.
+
 *BN2512: tại huyện Tứ Kỳ, Hải Dương, là F1 của BN2415; đã được cách ly tập trung từ ngày 25/02/2021. Hiện bệnh nhân đang được cách ly điều trị tại Bệnh viện Dã chiến số 3 – Bệnh viện Đa khoa tỉnh Hải Dương chi nhánh 2.
 
 *BN2511: nữ, 33 tuổi, là chuyên gia, quốc tịch Philippines. Ngày 22/02/2021, bệnh nhân từ Philippines nhập cảnh sân bay Nội Bài, đã được cách ly ngay sau khi nhập cảnh tại tỉnh Bắc Ninh. Kết quả xét nghiệm ngày 07/03/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh.
