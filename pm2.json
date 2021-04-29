@@ -1,0 +1,12 @@
+{
+  "apps" : [
+    {
+      "name": "coronavirus_bot",
+      "script": "npm",
+      "args": "start",
+      "exec_interpreter": "none",
+      "exec_mode"  : "fork_mode",
+      "watch": false
+    }
+  ]
+}
