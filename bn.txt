@@ -1,3 +1,5 @@
+*BN3023 đến BN3030: Ghi nhận trong nước tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh, là các bệnh nhân đang điều trị tại bệnh viện.
+
 *BN3009 đến BN3022: 14 trường hợp ghi nhận tại Bệnh viện Bệnh nhiệt đới Trung ương (01 nhân viên y tế, 04 người nhà và 09 bệnh nhân đang điều trị tại bệnh viện).
 
 *BN3008: Bệnh nhân nam, 44 tuổi, công dân Việt Nam có địa chỉ tại quận Lê Chân, thành phố Hải Phòng. Bệnh nhân là thuyền viên, ngày 30/4/2021 từ Philippines đến  cảng Phao Phước Long 5, quận Nhà Bè, Thành phố Hồ Chí Minh. Bệnh nhân ở trên tàu, không lên bờ từ 30/4/2021-02/5/2021, đến ngày 03/5/2021 được cách ly ngay sau khi nhập cảnh tại Thành phố Hồ Chí Minh. Kết quả xét nghiệm ngày 04/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
