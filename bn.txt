@@ -1,3 +1,39 @@
+*BN3676 đến BN3679: ghi nhận tại Hưng Yên, là F1 liên quan tới ổ dịch cũ, đã được cách ly. Kết quả xét nghiệm ngày 13/5/2021 các bệnh nhân dương tính với SARS-CoV-2. Hiện các bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3672: ghi nhận tại tỉnh Hòa Bình, bệnh nhân nữ, 62 tuổi, địa chỉ tại thành phố Hòa Bình, tỉnh Hòa Bình; là F1 của BN3147, đã được cách ly từ trước. Kết quả xét nghiệm ngày 13/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Hòa Bình. 
+
+*BN3666, BN3670, BN3671, BN3673: ghi nhận tại tỉnh Thái Bình, là F1 của BN3537, đã được cách ly từ trước. Kết quả xét nghiệm ngày 13/5/2021 các bệnh nhân dương tính với SARS-CoV-2. Hiện các bệnh nhân đang được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Thái Bình. 
+
+*BN3662 đến BN3665, BN3667, BN3668, BN3675: ghi nhận tại tỉnh Bắc Giang, đều liên quan đến ổ dịch CTY SJ Tech, đã được cách ly từ trước. Kết quả xét nghiệm ngày 13/5/2021 các bệnh nhân dương tính với SARS-CoV-2. Hiện các bệnh nhân đang được cách ly, điều trị tại Bệnh viện dã chiến Bắc Giang. 
+
+*BN3661: ghi nhận tại tỉnh Hà Nam, bệnh nhân nam, 36 tuổi, địa chỉ tại huyện Lý Nhân, tỉnh Hà Nam. Ngày 29/04/2021, bệnh nhân từ Đà Nẵng di chuyển đến sân bay Nội Bài trên chuyến bay VN160. Bệnh nhân đã chủ động khai báo y tế và cách ly tập trung tại tỉnh Hà Nam. Kết quả xét nghiệm ngày 12/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh. 
+
+*BN3660: ghi nhận tại tỉnh Thừa Thiên Huế, bệnh nhân nữ, 58 tuổi, địa chỉ tại huyện Phú Lộc, tỉnh Thừa Thiên Huế; là F1 của BN3618, BN3619, đã được cách ly từ trước. Kết quả xét nghiệm ngày 12/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Trung ương Huế cơ sở 2. 
+
+*BN3674: ghi nhận tại Thành phố Hà Nội, bệnh nhân nam, 42 tuổi, địa chỉ tại quận Hà Đông, thành phố Hà Nội; là F1 của BN3634. Bệnh nhân trên đã được cách ly tập trung. Kết quả xét nghiệm ngày 13/5/2021 các bệnh nhân dương tính với SARS-CoV-2. Hiện các bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh. 
+
+*BN3669: ghi nhận tại Thành phố Hà Nội, bệnh nhân nam, 40 tuổi, địa chỉ tại quận Hà Đông, thành phố Hà Nội; là F1 của BN3633. Bệnh nhân trên đã được cách ly tập trung. Kết quả xét nghiệm ngày 13/5/2021 các bệnh nhân dương tính với SARS-CoV-2. Hiện các bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3659: ghi nhận tại Thành phố Hà Nội, bệnh nhân nam, 44 tuổi, quốc tịch Áo; Ngày 29/04/2021, bệnh nhân từ Đà Nẵng di chuyển đến sân bay Nội Bài trên chuyến bay VN160. Bệnh nhân đã chủ động khai báo y tế và cách ly tập trung tại Thành phố Hà Nội. Bệnh nhân trên đã được cách ly tập trung. Kết quả xét nghiệm ngày 13/5/2021 các bệnh nhân dương tính với SARS-CoV-2. Hiện các bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3636-BN3657: ghi nhận tại Thành phố Đà Nẵng, là F1 liên quan tới ổ dịch cũ, đã được cách ly. Kết quả xét nghiệm ngày 09/5/2021, các bệnh nhân dương tính với SARS-CoV-2. Hiện các bệnh nhân đang được cách ly, điều trị tại Bệnh viện Phổi Đà Nẵng và Trung tâm Y tế Hòa Vang.
+
+*BN3635: ghi nhận tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh (người nhà bệnh nhân đã được cách ly trong bệnh viện).
+
+*BN3631, BN3632: ghi nhận tại tỉnh Bắc Giang, đều liên quan đến ổ dịch CTY SJ Tech, đã được cách ly từ trước. Kết quả xét nghiệm ngày 12/5/2021 các bệnh nhân dương tính với SARS-CoV-2. Hiện các bệnh nhân đang được cách ly, điều trị tại Bệnh viện dã chiến Bắc Giang.
+
+*BN3634: ghi nhận tại Thành phố Hà Nội, bệnh nhân nam, 44 tuổi, địa chỉ tại quận Thanh Xuân, thành phố Hà Nội; có tiền sử đi về từ Đà Nẵng. Kết quả xét nghiệm ngày 10-12/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3633: ghi nhận tại Thành phố Hà Nội, bệnh nhân nữ, 42 tuổi, địa chỉ tại quận Thanh Xuân, thành phố Hà Nội; có tiền sử đi về từ Đà Nẵng. Kết quả xét nghiệm ngày 10-12/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3630: ghi nhận tại Thành phố Hà Nội, bệnh nhân nữ, 56 tuổi, địa chỉ tại huyện Mỹ Đức, thành phố Hà Nội; đang tiếp tục điều tra dịch tễ.
+
+*BN3628, BN3629: ghi nhận tại tỉnh Vĩnh Phúc, đều liên quan đến ổ dịch tại Vĩnh Phúc. Các bệnh nhân trên đã được cách ly từ trước. Kết quả xét nghiệm ngày 10/5/2021 bệnh nhân dương tính với SARS-CoV-2.
+
+*BN3625 đến BN3627: ghi nhận tại tỉnh Bắc Ninh, là F1 liên quan tới ổ dịch cũ, đã được cách ly. Kết quả xét nghiệm ngày 11/5/2021, các bệnh nhân dương tính với SARS-CoV-2.
+
+*
+
 *BN3023 đến BN3030: Ghi nhận trong nước tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh, là các bệnh nhân đang điều trị tại bệnh viện.
 
 *BN3009 đến BN3022: 14 trường hợp ghi nhận tại Bệnh viện Bệnh nhiệt đới Trung ương (01 nhân viên y tế, 04 người nhà và 09 bệnh nhân đang điều trị tại bệnh viện).
