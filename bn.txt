@@ -1,3 +1,35 @@
+*BN3731 đến BN3740: ghi nhận tại Bắc Giang; 10 ca là F1, liên quan ổ dịch cũ tại khu công nghiệp Vân Trung, đã được cách ly trước đó.
+
+*BN3728 đến BN3730: tại Bệnh viện K; 03 ca trong khu phong tỏa của Bệnh viện K (Tân Triều).
+
+*BN3723 đến BN3727: tại Hà Nội; 5 ca trong đó 3 ca là bệnh nhân liên quan đến ổ dịch cũ, 1 ca là F1 BN3659, 1 ca là F1 BN3634, tất cả đều đã được cách ly trước đó.
+
+*BN3718, BN3719, BN3721, BN3722: tại tỉnh Lạng Sơn; 04 ca là F1, liên quan tới ổ dịch cũ, đã được cách ly trước đó.
+
+*BN3720: tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh; 01 ca là bệnh nhân đang điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh đã phong tỏa trước đó.
+
+*BN3711 đến BN3716: tại tỉnh Bắc Ninh; 06 ca là F1 liên quan tới ổ dịch cũ tại huyện Thuận Thành, tỉnh Bắc Ninh, đã được cách ly trước đó.
+
+*BN3717: bệnh nhân nữ, 34 tuổi, có địa chỉ tại Vị Xuyên, Hà Giang. Ngày 10/5 bệnh nhân từ Trung Quốc nhập cảnh qua cửa khẩu Thanh Thủy, Hà Giang, có biểu hiện sốt ho, được cách ly ngay, lấy mẫu xét nghiệm tại Hà Giang. Ngày 11/5 kết quả xét nghiệm của Trung tâm Kiểm soát bệnh tật Hà Giang cho kết quả nghi ngờ, mẫu được chuyển lên Viện Vệ sinh dịch tễ Trung ương, kết quả ngày 12/5 bệnh nhân dương tính với vi rút SARS-CoV-2. Hiện bệnh nhân cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Hà Giang.
+
+*BN3702, BN3705, BN3707, BN3709: ghi nhận tại tỉnh Bắc Ninh; là F1 liên quan tới ổ dịch cũ, đã được cách ly trước đó. Kết quả xét nghiệm ngày 13/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện các bệnh nhân đang được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Bắc Ninh.
+
+*BN3699 đến BN3701: ghi nhận tại tỉnh Vĩnh Phúc; là F1 liên quan tới ổ dịch cũ, đã được cách ly trước đó. Kết quả xét nghiệm ngày 12/5/2021 các bệnh nhân dương tính với SARS-CoV-2. Hiện các bệnh nhân đang được cách ly, điều trị tại Bệnh viện dã chiến tỉnh Vĩnh Phúc. 
+
+*BN3689 đến BN3698: ghi nhận tại Thành phố Đà Nẵng; là F1 liên quan tới ổ dịch cũ, đã được cách ly trước đó. Kết quả xét nghiệm ngày 12/5/2021 các bệnh nhân dương tính với SARS-CoV-2. Hiện các bệnh nhân đang được cách ly, điều trị tại Trung tâm Y tế huyện Hòa Vang. 
+
+*BN3688: ghi nhận tại tỉnh Bắc Giang. Bệnh nhân nữ, 29 tuổi, địa chỉ tại huyện Việt Yên, tỉnh Bắc Giang; liên quan đến ổ dịch CTY SJ Tech, đã được cách ly trước đó. Kết quả xét nghiệm ngày 12/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện dã chiến Bắc Giang. 
+
+*BN3686: ghi nhận tại Thành phố Hà Nội. Bệnh nhân nữ, 41 tuổi, địa chỉ tại huyện huyện Mèo Vạc, tỉnh Hà Giang; là F1 liên quan tới ổ dịch cũ, đã được cách ly trước đó. Kết quả xét nghiệm ngày 12/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh. 
+
+*BN3710: Bệnh nhân nam, 29 tuổi, là công dân Việt Nam, địa chỉ tại huyện Gio Linh, tỉnh Quảng Trị. Ngày 22/4/2021, bệnh nhân từ Hàn Quốc nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay VN405 và được cách ly ngay sau khi nhập cảnh tại tỉnh Bình Dương. Kết quả xét nghiệm ngày 12/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Bình Dương.
+
+*BN3703: Bệnh nhân nữ, 51 tuổi, là công dân Việt Nam, địa chỉ tại huyện Dương Minh Châu, tỉnh Tây Ninh. Ngày 06/5/2021, bệnh nhân từ Malaysia nhập cảnh Sân bay Cần Thơ trên chuyến bay QH9324 và được cách ly ngay sau khi nhập cảnh tại tỉnh Vĩnh Long. Kết quả xét nghiệm ngày 12/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Phổi tỉnh Vĩnh Long. 
+
+*BN3687: Bệnh nhân nữ, 33 tuổi, là công dân Việt Nam, địa chỉ tại quận Tân Phú, Thành phố Hồ Chí Minh. Ngày 07/5/2021, bệnh nhân từ Hungary quá cảnh Pháp nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay VN10 và được cách ly ngay sau khi nhập cảnh tại tỉnh Đồng Nai. Kết quả xét nghiệm ngày 12/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Phổi Đồng Nai. 
+
+*BN3680 đến BN3685, BN3704, BN3706, BN3708: được cách ly ngay sau khi nhập cảnh tại tỉnh Sóc Trăng. Ngày 28/4/2021, các bệnh nhân trên từ Philippines nhập cảnh Sân bay Cần Thơ trên chuyến bay QH9353 và được cách ly ngay sau khi nhập cảnh tại tỉnh Sóc Trăng. Kết quả xét nghiệm ngày 12/5/2021 các bệnh nhân dương tính với SARS-CoV-2. Hiện các bệnh nhân đang được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Sóc Trăng. 
+
 *BN3676 đến BN3679: ghi nhận tại Hưng Yên, là F1 liên quan tới ổ dịch cũ, đã được cách ly. Kết quả xét nghiệm ngày 13/5/2021 các bệnh nhân dương tính với SARS-CoV-2. Hiện các bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
 
 *BN3672: ghi nhận tại tỉnh Hòa Bình, bệnh nhân nữ, 62 tuổi, địa chỉ tại thành phố Hòa Bình, tỉnh Hòa Bình; là F1 của BN3147, đã được cách ly từ trước. Kết quả xét nghiệm ngày 13/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Hòa Bình. 
@@ -32,7 +64,627 @@
 
 *BN3625 đến BN3627: ghi nhận tại tỉnh Bắc Ninh, là F1 liên quan tới ổ dịch cũ, đã được cách ly. Kết quả xét nghiệm ngày 11/5/2021, các bệnh nhân dương tính với SARS-CoV-2.
 
-*
+*BN3658: Bệnh nhân nam, 40 tuổi, là công dân Việt Nam, địa chỉ tại huyện An Phú, tỉnh An Giang. Ngày 11/5/2021, bệnh nhân từ nước ngoài nhập cảnh và được cách ly ngay sau khi nhập cảnh tại tỉnh An Giang. Kết quả xét nghiệm ngày 12/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Trung tâm y tế huyện An Phú.
+
+*BN3624: Bệnh nhân nữ, 37 tuổi, là công dân Việt Nam, địa chỉ tại huyện Long Phú, tỉnh Sóc Trăng. Ngày 27/4/2021, bệnh nhân từ Ba Lan nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay QH9059 và được cách ly ngay sau khi nhập cảnh tại tỉnh Long An. Kết quả xét nghiệm ngày 12/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Đa khoa Long An.
+
+*BN3623: ghi nhận tại Thành phố Hà Nội, bệnh nhân nữ, 68 tuổi, địa chỉ tại quận Đống Đa, Thành phố Hà Nội; là F1 liên quan tới ổ dịch cũ, đã được cách ly. Kết quả xét nghiệm ngày 11-12/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh. 
+
+*BN3622: ghi nhận tại tỉnh Phú Thọ, bệnh nhân nữ, 59 tuổi, địa chỉ tại thành phố Việt Trì, tỉnh Phú Thọ; là F1 của BN3116, đã được cách ly. Kết quả xét nghiệm ngày 12/5/2021 các bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện dã chiến tỉnh Phú Thọ.
+
+*BN3620, BN3621: ghi nhận tại tỉnh Bắc Giang; liên quan đến ổ dịch CTY SJ Tech, đã được cách ly tập trung. Kết quả xét nghiệm ngày 12/5/2021 các bệnh nhân dương tính với SARS-CoV-2. Hiện các bệnh nhân đang được cách ly, điều trị tại Bệnh viện dã chiến Bắc Giang.
+
+*BN3599 đến BN3608, BN3610 đến BN3619: ghi nhận tại Thành phố Đà Nẵng; là F1 liên quan tới ổ dịch cũ, đã được cách ly. Kết quả xét nghiệm ngày 11-12/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện các bệnh nhân đang được cách ly, điều trị tại Bệnh viện Phổi Đà Nẵng.
+
+*BN3609: ghi nhận tại Thành phố Hà Nội, bệnh nhân nữ, 66 tuổi, địa chỉ tại huyện Yên Lạc, tỉnh Vĩnh Phúc; là F1 liên quan tới ổ dịch cũ, đã được cách ly. Kết quả xét nghiệm ngày 11-12/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3598: ghi nhận tại Thành phố Hà Nội, bệnh nhân nữ, 20 tuổi, địa chỉ tại huyện Phúc Thọ, Thành phố Hà Nội; là F1 liên quan tới ổ dịch cũ, đã được cách ly. Kết quả xét nghiệm ngày 11-12/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3597: ghi nhận tại Thành phố Hà Nội, bệnh nhân nam, 38 tuổi, địa chỉ tại thành phố Thái Nguyên, tỉnh Thái Nguyên; là F1 liên quan tới ổ dịch cũ, đã được cách ly. Kết quả xét nghiệm ngày 11-12/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3596: ghi nhận tại Thành phố Hà Nội, bệnh nhân nam, 41 tuổi, địa chỉ tại huyện Thường Tín, Thành phố Hà Nội; là F1 liên quan tới ổ dịch cũ, đã được cách ly. Kết quả xét nghiệm ngày 11-12/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3595: ghi nhận tại Thành phố Hà Nội, bệnh nhân nữ, 59 tuổi, địa chỉ tại thị xã Kim Bảng, tỉnh Hà Nam; là F1 liên quan tới ổ dịch cũ, đã được cách ly. Kết quả xét nghiệm ngày 11-12/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3594: ghi nhận tại Thành phố Hà Nội, bệnh nhân nữ, 8 tuổi, địa chỉ tại huyện Đông Anh, Thành phố Hà Nội; là F1 liên quan tới ổ dịch cũ, đã được cách ly. Kết quả xét nghiệm ngày 11-12/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3589-BN3593: ghi nhận tại tỉnh Bắc Ninh; F1 liên quan tới ổ dịch cũ, đã được cách ly tập trung từ trước. Kết quả xét nghiệm ngày 11/5/2021 các bệnh nhân dương tính với SARS-CoV-2.
+
+*BN3588: Bệnh nhân nam, 23 tuổi, là công dân Việt Nam, địa chỉ tại thị xã Quảng Yên, tỉnh Quảng Ninh. Ngày 11/5/2021, bệnh nhân trên từ Malaysia nhập cảnh Bà Rịa - Vũng Tàu trên tàu PVT NEPTUNE và được cách ly ngay sau khi nhập cảnh tại tỉnh Bà Rịa - Vũng Tàu. Kết quả xét nghiệm ngày 11/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Trung tâm Y tế huyện Long Điền, tỉnh Bà Rịa - Vũng Tàu.
+
+*BN3587: Bệnh nhân nam, 28 tuổi, là công dân Việt Nam, địa chỉ tại huyện Gia Lộc, tỉnh Hải Dương. Ngày 11/5/2021, bệnh nhân trên từ Malaysia nhập cảnh Bà Rịa - Vũng Tàu trên tàu PVT NEPTUNE và được cách ly ngay sau khi nhập cảnh tại tỉnh Bà Rịa - Vũng Tàu. Kết quả xét nghiệm ngày 11/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Trung tâm Y tế huyện Long Điền, tỉnh Bà Rịa - Vũng Tàu.
+
+*BN3586: Bệnh nhân nam, 31 tuổi, là công dân Việt Nam, địa chỉ tại huyện Đô Lương, tỉnh Nghệ An. Ngày 11/5/2021, bệnh nhân trên từ Malaysia nhập cảnh Bà Rịa - Vũng Tàu trên tàu PVT NEPTUNE và được cách ly ngay sau khi nhập cảnh tại tỉnh Bà Rịa - Vũng Tàu. Kết quả xét nghiệm ngày 11/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Trung tâm Y tế huyện Long Điền, tỉnh Bà Rịa - Vũng Tàu.
+
+*BN3585: ghi nhận tại tỉnh Hưng Yên, bệnh nhân nam, 16 tuổi, địa chỉ tại huyện Phú Lộc, tỉnh Thừa Thiên Huế; là F1 của BN3450, BN3451, đã được cách ly tập trung từ trước. Kết quả xét nghiệm ngày 12/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh. 
+
+*BN3584: ghi nhận tại tỉnh Thái Bình, bệnh nhân nữ, 37 tuổi, địa chỉ tại huyện Quỳnh Phụ, tỉnh Thái Bình; là F1 với BN3192, đã được cách ly tập trung từ trước. Kết quả xét nghiệm ngày 11/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Thái Bình.
+
+*BN3583: ghi nhận tại Hà Nam, bệnh nhân nữ, 29 tuổi, địa chỉ tại thành phố Phủ Lý, tỉnh Hà Nam. Ngày 29/04/2021, bệnh nhân từ Đà Nẵng di chuyển đến Sân bay Nội bài trên chuyến bay VN160. Ngày 02/05/2021, sau khi có thông tin về trường hợp dương tính trên cùng chuyến bay, bệnh nhân đã chủ động khai báo y tế và cách ly tập trung tại tỉnh Hà Nam. Kết quả xét nghiệm ngày 11/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh. 
+
+*BN3575, BN3576: ghi nhận tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh (1 bệnh nhân và 1 người nhà bệnh nhân đã được cách ly trong bệnh viện). 
+
+*BN3572 đến BN3574, BN3577 đến BN3582: ghi nhận tại tỉnh Bắc Giang; liên quan đến ổ dịch CTY SJ Tech, đã được cách ly tập trung. Kết quả xét nghiệm ngày 11-12/5/2021 các bệnh nhân dương tính với SARS-CoV-2. Hiện các bệnh nhân đang được cách ly, điều trị tại Bệnh viện dã chiến Bắc Giang. 
+
+*BN3570: ghi nhận tại Thành phố Hà Nội, là F1 của BN3093. Kết quả xét nghiệm ngày 11/5/2021 bệnh nhân dương tính với SARS-CoV-2.
+
+*BN3555 đến BN3557, BN3559, BN3561 đến BN3569: ghi nhận tại tỉnh Vĩnh Phúc; đều liên quan đến ổ dịch quán Bar Sunny. Các bệnh nhân trên đã được cách ly tập trung từ trước. Kết quả xét nghiệm ngày 10/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện các bệnh nhân đang được cách ly, điều trị tại Bệnh viện dã chiến tỉnh Vĩnh Phúc.
+
+*BN3551 đến BN3554: ghi nhận tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh (2 nhân viên y tế và 2 bệnh nhân đã được cách ly trong bệnh viện).
+
+*BN3549: ghi nhận tại tỉnh Lạng Sơn. Bệnh nhân nữ, 33 tuổi, địa chỉ tại huyện Tràng Định, tỉnh Lạng Sơn; có tiền sử đi về xã Mão Điền, huyện Thuận Thành, tỉnh Bắc Ninh đã chủ động đi khai báo y tế. Kết quả xét nghiệm ngày 11/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3548: Bệnh nhân nam, 24 tuổi, là công dân Việt Nam, địa chỉ tại huyện Cẩm Giàng, tỉnh Hải Dương. Ngày 21/4/2021, bệnh nhân từ Nga nhập cảnh Sân bay Đà Nẵng trên chuyến bay VN5062 và được cách ly ngay sau khi nhập cảnh tại Thành phố Đà Nẵng. Kết quả xét nghiệm ngày 10/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Phổi Đà Nẵng.
+
+*BN3540, BN3541, BN3543 đến BN3547: ghi nhận tại Thành phố Đà Nẵng; là F1 liên quan tới ổ dịch cũ, đã được cách ly, đang tiếp tục điều tra dich tễ mở rộng. Kết quả xét nghiệm ngày 09/5/2021 các bệnh nhân dương tính với SARS-CoV-2.
+
+*BN3539, BN3542, BN3550, BN3558, BN3560, BN3571: ghi nhận tại tỉnh Bắc Giang; đều liên quan đến ổ dịch CTY SJ Tech trước đó. Kết quả xét nghiệm ngày 11/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện các bệnh nhân đang được cách ly, điều trị tại Bệnh viện dã chiến Bắc Giang.
+
+*BN3538: ghi nhận tại tỉnh Nam Định, bệnh nhân nam, 12 tuổi, địa chỉ tại huyện Trực Ninh, tỉnh Nam Định; là F1 của BN3126. Bệnh nhân trên đã được cách ly tập trung từ trước. Kết quả xét nghiệm ngày 11/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Trung tâm Y tế huyện Trực Ninh.
+
+*BN3537: ghi nhận tại tỉnh Thái Bình, bệnh nhân nam, 73 tuổi, địa chỉ tại huyện Tiền Hải, tỉnh Thái Bình; là F1 với BN3042, BN3044. Bệnh nhân trên đã được cách ly tập trung từ trước. Kết quả xét nghiệm ngày 11/5/2021 các bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Thái Bình.
+
+*BN3536: ghi nhận tại tỉnh Thái Bình, bệnh nhân nam, 50 tuổi, địa chỉ tại huyện Đông Hưng, tỉnh Thái Bình; là F1 với BN3042, BN3044. bệnh nhân trên đã được cách ly tập trung từ trước. Kết quả xét nghiệm ngày 11/5/2021 các bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Thái Bình.
+
+*BN3535: ghi nhận tại tỉnh Thừa Thiên Huế, bệnh nhân nam, 52 tuổi, địa chỉ tại huyện Phú Lộc, tỉnh Thừa Thiên Huế; có liên quan dịch tễ với BN3268. Bệnh nhân trên đã được cách ly tập trung từ trước. Kết quả xét nghiệm ngày 11/5/2021, bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Trung ương Huế cơ sở 2.
+
+*BN3512 đến BN3517, BN3521 đến BN3534: ghi nhận tại tỉnh Bắc Ninh; là các F1 liên quan đến ổ dịch cũ, đã được cách ly. Kết quả xét nghiệm ngày 11/5/2021 các bệnh nhân dương tính với SARS-CoV-2. Hiện các bệnh nhân đang được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Bắc Ninh.
+
+*BN3511: ghi nhận tại Thành phố Hà Nội, bệnh nhân nam, 61 tuổi, địa chỉ tại thị xã Kim Bảng, tỉnh Hà Nam; là F1 liên quan đến ổ dịch cũ, đã được cách ly. Kết quả xét nghiệm ngày 11/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh. 
+
+*BN3509: ghi nhận tại Thành phố Hà Nội, bệnh nhân nữ, 47 tuổi, địa chỉ tại huyện Đông Anh, Thành phố Hà Nội; là F1 liên quan đến ổ dịch cũ, đã được cách ly. Kết quả xét nghiệm ngày 11/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh. 
+
+*BN3510: ghi nhận tại tỉnh Bắc Giang, bệnh nhân nữ, 27 tuổi, địa chỉ tại huyện Lạng Giang, tỉnh Bắc Giang; là F1 liên quan đến ổ dịch cũ, đã được cách ly. Kết quả xét nghiệm ngày 11/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện dã chiến Bắc Giang. 
+
+*BN3508: ghi nhận tại tỉnh Bắc Giang, bệnh nhân nữ, 20 tuổi, địa chỉ tại huyện Việt Yên, tỉnh Bắc Giang; là F1 liên quan đến ổ dịch cũ, đã được cách ly. Kết quả xét nghiệm ngày 11/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện dã chiến Bắc Giang. 
+
+*BN3520: Bệnh nhân nữ, 43 tuổi, là công dân Việt Nam, địa chỉ tại huyện Lục Nam, tỉnh Bắc Giang. Ngày 09/5/2021, bệnh nhân từ UAE nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay VN88 và được cách ly ngay sau khi nhập cảnh tại Thành phố Hồ Chí Minh. Kết quả xét nghiệm ngày 10/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN3519: Bệnh nhân nam, 26 tuổi, là công dân Việt Nam, địa chỉ tại huyện Phú Quý, tỉnh Bình Thuận. Ngày 01/5/2021, bệnh nhân từ UAE nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay EK392 và được cách ly ngay sau khi nhập cảnh tại Thành phố Hồ Chí Minh. Kết quả xét nghiệm ngày 10/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN3518: Bệnh nhân nam, 31 tuổi, là công dân Việt Nam, địa chỉ tại quận Tân Bình, Thành phố Hồ Chí Minh. Ngày 07/5/2021, bệnh nhân từ Hàn Quốc nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay KE683 và được cách ly ngay sau khi nhập cảnh tại Thành phố Hồ Chí Minh. Kết quả xét nghiệm ngày 09/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN3506: ghi nhận tại tỉnh Quảng Trị, bệnh nhân nữ, 23 tuổi, địa chỉ tại thành phố Đông Hà, tỉnh Quảng Trị; là F1 của BN3222. Bệnh nhân trên đã được cách ly tập trung từ trước. Kết quả xét nghiệm ngày 10/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện các bệnh phổi tỉnh Quảng Trị.
+
+*BN3505: ghi nhận tại tỉnh Quảng Trị, bệnh nhân nam, 23 tuổi, địa chỉ tại thành phố Đông Hà, tỉnh Quảng Trị; là F1 của BN3222. Bệnh nhân trên đã được cách ly tập trung từ trước. Kết quả xét nghiệm ngày 10/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện các bệnh phổi tỉnh Quảng Trị.
+
+*BN3501: ghi nhận tại tỉnh Hải Dương, bệnh nhân nam, 30 tuổi, địa chỉ tại thành phố Hải Dương, tỉnh Hải Dương; là F1 của BN3182. Bệnh nhân trên đã được cách ly tập trung từ trước. Kết quả xét nghiệm ngày 11/5/2021 các bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới tỉnh Hải Dương.
+
+*BN3500: ghi nhận tại tỉnh Bắc Ninh, bệnh nhân nữ, 6 tuổi, địa chỉ tại huyện Thuận Thành, tỉnh Bắc Ninh; liên quan đến ổ dịch Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh. Bệnh nhân trên đã được cách ly tập trung từ trước. Kết quả xét nghiệm ngày 10/5/2021 các bệnh nhân dương tính với SARS-CoV-2. 
+
+*BN3502, BN3503: ghi nhận tại tỉnh Bắc Giang; liên quan đến ổ dịch Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh. Các bệnh nhân trên đã được cách ly tập trung từ trước. Kết quả xét nghiệm ngày 10/5/2021 các bệnh nhân dương tính với SARS-CoV-2. Hiện các bệnh nhân đang được cách ly, điều trị tại Trung tâm Y tế huyện Lục Ngạn.
+
+*BN3492 đến BN3497, BN3504, BN3507: ghi nhận tại tỉnh Bắc Giang; liên quan đến ổ dịch Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh. Các bệnh nhân trên đã được cách ly tập trung từ trước. Kết quả xét nghiệm ngày 10/5/2021 các bệnh nhân dương tính với SARS-CoV-2. Hiện các bệnh nhân đang được cách ly, điều trị tại Bệnh viện dã chiến Bắc Giang.
+
+*BN3491: ghi nhận tại Thành phố Hà Nội, bệnh nhân nam, 68 tuổi, địa chỉ tại huyện Thanh Trì, Thành phố Hà Nội; bệnh nhân điều trị tại Bệnh viện K cơ sở Tân Triều đến ngày 06/5. Kết quả xét nghiệm ngày 10/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh. 
+
+*BN3490: ghi nhận tại Thành phố Hà Nội, bệnh nhân nam, 31 tuổi, địa chỉ tại huyện Lạng Giang, tỉnh Bắc Giang; có tiền sử chăm bệnh nhân điều trị tại Bệnh viện K cơ sở Tân Triều. Kết quả xét nghiệm ngày 10/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh. 
+
+*BN3499i: Bệnh nhân nam, 27 tuổi, là chuyên gia, quốc tịch Ấn Độ. Ngày 07/5/2021, bệnh nhân từ Ấn Độ nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay QR970 và được cách ly ngay sau khi nhập cảnh tại tỉnh Đồng Nai. Kết quả xét nghiệm ngày 09/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Phổi Đồng Nai.
+
+*BN3498: Bệnh nhân nữ, 38 tuổi, là công dân Việt Nam, địa chỉ tại huyện Lương Tài, tỉnh Bắc Ninh. Ngày 07/5/2021, bệnh nhân từ Thụy Điển quá cảnh Pháp nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay VN10 và được cách ly ngay sau khi nhập cảnh tại tỉnh Đồng Nai. Kết quả xét nghiệm ngày 09/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Phổi Đồng Nai.
+
+*BN3489: ghi nhận tại tỉnh Hải Dương. Bệnh nhân nữ, 28 tuổi, địa chỉ tại thành phố Chí Linh, tỉnh Hải Dương; có tiền sử đi về xã Mão Điền, huyện Thuận Thành, tỉnh Bắc Ninh đã chủ động đi khai báo y tế. Kết quả xét nghiệm ngày 10/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới tỉnh Hải Dương
+
+*BN3488: ghi nhận tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh (nhân viên y tế đã được cách ly trong bệnh viện).
+
+*BN3483 đến BN3487: ghi nhận tại tỉnh Bắc Giang; đều liên quan đến ổ dịch CTY SJ Tech trước đó. Kết quả xét nghiệm ngày 09/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện các bệnh nhân đang được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Bắc Giang.
+
+*BN3482: ghi nhận tại tỉnh Lạng Sơn. Bệnh nhân nữ, 44 tuổi, địa chỉ tại huyện Hữu Lũng, tỉnh Lạng Sơn; là F1 của BN3238, BN3239. Kết quả xét nghiệm ngày 09/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3481: ghi nhận tại tỉnh Vĩnh Phúc. Bệnh nhân nữ, 42 tuổi địa chỉ tại thành phố Phúc Yên, tỉnh Vĩnh Phúc; có liên quan dịch tễ với Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3480: ghi nhận tại tỉnh Vĩnh Phúc. Bệnh nhân nữ, 19 tuổi địa chỉ tại thành phố Phúc Yên, tỉnh Vĩnh Phúc; thông tin dịch tễ đang tiếp tục điều tra. Bệnh nhân trên đã được cách ly tập trung từ trước. Kết quả xét nghiệm ngày 10/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện dã chiến tỉnh Vĩnh Phúc.
+
+*BN3479: ghi nhận tại tỉnh Vĩnh Phúc. Bệnh nhân nữ, 52 tuổi địa chỉ tại huyện Yên Lạc, tỉnh Vĩnh Phúc; là F1 của BN3228. Bệnh nhân trên đã được cách ly tập trung từ trước. Kết quả xét nghiệm ngày 10/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện dã chiến tỉnh Vĩnh Phúc.
+
+*BN3477: ghi nhận tại tỉnh Vĩnh Phúc. Bệnh nhân nữ, 20 tuổi địa chỉ tại huyện Vĩnh Tường, tỉnh Vĩnh Phúc; làm việc tại Trung tâm chăm sóc sức khỏe Hoa Sen. Bệnh nhân trên đã được cách ly tập trung từ trước. Kết quả xét nghiệm ngày 10/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện dã chiến tỉnh Vĩnh Phúc.
+
+*BN3473: ghi nhận tại tỉnh Vĩnh Phúc. Bệnh nhân nữ, 26 tuổi địa chỉ tại huyện Vĩnh Tường, tỉnh Vĩnh Phúc; làm việc tại Trung tâm chăm sóc sức khỏe Hoa Sen. Bệnh nhân trên đã được cách ly tập trung từ trước. Kết quả xét nghiệm ngày 10/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện dã chiến tỉnh Vĩnh Phúc.
+
+*BN3470: ghi nhận tại tỉnh Vĩnh Phúc. Bệnh nhân nam, 41 tuổi địa chỉ tại thành phố Phúc Yên, tỉnh Vĩnh Phúc; là F1 của chuyên gia Trung Quốc. Bệnh nhân trên đã được cách ly tập trung từ trước. Kết quả xét nghiệm ngày 10/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện dã chiến tỉnh Vĩnh Phúc.
+
+*BN3465: ghi nhận tại tỉnh Vĩnh Phúc. Bệnh nhân nữ, 39 tuổi địa chỉ tại huyện Bình Xuyên, tỉnh Vĩnh Phúc; làm việc tại Trung tâm chăm sóc sức khỏe Hoa Sen. Bệnh nhân trên đã được cách ly tập trung từ trước. Kết quả xét nghiệm ngày 10/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện dã chiến tỉnh Vĩnh Phúc.
+
+*BN3462 đến 3464, BN3466 đến BN3469, BN3471, BN3472, BN3474 đến 3476, BN3478: ghi nhận tại tỉnh Bắc Ninh; đều liên quan dịch tễ với ổ dịch xã Mão Điền. Các bệnh nhân trên đã được cách ly tập trung từ trước. Kết quả xét nghiệm ngày 09/5/2021, các bệnh nhân dương tính với SARS-CoV-2. Hiện các bệnh nhân đang được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Bắc Ninh.
+
+*BN3460: ghi nhận tại Thành phố Đà Nẵng. Bệnh nhân nam, 31 tuổi, địa chỉ tại quận Hải Châu, Thành phố Đà Nẵng; là F1 của BN3404. Kết quả xét nghiệm ngày 09/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện dã chiến Hòa Vang.
+
+*BN3459: ghi nhận tại Thành phố Đà Nẵng. Bệnh nhân nam, 25 tuổi, địa chỉ tại quận Cẩm Lệ, Thành phố Đà Nẵng; là F1 của BN3224. Kết quả xét nghiệm ngày 09/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện dã chiến Hòa Vang.
+
+*BN3458: ghi nhận tại Thành phố Đà Nẵng. Bệnh nhân nam, 31 tuổi, địa chỉ tại quận Cẩm Lệ, Thành phố Đà Nẵng; là F1 của BN2982. Kết quả xét nghiệm ngày 09/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện dã chiến Hòa Vang.
+
+*BN3461: ghi nhận tại Thành phố Hà Nội. Bệnh nhân nữ, 29 tuổi, địa chỉ tại quận Sơn Trà, thành phố Đà Nẵng. Ngày 29/04/2021, bệnh nhân từ Đà Nẵng di chuyển đến sân bay Nội bài trên chuyến bay VN160. Ngày 02/05/2021, sau khi có thông tin về trường hợp dương tính trên cùng chuyến bay, bệnh nhân đã chủ động khai báo y tế và cách ly tập trung tại Thành phố Hà Nội. Kết quả xét nghiệm ngày 10/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Đa khoa Đống Đa.
+
+*BN3456: ghi nhận tại Thành phố Hà Nội. Bệnh nhân nữ, 31 tuổi, địa chỉ tại huyện Gia Lâm, thành phố Hà Nội; là F1 của BN3114. Kết quả xét nghiệm ngày 10/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3454: ghi nhận tại tỉnh Hưng Yên. Bệnh nhân nữ, 08 tuổi, địa chỉ tại thị xã Mỹ Hào, tỉnh Hưng Yên; là F1 của BN3453. Bệnh nhân trên đã được cách ly tập trung từ trước. Kết quả xét nghiệm ngày 10/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3453: ghi nhận tại tỉnh Hưng Yên. Bệnh nhân nữ, 39 tuổi, địa chỉ tại thị xã Mỹ Hào, tỉnh Hưng Yên; có tiền sử đi khám bệnh tại Bệnh viện K cơ sở Tân Triều. Bệnh nhân trên đã được cách ly tập trung từ trước. Kết quả xét nghiệm ngày 10/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3452: ghi nhận tại tỉnh Hưng Yên. Bệnh nhân nữ, 13 tuổi, địa chỉ tại huyện Khoái Châu, tỉnh Hưng Yên; là F1 của BN3169. Bệnh nhân trên đã được cách ly tập trung từ trước. Kết quả xét nghiệm ngày 10/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3451: ghi nhận tại tỉnh Hưng Yên. Bệnh nhân nam, 71 tuổi, địa chỉ tại huyện Khoái Châu, tỉnh Hưng Yên; là F1 của BN3450. Bệnh nhân trên đã được cách ly tập trung từ trước. Kết quả xét nghiệm ngày 09/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3450: ghi nhận tại tỉnh Hưng Yên. Bệnh nhân nữ, 68 tuổi, địa chỉ tại huyện Khoái Châu, tỉnh Hưng Yên; là F1 của BN3122. Bệnh nhân trên đã được cách ly tập trung từ trước. Kết quả xét nghiệm ngày 09/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3449: ghi nhận tại tỉnh Hưng Yên. Bệnh nhân nam, 67 tuổi, địa chỉ tại huyện Khoái Châu, tỉnh Hưng Yên; là F1 của BN3168. Bệnh nhân trên đã được cách ly tập trung từ trước. Kết quả xét nghiệm ngày 09/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3448: ghi nhận tại tỉnh Vĩnh Phúc. Bệnh nhân nam, 41 tuổi, là chuyên gia công ty VINATOP, quốc tịch Trung Quốc. Bệnh nhân đã được cách ly tập trung từ trước. Kết quả xét nghiệm ngày 09/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3447: ghi nhận tại tỉnh Bắc Giang. Bệnh nhân nữ, 32 tuổi, địa chỉ tại huyện Việt Yên, tỉnh Bắc Giang; là F1 của BN3243. Bệnh nhân trên đã được cách ly tập trung từ trước. Kết quả xét nghiệm ngày 10/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Bắc Giang.
+
+*BN3446: ghi nhận tại tỉnh Bắc Giang. Bệnh nhân nữ, 50 tuổi, địa chỉ tại huyện Hữu Lũng, tỉnh Lạng Sơn; là F1 của BN3243. Bệnh nhân trên đã được cách ly tập trung từ trước. Kết quả xét nghiệm ngày 10/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Bắc Giang.
+
+*BN3445: ghi nhận tại tỉnh Bắc Giang. Bệnh nhân nữ, 45 tuổi, địa chỉ tại huyện Lục Nam, tỉnh Bắc Giang. Thông tin dịch tễ đang tiếp tục điều tra. Bệnh nhân trên đã được cách ly tập trung từ trước. Kết quả xét nghiệm ngày 10/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Bắc Giang.
+
+*BN3455: Bệnh nhi nữ, 02 tuổi, là công dân Việt Nam, địa chỉ tại huyện Nho Quan, tỉnh Ninh Bình. Ngày 28/4/2021, bệnh nhân trên từ nước ngoài nhập cảnh cửa khẩu Cầu Treo và được cách ly ngay sau khi nhập cảnh tại tỉnh Hà Tĩnh. Kết quả xét nghiệm ngày 09/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Đa khoa khu vực Cửa khẩu quốc tế Cầu Treo.
+
+*BN3444: ghi nhận tại tỉnh Hải Dương. Bệnh nhân nam, 25 tuổi, địa chỉ tại thành phố Hải Dương, tỉnh Hải Dương; là F1 của BN3182. Kết quả xét nghiệm ngày 09/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới tỉnh Hải Dương.
+
+*BN3443: ghi nhận tại tỉnh Đà Nẵng. Bệnh nhân nam, 35 tuổi, địa chỉ tại quận Hải Châu, thành phố Đà Nẵng; là F1 của BN3222. Kết quả xét nghiệm ngày 09/5/2021 dương tính với SAR-CoV-2.
+
+*BN3442 ghi nhận tại tỉnh Bắc Giang: Bệnh nhân nữ, 39 tuổi, địa chỉ tại huyện Việt Yên, tỉnh Bắc Giang là F1 của BN3369. Kết quả xét nghiệm ngày 09/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Bắc Giang.
+
+*BN3440 ghi nhận tại tỉnh Bắc Giang: Bệnh nhân nữ, 47 tuổi, địa chỉ tại huyện Lục Nam, tỉnh Bắc Giang; là F1 của BN3243. Kết quả xét nghiệm ngày 09/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Bắc Giang.
+
+*BN3438 ghi nhận tại tỉnh Bắc Giang: Bệnh nhân nữ, 19 tuổi, địa chỉ tại huyện Việt Yên, tỉnh Bắc Giang; là F1 của BN3369. Kết quả xét nghiệm ngày 09/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Bắc Giang.
+
+*BN3437 ghi nhận tại tỉnh Bắc Giang: Bệnh nhân nữ, 29 tuổi, địa chỉ tại huyện Lục Nam, tỉnh Bắc Giang; là F1 của BN3246. Kết quả xét nghiệm ngày 09/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Bắc Giang.
+
+*BN3436 ghi nhận tại tỉnh Bắc Giang: Bệnh nhân nữ, 39 tuổi, địa chỉ tại huyện Lục Nam, tỉnh Bắc Giang; là F1 của BN3286. Kết quả xét nghiệm ngày 09/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Bắc Giang.
+
+*BN3435 ghi nhận tại tỉnh Bắc Giang: Bệnh nhân nam, 21 tuổi, địa chỉ tại huyện Lục Nam, tỉnh Bắc Giang; là F1 của BN3243. Kết quả xét nghiệm ngày 09/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Bắc Giang.
+
+*BN3434 ghi nhận tại tỉnh Bắc Giang: Bệnh nhân nữ, 21 tuổi, địa chỉ tại huyện Nguyên Bình, tỉnh Cao Bằng; là F1 của BN3243. Kết quả xét nghiệm ngày 09/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Bắc Giang.
+
+*BN3428 ghi nhận tại thành phố Hà Nội: nam, 67 tuổi, địa chỉ tại Kim Sơn, Gia Lâm, Hà Nội. Bệnh nhân là F1 của BN3255. Kết quả xét nghiệm ngày 10/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3429 ghi nhận tại thành phố Hà Nội: nam, 18 tuổi, địa chỉ tại Kim Sơn, Gia Lâm, Hà Nội. Bệnh nhân là F1 của BN3255. Kết quả xét nghiệm ngày 10/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3430 ghi nhận tại thành phố Hà Nội: nam, 18 tuổi, địa chỉ tại Kim Sơn, Gia Lâm, Hà Nội. Bệnh nhân là F1 của BN3255. Kết quả xét nghiệm ngày 10/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3431 ghi nhận tại thành phố Hà Nội: nam, 18 tuổi, địa chỉ tại Kim Sơn, Gia Lâm, Hà Nội. Bệnh nhân là F1 của BN3255. Kết quả xét nghiệm ngày 10/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3432 ghi nhận tại thành phố Hà Nội: nam, 18 tuổi, địa chỉ tại Kim Sơn, Gia Lâm, Hà Nội. Bệnh nhân là F1 của BN3255. Kết quả xét nghiệm ngày 10/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3427: ghi nhận tại Thành phố Hà Nội. Bệnh nhi nam, 01 tuổi, địa chỉ tại quận Hai Bà Trưng, thành phố Hà Nội; là F1 của BN3288. Kết quả xét nghiệm ngày 10/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3441: ghi nhận tại Thành phố Hà Nội. Bệnh nhân nam, 56 tuổi, địa chỉ tại huyện Thanh Hà, tỉnh Hải Dương; là bệnh nhân điều trị tại Bệnh viện K cơ sở Tân Triều. Kết quả xét nghiệm ngày 10/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3426: ghi nhận tại Thành phố Hà Nội. Bệnh nhân nữ, 35 tuổi, địa chỉ tại huyện Yên Lạc, tỉnh Vĩnh Phúc; có tiền sử chăm sóc bệnh nhân điều trị tại Bệnh viện K cơ sở Tân Triều. Kết quả xét nghiệm ngày 10/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3425: ghi nhận tại Thành phố Hà Nội. Bệnh nhân nam, 72 tuổi, địa chỉ tại huyện Kim Thành, tỉnh Hải Dương; có tiền sử chăm sóc bệnh nhân điều trị tại Bệnh viện K cơ sở Tân Triều. Kết quả xét nghiệm ngày 10/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3413 đến BN3424: 12 trường hợp ghi nhận tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh (01 nhân viên y tế, 08 bệnh nhân và 03 người nhà bệnh nhân đang điều trị tại bệnh viện).
+
+*BN3439: Bệnh nhân nam, 35 tuổi, là chuyên gia, quốc tịch Paskistan. Ngày 08/5/2021, bệnh nhân từ UAE nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay EK392 và được cách ly ngay sau khi nhập cảnh tại tỉnh Bà Rịa - Vũng Tàu. Kết quả xét nghiệm ngày 09/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Trung tâm Y tế huyện Long Điền.
+
+*BN3407 đến BN3412: 6 trường hợp ghi nhận tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh (6 bệnh nhân và người nhà đã được cách ly trong bệnh viện.
+
+*BN3406: Bệnh nhân nữ, 27 tuổi, địa chỉ tại quận Sơn Trà, thành phố Đà Nẵng; là nhân viên Thẩm mỹ viện AMIDA, thành phố Đà Nẵng. Kết quả xét nghiệm của bệnh nhân ngày 08/5/2021 dương tính với SARS-CoV-2.
+
+*BN3405: Bệnh nhân nữ, 24 tuổi, địa chỉ tại quận Thanh Khê, thành phố Đà Nẵng; là F1 của BN3131. Kết quả xét nghiệm của bệnh nhân ngày 08/5/2021 dương tính với SARS-CoV-2.
+
+*BN3404: Bệnh nhân nữ, 28 tuổi, địa chỉ tại quận Hải Châu, thành phố Đà Nẵng; là Tổng giám đốc Thẩm mỹ viện AMIDA, thành phố Đà Nẵng. Kết quả xét nghiệm của bệnh nhân ngày 08/5/2021 dương tính với SARS-CoV-2.
+
+*BN3403: Bệnh nhân nữ, 26 tuổi, địa chỉ tại quận Hải Châu, thành phố Đà Nẵng; là nhân viên Thẩm mỹ viện AMIDA, thành phố Đà Nẵng. Kết quả xét nghiệm của bệnh nhân ngày 08/5/2021 dương tính với SARS-CoV-2.
+
+*BN3402: Bệnh nhân nữ, 27 tuổi, địa chỉ tại quận Thanh Khê, thành phố Đà Nẵng; là nhân viên Thẩm mỹ viện AMIDA, thành phố Đà Nẵng. Kết quả xét nghiệm của bệnh nhân ngày 08/5/2021 dương tính với SARS-CoV-2.
+
+*BN3401: Bệnh nhân nữ, 23 tuổi, địa chỉ tại quận Liên Chiểu, thành phố Đà Nẵng; là nhân viên Thẩm mỹ viện AMIDA, thành phố Đà Nẵng. Kết quả xét nghiệm của bệnh nhân ngày 08/5/2021 dương tính với SARS-CoV-2.
+
+*BN3400: Bệnh nhân nữ, 25 tuổi, địa chỉ tại quận Liên Chiểu, thành phố Đà Nẵng; là nhân viên Thẩm mỹ viện AMIDA, thành phố Đà Nẵng. Kết quả xét nghiệm của bệnh nhân ngày 08/5/2021 dương tính với SARS-CoV-2.
+
+*BN3399: Bệnh nhân nữ, 37 tuổi, địa chỉ tại huyện Hòa Vang, thành phố Đà Nẵng; là nhân viên Thẩm mỹ viện AMIDA, thành phố Đà Nẵng. Kết quả xét nghiệm của bệnh nhân ngày 08/5/2021 dương tính với SARS-CoV-2.
+
+*BN3398: Bệnh nhân nam, 11 tuổi, địa chỉ tại quận Cẩm Lệ, thành phố Đà Nẵng; là F1 của BN3218. Kết quả xét nghiệm của bệnh nhân ngày 08/5/2021 dương tính với SARS-CoV-2.
+
+*BN3397: Bệnh nhân nam, 64 tuổi, địa chỉ tại quận Cẩm Lệ, thành phố Đà Nẵng; là F1 của BN3218. Kết quả xét nghiệm của bệnh nhân ngày 08/5/2021 dương tính với SARS-CoV-2.
+
+*BN3396: Bệnh nhân nữ, 35 tuổi, địa chỉ tại quận Cẩm Lệ, thành phố Đà Nẵng; là F1 của BN3218. Kết quả xét nghiệm của bệnh nhân ngày 08/5/2021 dương tính với SARS-CoV-2.
+
+*BN3395: Bệnh nhân nam, 29 tuổi, địa chỉ tại quận Hải Châu, thành phố Đà Nẵng; là nhân viên Thẩm mỹ viện AMIDA, thành phố Đà Nẵng. Kết quả xét nghiệm của bệnh nhân ngày 08/5/2021 dương tính với SARS-CoV-2.
+
+*BN3394: Bệnh nhân nam, 29 tuổi, địa chỉ tại quận Hải Châu, thành phố Đà Nẵng; là F1 của BN3131. Kết quả xét nghiệm của bệnh nhân ngày 08/5/2021 dương tính với SARS-CoV-2.
+
+*BN3393: Bệnh nhi nam, 2 tuổi, địa chỉ tại thành phố Hòa Bình, tỉnh Hòa Bình; là F1 của BN3273, BN3274. Kết quả xét nghiệm ngày 9/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Hòa Bình.
+
+*BN3392: Bệnh nhân nữ, 28 tuổi, địa chỉ tại thành phố Hòa Bình, tỉnh Hòa Bình; là F1 của BN3273, BN3274. Kết quả xét nghiệm ngày 9/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Hòa Bình.
+
+*BN3391: Bệnh nhân nam, 30 tuổi, công dân Việt Nam, có địa chỉ tại huyện Gia Bình, tỉnh Bắc Ninh. Ngày 7/5/2021, bệnh nhân từ Pháp nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay VN10 và được cách ly ngay sau khi nhập cảnh tại tỉnh Đồng Nai. Kết quả xét nghiệm ngày 8/5/2021 dương tính với SAR-CoV-2.
+
+*BN3390: Bệnh nhân nam, 33 tuổi, là chuyên gia, quốc tịch Ấn Độ. Ngày 24/4/2021, bệnh nhân từ Qatar nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay QR970 và được cách ly ngay sau khi nhập cảnh tại tỉnh Đồng Nai. Kết quả xét nghiệm ngày 8/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Phổi tỉnh Đồng Nai.
+
+*BN3387 đến BN3389: ghi nhận tại thành phố Hà Nội. Thông tin dịch tễ dang được điều tra bổ sung. Kết quả xét nghiệm ngày 9/5/2021 bệnh nhân dương tính với SARS-CoV-2.
+
+*BN3369, BN3372, BN3373, BN3375, BN3376: ghi nhận tại tỉnh Bắc Giang. Thông tin dịch tễ dang được điều tra bổ sung. Kết quả xét nghiệm ngày 9/5/2021 bệnh nhân dương tính với SARS-CoV-2.
+
+*BN3360, BN3362, BN3364, BN3366 đến BN3368, BN3370, BN3371, BN3374, BN3377 đến BN3386: ghi nhận tại tỉnh Vĩnh Phúc; là F1 của trường hợp trước đó. Thông tin dịch tễ dang được điều tra bổ sung. Kết quả xét nghiệm ngày 9/5/2021 các bệnh nhân dương tính với SARS-CoV-2.
+
+*BN3354: Bệnh nhân nam, 76 tuổi, địa chỉ tại huyện Hữu Lũng, tỉnh Lạng Sơn; là F1 của BN3238, BN3239. Kết quả xét nghiệm ngày 9/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3353: Bệnh nhân nam, 46 tuổi, địa chỉ tại huyện huyện Điện Biên, tỉnh Điện Biên; là F1 của BN3147. Kết quả xét nghiệm ngày 9/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện dã chiến Điện Biên Phủ.
+
+*BN3334: Bệnh nhân nam, 25 tuổi, địa chỉ tại thành phố Buôn Ma Thuột, tỉnh Đắk Lắk; có liên quan dịch tễ với ổ dịch tại Đà Nẵng. Kết quả xét nghiệm ngày 08/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Lao phổi tỉnh Đắk Lắk.
+
+*BN3333, BN3335 đến BN3352, BN3355 đến BN3359, BN3361, BN3363, BN3365: ghi nhận tại tỉnh Bắc Ninh. Thông tin dịch tễ dang được điều tra bổ sung. Kết quả xét nghiệm ngày 9/5 các bệnh nhân dương tính với SARS-CoV-2. Hiện các bệnh nhân đang được cách ly, điều trị tại Bệnh viện Đa khoa Bắc Ninh.
+
+*BN3332: Bệnh nhân nữ, 60 tuổi, địa chỉ tại Kim Thành, Hải Dương; là người nhà của bệnh nhân khoa Gan Mật Tụy, Bệnh viện K cơ sở Tân Triều. Kết quả xét nghiệm ngày 09/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3331: Bệnh nhân nữ, 46 tuổi, địa chỉ Kim Lỗ, Đông Anh; là F1 BN3022 - liên quan Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh. Kết quả xét nghiệm ngày 09/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Đa khoa Đống Đa.
+
+*BN3330: Bệnh nhân nữ, 08 tuổi, địa chỉ tại huyện Thường Tín thành phố Hà Nội; là F1 của BN3108. Kết quả xét nghiệm ngày 09/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3313: Bệnh nhân nữ, 24 tuổi, địa chỉ tại quận Thanh Khê, thành phố Đà Nẵng. Bệnh nhân có liên quan dịch tễ với ổ dịch tại Thẩm mỹ viện AMIDA, thành phố Đà Nẵng. Kết quả xét nghiệm của bệnh nhân ngày 08/5/2021 dương tính với SAR-CoV-2.
+
+*BN3312: Bệnh nhân nữ, 27 tuổi, địa chỉ tại quận Cẩm Lệ, thành phố Đà Nẵng. Bệnh nhân có liên quan dịch tễ với ổ dịch tại Thẩm mỹ viện AMIDA, thành phố Đà Nẵng. Kết quả xét nghiệm của bệnh nhân ngày 08/5/2021 dương tính với SAR-CoV-2.
+
+*BN3311: Bệnh nhân nữ, 26  tuổi, địa chỉ tại quận Liên Chiểu, thành phố Đà Nẵng. Bệnh nhân có liên quan dịch tễ với ổ dịch tại Thẩm mỹ viện AMIDA, thành phố Đà Nẵng. Kết quả xét nghiệm của bệnh nhân ngày 08/5/2021 dương tính với SAR-CoV-2.
+
+*BN3310: Bệnh nhân nữ, 25 tuổi, địa chỉ tại quận Liên Chiểu, thành phố Đà Nẵng. Bệnh nhân có liên quan dịch tễ với ổ dịch tại Thẩm mỹ viện AMIDA, thành phố Đà Nẵng. Kết quả xét nghiệm của bệnh nhân ngày 08/5/2021 dương tính với SAR-CoV-2.
+
+*BN3309: Bệnh nhân nữ, 23 tuổi, địa chỉ tại quận Sơn Trà, thành phố Đà Nẵng. Bệnh nhân có liên quan dịch tễ với ổ dịch tại Thẩm mỹ viện AMIDA, thành phố Đà Nẵng. Kết quả xét nghiệm của bệnh nhân ngày 08/5/2021 dương tính với SAR-CoV-2.
+
+*BN3306: Bệnh nhân nữ, 24 tuổi, địa chỉ tại quận Cẩm Lệ, thành phố Đà Nẵng. Bệnh nhân có liên quan dịch tễ với ổ dịch tại Thẩm mỹ viện AMIDA, thành phố Đà Nẵng. Kết quả xét nghiệm của bệnh nhân ngày 08/5/2021 dương tính với SAR-CoV-2.
+
+*BN3305: Bệnh nhân nữ, 26 tuổi, địa chỉ tại quận Hải Châu, thành phố Đà Nẵng. Bệnh nhân có liên quan dịch tễ với ổ dịch tại Thẩm mỹ viện AMIDA, thành phố Đà Nẵng. Kết quả xét nghiệm của bệnh nhân ngày 08/5/2021 dương tính với SAR-CoV-2.
+
+*BN3304: Bệnh nhân nữ, 24 tuổi, địa chỉ tại quận Hải Châu, thành phố Đà Nẵng. Bệnh nhân có liên quan dịch tễ với ổ dịch tại Thẩm mỹ viện AMIDA, thành phố Đà Nẵng. Kết quả xét nghiệm của bệnh nhân ngày 08/5/2021 dương tính với SAR-CoV-2.
+
+*BN3303: Bệnh nhân nữ, 24 tuổi, địa chỉ tại quận Thanh Khê, thành phố Đà Nẵng. Bệnh nhân có liên quan dịch tễ với ổ dịch tại Thẩm mỹ viện AMIDA, thành phố Đà Nẵng. Kết quả xét nghiệm của bệnh nhân ngày 08/5/2021 dương tính với SAR-CoV-2.
+
+*BN3302: Bệnh nhân nữ, 21 tuổi, địa chỉ tại quận Hải Châu, thành phố Đà Nẵng. Bệnh nhân có liên quan dịch tễ với ổ dịch tại Thẩm mỹ viện AMIDA, thành phố Đà Nẵng. Kết quả xét nghiệm của bệnh nhân ngày 08/5/2021 dương tính với SAR-CoV-2.
+
+*BN3301: Bệnh nhân nữ, 24 tuổi, địa chỉ tại quận Thanh Khê, thành phố Đà Nẵng. Bệnh nhân có liên quan dịch tễ với ổ dịch tại Thẩm mỹ viện AMIDA, thành phố Đà Nẵng. Kết quả xét nghiệm của bệnh nhân ngày 08/5/2021 dương tính với SAR-CoV-2.
+
+*BN3308: Bệnh nhân nữ, 40 tuổi, địa chỉ tại quận Ngũ Hành Sơn, thành phố Đà Nẵng, là F1 của BN3086. Kết quả xét nghiệm của bệnh nhân ngày 08/5/2021 dương tính với SAR-CoV-2.
+
+*BN3307: Bệnh nhân nữ, 31 tuổi, địa chỉ tại quận Thanh Khê, thành phố Đà Nẵng, nhân viên quán bar New Phương Đông, thành phố Đà Nẵng. Kết quả xét nghiệm của bệnh nhân ngày 08/5/2021 dương tính với SAR-CoV-2.
+
+*BN3300: Bệnh nhân nữ, 23 tuổi, địa chỉ tại quận Thanh Khê, thành phố Đà Nẵng, là nhân viên Thẩm mỹ viện AMIDA, thành phố Đà Nẵng. Kết quả xét nghiệm của bệnh nhân ngày 08/5/2021 dương tính với SAR-CoV-2.
+
+*BN3299: Bệnh nhân nam, 58 tuổi, địa chỉ tại quận Hòa Vang, thành phố Đà Nẵng, là F1 của BN3086. Kết quả xét nghiệm của bệnh nhân ngày 08/5/2021 dương tính với SAR-CoV-2.
+
+*BN3298: Bệnh nhân nam, 25 tuổi, địa chỉ tại quận Liên Chiểu, thành phố Đà Nẵng, là F1 của BN3219. Kết quả xét nghiệm của bệnh nhân ngày 08/5/2021 dương tính với SAR-CoV-2.
+
+*BN3297: Bệnh nhân nam, 38 tuổi, địa chỉ tại quận Liên Chiểu, thành phố Đà Nẵng; là F1 của BN3219. Kết quả xét nghiệm của bệnh nhân ngày 08/5/2021 dương tính với SAR-CoV-2.
+
+*BN3329: Bệnh nhân nữ, 23 tuổi, công dân Việt Nam, có địa chỉ tại huyện Hướng Hóa, tỉnh Quảng Trị; làm việc tại thẩm mỹ viện quốc tế AMIDA đường 222, Phan Châu Chinh, Đà Nẵng. Kết quả xét nghiệm ngày 09/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Chuyên khoa Lao và Bệnh Phổi Quảng Trị.
+
+*BN3277 đến BN3283, BN3285, BN3288, BN3290 đến BN3295: ghi nhận tại tỉnh Bắc Ninh; đang tiếp tục điều tra dịch tễ. Kết quả xét nghiệm ngày 09/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện các bệnh nhân đang được cách ly, điều trị tại Bệnh viện Đa khoa Bắc Ninh.
+
+*BN3276: Bệnh nhân nữ, 26 tuổi, địa chỉ tại thị xã Điện Bàn, tỉnh Quảng Nam; làm việc tại thẩm mỹ viện quốc tế AMIDA đường 222, Phan Châu Chinh, Đà Nẵng. Kết quả xét nghiệm ngày 09/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Phòng khám Đa khoa khu công nghiệp Điện Nam, Điện Ngọc.
+
+*BN3274: Bệnh nhân nam, 33 tuổi, địa chỉ tại thành phố Hòa Bình, tỉnh Hòa Bình; là F1 của BN3147. Kết quả xét nghiệm ngày 09/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Hòa Bình.
+
+*BN3273: Bệnh nhân nam, 64 tuổi, địa chỉ tại thành phố Hòa Bình, tỉnh Hòa Bình; là F1 của BN3147. Kết quả xét nghiệm ngày 09/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Hòa Bình.
+
+*BN3264: Bệnh nhân nữ, 59 tuổi, địa chỉ tại huyện Phúc Thọ, thành phố Hà nội; là F1 của BN3181. Kết quả xét nghiệm ngày 09/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bắc Thăng Long.
+
+*BN3263: Bệnh nhân nữ, 35 tuổi, địa chỉ tại quận Thanh Xuân, thành phố Hà Nội; có liên quan dịch tễ đến Bệnh viện K cơ sở Tân Triều. Kết quả xét nghiệm ngày 09/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3268: ghi nhận tại tỉnh Thừa Thiên Huế. Bệnh nhân nữ, 24 tuổi, địa chỉ tại huyện Phú Lộc; làm việc tại thẩm mỹ viện quốc tế AMIDA đường 222, Phan Châu Chinh, Đà Nẵng. Kết quả xét nghiệm ngày 09/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Trung ương Huế.
+
+*BN3262: ghi nhận tại tỉnh Thừa Thiên Huế. Bệnh nhân nữ, 24 tuổi, địa chỉ tại huyện Phong Điền; có liên quan dịch tễ với thẩm mỹ viện quốc tế AMIDA đường 222, Phan Châu Chinh, Đà Nẵng. Kết quả xét nghiệm ngày 09/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Trung ương Huế.
+
+*BN3261: ghi nhận tại Bệnh viện K cơ sở Tân Triều (bệnh nhân đang điều trị tại bệnh viện).
+
+*BN3260: ghi nhận tại tỉnh Hưng Yên. Bệnh nhân nữ, 26 tuổi, địa chỉ tại thị xã Mỹ Hào, tỉnh Hưng Yên; có liên quan dịch tễ với BN3063 và BN3065. Kết quả xét nghiệm ngày 08/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3259: ghi nhận tại tỉnh Hưng Yên. Bệnh nhân nam, 10 tuổi, địa chỉ tại thị xã Mỹ Hào, tỉnh Hưng Yên; là F1 của BN3121, BN3063. Kết quả xét nghiệm ngày 08/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3254 đến BN3257: ghi nhận tại Thành phố Hà Nội; là F1 của BN3200, BN3201. Kết quả xét nghiệm ngày 09/5/2021 dương tính với SAR-CoV-2. Hiện các bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bắc Thăng Long.
+
+*BN3253: ghi nhận tại Thành phố Hà Nội. Bệnh nhân nữ, 74 tuổi, địa chỉ tại huyện Phúc Thọ, thành phố Hà Nội; là F1 BN3181 - bệnh nhân điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh. Kết quả xét nghiệm ngày 09/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3246 đến BN3252, BN3284, BN3286, BN3287, BN3289, BN3296, BN3314 đến BN3327L ghi nhận tại tỉnh Bắc Giang; là F1 của BN3243. Kết quả xét nghiệm ngày 09/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện các bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh và Bệnh viện Đa khoa tỉnh Bắc Giang.
+
+*BN3328: Bệnh nhân nữ, 32 tuổi, công dân Việt Nam, có địa chỉ tại quận Hà Đông, thành phố Hà Nội. Ngày 27/4/2021, bệnh nhân từ nước ngoài nhập cảnh cửa khẩu Lao Bảo và được cách ly ngay sau khi nhập cảnh tại tỉnh Quảng Trị. Kết quả xét nghiệm ngày 09/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện các bệnh phổi tỉnh Quảng Trị.
+
+*BN3275: Bệnh nhân nữ, 26 tuổi, là công dân Việt Nam, địa chỉ tại Ân Thi, Hưng Yên. Bệnh nhân từ Dubai nhập cảnh Sân bay Nội Bài ngày 24/4/2021. Bệnh nhân được Viện kiểm định quốc gia Vắc xin và sinh phẩm y tế xét nghiệm lần 2 ngày 09/05, cho kết quả dương tính. Hiện bệnh nhân đang được chuyển cách ly điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3272: Bệnh nhân nam, 55 tuổi, địa chỉ tại huyện Dương Minh Châu, tỉnh Tây Ninh. Ngày 06/5/2021, bệnh nhân từ Malaysia nhập cảnh Sân bay Cần Thơ trên chuyến bay QH9324 và được cách ly ngay sau khi nhập cảnh tại tỉnh Vĩnh Long. Kết quả xét nghiệm ngày 08/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Lao và bệnh Phổi, Vĩnh Long.
+
+*BN3271: Bệnh nhân nữ, 62 tuổi, địa chỉ tại huyện Tam Nông, tỉnh Đồng Tháp. Ngày 06/5/2021, bệnh nhân từ Malaysia nhập cảnh Sân bay Cần Thơ trên chuyến bay QH9324 và được cách ly ngay sau khi nhập cảnh tại tỉnh Vĩnh Long. Kết quả xét nghiệm ngày 08/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Lao và bệnh Phổi, Vĩnh Long.
+
+*BN3270: Bệnh nhân nữ, 46 tuổi, địa chỉ tại huyện Tam Nông, tỉnh Đồng Tháp. Ngày 06/5/2021, bệnh nhân từ Malaysia nhập cảnh Sân bay Cần Thơ trên chuyến bay QH9324 và được cách ly ngay sau khi nhập cảnh tại tỉnh Vĩnh Long. Kết quả xét nghiệm ngày 08/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Lao và bệnh Phổi, Vĩnh Long.
+
+*BN3269: Bệnh nhân nam, 32 tuổi, địa chỉ tại huyện Đông Hải, tỉnh Bạc Liêu. Ngày 06/5/2021, bệnh nhân từ Malaysia nhập cảnh Sân bay Cần Thơ trên chuyến bay QH9324 và được cách ly ngay sau khi nhập cảnh tại tỉnh Vĩnh Long. Kết quả xét nghiệm ngày 08/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Lao và bệnh Phổi, Vĩnh Long.
+
+*BN3267: Bệnh nhân nam, 47 tuổi, địa chỉ tại huyện Kiên Hải, tỉnh Kiên Giang. Ngày 06/5/2021, bệnh nhân từ Malaysia nhập cảnh Sân bay Cần Thơ trên chuyến bay QH9324 và được cách ly ngay sau khi nhập cảnh tại tỉnh Vĩnh Long. Kết quả xét nghiệm ngày 08/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Lao và bệnh Phổi, Vĩnh Long.
+
+*BN3266: Bệnh nhân nam, 33 tuổi, địa chỉ tại huyện Gia Lộc, tỉnh Hải Dương. Ngày 06/5/2021, bệnh nhân từ Malaysia nhập cảnh Sân bay Cần Thơ và được cách ly ngay sau khi nhập cảnh tại tỉnh Tiền Giang. Kết quả xét nghiệm ngày 08/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện dã chiến Long Định, Tiền Giang.
+
+*BN3265: Bệnh nhân nam, 33 tuổi, địa chỉ tại huyện Quỳ Hợp, tỉnh Nghệ An. Ngày 06/5/2021, bệnh nhân từ Malaysia nhập cảnh Sân bay Cần Thơ và được cách ly ngay sau khi nhập cảnh tại tỉnh Tiền Giang. Kết quả xét nghiệm ngày 08/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện dã chiến Long Định, Tiền Giang.
+
+*BN3258: Bệnh nhân nam, 63 tuổi, công dân Việt Nam, có địa chỉ tại quận Lê Chân, thành phố Hải Phòng. Ngày 07/5/2021, bệnh nhân từ nước ngoài nhập cảnh cửa khẩu Cầu Treo và được cách ly ngay sau khi nhập cảnh tại tỉnh Hà Tĩnh. Kết quả xét nghiệm ngày 08/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Đa khoa khu vực Cửa khẩu quốc tế Cầu Treo.
+
+*BN3238: ghi nhận tại tỉnh Lạng Sơn. Bệnh nhân nam, 46 tuổi, địa chỉ tại huyện Hữu Lũng, tỉnh Lạng Sơn. Kết quả xét nghiệm ngày 08/5/2021 của bệnh nhân dương tính với SARS-CoV-2. Thông tin dịch tễ đang được điều tra bổ sung.
+
+*BN3239: ghi nhận tại tỉnh Lạng Sơn.  Bệnh nhân nữ, 44 tuổi, địa chỉ tại huyện Hữu Lũng, tỉnh Lạng Sơn. Kết quả xét nghiệm ngày 08/5/2021 của bệnh nhân dương tính với SARS-CoV-2. Thông tin dịch tễ đang được điều tra bổ sung.
+
+*BN3240: ghi nhận tại tỉnh Bắc Giang. Bệnh nhân nữ, 5 tuổi, huyện Lục Nam, tỉnh Bắc Giang. Kết quả xét nghiệm ngày 08/5/2021 của bệnh nhân dương tính với SARS-CoV-2. Thông tin dịch tễ đang được điều tra bổ sung.
+
+*BN3241: ghi nhận tại tỉnh Bắc Giang. Bệnh nhân nam, 7 tuổi, huyện Lục Nam, tỉnh Bắc Giang. Kết quả xét nghiệm ngày 08/5/2021 của bệnh nhân dương tính với SARS-CoV-2. Thông tin dịch tễ đang được điều tra bổ sung.
+
+*BN3242: ghi nhận tại tỉnh Bắc Giang. Bệnh nhân nam, 12 tuổi, huyện Lục Nam, tỉnh Bắc Giang. Kết quả xét nghiệm ngày 08/5/2021 của bệnh nhân dương tính với SARS-CoV-2. Thông tin dịch tễ đang được điều tra bổ sung.
+
+*BN3243: ghi nhận tại tỉnh Bắc Giang. Bệnh nhân nữ, 43 tuổi, huyện Hữu Lũng, tỉnh Lạng Sơn. Kết quả xét nghiệm ngày 08/5/2021 của bệnh nhân dương tính với SARS-CoV-2. Thông tin dịch tễ đang được điều tra bổ sung.
+
+*BN3245: ghi nhận tại tỉnh Bắc Giang.  Bệnh nhân nữ, 23 tuổi, huyện Lục Nam, tỉnh Bắc Giang. Kết quả xét nghiệm ngày 08/5/2021 của bệnh nhân dương tính với SARS-CoV-2. Thông tin dịch tễ đang được điều tra bổ sung.
+
+*BN3237: ghi nhận tại tỉnh Đắk Lắk. Bệnh nhân nữ, 23 tuổi, địa chỉ tại thành phố Buôn Ma Thuật, tỉnh Đắk Lắk; có tiền sử đi về từ Đà Nẵng và liên quan dịch tễ với BN3131. Kết quả xét nghiệm ngày 08/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Lao và phổi tỉnh Đắk Lắk. 
+
+*BN3232 đến BN3236, BN3244: 06 trường hợp ghi nhận tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh (03 người nhà và 03 bệnh nhân đang điều trị tại bệnh viện).
+
+*BN3231: ghi nhận tại tỉnh Hà Nam. Bệnh nhân nữ, 61 tuổi, địa chỉ tại huyện Lý Nhân, tỉnh Hà Nam; là F1 của BN2899. Kết quả xét nghiệm ngày 08/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3230: Bệnh nhân nữ, 20 tuổi, địa chỉ tại huyện Nông Sơn, tỉnh Quảng Nam; liên quan dịch tễ bệnh nhân liên quan dịch tễ với ổ dịch tại Đà Nẵng. Kết quả xét nghiệm ngày 08/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh viện Đa khoa Khu vực tỉnh Quảng Nam.
+
+*BN3229: Bệnh nhân nữ, 16 tuổi, địa chỉ tại huyện Trực Ninh, tỉnh Nam Định; liên quan dịch tễ bệnh nhân điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh và Bệnh viện K cơ sở Tân Triều.
+
+*BN3221: Bệnh nhân nữ, 82 tuổi, địa chỉ tại quận Thanh Khê, thành phố Đà Nẵng; là F1 của BN3085, BN3086. Kết quả xét nghiệm ngày 07/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện các bệnh nhân được cách ly, điều trị tại Bệnh viện Phổi Đà Nẵng.
+
+*BN3216 đến BN3220, BN3222, BN3224: ghi nhận tại thành phố Đà Nẵng; có liên quan dịch tễ với BN3131. Kết quả xét nghiệm ngày 07/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện các bệnh nhân được cách ly, điều trị tại Bệnh viện Phổi Đà Nẵng.
+
+*BN3211: ghi nhận tại tỉnh Thừa Thiên Huế. Bệnh nhân nữ, 23 tuổi, địa chỉ tại huyện Hải Lăng, tỉnh Quảng Trị; có tiền sử đi về từ Đà Nẵng đã chủ động khai báo y tế. Kết quả xét nghiệm ngày 08/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Trung ương Huế.
+
+*BN3210: Bệnh nhân nam, 54 tuổi, địa chỉ tại huyện Tiên Lãng, thành phố Hải Phòng; có chăm sóc bệnh nhân điều trị tại Bệnh viện K cơ sở Tân Triều. Kết quả xét nghiệm ngày 07/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Việt Tiệp cơ sở 2.
+
+*BN3228: Bệnh nhân nam, 30 tuổi, địa chỉ tại huyện Yên Lạc, tỉnh Vĩnh Phúc; có tiền sử đến Trung tâm chăm sóc sức khỏe Hoa Sen (Tp. Vĩnh Yên). Kết quả xét nghiệm ngày 08/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện các bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3227: Bệnh nhân nữ, 57 tuổi, địa chỉ tại huyện Lập Thạch, tỉnh Vĩnh Phúc; là F1 của BN3032. Kết quả xét nghiệm ngày 08/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3226: Bệnh nhân nam, 57 tuổi, địa chỉ tại huyện Lập Thạch, tỉnh Vĩnh Phúc; là F1 của BN3032. Kết quả xét nghiệm ngày 08/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN323: ghi nhận tại tỉnh Vĩnh Phúc. Bệnh nhân nam, 25 tuổi, địa chỉ tại huyện Mê Linh, thành phố Hà Nội; là F1 của BN2979. Kết quả xét nghiệm ngày 06/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3198: ghi nhận tại tỉnh Vĩnh Phúc. Bệnh nhân nam, 31 tuổi, quốc tịch Trung Quốc. Ngày 26-27/4/2021 bệnh nhân có tiếp xúc gần với 01 trường hợp dương tính là chuyên gia của Trung Quốc (cách ly tại Yên Bái). Kết quả xét nghiệm ngày 08/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh (BN3198).
+
+*BN3194: ghi nhận tại tỉnh Vĩnh Phúc. Bệnh nhân nam, 27 tuổi, địa chỉ tại huyện Thanh Sơn, tỉnh Phú Thọ. Ngày 23-24/4/2021 bệnh nhân có tiếp xúc gần với 01 trường hợp dương tính là chuyên gia của Trung Quốc (cách ly tại Yên Bái). Kết quả xét nghiệm ngày 08/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện dã chiến tỉnh Vĩnh Phúc. 
+
+*BN3193: ghi nhận tại tỉnh Vĩnh Phúc. Bệnh nhân nữ, 42 tuổi, địa chỉ tại thị xã Phúc Yên, tỉnh Vĩnh Phúc. Ngày 23-24/4/2021 bệnh nhân có tiếp xúc gần với 01 trường hợp dương tính là chuyên gia của Trung Quốc (cách ly tại Yên Bái). Kết quả xét nghiệm ngày 08/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện dã chiến tỉnh Vĩnh Phúc. 
+
+*BN3192: Bệnh nhân nữ, 69 tuổi, tuổi, địa chỉ tại huyện Quỳnh Phụ, tỉnh Thái Bình; có điều trị tại Bệnh viện K cơ sở Tân Triều. Kết quả xét nghiệm ngày 08/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Thái Bình.
+
+*BN3183 đến BN3190, BN3195, BN3196, BN3200, BN3201, BN3203, 3204, BN3207 đến BN3209: là các trường hợp có địa chỉ ở huyện Thuận Thành, tỉnh Bắc Ninh và có liên quan dịch tễ đến các trường hợp mắc trước đó tại ổ dịch xảy ra tại đây. Kết quả xét nghiệm ngày 07/5/2021 dương tính với SARS-CoV-2. Hiện các bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Bắc Ninh.
+
+*BN3182: Bệnh nhân nữ, 23 tuổi, địa chỉ tại thành phố Hải Dương, tỉnh Hải Dương; là F1 của BN3094. Kết quả xét nghiệm ngày 08/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Hải Dương.
+
+*BN3181: Bệnh nhân nam, 58 tuổi, địa chỉ tại huyện Phúc Thọ, thành phố Hà Nội. Bệnh nhân là người nhà của BN3171 và có tiền sử từng đến điều trị tại Bệnh viện Nhiệt đới trung ương cơ sở Đông Anh . Kết quả xét nghiệm ngày 08/5/2021 của BN3181 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Nhiệt đới trung ương cơ sở Đông Anh.
+
+*BN3180: Bệnh nhân nữ, 63 tuổi, địa chỉ tại quận Hà Đông, thành phố Hà Nội. Bệnh nhân có tiền sử từng đến điều trị tại Khoa Gan Mật Tụy Bệnh viện K Tân Triều. Kết quả xét nghiệm ngày 08/5/2021 của BN3180 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bắc Thăng Long.
+
+*BN3175: Bệnh nhân nam, 31 tuổi, địa chỉ tại quận Hà Đông, thành phố Hà Nội. Bệnh nhân là F1 của BN3100. Kết quả xét nghiệm ngày 07/5/2021 của BN3175 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Nhiệt Đới Trung ương cơ sở Đông Anh.
+
+*BN3174: Bệnh nhân nữ, 06 tuổi, địa chỉ tại quận Hà Đông, thành phố Hà Nội. Bệnh nhân là F1 của BN3100. Kết quả xét nghiệm ngày 07/5/2021 của BN3174 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Nhiệt Đới Trung ương cơ sở Đông Anh.
+
+*BN3173: Bệnh nhân nữ, 36 tuổi, địa chỉ tại huyện Thanh Oai, thành phố Hà Nội. Bệnh nhân có tiền sử về từ vùng dịch xã Mão Điền, huyện Thuận Thành, tỉnh Bắc Ninh. Kết quả xét nghiệm ngày 07/5/2021 của BN3173 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa Hà Đông.
+
+*BN3172: Bệnh nhân nữ, 28 tuổi, địa chỉ tại quận Ba Đình, thành phố Hà Nội. Bệnh nhân là F1 của BN3092. Kết quả xét nghiệm ngày 07/5/2021 của BN3172 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bắc Thăng Long
+
+*BN3171: Bệnh nhân nữ, 34 tuổi, địa chỉ tại huyện Phúc Thọ, thành phố Hà Nội. Bệnh nhân có tiền sử từng đến chăm sóc người thân tại khoa Nhiễm khuẩn tổng hợp, Bệnh viện Nhiệt đới trung ương cơ sở Đông Anh. Kết quả xét nghiệm ngày 07/5/2021 của BN3171 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Nhiệt Đới Trung ương cơ sở Đông Anh.
+
+*BN3165: Bệnh nhân nữ, 25 tuổi, địa chỉ tại huyện Đông Anh, thành phố Hà Nội. Bệnh nhân có tiền sử từng đến điều trị tại Bệnh viện Nhiệt đới trung ương cơ sở Đông Anh . Kết quả xét nghiệm ngày 07/5/2021 của BN3165 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Nhiệt đới trung ương cơ sở Đông Anh.
+
+*BN3215: Bệnh nhân nam, 17 tuổi, địa chỉ tại thị xã Mỹ Hào, tỉnh Hưng Yên; có liên quan dịch tễ với BN3063 và BN3065. Kết quả xét nghiệm ngày 08/5/2021 của bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3169: Bệnh nhân nam, 43 tuổi, địa chỉ tại huyện Khoái Châu, tỉnh Hưng Yên; là F1 của BN3123. Kết quả xét nghiệm ngày 07/5/2021 của bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3168: Bệnh nhân nữ, 48 tuổi, địa chỉ tại huyện Khoái Châu, tỉnh Hưng Yên; là F1 của BN3122. Kết quả xét nghiệm ngày 07/5/2021 của bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3167: Bệnh nhân nữ, 38 tuổi, địa chỉ tại huyện Lục Nam, tỉnh Bắc Giang; có chăm sóc bệnh nhân điều trị tại Bệnh viện K cơ sở Tân Triều. Kết quả xét nghiệm ngày 07/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3166: Bệnh nhân nữ, 38 tuổi, địa chỉ tại thành phố Hạ Long, tỉnh Quảng Ninh; có tiền sử chăm sóc bệnh nhân điều trị tại Bệnh viện K cơ sở Tân Triều. Kết quả xét nghiệm ngày 07/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện số 2 tỉnh Quảng Ninh.
+
+*BN3153 đến BN3164, BN3191, BN3197: 14 trường hợp ghi nhận tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh (10 người nhà và 04 bệnh nhân đang điều trị tại Bệnh viện).
+
+*BN3225: Bệnh nhân nam, 24 tuổi, địa chỉ tại huyện Kỳ Anh, tỉnh Hà Tĩnh. Ngày 02/5/2021, bệnh nhân từ Nhật Bản nhập cảnh Sân bay Đà Nẵng trên chuyến bay VJ8859 và được cách ly ngay sau khi nhập cảnh tại thành phố Đà Nẵng. Kết quả xét nghiệm ngày 07/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Phổi Đà Nẵng.
+
+*BN3214: Bệnh nhân nữ, 63 tuổi, công dân Việt Nam, có địa chỉ tại huyện An Phú, tỉnh An Giang. Ngày 06/5/2021, bệnh nhân từ nước ngoài nhập cảnh trái phép tại thị trấn Long Bình và được cách ly ngay sau khi nhập cảnh tại tỉnh An Giang. Kết quả xét nghiệm ngày 07/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Trung tâm Y tế huyện An Phú.
+
+*BN3213: Bệnh nhân nữ, 59 tuổi, công dân Việt Nam, có địa chỉ tại huyện An Phú, tỉnh An Giang. Ngày 06/5/2021, bệnh nhân từ nước ngoài nhập cảnh trái phép tại thị trấn Long Bình và được cách ly ngay sau khi nhập cảnh tại tỉnh An Giang. Kết quả xét nghiệm ngày 07/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Trung tâm Y tế huyện An Phú.
+
+*BN3212: Bệnh nhân nam, 40 tuổi, công dân Việt Nam, có địa chỉ tại huyện An Phú, tỉnh An Giang. Ngày 06/5/2021, bệnh nhân từ nước ngoài nhập cảnh cửa khẩu Long Bình và được cách ly ngay sau khi nhập cảnh tại tỉnh An Giang. Kết quả xét nghiệm ngày 07/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Trung tâm Y tế huyện Châu Thành.
+
+*BN3206: Bệnh nhân nữ, 31 tuổi, địa chỉ tại quận 11, thành phố Hồ Chí Minh. Ngày 28/4/2021, bệnh nhân từ Philippines nhập cảnh Sân bay Cần Thơ trên chuyến bay QH9341 và được cách ly ngay sau khi nhập cảnh tại thành phố Cần Thơ. Kết quả xét nghiệm ngày 07/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Lao và bệnh Phổi thành phố Cần Thơ.
+
+*BN3202: Bệnh nhân nữ, 26 tuổi, địa chỉ tại huyện Định Quán, tỉnh Đồng Nai. Ngày 28/4/2021, bệnh nhân từ Philippines nhập cảnh Sân bay Cần Thơ trên chuyến bay QH9341 và được cách ly ngay sau khi nhập cảnh tại thành phố Cần Thơ. Kết quả xét nghiệm ngày 07/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Lao và bệnh Phổi thành phố Cần Thơ.
+
+*BN3199: Bệnh nhân nam, 32 tuổi, địa chỉ tại thành phố Biên Hòa, tỉnh Đồng Nai. Ngày 28/4/2021, bệnh nhân từ Philippines nhập cảnh Sân bay Cần Thơ trên chuyến bay QH9341 và được cách ly ngay sau khi nhập cảnh tại thành phố Cần Thơ. Kết quả xét nghiệm ngày 07/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Lao và bệnh Phổi thành phố Cần Thơ.
+
+*BN3179: Bệnh nhân nam, 30 tuổi, là công dân Việt Nam, địa chỉ tại Lê Chân, Hải Phòng Ngày 06/5/2021, bệnh nhân từ Canada nhập cảnh Sân bay Nội Bài và được cách ly ngay sau nhập cảnh tại Hà Nội. Kết quả xét nghiệm lần 1 ngày 07/5/2021 của bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3178: Bệnh nhân nữ, 03 tuổi, là công dân Việt Nam, địa chỉ tại Thạch Hà, Hà Tĩnh. Ngày 06/5/2021, bệnh nhân từ Canada nhập cảnh Sân bay Nội Bài và được cách ly ngay sau nhập cảnh tại Hà Nội. Kết quả xét nghiệm lần 1 ngày 07/5/2021 của bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3177: Bệnh nhân nữ, 21 tuổi, là công dân Việt Nam, địa chỉ tại Thạch Hà, Hà Tĩnh. Ngày 06/5/2021, bệnh nhân từ Canada nhập cảnh Sân bay Nội Bài và được cách ly ngay sau nhập cảnh tại Hà Nội. Kết quả xét nghiệm lần 1 ngày 07/5/2021 của bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3176: Bệnh nhân nữ, 51 tuổi, là công dân Việt Nam, địa chỉ tại Tuy Phong, Bình Thuận. Ngày 06/5/2021, bệnh nhân từ Canada nhập cảnh Sân bay Nội Bài và được cách ly ngay sau nhập cảnh tại Hà Nội. Kết quả xét nghiệm lần 1 ngày 07/5/2021 của bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3205: Bệnh nhân nam, 28 tuổi, địa chỉ tại quận 1, thành phố Hồ Chí Minh. Ngày 21/4/2021, bệnh nhân từ Nhật Bản nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay JL759 và được cách ly ngay sau khi nhập cảnh tại thành phố Hồ Chí Minh. Kết quả xét nghiệm ngày 05/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN3170: Bệnh nhân nam, 29 tuổi, công dân Việt Nam, có địa chỉ tại huyện Đông Anh, thành phố Hà Nội. Ngày 06/5/2021, bệnh nhân từ nước ngoài nhập cảnh cửa khẩu Cầu Treo và được cách ly ngay sau khi nhập cảnh tại tỉnh Hà Tĩnh. Kết quả xét nghiệm ngày 07/5/2021 dương tính với SAR-CoV-2. Hiện bệnh nhân đang được cách ly, điều trị tại Bệnh viện Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3139: ghi nhận tại tỉnh Bắc Ninh. Bệnh nhân nam, 36 tuổi. Bệnh nhân có địa chỉ ở huyện Thuận Thành, tỉnh Bắc Ninh và có liên quan dịch tễ đến các trường hợp mắc trước đó tại ổ dịch xảy ra tại đây. Kết quả xét nghiệm ngày 07/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Bắc Ninh.
+
+*BN3140: ghi nhận tại tỉnh Bắc Ninh. Bệnh nhân nam, 52 tuổi. Bệnh nhân có địa chỉ ở huyện Thuận Thành, tỉnh Bắc Ninh và có liên quan dịch tễ đến các trường hợp mắc trước đó tại ổ dịch xảy ra tại đây. Kết quả xét nghiệm ngày 07/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Bắc Ninh.
+
+*BN3141: ghi nhận tại tỉnh Bắc Ninh. Bệnh nhân nam, 27 tuổi. Bệnh nhân có địa chỉ ở huyện Thuận Thành, tỉnh Bắc Ninh và có liên quan dịch tễ đến các trường hợp mắc trước đó tại ổ dịch xảy ra tại đây. Kết quả xét nghiệm ngày 07/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Bắc Ninh.
+
+*BN3142: ghi nhận tại tỉnh Bắc Ninh. Bệnh nhân nam, 54 tuổi. Bệnh nhân có địa chỉ ở huyện Thuận Thành, tỉnh Bắc Ninh và có liên quan dịch tễ đến các trường hợp mắc trước đó tại ổ dịch xảy ra tại đây. Kết quả xét nghiệm ngày 07/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Bắc Ninh.
+
+*BN3143: ghi nhận tại tỉnh Bắc Ninh. Bệnh nhân nữ, 47 tuổi. Bệnh nhân có địa chỉ ở huyện Thuận Thành, tỉnh Bắc Ninh và có liên quan dịch tễ đến các trường hợp mắc trước đó tại ổ dịch xảy ra tại đây. Kết quả xét nghiệm ngày 07/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Bắc Ninh.
+
+*BN3144: ghi nhận tại tỉnh Bắc Ninh. Bệnh nhân nữ, 54 tuổi. Bệnh nhân có địa chỉ ở huyện Thuận Thành, tỉnh Bắc Ninh và có liên quan dịch tễ đến các trường hợp mắc trước đó tại ổ dịch xảy ra tại đây. Kết quả xét nghiệm ngày 07/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Bắc Ninh.
+
+*BN3145: ghi nhận tại tỉnh Bắc Ninh. Bệnh nhân nữ, 36 tuổi. Bệnh nhân có địa chỉ ở huyện Thuận Thành, tỉnh Bắc Ninh và có liên quan dịch tễ đến các trường hợp mắc trước đó tại ổ dịch xảy ra tại đây. Kết quả xét nghiệm ngày 07/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Bắc Ninh.
+
+*BN3146: ghi nhận tại tỉnh Bắc Ninh. Bệnh nhân nam, 48 tuổi. Bệnh nhân có địa chỉ ở huyện Thuận Thành, tỉnh Bắc Ninh và có liên quan dịch tễ đến các trường hợp mắc trước đó tại ổ dịch xảy ra tại đây. Kết quả xét nghiệm ngày 07/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Bắc Ninh.
+
+*BN3147: ghi nhận tại tỉnh Bắc Ninh. Bệnh nhân nam, 48 tuổi. Bệnh nhân có địa chỉ ở huyện Thuận Thành, tỉnh Bắc Ninh và có liên quan dịch tễ đến các trường hợp mắc trước đó tại ổ dịch xảy ra tại đây. Kết quả xét nghiệm ngày 07/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Bắc Ninh.
+
+*BN3148: ghi nhận tại tỉnh Bắc Ninh. Bệnh nhân nam, 60 tuổi. Bệnh nhân có địa chỉ ở huyện Thuận Thành, tỉnh Bắc Ninh và có liên quan dịch tễ đến các trường hợp mắc trước đó tại ổ dịch xảy ra tại đây. Kết quả xét nghiệm ngày 07/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Bắc Ninh.
+
+*BN3149: ghi nhận tại tỉnh Bắc Ninh. Bệnh nhân nam, 15 tuổi. Bệnh nhân có địa chỉ ở huyện Thuận Thành, tỉnh Bắc Ninh và có liên quan dịch tễ đến các trường hợp mắc trước đó tại ổ dịch xảy ra tại đây. Kết quả xét nghiệm ngày 07/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Bắc Ninh.
+
+*BN3150: ghi nhận tại tỉnh Bắc Ninh. Bệnh nhân nữ, 72 tuổi. Bệnh nhân có địa chỉ ở huyện Thuận Thành, tỉnh Bắc Ninh và có liên quan dịch tễ đến các trường hợp mắc trước đó tại ổ dịch xảy ra tại đây. Kết quả xét nghiệm ngày 07/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Bắc Ninh.
+
+*BN3151: ghi nhận tại tỉnh Bắc Ninh. Bệnh nhân nữ, 26 tuổi. Bệnh nhân có địa chỉ ở huyện Thuận Thành, tỉnh Bắc Ninh và có liên quan dịch tễ đến các trường hợp mắc trước đó tại ổ dịch xảy ra tại đây. Kết quả xét nghiệm ngày 07/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Bắc Ninh.
+
+*BN3152: ghi nhận tại tỉnh Bắc Ninh. Bệnh nhân nữ, 38 tuổi. Bệnh nhân có địa chỉ ở huyện Thuận Thành, tỉnh Bắc Ninh và có liên quan dịch tễ đến các trường hợp mắc trước đó tại ổ dịch xảy ra tại đây. Kết quả xét nghiệm ngày 07/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Bắc Ninh.
+
+*BN3138: Bệnh nhân nam, 14 tuổi, địa chỉ tại huyện Thường Tín, Thành phố Hà Nội; là F1 của BN3092. Kết quả xét nghiệm ngày 07/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3137: Bệnh nhân nam, 33 tuổi, là chuyên gia, quốc tịch Indonesia. Ngày 23/4/2021, bệnh nhân từ Indonesia quá cảnh Singapore nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay SQ178 và được cách ly ngay sau khi nhập cảnh tại tỉnh Bình Thuận. Kết quả xét nghiệm ngày 06/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Bình Thuận.
+
+*BN3136: Bệnh nhân nam, 24 tuổi, công dân Việt Nam, có địa chỉ tại quận Đống Đa, thành phố Hà Nội. Ngày 27/4/2021, bệnh nhân từ nước ngoài nhập cảnh cửa khẩu Lao Bảo và được cách ly ngay sau khi nhập cảnh tại tỉnh Quảng Trị. Kết quả xét nghiệm ngày 07/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện các bệnh phổi tỉnh Quảng Trị.
+
+*BN3133: Bệnh nhân nam, 34 tuổi, công dân Việt Nam, có địa chỉ tại huyện Yên Thành, tỉnh Nghệ An. Ngày 23/4/2021, bệnh nhân trên từ Nhật Bản nhập cảnh Sân bay Đà Nẵng trên chuyến bay VJ3613 và được cách ly ngay sau khi nhập cảnh tại thành phố Đà Nẵng. Kết quả xét nghiệm ngày 06/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Phổi Đà Nẵng.
+
+*BN3132: Bệnh nhân nam, 35 tuổi, công dân Việt Nam, có địa chỉ tại thị xã Đông Triều, tỉnh Quảng Ninh. Ngày 23/4/2021, bệnh nhân trên từ Nhật Bản nhập cảnh Sân bay Đà Nẵng trên chuyến bay VJ3613 và được cách ly ngay sau khi nhập cảnh tại thành phố Đà Nẵng. Kết quả xét nghiệm ngày 06/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Phổi Đà Nẵng.
+
+*BN3125: Bệnh nhân nam, 30 tuổi, công dân Việt Nam có địa chỉ tại huyện Trực Ninh, tỉnh Nam Định. Bệnh nhân là thuyền viên trên tàu MD SUN. Ngày 30/4/2021 bệnh nhân từ Philippines đến cảng Phao Phước Long 5, quận Nhà Bè, Thành phố Hồ Chí Minh được cách ly ngay sau khi nhập cảnh tại Thành phố Hồ Chí Minh. Kết quả xét nghiệm ngày 05/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN3124: Bệnh nhân nam, 34 tuổi, công dân Việt Nam có địa chỉ tại huyện Trực Ninh, tỉnh Nam Định. Bệnh nhân là đội phó trên tàu MD SUN. Ngày 30/4/2021 bệnh nhân từ Philippines đến cảng Phao Phước Long 5, quận Nhà Bè, Thành phố Hồ Chí Minh được cách ly ngay sau khi nhập cảnh tại Thành phố Hồ Chí Minh. Kết quả xét nghiệm ngày 05/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Dã chiến Củ Chi.
+
+*BN3135:ghi nhận tại Vĩnh Phúc; bệnh nhân nữ, 19 tuổi, địa chỉ tại huyện Vị Xuyên, tỉnh Hà Giang; là nhân viên quán karaoke ở thị xã Phúc Yên, tỉnh Vĩnh Phúc. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3131: Bệnh nhân nữ, 30 tuổi, địa chỉ tại quận Sơn Trà, thành phố Đà Nẵng; có liên quan dịch tễ đến ổ dịch tại quán Bar New Phương Đông, quận Hải Châu, Đà Nẵng. Kết quả xét nghiệm ngày 06/5/2021 dương tính với SARS-CoV-2. Hiện các bệnh nhân được cách ly, điều trị tại Bệnh viện Phổi Đà Nẵng.
+
+*BN3130: Bệnh nhân nam, 46 tuổi, địa chỉ tại quận Thanh Khê, thành phố Đà Nẵng; là F1 của BN2982. Kết quả xét nghiệm ngày 06/5/2021 dương tính với SARS-CoV-2. Hiện các bệnh nhân đang được cách ly, điều trị tại Bệnh viện Phổi Đà Nẵng.
+
+*BN3129: Bệnh nhân nam, 24 tuổi, địa chỉ tại quận Ngũ Hành Sơn, thành phố Đà Nẵng. Bệnh nhân có liên quan dịch tễ đến ổ dịch tại quán Bar New Phương Đông, quận Hải Châu, Đà Nẵng. Kết quả xét nghiệm ngày 06/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Phổi Đà Nẵng.
+
+*BN3128: Bệnh nhân nam, 25 tuổi, địa chỉ tại quận Ngũ Hành Sơn, thành phố Đà Nẵng. Bệnh nhân có liên quan dịch tễ đến ổ dịch tại quán Bar New Phương Đông, quận Hải Châu, Đà Nẵng. Kết quả xét nghiệm ngày 06/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Phổi Đà Nẵng.
+
+*BN3127: Bệnh nhân nữ, 32 tuổi, địa chỉ tại quận Hải Châu, thành phố Đà Nẵng; làm việc tại Bar New Phương Đông, quận Hải Châu, Đà Nẵng. Kết quả xét nghiệm ngày 06/5/2021 dương tính với SARS-CoV-2. Hiện các bệnh nhân được cách ly, điều trị tại Bệnh viện Phổi Đà Nẵng.
+
+*BN3126: Bệnh nhân nữ, 45 tuổi, địa chỉ tại huyện Trực Ninh, tỉnh Nam Định; có chăm sóc bệnh nhân điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh và Bệnh viện K cơ sở Tân Triều.
+
+*BN3123: Bệnh nhân nam, 46 tuổi, địa chỉ tại huyện Khoái Châu, tỉnh Hưng Yên; là F1 của BN3122.
+
+*BN3122: Bệnh nhân nữ, 45 tuổi, địa chỉ tại huyện Khoái Châu, tỉnh Hưng Yên; có chăm sóc bệnh nhân điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3121: Bệnh nhân nữ, 44 tuổi, địa chỉ tại thị xã Mỹ Hào, tỉnh Hưng Yên; có liên quan dịch tễ với BN3063.
+
+*BN3120: Bệnh nhân nữ, 31 tuổi, địa chỉ tại thị xã Mỹ Hào, tỉnh Hưng Yên; là F1 của BN3063.
+
+*BN3116: Bệnh nhân nữ, 26 tuổi, địa chỉ tại thành phố Việt Trì, tỉnh Phú Thọ; có chăm sóc bệnh nhân điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3112: Bệnh nhi nữ, 08 tuổi, địa chỉ tại huyện Thường Tín, Thành phố Hà Nội; là F1 của BN3093. Kết quả xét nghiệm ngày 07/5/2021 của bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện bệnh viện Nhiệt Đới Trung ương cơ sở Đông Anh.
+
+*BN3109: Bệnh nhân nữ, 39 tuổi, địa chỉ tại huyện Thường Tín, Thành phố Hà Nội; là F1 của BN3093. Kết quả xét nghiệm ngày 07/5/2021 của bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện bệnh viện Nhiệt Đới Trung ương cơ sở Đông Anh.
+
+*BN3108: Bệnh nhân nữ, 36 tuổi, địa chỉ tại huyện Thường Tín, Thành phố Hà Nội; là F1 của BN3093. Kết quả xét nghiệm ngày 07/5/2021 của bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện bệnh viện Nhiệt Đới Trung ương cơ sở Đông Anh.
+
+*BN3107: Bệnh nhân nam, 11 tuổi, địa chỉ tại huyện Thường Tín, Thành phố Hà Nội; là F1 của BN3093. Kết quả xét nghiệm ngày 07/5/2021 của bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện bệnh viện Nhiệt Đới Trung ương cơ sở Đông Anh.
+
+*BN3105: Bệnh nhân nữ, 38 tuổi, địa chỉ tại huyện Thường Tín, Thành phố Hà Nội; là F1 của BN3093. Kết quả xét nghiệm ngày 07/5/2021 của bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện bệnh viện Nhiệt Đới Trung ương cơ sở Đông Anh.
+
+*BN3104: Bệnh nhân nhi nữ, 01 tuổi, địa chỉ tại huyện Thường Tín, Thành phố Hà Nội; là F1 của BN3092. Kết quả xét nghiệm ngày 07/5/2021 của bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện bệnh viện Nhiệt Đới Trung ương cơ sở Đông Anh.
+
+*BN3103: Bệnh nhân nữ, 30 tuổi, địa chỉ tại huyện Thường Tín, Thành phố Hà Nội; là F1 của BN3092. Kết quả xét nghiệm ngày 07/5/2021 của bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện bệnh viện Nhiệt Đới Trung ương cơ sở Đông Anh.
+
+*BN3101, BN3102, BN3106, BN3110, BN3111, BN3113 đến BN3115, BN3117 đến BN3119: 11 trường hợp ghi nhận tại Bệnh viện K cơ sở Tân Triều (04 người nhà và 07 bệnh nhân đang điều trị tại bệnh viện).
+
+*BN3100: Bệnh nhân nữ, 39 tuổi, địa chỉ tại quận Hà Đông, thành phố Hà Nội; có liên quan dịch tễ với chùm 06 người dương tính có chăm sóc bệnh nhân điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3095, BN3099, BN3134: 03 trường hợp ghi nhận tại Bệnh viện Bệnh nhiệt đới Trung ương (02 nhân viên y tế và 01 người nhà bệnh nhân).
+
+*BN3098: Bệnh nhân nam, 47 tuổi, địa chỉ tại thị xã Hoàng Mai, tỉnh Nghệ An; có chăm sóc bệnh nhân điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông An
+
+*BN3097: Bệnh nhân nữ, 17 tuổi, địa chỉ tại huyện Lý Nhân, tỉnh Hà Nam; là F1 của BN2918.
+
+*BN3096: Bệnh nhân nữ, 55 tuổi, địa chỉ tại thành phố Điện Biên Phủ, tỉnh Điện Biên. Ngày 29/04/2021, bệnh nhân từ Đà Nẵng di chuyển đến sân bay Nội bài trên chuyến bay VN160. Ngày 02/05/2021, sau khi có thông tin về trường hợp dương tính trên cùng chuyến bay, bệnh nhân đã chủ động khai báo y tế và cách ly tập trung tại tỉnh Điện Biên.
+
+*BN3094: Bệnh nhân nữ, 21 tuổi, địa chỉ tại thành phố Hải Dương, tỉnh Hải Dương; là F1 của BN3051.
+
+*BN3093: nam, 34 tuổi, địa chỉ tại huyện Thường Tín, thành phố Hà Nội. Bệnh nhân có tiền sử dịch tễ lưu trú tại Khách sạn ở Đà Nẵng cùng thời điểm lưu trú với 02 trường hợp dương tính là chuyên gia của Trung Quốc (cách ly tại Yên Bái).
+
+*BN3092: nam, 41 tuổi, địa chỉ tại huyện Thường Tín, thành phố Hà Nội. Bệnh nhân có tiền sử dịch tễ lưu trú tại Khách sạn ở Đà Nẵng cùng thời điểm lưu trú với 02 trường hợp dương tính là chuyên gia của Trung Quốc (cách ly tại Yên Bái).
+
+*BN3091: Bệnh nhân nam, 42 tuổi, địa chỉ tại thành phố Thanh Hóa, tỉnh Thanh Hóa. Bệnh nhân là F1 của chuyên gia Trung Quốc (nhập cảnh cách ly tại tỉnh Yên Bái). Kết quả xét nghiệm lần 2 ngày 06/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3090: Bệnh nhân nữ, 26 tuổi, địa chỉ tại  huyện Văn Lãng, tỉnh Lạng Sơn; có điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh. Kết quả xét nghiệm ngày 06/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3087: Bệnh nhân nữ, 25 tuổi, địa chỉ tại Sơn Trà, thành phố Đà Nẵng; làm việc tại quán Bar New Phương Đông, quận Hải Châu, Đà Nẵng. Kết quả xét nghiệm ngày 0/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Phổi Đà Nẵng.
+
+*BN3086: Bệnh nhân nam, 61 tuổi, địa chỉ tại quận Hải Châu, thành phố Đà Nẵng. Ngày 05/5/2021 bệnh nhân sốt cao, nhức mỏi toàn thân, khó thở, khô miệng, đến Bệnh viện Phổi để khám và lấy mẫu xét nghiệm. 
+
+*BN3085: Bệnh nhân nữ, 56 tuổi, địa chỉ tại quận Hải Châu, thành phố Đà Nẵng. Bệnh nhân là F1 của BN3086.
+
+*BN3069 đến BN3084: 16 trường hợp ghi nhận tại Bệnh viện Bệnh nhiệt đới Trung ương (01 nhân viên y tế, 13 người nhà và 02 bệnh nhân đang điều trị tại bệnh viện).
+
+*BN3067: Bệnh nhân nam, 26 tuổi, địa chỉ tại Thành Phố Quảng Ngãi, tỉnh Quảng Ngãi; có liên quan dịch tễ đến ổ dịch tại quán Bar New Phương Đông, quận Hải Châu, Đà Nẵng. Kết quả xét nghiệm ngày 06/5/2021 dương tính với SARS-CoV-2. Hiện các bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Quảng Ngãi.
+
+*BN3065: Bệnh nhân nữ, 1 tuổi, địa chỉ tại thị xã Mỹ Hào, tỉnh Hưng Yên. Bệnh nhân là F1 của BN 3013 (người chăm sóc bệnh nhân tại Bệnh viện bệnh Nhiệt đới Trung ương cơ sở Đông Anh). Kết quả xét nghiệm ngày 05/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3063: Bệnh nhân nữ, 31 tuổi, địa chỉ tại thị xã Mỹ Hào, tỉnh Hưng Yên. Bệnh nhân là F1 của BN 3013 (người chăm sóc bệnh nhân tại Bệnh viện bệnh Nhiệt đới Trung ương cơ sở Đông Anh). Kết quả xét nghiệm ngày 05/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3051: Bệnh nhân nam, 32 tuổi, địa chỉ tại thành phố Hải Dương, tỉnh Hải Dương. Từ ngày 30/04/2021, bệnh nhân có triệu chứng ho, uống thuốc không đỡ. Ngày 05/5/2021 bệnh nhân đến phòng xét nghiệm của Medlatec tại Hải Dương để lấy mẫu. Kết quả xét nghiệm ngày 06/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới tỉnh Hải Dương.
+
+*BN3050: Bệnh nhân nữ, 44 tuổi, địa chỉ tại huyện Đông Anh, Thành phố Hà Nội; là F1 (con gái) của BN3022. Kết quả xét nghiệm ngày 06/5/2021 của bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3049: Bệnh nhân nữ, 61 tuổi, địa chỉ tại huyện Sóc Sơn, Thành phố Hà Nội; là F1 của BN3029. Kết quả xét nghiệm ngày 06/5/2021 của bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3048: Bệnh nhân nam, 1 tuổi, địa chỉ tại huyện Sóc Sơn, Thành phố Hà Nội; là F1 của BN3032. Kết quả xét nghiệm ngày 06/5/2021 của bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3047: Bệnh nhân nữ, 35 tuổi, địa chỉ tại huyện Sóc Sơn, Thành phố Hà Nội; là F1 của BN3032. Kết quả xét nghiệm ngày 06/5/2021 của bệnh nhân dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3066: Bệnh nhân nam, 20, tuổi, địa chỉ tại huyện Tiên Du, tỉnh Bắc Ninh; là bệnh nhân điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh. Kết quả xét nghiệm ngày 06/5/2021 của bệnh nhân dương tính với SARS-CoV-2. Hiện các bệnh nhân được cách ly, điều trị tại Bệnh viện đa khoa tỉnh Bắc Ninh.
+
+*BN3064: Bệnh nhân nữ, 25, tuổi, địa chỉ tại huyện Tiên Du, tỉnh Bắc Ninh; có chăm sóc bệnh nhân điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh. Kết quả xét nghiệm ngày 06/5/2021 của bệnh nhân dương tính với SARS-CoV-2. Hiện các bệnh nhân được cách ly, điều trị tại Bệnh viện đa khoa tỉnh Bắc Ninh.
+
+*BN3058: Bệnh nhân nữ, 41 tuổi, địa chỉ tại thành phố Bắc Ninh, tỉnh Bắc Ninh; là F1 của BN3040. Kết quả xét nghiệm ngày 06/5/2021 của bệnh nhân dương tính với SARS-CoV-2. Hiện các bệnh nhân được cách ly, điều trị tại Bệnh viện đa khoa tỉnh Bắc Ninh.
+
+*BN3057: Bệnh nhân nữ, 45 tuổi, địa chỉ tại huyện Thuận Thành, tỉnh Bắc Ninh, là F1 của BN3055. Kết quả xét nghiệm ngày 06/5/2021 của bệnh nhân dương tính với SARS-CoV-2. Hiện các bệnh nhân được cách ly, điều trị tại Bệnh viện đa khoa tỉnh Bắc Ninh.
+
+*BN3056: Bệnh nhân nam, 49 tuổi, địa chỉ tại huyện Thuận Thành, tỉnh Bắc Ninh, là F1 của BN3055. Kết quả xét nghiệm ngày 06/5/2021 của bệnh nhân dương tính với SARS-CoV-2. Hiện các bệnh nhân được cách ly, điều trị tại Bệnh viện đa khoa tỉnh Bắc Ninh.
+
+*BN3055: Bệnh nhân nam, 34 tuổi, địa chỉ tại huyện Thuận Thành, tỉnh Bắc Ninh; là bệnh nhân điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh. Kết quả xét nghiệm ngày 06/5/2021 của bệnh nhân dương tính với SARS-CoV-2. Hiện các bệnh nhân được cách ly, điều trị tại Bệnh viện đa khoa tỉnh Bắc Ninh.
+
+*BN3054: Bệnh nhân nam, 48 tuổi, địa chỉ tại huyện Thuận Thành, tỉnh Bắc Ninh, là F1 của BN3055. Kết quả xét nghiệm ngày 06/5/2021 của bệnh nhân dương tính với SARS-CoV-2. Hiện các bệnh nhân được cách ly, điều trị tại Bệnh viện đa khoa tỉnh Bắc Ninh.
+
+*BN3053: Bệnh nhân nữ, 31 tuổi, địa chỉ tại huyện Thuận Thành, tỉnh Bắc Ninh, là F1 của BN3055. Kết quả xét nghiệm ngày 06/5/2021 của bệnh nhân dương tính với SARS-CoV-2. Hiện các bệnh nhân được cách ly, điều trị tại Bệnh viện đa khoa tỉnh Bắc Ninh.
+
+*BN3052: Bệnh nhân nam, 46 tuổi, địa chỉ tại huyện Thuận Thành, tỉnh Bắc Ninh, là F1 của BN3055. Kết quả xét nghiệm ngày 06/5/2021 của bệnh nhân dương tính với SARS-CoV-2. Hiện các bệnh nhân được cách ly, điều trị tại Bệnh viện đa khoa tỉnh Bắc Ninh.
+
+*BN3043: Bệnh nhân nữ, 73 tuổi, địa chỉ tại huyện Tiên Du, tỉnh Bắc Ninh; là F1 (mẹ đẻ) của BN3040. Kết quả xét nghiệm ngày 06/5/2021 của bệnh nhân dương tính với SARS-CoV-2. Hiện các bệnh nhân được cách ly, điều trị tại Bệnh viện đa khoa tỉnh Bắc Ninh.
+
+*BN3040: Bệnh nhân nam, 48 tuổi, địa chỉ tại huyện Tiên Du, tỉnh Bắc Ninh; có tiền sử chăm sóc bệnh nhân điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh. Kết quả xét nghiệm ngày 06/5/2021 của bệnh nhân dương tính với SARS-CoV-2. Hiện các bệnh nhân được cách ly, điều trị tại Bệnh viện đa khoa tỉnh Bắc Ninh.
+
+*BN3045: Bệnh nhân nữ, 45 tuổi, địa chỉ tại huyện Thái Thụy, Thái Bình. Bệnh nhân có tiền sử chăm sóc bệnh nhân điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh. Kết quả xét nghiệm của bệnh nhân ngày 06/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Thái Bình.
+
+*BN3044: Bệnh nhân nữ, 70 tuổi, địa chỉ tại huyện Thái Thụy, tỉnh Thái Bình. Bệnh nhân có tiền sử chăm sóc bệnh nhân điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh. Kết quả xét nghiệm của bệnh nhân ngày 06/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Thái Bình.
+
+*BN3042: Bệnh nhân nữ, 38 tuổi, địa chỉ tại huyện Thái Thụy, tỉnh Thái Bình. Bệnh nhân có tiền sử chăm sóc bệnh nhân điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh. Kết quả xét nghiệm của bệnh nhân ngày 06/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Thái Bình.
+
+*BN3041: Bệnh nhân nữ, 44 tuổi, địa chỉ tại huyện Vũ Thư, tỉnh Thái Bình. Bệnh nhân có tiền sử chăm sóc bệnh nhân điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh. Kết quả xét nghiệm của bệnh nhân ngày 06/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Thái Bình.
+
+*BN3039: Bệnh nhân nam, 34 tuổi, địa chỉ tại huyện Kiến Xương, tỉnh Thái Bình. Bệnh nhân có tiền sử chăm sóc bệnh nhân điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh. Kết quả xét nghiệm của bệnh nhân ngày 06/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Đa khoa tỉnh Thái Bình.
+
+*BN3060: Bệnh nhân nam, 53 tuổi, địa chỉ tại thành phố Phúc Yên, tỉnh Vĩnh Phúc. Bệnh nhân có tiền sử dịch tễ liên quan đến ổ dịch tại quán karaoke ở thị xã Phúc Yên, tỉnh Vĩnh Phúc. Kết quả xét nghiệm của bệnh nhân ngày 05/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3059: Bệnh nhân nam, 53 tuổi, địa chỉ tại thành phố Phúc Yên, tỉnh Vĩnh Phúc. Bệnh nhân có tiền sử dịch tễ liên quan đến ổ dịch tại quán karaoke ở thị xã Phúc Yên, tỉnh Vĩnh Phúc. Kết quả xét nghiệm của bệnh nhân ngày 05/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3034: Bệnh nhân nam, 28 tuổi, địa chỉ tại thị xã Phúc Yên, tỉnh Vĩnh Phúc. Bệnh nhân có tiền sử dịch tễ liên quan đến ổ dịch tại quán karaoke ở thị xã Phúc Yên, tỉnh Vĩnh Phúc. Kết quả xét nghiệm của bệnh nhân ngày 05/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3068: Bệnh nhân nam, 38 tuổi, địa chỉ tại Huyện Bình Xuyên, tỉnh Vĩnh Phúc; có tiền sử dịch tễ liên quan đến ổ dịch tại Trung tâm chăm sóc sức khỏe Hoa Sen, thành phố Vĩnh Yên, tỉnh Vĩnh Phúc. Kết quả xét nghiệm của bệnh nhân ngày 05/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3038: Bệnh nhân nữ, 45 tuổi, địa chỉ tại thành phố Vĩnh Yên, tỉnh Vĩnh Phúc. Bệnh nhân là nhân viên tại Trung tâm chăm sóc sức khỏe Hoa Sen, thành phố Vĩnh Yên, tỉnh Vĩnh Phúc. Kết quả xét nghiệm của bệnh nhân ngày 05/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3037: Bệnh nhân nữ, 26 tuổi, địa chỉ tại huyện Văn Chấn, tỉnh Yên Bái. Bệnh nhân là nhân viên tại Trung tâm chăm sóc sức khỏe Hoa Sen, thành phố Vĩnh Yên, tỉnh Vĩnh Phúc. Kết quả xét nghiệm của bệnh nhân ngày 05/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3036: Bệnh nhân nữ, 38 tuổi, địa chỉ tại huyện Lập Thạch, tỉnh Vĩnh Phúc. Bệnh nhân là nhân viên tại Trung tâm chăm sóc sức khỏe Hoa Sen, thành phố Vĩnh Yên, tỉnh Vĩnh Phúc. Kết quả xét nghiệm của bệnh nhân ngày 05/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3035: Bệnh nhân nữ, 20 tuổi, địa chỉ tại huyện Vĩnh Tường, tỉnh Vĩnh Phúc. Bệnh nhân là nhân viên tại Trung tâm chăm sóc sức khỏe Hoa Sen, thành phố Vĩnh Yên, tỉnh Vĩnh Phúc. Kết quả xét nghiệm của bệnh nhân ngày 05/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3033: Bệnh nhân nữ, 32 tuổi, địa chỉ tại huyện Lập Thạch, tỉnh Vĩnh Phúc. Bệnh nhân là nhân viên tại Trung tâm chăm sóc sức khỏe Hoa Sen, thành phố Vĩnh Yên, tỉnh Vĩnh Phúc. Kết quả xét nghiệm của bệnh nhân ngày 05/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3032: Bệnh nhân nữ, 32 tuổi, địa chỉ tại huyện Lập Thạch, tỉnh Vĩnh Phúc. Bệnh nhân là nhân viên tại Trung tâm chăm sóc sức khỏe Hoa Sen, thành phố Vĩnh Yên, tỉnh Vĩnh Phúc. Kết quả xét nghiệm của bệnh nhân ngày 05/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN3031: Bệnh nhân nữ, 39 tuổi, địa chỉ tại thành phố Vĩnh Yên, tỉnh Vĩnh Phúc. Bệnh nhân là nhân viên tại Trung tâm chăm sóc sức khỏe Hoa Sen, thành phố Vĩnh Yên, tỉnh Vĩnh Phúc. Kết quả xét nghiệm của bệnh nhân ngày 05/5/2021 dương tính với SARS-CoV-2. Hiện bệnh nhân được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới Trung ương cơ sở Đông Anh.
 
 *BN3023 đến BN3030: Ghi nhận trong nước tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh, là các bệnh nhân đang điều trị tại bệnh viện.
 
