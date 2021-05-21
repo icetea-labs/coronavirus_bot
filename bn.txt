@@ -1,3 +1,15 @@
+*BN4839 đến BN4883: ghi nhận tại tỉnh Bắc Giang; 45 ca trong khu vực phong tỏa, có liên quan đến ổ dịch Khu công nghiệp Quang Châu, Vân Trung. Kết quả xét nghiệm dương tính với SARS-CoV-2.
+
+*BN4838: ghi nhận tại Thành phố Hà Nội; nam, 24 tuổi, địa chỉ tại huyện Thạch Thất, Thành phố Hà Nội; có liên quan dịch tễ với BN4263, BN4265, đã được cách ly. Kết quả xét nghiệm ngày 20/5/2021 dương tính với SARS-CoV-2. 
+
+*BN4837: ghi nhận tại tỉnh Điện Biên; nam, 47 tuổi, địa chỉ tại huyện Điện Biên, tỉnh Điện Biên; là F1 của BN4721, đã được cách ly trước đó. Kết quả xét nghiệm ngày 21/5/2021 dương tính với SARS-CoV-2. Hiện đang được cách ly, điều trị tại Bệnh viện Dã chiến Thành phố Điện Biên Phủ. 
+
+*BN4836: ghi nhận tại tỉnh Hải Dương; nữ, 33 tuổi, địa chỉ tại Thành phố Hải Dương, tỉnh Hải Dương; đang điều tra dịch tễ. Kết quả xét nghiệm ngày 21/5/2021 dương tính với SARS-CoV-2. 
+
+*BN4835: ghi nhận tại tỉnh Hưng Yên; nữ, 48 tuổi, địa chỉ tại huyện Khoái Châu, tỉnh Hưng Yên; là F1 của BN3168, đã được cách ly trước đó. Kết quả xét nghiệm ngày 21/5/2021 dương tính với SARS-CoV-2. Hiện đang được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh. 
+
+*BN4834: ghi nhận tại tỉnh Hưng Yên; nữ, 58 tuổi, địa chỉ tại huyện thị xã Mỹ Hào, tỉnh Hưng Yên; là F1 của BN3063, đã được cách ly trước đó. Kết quả xét nghiệm ngày 20/5/2021 dương tính với SARS-CoV-2. Hiện đang được cách ly, điều trị tại Bệnh viện Bệnh Nhiệt đới Trung ương cơ sở Đông Anh. 
+
 *BN4819 đến BN4833: ghi nhận tại tỉnh Bắc Giang; 13 ca liên quan dịch tễ đến các trường hợp mắc trước đó tại Khu công nghiệp Quang Châu và 02 ca trong vùng phong toả. Kết quả xét nghiệm ngày 19-20/5/2021 dương tính với SARS-CoV-2.
 
 *BN4814: ghi nhận tại tỉnh Hải Dương. Bệnh nhân nữ, 37 tuổi, địa chỉ tại thành phố Hải Dương, tỉnh Hải Dương, là F1 của BN4707. Kết quả xét nghiệm ngày 20/5/2021 bệnh nhân dương tính với SARS-CoV-2. Hiện đang được cách ly, điều trị tại Bệnh viện Bệnh nhiệt đới tỉnh Hải Dương. 
