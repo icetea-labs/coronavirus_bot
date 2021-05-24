@@ -1,3 +1,95 @@
+*BN5236, BN5244 đến BN5275: ghi nhận tại tỉnh Bắc Giang; liên quan đến ổ dịch Khu công nghiệp Quang Châu, Vân Trung. Kết quả xét nghiệm dương tính với SARS-CoV-2.
+
+*BN5224, BN5234 đến BN5235, BN5237 đến 5239, BN5242 đến BN5243: ghi nhận tại Thành phố Hà Nội; 4 ca là F1, 1 ca sàng lọc và 3 ca liên quan dịch tễ. Kết quả xét nghiệm ngày 22-23/5/2021 dương tính với SARS-CoV-2.
+
+*BN5233: ghi nhận tại tỉnh Hải Dương; nam, 61 tuổi, địa chỉ tại Thành phố Hải Dương, tỉnh Hải Dương; trong vùng phong tỏa. Kết quả xét nghiệm ngày 23/5/2021 dương tính với SARS-CoV-2.
+
+*BN5230: ghi nhận tại tỉnh Điện Biên; nam, 49 tuổi, địa chỉ tại huyện Nậm Bồ, tỉnh Điện Biên; là F1 của BN3837. Kết quả xét nghiệm ngày 23/5/2021 dương tính với SARS-CoV-2.
+
+*BN5223: ghi nhận tại tỉnh Điện Biên; nam, 27 tuổi, địa chỉ tại huyện Nậm Bồ, tỉnh Điện Biên; là F1 của BN4227. Kết quả xét nghiệm ngày 23/5/2021 dương tính với SARS-CoV-2.
+
+*BN5222, BN5225, BN5227 đến BN5229: ghi nhận tại tỉnh Lạng Sơn; 3 ca là công nhân Khu công nghiệp Quang Châu, tỉnh Bắc Giang và 2 ca là F1. Kết quả xét nghiệm ngày 23/5/2021 dương tính với SARS-CoV-2.
+
+*BN5218-BN5221, BN5226, BN5231 đến BN5232: ghi nhận tại tỉnh Bắc Ninh; là các trường hợp F1, đã được cách ly. Kết quả xét nghiệm ngày 23/5/2021 dương tính với SARS-CoV-2.
+
+*BN5241: nữ, 35 tuổi, quốc tịch Ấn Độ. Ngày 24/4/2021, từ Ấn Độ nhập cảnh Việt Nam và được cách ly ngay sau khi nhập cảnh tại Thành phố Hải Phòng. Kết quả xét nghiệm ngày 23/5/2021 dương tính với SAR-CoV-2.
+
+*BN5240: nữ, 3 tuổi, quốc tịch Ấn Độ. Ngày 24/4/2021, từ Ấn Độ nhập cảnh Việt Nam và được cách ly ngay sau khi nhập cảnh tại Thành phố Hải Phòng. Kết quả xét nghiệm ngày 23/5/2021 dương tính với SAR-CoV-2.
+
+*BN5141: ghi nhận tại Thành phố Đà Nẵng; nữ, 16 tuổi, địa chỉ tại quận Thanh Khê, Thành phố Đà Nẵng; là F1 của BN4252, đã được cách ly trước đó. Kết quả xét nghiệm ngày 22/5/2021 dương tính với SARS-CoV-2.
+
+*BN5130 đến BN5140: ghi nhận tại tỉnh Bắc Giang; liên quan đến ổ dịch Khu công nghiệp Quang Châu, Vân Trung. Kết quả xét nghiệm ngày 19-22/5/2021 dương tính với SARS-CoV-2.
+
+*BN5123 đến BN5129: ghi nhận tại Bệnh viện K cơ sở Tân Triều (là các F1 đã được cách ly trong bệnh viện từ trước).
+
+*BN5120 đến BN5122: ghi nhận tại tỉnh Hải Dương; 1 ca là F1 của BN5038, 2 ca đang được điều tra dịch tễ. Kết quả xét nghiệm ngày 22/5/2021 dương tính với SARS-CoV-2.
+
+*BN5089 đến BN5111, BN5113 đến BN5118: ghi nhận tại tỉnh Bắc Ninh; 19 ca là F1, 2 ca là công nhân Khu công nghiệp Quang Châu, 8 ca trong khu phong tỏa. Kết quả xét nghiệm ngày 21-22/5/2021 dương tính với SARS-CoV-2.
+
+*BN5088: ghi nhận tại tỉnh Ninh Bình; nữ, 53 tuổi, địa chỉ tại huyện Yên Khánh, tỉnh Ninh Bình; là F1 liên quan đến ổ dịch cũ, đã được cách ly từ trước. Kết quả xét nghiệm ngày 21/5/2021 dương tính với SARS-CoV-2. Hiện đang được cách ly, điều trị tại Phòng khám Đa khoa Khu vực Cầu Yên, huyện Hoa Lư, tỉnh Ninh Bình.
+
+*BN5087: ghi nhận tại tỉnh Ninh Bình; nữ, 37 tuổi, địa chỉ tại huyện Hoa Lư, tỉnh Ninh Bình; là F1 liên quan đến ổ dịch cũ, đã được cách ly từ trước. Kết quả xét nghiệm ngày 21/5/2021 dương tính với SARS-CoV-2. Hiện đang được cách ly, điều trị tại Phòng khám Đa khoa Khu vực Cầu Yên, huyện Hoa Lư, tỉnh Ninh Bình.
+
+*BN5119: nam, 38 tuổi, là chuyên gia, quốc tịch Hàn Quốc.  Ngày 07/5/2021, từ Hàn Quốc nhập cảnh Sân bay Vân Đồn trên chuyến bay OZ7747 và được cách ly ngay sau khi nhập cảnh tại tỉnh Bắc Ninh. Kết quả xét nghiệm lần 2 ngày 21/5/2021 dương tính với SAR-CoV-2.
+
+*BN5112: nữ, 32 tuổi, là công dân Việt Nam, địa chỉ tại huyện Gia Lâm, Thành phố Hà Nội. Ngày 07/5/2021, từ Pháp nhập cảnh Sân bay Tân Sơn Nhất trên chuyến bay VN10 và được cách ly ngay sau khi nhập cảnh tại tỉnh Đồng Nai. Kết quả xét nghiệm lần 3 ngày 21/5/2021 dương tính với SAR-CoV-2. Hiện đang được cách ly, điều trị tại Bệnh viện Phổi Đồng Nai.
+
+*BN5047 đến BN5085: ghi nhận tại tỉnh Bắc Giang; 39 ca có liên quan dịch tễ đến ổ dịch Khu công nghiệp Quang Châu, Vân Trung, Song Khê – Nội Hoàng, Đình Trám, đã được cách ly, phong tỏa. Kết quả xét nghiệm dương tính với SARS-CoV-2.
+
+*BN5046, BN5086: ghi nhận tại tỉnh Thanh Hóa; 1 ca là F1 của BN4694, 1 ca đang tiếp tục điều tra, đã được cách ly từ trước. Kết quả xét nghiệm ngày 22/5/2021 dương tính với SARS-CoV-2.
+
+*BN5041 đến BN5042: ghi nhận tại tỉnh Điện Biên; 1 ca là F1 của BN4378, 1 ca sàng lọc, đã được cách ly từ trước. Kết quả xét nghiệm ngày 22/5/2021 dương tính với SARS-CoV-2. Hiện đang được cách ly, điều trị tại Bệnh viện Dã chiến Thành phố Điện Biên Phủ, tỉnh Điện Biên.
+
+*BN5040: ghi nhận tại tỉnh Lạng Sơn; nữ, 33 tuổi, địa chỉ tại huyện Hữu Lũng, tỉnh Lạng Sơn; là công nhân Khu công nghiệp Quang Châu, tỉnh Bắc Giang, đã được cách ly từ trước. Kết quả xét nghiệm ngày 22/5/2021 dương tính với SARS-CoV-2. Hiện đang được cách ly, điều trị tại Trung tâm Y tế huyện Chi Lăng và Trung tâm Y tế huyện Hữu Lũng.
+
+*BN5039: ghi nhận tại tỉnh Lạng Sơn; nữ, 44 tuổi, địa chỉ tại huyện Chi Lăng, tỉnh Lạng Sơn; là F1 của BN4608, đã được cách ly từ trước. Kết quả xét nghiệm ngày 22/5/2021 dương tính với SARS-CoV-2. Hiện đang được cách ly, điều trị tại Trung tâm Y tế huyện Chi Lăng và Trung tâm Y tế huyện Hữu Lũng.
+
+*BN5038: ghi nhận tại tỉnh Hải Dương; nam, 59 tuổi, địa chỉ tại Thành phố Hải Dương, tỉnh Hải Dương; là F1 của BN4836, đã được cách ly. Kết quả xét nghiệm ngày 22/5/2021 dương tính với SARS-CoV-2.
+
+*BN5016 đến BN5037, BN5043 đến BN5045; ghi nhận tại tỉnh Bắc Ninh: 18  ca là F1, 3 ca là công nhân Khu công nghiệp Quang Châu, 3 ca sàng lọc, 1 ca chưa rõ nguồn lây. Kết quả xét nghiệm ngày 21/5/2021 dương tính với SARS-CoV-2.
+
+*BN5015: ghi nhận tại Thành phố Đà Nẵng; nam, 38 tuổi, địa chỉ tại quận Hải Châu, Thành phố Đà Nẵng; là F1 của BN3656, đã được cách ly từ trước. Kết quả xét nghiệm ngày 22/5/2021 dương tính với SARS-CoV-2.
+
+*BN5014: ghi nhận tại tỉnh Thái Nguyên; nữ, 46 tuổi, địa chỉ tại huyện Phú Bình, tỉnh Thái Nguyên; là công nhân Khu công nghiệp Quang Châu, tỉnh Bắc Giang, đã được cách ly từ trước. Kết quả xét nghiệm ngày 22/5/2021 dương tính với SARS-CoV-2. Hiện đang được cách ly, điều trị tại Bệnh viên Bệnh Nhiệt đới Trung ương cơ sở Đông Anh.
+
+*BN5010 đến BN5013: ghi nhận tại tỉnh Hưng Yên; 2 ca là F1 của BN3168, 2 ca là F1 của BN3169, đã được cách ly từ trước. Kết quả xét nghiệm ngày 22/5/2021 dương tính với SARS-CoV-2. Hiện đang được cách ly, điều trị tại Bệnh viên Bệnh Nhiệt đới Trung ương cơ sở Đông Anh và Bệnh viện Bệnh Nhiệt đới tỉnh Hưng Yên.
+
+*BN4975 đến BN5008: ghi nhận tại tỉnh Bắc Giang; 32 ca có liên quan dịch tễ đến ổ dịch Khu công nghiệp Quang Châu, Vân Trung, đã được cách ly và 2 ca trong khu phong tỏa. Kết quả xét nghiệm dương tính với SARS-CoV-2.
+
+*BN5009: ghi nhận tại tỉnh Hải Dương; nữ, 85 tuổi, địa chỉ tại huyện Nam Sách, tỉnh Hải Dương; là F1 của BN4836, đã được cách ly. Kết quả xét nghiệm ngày 22/5/2021 dương tính với SARS-CoV-2.
+
+*BN4974: ghi nhận tại tỉnh Hải Dương; nữ, 51 tuổi, địa chỉ tại huyện Ninh Giang, tỉnh Hải Dương; là F1 liên quan đến ổ dịch cũ, đã được cách ly.
+
+*BN4964 đến BN4973: ghi nhận tại Thành phố Hà Nội; 1 ca liên quan dịch tễ với BN4706, 3 ca là F1 của BN3634, 6 ca là F1 liên quan đến ổ dịch cũ, đã được cách ly. Kết quả xét nghiệm ngày 21-22/5/2021 dương tính với SARS-CoV-2.
+
+*BN4963: nữ, 5 tuổi, là con chuyên gia, quốc tịch Ấn Độ. Ngày 07/5/2021, từ Ấn Độ nhập cảnh Sân bay Nội Bài và được cách ly ngay sau khi nhập cảnh tại Thành phố Hà Nội. Kết quả xét nghiệm lần 2 ngày 21/5/2021 dương tính với SAR-CoV-2.
+
+*BN4962: nam, 5 tuổi, là con chuyên gia, quốc tịch Ấn Độ. Ngày 07/5/2021, từ Ấn Độ nhập cảnh Sân bay Nội Bài và được cách ly ngay sau khi nhập cảnh tại Thành phố Hà Nội. Kết quả xét nghiệm lần 2 ngày 21/5/2021 dương tính với SAR-CoV-2.
+
+*BN4951 đến BN4961: ghi nhận tại tỉnh Bắc Giang; 10 ca là F1 liên quan đến ổ dịch Khu công nghiệp Quang Châu, Vân Trung, đã được cách ly và 1 ca trong khu phong tỏa. Kết quả xét nghiệm dương tính với SARS-CoV-2.
+
+*BN4947 đến BN4950: ghi nhận tại tỉnh Hải Dương; là các trường hợp F1, đã được cách ly. Kết quả xét nghiệm ngày 18/5/2021 dương tính với SARS-CoV-2.
+
+*BN4946: ghi nhận tại tỉnh Điện Biên; nữ, 30 tuổi, địa chỉ tại huyện Nậm Pồ, tỉnh Điện Biên; là F1 của BN3997, đã được cách ly từ trước. Kết quả xét nghiệm ngày 21/5/2021 dương tính với SARS-CoV-2. Hiện đang được cách ly, điều trị tại Bệnh viên dã chiến Điện Biên Phủ.
+
+*BN4943 đến BN4945: ghi nhận tại tỉnh Bắc Ninh; là các trường hợp F1 đã được cách ly từ trước. Kết quả xét nghiệm ngày 20-21/5/2021 dương tính với SARS-CoV-2.
+
+*BN4942: ghi nhận tại tỉnh Thái Bình; nam, 84 tuổi, địa chỉ tại huyện Kiến Xương, tỉnh Thái Bình; là F1 của BN3750, đã được cách ly từ trước. Kết quả xét nghiệm ngày 21/5/2021 dương tính với SARS-CoV-2.
+
+*BN4903 đến BN4941: ghi nhận tại tỉnh Bắc Giang; 39 ca trong khu vực phong tỏa, có liên quan đến ổ dịch Khu công nghiệp Quang Châu, Vân Trung, Nội Hoàng - Song Khê. Kết quả xét nghiệm dương tính với SARS-CoV-2.
+
+*BN4890 đến BN4902: ghi nhận tại tỉnh Bắc Ninh; 12 ca là F1 đã được cách ly từ trước, 1 ca là công nhân Công ty Hosiden, Bắc Giang. Kết quả xét nghiệm ngày 21/5/2021 dương tính với SARS-CoV-2. 
+
+*BN4888: ghi nhận tại tỉnh Lạng Sơn; nữ, 42 tuổi, địa chỉ tại huyện Hữu Lũng, tỉnh Lạng Sơn; là công nhân Khu công nghiệp Quang Châu, tỉnh Bắc Giang, liên quan BN3926, đã được cách ly trước đó. Kết quả xét nghiệm ngày 21/5/2021 dương tính với SARS-CoV-2. Hiện đang được cách ly, điều trị tại Trung tâm Y tế huyện Hữu Lũng. 
+
+*BN4886 đến BN4887: ghi nhận tại Bệnh viện K cơ sở Tân Triều (là các F1 đã được cách ly trong bệnh viện từ trước). 
+
+*BN4885: ghi nhận tại TP. Đà Nẵng; nữ, 33 tuổi, địa chỉ tại quận Hải Châu, TP. Đà Nẵng; là F1 của BN3607, đã được cách ly trước đó. Kết quả xét nghiệm ngày 20/5/2021 dương tính với SARS-CoV-2. 
+
+*BN4884: ghi nhận tại TP. Đà Nẵng; nam, 10 tuổi, địa chỉ tại huyện Hòa Vang, TP. Đà Nẵng; là F1 của BN3399, đã được cách ly trước đó. Kết quả xét nghiệm ngày 20/5/2021 dương tính với SARS-CoV-2. 
+
+*BN4889: nữ, 53 tuổi, là công dân Việt Nam, địa chỉ tại huyện Củ Chi, Thành phố Hồ Chí Minh. Ngày 06/5/2021, từ Malaysia nhập cảnh Sân bay Cần Thơ trên chuyến bay QH9324 và được cách ly ngay sau khi nhập cảnh tại tỉnh Vĩnh Long. Kết quả xét nghiệm lần 2 ngày 21/5/2021 dương tính với SAR-CoV-2. Hiện đang được cách ly, điều trị tại Bệnh viện Phổi Vĩnh Long.
+
 *BN4839 đến BN4883: ghi nhận tại tỉnh Bắc Giang; 45 ca trong khu vực phong tỏa, có liên quan đến ổ dịch Khu công nghiệp Quang Châu, Vân Trung. Kết quả xét nghiệm dương tính với SARS-CoV-2.
 
 *BN4838: ghi nhận tại Thành phố Hà Nội; nam, 24 tuổi, địa chỉ tại huyện Thạch Thất, Thành phố Hà Nội; có liên quan dịch tễ với BN4263, BN4265, đã được cách ly. Kết quả xét nghiệm ngày 20/5/2021 dương tính với SARS-CoV-2. 
